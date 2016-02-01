@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="1.17">
+<hook NAME="MapStyle" zoom="1.075">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -56,9 +56,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
+<node TEXT="electrical activity" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
 <edge COLOR="#ff0000"/>
-<node TEXT="membrane potential (Em)" FOLDED="true" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
+<node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -87,9 +87,8 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="resting membrane potential" FOLDED="true" ID="ID_1670602232" CREATED="1453897707583" MODIFIED="1453905688776"><richcontent TYPE="DETAILS">
+<node TEXT="resting membrane potential" ID="ID_1670602232" CREATED="1453897707583" MODIFIED="1453905688776"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -101,10 +100,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="resting membrane potential (Em): -90 mV" STYLE_REF="number" ID="ID_456002838" CREATED="1453897707583" MODIFIED="1453902943140"/>
-<node TEXT="maintenance" FOLDED="true" ID="ID_772701165" CREATED="1453905694610" MODIFIED="1453905958032"><richcontent TYPE="DETAILS">
+<node TEXT="maintenance" ID="ID_772701165" CREATED="1453905694610" MODIFIED="1453905958032"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -133,7 +131,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Na+/K+-ATPAse" ID="ID_1942236220" CREATED="1453905773568" MODIFIED="1453905823635"><richcontent TYPE="DETAILS">
 
@@ -161,7 +158,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ATP-dependent Ca++ pump" ID="ID_1543345266" CREATED="1453897707584" MODIFIED="1453906028992"><richcontent TYPE="DETAILS">
@@ -176,7 +172,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Sodium-Calcium exchanger" ID="ID_504492500" CREATED="1453897707584" MODIFIED="1453906060093"><richcontent TYPE="DETAILS">
@@ -202,12 +197,11 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="ion concentrations" FOLDED="true" ID="ID_872744373" CREATED="1453903184690" MODIFIED="1453904274831"><richcontent TYPE="DETAILS">
+<node TEXT="ion concentrations" ID="ID_872744373" CREATED="1453903184690" MODIFIED="1453904274831"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -221,7 +215,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="K+ (Potassium)" STYLE_REF="number" ID="ID_794425682" CREATED="1453903323609" MODIFIED="1453904698889" MOVED="1453904207785">
 <attribute_layout NAME_WIDTH="102" VALUE_WIDTH="74"/>
@@ -250,7 +243,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook EQUATION="E_x = -61 \cdot \log \frac{[x]_i}{[x]_o}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="ion concentration inside the cell" ID="ID_427363261" CREATED="1453897707583" MODIFIED="1453903709112">
@@ -273,7 +265,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Faraday constant" ID="ID_389160131" CREATED="1453903969925" MODIFIED="1453903983884"><richcontent TYPE="DETAILS">
@@ -288,7 +279,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="temperature" ID="ID_594353702" CREATED="1453903986765" MODIFIED="1453904008583"><richcontent TYPE="DETAILS">
@@ -303,7 +293,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="number of ion charges" ID="ID_683309761" CREATED="1453904014029" MODIFIED="1453904046712"><richcontent TYPE="DETAILS">
@@ -318,7 +307,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -341,7 +329,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ionic conductance (g)" ID="ID_1867847716" CREATED="1453904608529" MODIFIED="1453905037768">
@@ -373,13 +360,13 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ionic conductance" ID="ID_913297575" CREATED="1453905433651" MODIFIED="1453905460845">
 <hook EQUATION="g&apos;{}X" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="ion channels" FOLDED="true" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1453906125127">
+<node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
 <node TEXT="voltage-gated / voltage-operated channels" ID="ID_903394508" CREATED="1453897707585" MODIFIED="1453907969026"><richcontent TYPE="DETAILS">
 
 <html>
@@ -392,7 +379,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="receptor-gated / receptor-operated channels" ID="ID_17968253" CREATED="1453897707585" MODIFIED="1453907992263"><richcontent TYPE="DETAILS">
@@ -407,10 +393,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1453908138067"><richcontent TYPE="DETAILS">
+<node TEXT="Sodium" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
+<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1454079420343"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -448,13 +434,246 @@
     </ul>
   </body>
 </html>
+</richcontent>
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
+<attribute NAME="channel type" VALUE="voltage-gated"/>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_fastNa.svg" SIZE="0.8941878" NAME="ExternalObject"/>
+</node>
+<node TEXT="Slow Na+ Channels" ID="ID_711202327" CREATED="1453997767707" MODIFIED="1454066721052">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_721757192" STARTINCLINATION="411;0;" ENDINCLINATION="411;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="Calcium" ID="ID_1054880499" CREATED="1453997881003" MODIFIED="1453997882549">
+<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1454084462461">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
+<attribute NAME="channel type" VALUE="voltage-gated"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &quot;L&quot; stands for &quot;long-lasting&quot;
+      </li>
+      <li>
+        inward Ca++ current
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_LType.svg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1454086822375" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
+<attribute NAME="channel type" VALUE="voltage-gated"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &quot;T&quot; stands for &quot;transient&quot;
+      </li>
+      <li>
+        activated by more negative membrane potentials than L-Type
+      </li>
+      <li>
+        primary alpha1-subunit forms pore
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="6C92FFE844DAC94CAFA673AD21DC4717D766F5AD31984D559364CEDF6722A">
+    <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
+</pdf_annotation>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_TType.svg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Potassium" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
+<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1454324892483">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
+<attribute NAME="channel type" VALUE="voltage-gated"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        blocked by spermine or magnesium ions in outward direction
+      </li>
+      <li>
+        transports K+ only in inward direction
+      </li>
+      <li>
+        close upon depolarization
+      </li>
+      <li>
+        slow membrane repolarization
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_inward_rectifier.svg" SIZE="0.921659" NAME="ExternalObject"/>
+</node>
+<node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1454069898066">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
+<attribute NAME="channel type" VALUE="voltage-gated"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        only activate at very high voltages
+      </li>
+      <li>
+        for a brief period
+      </li>
+      <li>
+        responsible for phase 1 of cardiac myocyte action potential (initial repolarization)
+      </li>
+    </ul>
+  </body>
+</html>
 
 </richcontent>
 </node>
+<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1454070404839" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
+<attribute NAME="channel type" VALUE="voltage-gated"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="2CAECDD2CD540937F4BB476E127022ED96511CDB7578FDB166F77D623E2">
+    <pdf_title>CLASSICAL PERSPECTIVES</pdf_title>
+</pdf_annotation>
+</node>
+<node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454075115248" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="91"/>
+<attribute NAME="channel type" VALUE="receptor-gated"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="F5CD8789557035528A88F8421357C4A1349B987C5A9FE2D79EB564155A">
+    <pdf_title>Untitled-8</pdf_title>
+</pdf_annotation>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        inhibited by ATP
+      </li>
+      <li>
+        opens when ATP decreases during hypoxia
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1454075142259" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="91"/>
+<attribute NAME="channel type" VALUE="receptor-gated"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        activated by acetylcholine and adenosine
+      </li>
+      <li>
+        Gi-protein coupled
+      </li>
+      <li>
+        slows SA nodal firing
+      </li>
+      <li>
+        activated indirectly
+
+        <ul>
+          <li>
+            ACh binds to receptor
+          </li>
+          <li>
+            G-Protein released on the outside of the cell
+          </li>
+          <li>
+            G-Protein binds to channel
+          </li>
+          <li>
+            channel opens
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Calcium-activated" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454075161562">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="91"/>
+<attribute NAME="channel type" VALUE="receptor-gated"/>
 </node>
 </node>
-<node TEXT="Action potential generation" FOLDED="true" ID="ID_781967274" CREATED="1453749244100" MODIFIED="1453749250174" MOVED="1453911691879">
-<node TEXT="electrical conductance within the heart" FOLDED="true" ID="ID_129286125" CREATED="1453749251469" MODIFIED="1453751428219"><richcontent TYPE="DETAILS">
+<node TEXT="nonselective" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
+<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1454083285059" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        transports K+ and Na+ (nonselective)
+      </li>
+      <li>
+        responsible for funny current I_f
+      </li>
+      <li>
+        voltage-gated AND sensitive to cyclic adenosine monophosphate (cAMP)
+      </li>
+      <li>
+        activates upon hyperpolarization
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="215195158C230EAA380ADF39211DE6FDC3DF5BFE59A74DF2EA0BEA03617D889">
+    <pdf_title>Review</pdf_title>
+</pdf_annotation>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_HCN.svg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Action potential generation" ID="ID_781967274" CREATED="1453749244100" MODIFIED="1453749250174" MOVED="1453911691879">
+<node TEXT="electrical conductance within the heart" ID="ID_129286125" CREATED="1453749251469" MODIFIED="1453751428219"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -721,7 +940,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="abnormal conduction" FOLDED="true" ID="ID_391630527" CREATED="1453756710209" MODIFIED="1453756714421">
+<node TEXT="abnormal conduction" ID="ID_391630527" CREATED="1453756710209" MODIFIED="1453756714421">
 <node TEXT="complete block of AV node" ID="ID_247641605" CREATED="1453756963580" MODIFIED="1453757300783"><richcontent TYPE="DETAILS">
 
 <html>
@@ -780,7 +999,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="reentry" FOLDED="true" ID="ID_647799589" CREATED="1453796899976" MODIFIED="1453797394451"><richcontent TYPE="DETAILS">
+<node TEXT="reentry" ID="ID_647799589" CREATED="1453796899976" MODIFIED="1453797394451"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -904,7 +1123,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="nonpacemaker action potential" FOLDED="true" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1453912539219"><richcontent TYPE="DETAILS">
+<node TEXT="nonpacemaker action potential" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1453986099861"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -936,9 +1155,8 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Action_potential_ventr_myocyte.jpg" SIZE="0.625" NAME="ExternalObject"/>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2026_Action_Potential_Heart_Contraction.jpg" SIZE="0.32661948" NAME="ExternalObject"/>
 <node TEXT="phase 0: depolarization" ID="ID_514606924" CREATED="1453897707585" MODIFIED="1453907923325"><richcontent TYPE="DETAILS">
 
 <html>
@@ -959,7 +1177,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 1: initial repolarization" ID="ID_1031897482" CREATED="1453897707585" MODIFIED="1453908568926"><richcontent TYPE="DETAILS">
@@ -976,7 +1193,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 2: plateau phase" ID="ID_709229897" CREATED="1453897707585" MODIFIED="1453908251294"><richcontent TYPE="DETAILS">
@@ -996,7 +1212,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 3: repolarization" ID="ID_345523212" CREATED="1453897707585" MODIFIED="1453908281940"><richcontent TYPE="DETAILS">
@@ -1016,7 +1231,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="refractory period" FOLDED="true" ID="ID_1321120109" CREATED="1453897707585" MODIFIED="1453907866443" MOVED="1453908161376">
@@ -1040,7 +1254,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="relative refractory period" FOLDED="true" ID="ID_1475605672" CREATED="1453897707585" MODIFIED="1453908398728"><richcontent TYPE="DETAILS">
@@ -1063,7 +1276,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="duration of relative refractory period: 100 ms" STYLE_REF="number" ID="ID_1213853784" CREATED="1453908404254" MODIFIED="1453908497942">
 <attribute_layout NAME_WIDTH="156" VALUE_WIDTH="74"/>
@@ -1072,7 +1284,7 @@
 </node>
 </node>
 </node>
-<node TEXT="pacemaker action potential" FOLDED="true" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1453912558291"><richcontent TYPE="DETAILS">
+<node TEXT="pacemaker action potential" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1453986129984" VGAP="16"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1098,10 +1310,9 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Pacemaker_potential_annotated.jpg" SIZE="0.625" NAME="ExternalObject"/>
-<node TEXT="overdrive suppression" ID="ID_1990788239" CREATED="1453897707586" MODIFIED="1453909048601"><richcontent TYPE="DETAILS">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2020_SA_Node_Tracing.jpg" SIZE="0.359928" NAME="ExternalObject"/>
+<node TEXT="overdrive suppression" ID="ID_1990788239" CREATED="1453897707586" MODIFIED="1454083716621"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1118,11 +1329,10 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="phases" FOLDED="true" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
-<node TEXT="phase 0: depolarization" FOLDED="true" ID="ID_292516788" CREATED="1453897707586" MODIFIED="1453909541084"><richcontent TYPE="DETAILS">
+<node TEXT="phases" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
+<node TEXT="phase 0: depolarization" ID="ID_292516788" CREATED="1453897707586" MODIFIED="1453909541084"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1148,14 +1358,13 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="activation threshold for L-Type calcium channels: -40 mV" STYLE_REF="number" ID="ID_1819339197" CREATED="1453911524095" MODIFIED="1453911605959">
 <attribute_layout NAME_WIDTH="247" VALUE_WIDTH="247"/>
 <attribute NAME="activation threshold for L-Type Ca channels" VALUE="-40 mV"/>
 </node>
 </node>
-<node TEXT="phase 3: repolarization" FOLDED="true" ID="ID_1296555033" CREATED="1453897707586" MODIFIED="1453909583716"><richcontent TYPE="DETAILS">
+<node TEXT="phase 3: repolarization" ID="ID_1296555033" CREATED="1453897707586" MODIFIED="1453909583716"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1181,14 +1390,13 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="maximal polarization of pacemaker cells: -65 mV" STYLE_REF="number" ID="ID_136054519" CREATED="1453911434520" MODIFIED="1453911517328">
+<node TEXT="maximal polarization of pacemaker cells: -65 mV" STYLE_REF="number" ID="ID_136054519" CREATED="1453911434520" MODIFIED="1454084175795">
 <attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
-<attribute NAME="max. polarization of pacemaker cells" VALUE="-64 mV"/>
+<attribute NAME="max. polarization of pacemaker cells" VALUE="-65 mV"/>
 </node>
 </node>
-<node TEXT="phase 4: spontaneous depolarization" FOLDED="true" ID="ID_1896257135" CREATED="1453897707586" MODIFIED="1453909782722"><richcontent TYPE="DETAILS">
+<node TEXT="phase 4: spontaneous depolarization" ID="ID_1896257135" CREATED="1453897707586" MODIFIED="1453909782722"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1205,7 +1413,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="declining g&apos;K+" ID="ID_1378672509" CREATED="1453897707586" MODIFIED="1453909831314"><richcontent TYPE="DETAILS">
 
@@ -1224,7 +1431,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="funny current (I_f)" ID="ID_218811499" CREATED="1453897707586" MODIFIED="1453909853457"><richcontent TYPE="DETAILS">
@@ -1241,7 +1447,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="T-Type calcium channels" FOLDED="true" ID="ID_1113715350" CREATED="1453897707586" MODIFIED="1453909917739"><richcontent TYPE="DETAILS">
@@ -1261,7 +1466,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="activation threshold of T-Type calcium channels: -50 mV" STYLE_REF="number" ID="ID_184983552" CREATED="1453911326473" MODIFIED="1453911388337">
 <attribute_layout NAME_WIDTH="247" VALUE_WIDTH="247"/>
@@ -1285,7 +1489,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1302,7 +1505,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1320,7 +1522,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="nerve cell" STYLE_REF="number" ID="ID_1973710159" CREATED="1453897707586" MODIFIED="1453908911219">
 <attribute_layout NAME_WIDTH="92" VALUE_WIDTH="74"/>
@@ -1355,7 +1556,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="vagal tone" ID="ID_998588357" CREATED="1453897707586" MODIFIED="1453910442381"><richcontent TYPE="DETAILS">
 
@@ -1369,7 +1569,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="positive/negative chronotropic response" ID="ID_1686957760" CREATED="1453897707586" MODIFIED="1453910464605"><richcontent TYPE="DETAILS">
@@ -1384,7 +1583,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="mechanisms" ID="ID_598757807" CREATED="1453897707586" MODIFIED="1453910530261"><richcontent TYPE="DETAILS">
@@ -1407,7 +1605,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="sympathetic activation" FOLDED="true" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1453910668110"><richcontent TYPE="DETAILS">
@@ -1439,7 +1636,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mechanism" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1453910657148"><richcontent TYPE="DETAILS">
 
@@ -1464,7 +1660,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1497,7 +1692,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mechanism" ID="ID_1067165032" CREATED="1453897707587" MODIFIED="1453910878307"><richcontent TYPE="DETAILS">
 
@@ -1516,7 +1710,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1550,7 +1743,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="decreasing heart rate" ID="ID_1383201065" CREATED="1453897707587" MODIFIED="1453910952059"><richcontent TYPE="DETAILS">
@@ -1582,7 +1774,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1598,7 +1789,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="bradycardia" ID="ID_1311252916" CREATED="1453897707587" MODIFIED="1453911020095"><richcontent TYPE="DETAILS">
@@ -1613,7 +1803,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="arrhythmia" FOLDED="true" ID="ID_352242608" CREATED="1453897707587" MODIFIED="1453897707587">
@@ -1655,7 +1844,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="triggered activity" ID="ID_553975779" CREATED="1453897707588" MODIFIED="1453911168435"><richcontent TYPE="DETAILS">
@@ -1699,7 +1887,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2804,7 +2991,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="vascular smooth muscles" ID="ID_91778180" CREATED="1453897707582" MODIFIED="1453902246306"><richcontent TYPE="DETAILS">
@@ -2833,7 +3019,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2858,7 +3043,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="standing up" ID="ID_467748133" CREATED="1453897707583" MODIFIED="1453902291073"><richcontent TYPE="DETAILS">
@@ -2875,7 +3059,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="blood pressure fall" ID="ID_912182938" CREATED="1453897707583" MODIFIED="1453902412821"><richcontent TYPE="DETAILS">
@@ -2913,7 +3096,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2966,7 +3148,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="organ blood flow" ID="ID_574775850" CREATED="1453897707582" MODIFIED="1453898980825">
 <hook EQUATION="\text{organ blood flow} = \frac{\text{arterial pressure} - \text{venous pressure}}{\text{vascular resistance of organ}}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -2983,7 +3164,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cardiac output" ID="ID_1589414900" CREATED="1453897707582" MODIFIED="1453899321263">
@@ -3002,7 +3182,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="superior and inferior vena cava" ID="ID_983124141" CREATED="1453897707582" MODIFIED="1453899177253"><richcontent TYPE="DETAILS">
@@ -3017,7 +3196,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
