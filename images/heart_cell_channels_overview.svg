@@ -18,16 +18,16 @@
    width="222.85991mm">
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="712"
-     inkscape:window-x="2792"
-     inkscape:window-height="1178"
-     inkscape:window-width="1920"
+     inkscape:window-y="1012"
+     inkscape:window-x="1192"
+     inkscape:window-height="838"
+     inkscape:window-width="1600"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="100.11598"
-     inkscape:cx="515.47103"
-     inkscape:zoom="0.96069585"
+     inkscape:cy="230.54894"
+     inkscape:cx="317.09499"
+     inkscape:zoom="1.3586291"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -7986,7 +7986,7 @@
          sodipodi:role="line">ATP</tspan></text>
     <g
        id="g23218"
-       transform="matrix(-0.98140599,-0.19194344,0.19194344,-0.98140599,670.00077,688.22513)">
+       transform="matrix(0.99076456,0.13559345,-0.13559345,0.99076456,-262.14196,-221.30232)">
       <path
          id="path23220"
          d="m 518.16211,353.4375 0,37.49805 8.58594,0 c 0,0 7.21484,0.36356 7.21484,-6.07617 0,-6.43973 -4.85547,-31.42188 -4.85547,-31.42188 l -1.01172,0 a 4.5082207,4.5082207 0 0 1 -4.49804,4.29102 4.5082207,4.5082207 0 0 1 -4.5,-4.29102 l -0.93555,0 z"
@@ -8056,14 +8056,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Calligraph421 BT';-inkscape-font-specification:'Calligraph421 BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="212.19586"
-       y="271.73978"
+       x="201.89136"
+       y="275.23596"
        id="text23250"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan23252"
-         x="212.19586"
-         y="271.73978"
+         x="201.89136"
+         y="275.23596"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans-Serif;-inkscape-font-specification:Sans-Serif">I<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:Sans-Serif;-inkscape-font-specification:Sans-Serif;baseline-shift:sub"
    id="tspan23254">K,ACh</tspan></tspan></text>
