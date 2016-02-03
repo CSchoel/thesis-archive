@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="0.726">
+<hook NAME="MapStyle" zoom="1.17">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -370,36 +370,8 @@
 </node>
 <node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
-<node TEXT="voltage-gated / voltage-operated channels" ID="ID_903394508" CREATED="1453897707585" MODIFIED="1454405066315"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      open and close in response to changes in membrane potential
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="receptor-gated / receptor-operated channels" ID="ID_17968253" CREATED="1453897707585" MODIFIED="1453907992263"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      open and close due to chemical signals (e.g. Acetylcholine)
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
 <node TEXT="Sodium" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
-<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1454079420343"><richcontent TYPE="DETAILS">
+<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1454498645787"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -437,19 +409,30 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
-<attribute NAME="channel type" VALUE="voltage-gated"/>
+<attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
+<attribute NAME="gating" VALUE="voltage-gated"/>
+<attribute NAME="inactivation" VALUE="hinged lid"/>
+<attribute NAME="activation potential" VALUE="-80 mV"/>
+<attribute NAME="activation" VALUE="voltage, depolarization"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation speed" VALUE="1-2 ms"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_fastNa.svg" SIZE="0.8941878" NAME="ExternalObject"/>
 </node>
-<node TEXT="Slow Na+ Channels" ID="ID_711202327" CREATED="1453997767707" MODIFIED="1454066721052">
+<node TEXT="Slow Na+ Channels" ID="ID_711202327" CREATED="1453997767707" MODIFIED="1454496884804">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_721757192" STARTINCLINATION="411;0;" ENDINCLINATION="411;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="Calcium" ID="ID_1054880499" CREATED="1453997881003" MODIFIED="1453997882549">
-<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1454406168304">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
-<attribute NAME="channel type" VALUE="voltage-gated"/>
+<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1454498693216">
+<attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
+<attribute NAME="gating" VALUE="voltage-gated"/>
+<attribute NAME="inactivation" VALUE="N-type"/>
+<attribute NAME="activation potential" VALUE="-30 mV"/>
+<attribute NAME="activation" VALUE="voltage, depolarization"/>
+<attribute NAME="activation speed" VALUE="slow"/>
+<attribute NAME="inactivation speed" VALUE="150 ms"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -473,9 +456,14 @@
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_LType.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1454086822375" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
-<attribute NAME="channel type" VALUE="voltage-gated"/>
+<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1454498842073" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
+<attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
+<attribute NAME="gating" VALUE="voltage-gated"/>
+<attribute NAME="inactivation" VALUE="N-type"/>
+<attribute NAME="activation potential" VALUE="-60 mV"/>
+<attribute NAME="activation" VALUE="voltage, depolarization"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation speed" VALUE="15 ms"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -504,9 +492,11 @@
 </node>
 </node>
 <node TEXT="Potassium" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
-<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1454324892483">
+<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1454498985755">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
-<attribute NAME="channel type" VALUE="voltage-gated"/>
+<attribute NAME="gating" VALUE="rectifier"/>
+<attribute NAME="activation" VALUE="constitutive"/>
+<attribute NAME="inactivation" VALUE="none"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -533,9 +523,14 @@
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_inward_rectifier.svg" SIZE="0.921659" NAME="ExternalObject"/>
 </node>
-<node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1454329290728" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
-<attribute NAME="channel type" VALUE="voltage-gated"/>
+<node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1454499143324" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
+<attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
+<attribute NAME="gating" VALUE="voltage-gated"/>
+<attribute NAME="activation" VALUE="voltage, depolarization"/>
+<attribute NAME="activation potential" VALUE="-10 mV"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation" VALUE="ball and chain"/>
+<attribute NAME="inactivation speed" VALUE="1-2 ms"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -559,17 +554,25 @@
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_transient_outward.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1454329551239" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
-<attribute NAME="channel type" VALUE="voltage-gated"/>
+<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1454499365116" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
+<attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
+<attribute NAME="gating" VALUE="voltage-gated"/>
+<attribute NAME="activation" VALUE="voltage, depolarization"/>
+<attribute NAME="activation potential" VALUE="-15 mV"/>
+<attribute NAME="activation speed" VALUE="100 ms"/>
+<attribute NAME="inactivation" VALUE="C-type"/>
+<attribute NAME="inactivation speed" VALUE="fast"/>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="2CAECDD2CD540937F4BB476E127022ED96511CDB7578FDB166F77D623E2">
     <pdf_title>CLASSICAL PERSPECTIVES</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_delayed_rectifier.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454337565715" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="91"/>
-<attribute NAME="channel type" VALUE="receptor-gated"/>
+<node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454499755214" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<attribute NAME="gating" VALUE="ligand-gated"/>
+<attribute NAME="inhibition" VALUE="ATP"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation" VALUE="none"/>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="F5CD8789557035528A88F8421357C4A1349B987C5A9FE2D79EB564155A">
     <pdf_title>Untitled-8</pdf_title>
 </pdf_annotation>
@@ -594,9 +597,12 @@
 <font SIZE="10"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_atp_sensitive.svg" SIZE="0.9983361" NAME="ExternalObject"/>
 </node>
-<node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1454337580994" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="91"/>
-<attribute NAME="channel type" VALUE="receptor-gated"/>
+<node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1454499732568" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<attribute NAME="gating" VALUE="ligand-gated"/>
+<attribute NAME="activation" VALUE="ACh"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation" VALUE="none"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -638,14 +644,17 @@
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ACh_activated.svg" SIZE="0.83798885" NAME="ExternalObject"/>
 </node>
-<node TEXT="Calcium-activated" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454339887448">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="91"/>
-<attribute NAME="channel type" VALUE="receptor-gated"/>
+<node TEXT="Calcium-activated" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454499742314">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<attribute NAME="gating" VALUE="ligand-gated"/>
+<attribute NAME="activation" VALUE="Ca++"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation" VALUE="none"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_calcium_activated.svg" SIZE="0.9884679" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="nonselective" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
-<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1454083285059" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1454499902112" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -673,14 +682,73 @@
     <pdf_title>Review</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_HCN.svg" SIZE="1.0" NAME="ExternalObject"/>
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="149"/>
+<attribute NAME="gating" VALUE="voltage and ligand-gated"/>
+<attribute NAME="activation" VALUE="voltage, hyperpolarization"/>
+<attribute NAME="activation potential" VALUE="[cAMP]-dependent"/>
+<attribute NAME="activation speed" VALUE="fast"/>
+<attribute NAME="inactivation" VALUE="none"/>
 </node>
 </node>
-<node TEXT="inactivation mechanisms" ID="ID_196509028" CREATED="1454406916352" MODIFIED="1454406922033">
+<node TEXT="gating" ID="ID_856667665" CREATED="1454495010782" MODIFIED="1454495014059">
+<node TEXT="voltage-gated / voltage-operated channels" ID="ID_903394508" CREATED="1453897707585" MODIFIED="1454405066315"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      open and close in response to changes in membrane potential
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="receptor-gated / receptor-operated channels" ID="ID_17968253" CREATED="1453897707585" MODIFIED="1453907992263"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      open and close due to chemical signals (e.g. Acetylcholine)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="inactivation" ID="ID_41551288" CREATED="1454495052781" MODIFIED="1454495782560"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        third state besides &quot;open&quot; and &quot;closed&quot;
+      </li>
+      <li>
+        typically channel must be open to be inactivated
+      </li>
+      <li>
+        inactivation is usually voltage-dependent
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="inactivating channels" ID="ID_640615334" CREATED="1454495058964" MODIFIED="1454495063862">
 <node TEXT="slow inactivation" ID="ID_155624059" CREATED="1454406951928" MODIFIED="1454406955448">
 <node TEXT="changes in pore structure" ID="ID_704628365" CREATED="1454406967799" MODIFIED="1454406992701" LINK="http://www.ncbi.nlm.nih.gov/books/NBK6559/"/>
 </node>
 <node TEXT="fast inactivation" ID="ID_1378764134" CREATED="1454406956983" MODIFIED="1454406959873">
-<node TEXT="Ball and chain inactivation" ID="ID_532438451" CREATED="1454404266523" MODIFIED="1454406260254" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2003-Goldin-NaChannelInactivation.pdf">
+<node TEXT="N-Type inactivation" ID="ID_823996145" CREATED="1454495795615" MODIFIED="1454495801292">
+<node TEXT="Ball and chain inactivation" ID="ID_532438451" CREATED="1454404266523" MODIFIED="1454496362266" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2003-Goldin-NaChannelInactivation.pdf">
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="2998BFAF639392E0A88AC9433B0F8DE92987A07D3422D29164B84B5CE339C9">
     <pdf_title>Mechanisms of sodium channel inactivation</pdf_title>
 </pdf_annotation>
@@ -691,30 +759,74 @@
     
   </head>
   <body>
-    Armstrong CM, Bezanilla F, Rojas E. Destruction of sodium conductance inactivation in squid axons perfused with pronase.
-
-    <p>
-      J Gen Physiol. 1973;62:375&#8211;391
-    </p>
+    <ul>
+      <li>
+        &quot;ball&quot; at the N-terminal of the channel blocks pore
+      </li>
+    </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="Molecular biology of the cell" ID="ID_1985859312" CREATED="1454405095205" MODIFIED="1454405139653" LINK="http://www.ncbi.nlm.nih.gov/books/NBK26910/figure/A2044/"/>
+<node TEXT="Armstrong CM, Bezanilla F, Rojas E. Destruction of sodium conductance inactivation in squid axons perfused with pronase.&#xa;J Gen Physiol. 1973;62:375&#x2013;391" ID="ID_1170174706" CREATED="1454495954782" MODIFIED="1454495957330"/>
 </node>
-<node TEXT="hinged lid inactivation" ID="ID_1261364569" CREATED="1454406718402" MODIFIED="1454406948473" LINK="http://www.ncbi.nlm.nih.gov/books/NBK6559/"><richcontent TYPE="DETAILS">
+<node TEXT="hinged lid inactivation" ID="ID_1261364569" CREATED="1454406718402" MODIFIED="1454496378961" LINK="http://www.ncbi.nlm.nih.gov/books/NBK6559/"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p>
-      cytoplasmic loop blocks pore instead of N-Terminal
-    </p>
+    <ul>
+      <li>
+        cytoplasmic loop blocks pore
+      </li>
+    </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
+</node>
+<node TEXT="C-Type inactivation" ID="ID_1104141245" CREATED="1454495803167" MODIFIED="1454496469005"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        change in pore structure
+      </li>
+      <li>
+        typically fast, but for delayed rectifier rather slow
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="non-inactivating channels" ID="ID_500753303" CREATED="1454495068149" MODIFIED="1454496423308"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        do not have any (measurable) inactivation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
