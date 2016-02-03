@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="0.967">
+<hook NAME="MapStyle" zoom="0.726">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -312,7 +312,7 @@
 </node>
 </node>
 </node>
-<node TEXT="membrane permeability" ID="ID_411091205" CREATED="1453904426586" MODIFIED="1453904582543"><richcontent TYPE="DETAILS">
+<node TEXT="membrane permeability" ID="ID_411091205" CREATED="1453904426586" MODIFIED="1454340871590"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -325,6 +325,9 @@
       </li>
       <li>
         the higher the permeability, the more influence has the Nernst potential of the ion on the resting potential of the cell
+      </li>
+      <li>
+        ions can only pass the membrane through open channels
       </li>
     </ul>
   </body>
@@ -367,7 +370,7 @@
 </node>
 <node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
-<node TEXT="voltage-gated / voltage-operated channels" ID="ID_903394508" CREATED="1453897707585" MODIFIED="1453907969026"><richcontent TYPE="DETAILS">
+<node TEXT="voltage-gated / voltage-operated channels" ID="ID_903394508" CREATED="1453897707585" MODIFIED="1454405066315"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -444,7 +447,7 @@
 </node>
 </node>
 <node TEXT="Calcium" ID="ID_1054880499" CREATED="1453997881003" MODIFIED="1453997882549">
-<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1454084462461">
+<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1454406168304">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
 <attribute NAME="channel type" VALUE="voltage-gated"/>
 <richcontent TYPE="DETAILS">
@@ -461,10 +464,12 @@
       <li>
         inward Ca++ current
       </li>
+      <li>
+        undergo calcium-dependent inactivation
+      </li>
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_LType.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -491,7 +496,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="6C92FFE844DAC94CAFA673AD21DC4717D766F5AD31984D559364CEDF6722A">
     <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
@@ -526,7 +530,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_inward_rectifier.svg" SIZE="0.921659" NAME="ExternalObject"/>
 </node>
@@ -553,7 +556,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_transient_outward.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -588,7 +590,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="10"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_atp_sensitive.svg" SIZE="0.9983361" NAME="ExternalObject"/>
@@ -634,7 +635,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ACh_activated.svg" SIZE="0.83798885" NAME="ExternalObject"/>
 </node>
@@ -668,12 +668,53 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="215195158C230EAA380ADF39211DE6FDC3DF5BFE59A74DF2EA0BEA03617D889">
     <pdf_title>Review</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_HCN.svg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="inactivation mechanisms" ID="ID_196509028" CREATED="1454406916352" MODIFIED="1454406922033">
+<node TEXT="slow inactivation" ID="ID_155624059" CREATED="1454406951928" MODIFIED="1454406955448">
+<node TEXT="changes in pore structure" ID="ID_704628365" CREATED="1454406967799" MODIFIED="1454406992701" LINK="http://www.ncbi.nlm.nih.gov/books/NBK6559/"/>
+</node>
+<node TEXT="fast inactivation" ID="ID_1378764134" CREATED="1454406956983" MODIFIED="1454406959873">
+<node TEXT="Ball and chain inactivation" ID="ID_532438451" CREATED="1454404266523" MODIFIED="1454406260254" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2003-Goldin-NaChannelInactivation.pdf">
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="2998BFAF639392E0A88AC9433B0F8DE92987A07D3422D29164B84B5CE339C9">
+    <pdf_title>Mechanisms of sodium channel inactivation</pdf_title>
+</pdf_annotation>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    Armstrong CM, Bezanilla F, Rojas E. Destruction of sodium conductance inactivation in squid axons perfused with pronase.
+
+    <p>
+      J Gen Physiol. 1973;62:375&#8211;391
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Molecular biology of the cell" ID="ID_1985859312" CREATED="1454405095205" MODIFIED="1454405139653" LINK="http://www.ncbi.nlm.nih.gov/books/NBK26910/figure/A2044/"/>
+</node>
+<node TEXT="hinged lid inactivation" ID="ID_1261364569" CREATED="1454406718402" MODIFIED="1454406948473" LINK="http://www.ncbi.nlm.nih.gov/books/NBK6559/"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cytoplasmic loop blocks pore instead of N-Terminal
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>

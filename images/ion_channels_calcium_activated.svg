@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="160.37955mm"
-   height="40.213779mm"
-   viewBox="0 0 568.27399 142.48977"
+   width="170.00989mm"
+   height="45.294426mm"
+   viewBox="0 0 602.39724 160.49206"
    id="svg54252"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -88,8 +88,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="287.5285"
-     inkscape:cy="139.78619"
+     inkscape:cx="278.08158"
+     inkscape:cy="157.7972"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1165,14 +1165,14 @@
        sodipodi:linespacing="125%"
        id="text56806"
        y="76.139465"
-       x="370.78485"
+       x="364.21887"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Calligraph421 BT';-inkscape-font-specification:'Calligraph421 BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
          y="76.139465"
-         x="370.78485"
+         x="364.21887"
          id="tspan56808"
-         sodipodi:role="line">(depolarization)</tspan></text>
+         sodipodi:role="line">(hyperpolarization)</tspan></text>
     <g
        id="g56868"
        transform="translate(468.06625,4.0270495)">
@@ -1594,5 +1594,27 @@
          d="m 180.59828,342.01755 a 5.3672032,9.8047867 0 0 1 5.3672,-9.80479 5.3672032,9.8047867 0 0 1 5.36721,9.80479"
          sodipodi:open="true" />
     </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 424.72714,110.86337 418.07535,86.038547"
+       id="path64372"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text64374"
+       y="125.2489"
+       x="417.25186"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Calligraph421 BT';-inkscape-font-specification:'Calligraph421 BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+         y="125.2489"
+         x="417.25186"
+         sodipodi:role="line"
+         id="tspan64380">happens only if there is a </tspan><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+         y="140.8739"
+         x="417.25186"
+         sodipodi:role="line"
+         id="tspan64384">pause between depolarizations</tspan></text>
   </g>
 </svg>
