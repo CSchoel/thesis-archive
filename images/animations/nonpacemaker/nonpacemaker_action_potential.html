@@ -12,6 +12,9 @@
 		var endPaths = {};
 		var animPaths = {};
 		var pOffs = {};
+		var sglob;
+		var anim = null;
+		var slider;
 		
 		setStartStates = function(im) {
 			// Open lid of fast Na+ channel
@@ -23,7 +26,7 @@
 			findAndStore(im, endPaths, "fnal", "#poreLeftOpen");
 			findAndStore(im, startPaths, "fnar", "#poreRight");
 			findAndStore(im, endPaths, "fnar", "#poreRightOpen");
-			
+			// find start paths for fna Na+ ions
 			findAndStoreP(im, "fnaIp_", 20, 20);
 		}
 
@@ -72,11 +75,29 @@
 				var k = path_prefix + i;
 				moveAlongPath(t, addOff(periods, pOffs[k]), ion, animPaths[k]);
 				i++;
-			}			
+			}
 		}
 
 		updateAnim = function(im, t) {
 			fna(im, t);
+			slider.value = t;
+		}
+
+		setTime = function(t) {
+			if (anim) {
+				anim.stop();
+				anim = null;	
+			}
+			updateAnim(sglob, t);
+		}
+
+		playPause = function() {
+			if(anim) {
+				anim.stop();
+				anim = null;
+			} else {
+				anim = Snap.animate(slider.value, 2000, function(t) { updateAnim(sglob, t); }, 100000);
+			}
 		}
 		
 		window.onload = function() {
@@ -84,13 +105,18 @@
 			Snap.load("ion_channels_animation_nonpacemaker_base.svg", function(f) {
 				setStartStates(f);
 				s.append(f.select("g"));
-				Snap.animate(0, 2000, function(t) { updateAnim(s, t); }, 100000);
 			});
+			sglob = s;
+			slider = document.getElementById('slider');
 		}
 	</script>
 </head>
 <body>
 	<svg id="svg">
 	</svg>
+	<div>
+		<input id="slider" type="range" name="time" min="0" max="2000" value="0" oninput="setTime(this.value)"/><br/>
+		<input type="button" name="playPause" onclick="playPause()" value="Play/Pause"/>
+	</div>
 </body>
 </html>
