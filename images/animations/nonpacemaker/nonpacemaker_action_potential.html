@@ -33,6 +33,13 @@
 			findAndStore(im, endPaths, "fnar", "#poreRightOpen");
 			// find start paths for fna Na+ ions
 			findAndStoreP(im, "fnaIp_", 20, 20);
+
+			//cal
+			findAndStore(im, startPaths, "cal_l", "#cal_l");
+			findAndStore(im, endPaths, "cal_l", "#cal_lo");
+			findAndStore(im, startPaths, "cal_r", "#cal_r");
+			findAndStore(im, endPaths, "cal_r", "#cal_ro");
+			findAndStoreP(im, "calIp_", 20, 20);
 		}
 
 		findAndStore = function(image, obj, key, xml_id) {
@@ -52,6 +59,7 @@
 			}	
 		}
 		
+		// fast natrium channels
 		fna = function(im, t) {
 			// sets the opening percentage of the fast Na lid
 			var lid = im.select("#poreLid");
@@ -73,6 +81,25 @@
 			moveIons(im, t, ionPer, "fnaIp_", "#fnaI_");
 		}
 
+		// l-type calcium channels
+		cal = function(im, t) {
+			var lid = im.select("#cal_lid");
+			var hinge = [lid.attr("x"), lid.attr("y")];
+			var act = [7, 17, 200, 210]
+			var inact = [17, 167, 200, 350]
+			var maxOpenIn = 150;
+			var pact = rectRamp(t, act);
+			var pinact = rectRamp(t, inact);
+			var deg = (1 - pinact) * maxOpenIn;
+			lid.attr({transform: "r"+deg+" "+hinge[0]+" "+hinge[1]});
+
+			morph(pact, im.select("#cal_l").node.pathSegList, startPaths["cal_l"], endPaths["cal_l"]);
+			morph(pact, im.select("#cal_r").node.pathSegList, startPaths["cal_r"], endPaths["cal_r"]);
+
+			var ionPer = periods(17, 150, 5);
+			moveIons(im, t, ionPer, "calIp_", "#calI_");
+		}
+
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {
 			var i = 0;
 			var ion;
@@ -87,6 +114,7 @@
 			// update time slider
 			morph(1.0 * t / tend, im.select("#time0").node.pathSegList, startPaths["t"], endPaths["t"]);
 			fna(im, t);
+			cal(im, t);
 			slider.value = t;
 		}
 
@@ -124,7 +152,9 @@
 	<svg id="svg" style="width:1000px;height:500px;">
 	</svg>
 	<div>
-		<input id="slider" type="range" name="time" min="0" max="300" value="0" oninput="setTime(this.value)"/><br/>
+		<div>
+			<input id="slider" type="range" name="time" min="0" max="300" value="0" oninput="setTime(this.value); $('#sliderT').text(this.value+' ms')"/> <span id="sliderT">0 ms</span>
+		</div>
 		<input type="button" name="playPause" onclick="playPause()" value="Play/Pause"/>
 	</div>
 </body>
