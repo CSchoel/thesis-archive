@@ -2649,7 +2649,7 @@
 </node>
 </node>
 <node TEXT="principles and rules of interpretation" FOLDED="true" ID="ID_824768726" CREATED="1453817471092" MODIFIED="1453817529918">
-<node TEXT="electrical vectors" FOLDED="true" ID="ID_1294053332" CREATED="1453817531556" MODIFIED="1453818668643"><richcontent TYPE="DETAILS">
+<node TEXT="electrical vectors" ID="ID_1294053332" CREATED="1453817531556" MODIFIED="1453818668643"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2706,7 +2706,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="electrode placement" FOLDED="true" ID="ID_518904101" CREATED="1453819476175" MODIFIED="1453821647457"><richcontent TYPE="DETAILS">
+<node TEXT="electrode placement" ID="ID_518904101" CREATED="1453819476175" MODIFIED="1453821647457"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2796,7 +2796,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ECG limb leads" FOLDED="true" ID="ID_1079329286" CREATED="1453819942171" MODIFIED="1453823157887"><richcontent TYPE="DETAILS">
+<node TEXT="ECG limb leads" ID="ID_1079329286" CREATED="1453819942171" MODIFIED="1453823157887"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2887,7 +2887,7 @@
 <hook NAME="SummaryNode"/>
 </node>
 </node>
-<node TEXT="augmented limb leads" FOLDED="true" ID="ID_876322401" CREATED="1453819973947" MODIFIED="1453822115688"><richcontent TYPE="DETAILS">
+<node TEXT="augmented limb leads" ID="ID_876322401" CREATED="1453819973947" MODIFIED="1453822115688"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2908,12 +2908,18 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="aV_L (left arm)" ID="ID_1537343700" CREATED="1453821907414" MODIFIED="1453821923622"/>
+<node TEXT="aV_L (left arm)" ID="ID_1537343700" CREATED="1453821907414" MODIFIED="1454587227861">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="aV_R (right arm)" ID="ID_1817323573" CREATED="1453821926501" MODIFIED="1453821940902"/>
 <node TEXT="aV_F (left leg, &quot;F&quot; stands for &quot;foot&quot;)" ID="ID_856634" CREATED="1453821947541" MODIFIED="1453821970806"/>
+<node TEXT="Goldberger-leads" ID="ID_488491973" CREATED="1454587227811" MODIFIED="1454587237467">
+<hook NAME="SummaryNode"/>
+</node>
 </node>
 <node TEXT="(hex)axial reference system" ID="ID_1966919014" CREATED="1453821707671" MODIFIED="1453821799884">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Hexaxial_reference_system.svg" SIZE="0.8344923" NAME="ExternalObject"/>
+<node TEXT="Cabrera-Circle" ID="ID_577318250" CREATED="1454587241495" MODIFIED="1454587249400"/>
 </node>
 <node TEXT="determining mean electrical axis" FOLDED="true" ID="ID_1649644170" CREATED="1453822360682" MODIFIED="1453822798941"><richcontent TYPE="DETAILS">
 
