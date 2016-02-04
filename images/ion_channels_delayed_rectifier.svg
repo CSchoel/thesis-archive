@@ -149,9 +149,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="414.37372"
-     inkscape:cy="-25.505341"
+     inkscape:zoom="1.4"
+     inkscape:cx="390.89638"
+     inkscape:cy="9.0435875"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1565,7 +1565,7 @@
          id="tspan62302"
          x="501.00217"
          y="83.578255"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif">&gt; -15 mV</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif">&lt; -15 mV</tspan></text>
     <g
        id="g62512"
        transform="translate(547.68221,12.121829)">
