@@ -5,102 +5,45 @@
 	<meta charset="UTF-8"/>
 	<script src="../lib/jquery-2.2.0.js"></script>
 	<script src="../lib/snap.svg.js"></script>
+	<script src="../js/channel_anim.js"></script>
 	<script type="text/javascript">
 		var tglob = 0;
 		var startPaths = {};
 		var endPaths = {};
 		var animPaths = {};
 		var pOffs = {};
+		
 		setStartStates = function(im) {
 			// Open lid of fast Na+ channel
 			var lid = im.select("#poreLid");
 			var hinge = lid.node.pathSegList.getItem(0);
 			lid.attr({transform: "r150 "+hinge.x+" "+hinge.y});
-			startPaths["fnal"] = deepcopy(im.select("#poreLeft")).node.pathSegList;
-			endPaths["fnal"] = deepcopy(im.select("#poreLeftOpen")).node.pathSegList;
-			startPaths["fnar"] = deepcopy(im.select("#poreRight")).node.pathSegList;
-			endPaths["fnar"] = deepcopy(im.select("#poreRightOpen")).node.pathSegList;
+			// find start paths of fna pore
+			findAndStore(im, startPaths, "fnal", "#poreLeft");
+			findAndStore(im, endPaths, "fnal", "#poreLeftOpen");
+			findAndStore(im, startPaths, "fnar", "#poreRight");
+			findAndStore(im, endPaths, "fnar", "#poreRightOpen");
 			
+			findAndStoreP(im, "fnaIp_", 20, 20);
+		}
+
+		findAndStore = function(image, obj, key, xml_id) {
+			obj[key] = deepcopy(image.select(xml_id)).node.pathSegList;
+		}
+
+		findAndStoreP = function(image, prefix, noff, roff) {
 			var i = 0;
 			var p;
-			while(p = im.select("#fnaIp_" + i)) {
-				var k = "fnaIp_"+i;
+			while(p = image.select("#"+prefix + i)) {
+				var k = prefix+i;
 				animPaths[k] = deepcopy(p);
-				pOffs[k] = periodOffsets(20, 20);
+				if (noff > 0) {
+					pOffs[k] = periodOffsets(noff, roff);	
+				}
 				i++;
-			}
+			}	
 		}
-		deepcopy = function(el) {
-			var nel = el.clone();
-			nel.attr({display: "none"});
-			return nel;
-		}
-		perc = function(t, vals) {
-			var incStart = vals[0];
-			var incEnd = vals[1];
-			var decStart = vals[2];
-			var decEnd = vals[3];
-			var p;
-			if (t < decStart) {
-				p = 1.0*(t-incStart)/(incEnd-incStart);
-			} else {
-				p = 1.0 - 1.0*(t-decStart)/(decEnd-decStart);
-			}
-			if (p < 0) { p = 0; }
-			else if (p > 1) { p = 1; }
-			return p;
-		}
-		morph = function(per, f, fS, fE) {
-			for (var i = 0; i < f.numberOfItems; i++) {
-				var p = f.getItem(i);
-				var pS = fS.getItem(i);
-				var pE = fE.getItem(i);
-				if ("x" in p) {
-					p.x = pS.x + per * (pE.x - pS.x);	
-					p.y = pS.y + per * (pE.y - pS.y);
-				}
-				if ("x1" in p) {
-					p.x1 = pS.x1 + per * (pE.x1 - pS.x1);	
-					p.y1 = pS.y1 + per * (pE.y1 - pS.y1);
-				}
-				if ("x2" in p) {
-					p.x2 = pS.x2 + per * (pE.x2 - pS.x2);	
-					p.y2 = pS.y2 + per * (pE.y2 - pS.y2);
-				}
-			}
-		}
-		move = function(t, periods, ion, path) {
-			var i;
-			var per = 0;
-			for (i = 0; i < periods.length; i++) {
-				if (t < periods[i][1]) {
-					per = 1.0 * (t-periods[i][0]) / (periods[i][1] - periods[i][0])
-					break;
-				}
-			}
-			if (per < 0) { per = 0; }
-			else if (per > 1) { per = 1; }
-			var l = path.getTotalLength()
-			var p = path.getPointAtLength(l * per);
-			//alert("before: "+ion.node.cx.baseVal.value);
-			ion.attr({cx: p.x, cy: p.y});
-			//alert("after: "+ion.node.cx.baseVal.value);
-		}
-		periodOffsets = function(len, rnd) {
-			var p = [];
-			for (var i = 0; i < len; i++) {
-				var r  = Math.random()*rnd;
-				p[i] = [r, r];
-			}
-			return p;
-		}
-		addOff = function(basePer, perOff) {
-			var mod = [];
-			for (var i = 0; i < basePer.length; i++) {
-				mod[i] = [basePer[i][0] + perOff[i][0], basePer[i][1] + perOff[i][1]];
-			}
-			return mod;
-		}
+		
 		fna = function(im, t) {
 			// sets the opening percentage of the fast Na lid
 			var lid = im.select("#poreLid");
@@ -108,8 +51,8 @@
 			var act = [100, 120, 300, 320];
 			var inact = [100, 200, 400, 500];
 			var maxOpenIn = 150;
-			var pact = perc(t, act);
-			var pinact = perc(t, inact);
+			var pact = rectRamp(t, act);
+			var pinact = rectRamp(t, inact);
 			var deg = (1 - pinact) * maxOpenIn;
 			lid.attr({transform: "r"+deg+" "+hinge.x+" "+hinge.y});
 
@@ -119,18 +62,23 @@
 			
 			// moves ions
 			var ionPer = [[110, 140], [140, 160], [160, 190]];
+			moveIons(im, t, ionPer, "fnaIp_", "#fnaI_");
+		}
+
+		moveIons = function(image, t, periods, path_prefix, xml_prefix) {
 			var i = 0;
 			var ion;
-			while (ion = im.select("#fnaI_" + i)) {
-				var k = "fnaIp_" + i;
-				move(t, addOff(ionPer, pOffs[k]), ion, animPaths[k]);
+			while (ion = image.select(xml_prefix + i)) {
+				var k = path_prefix + i;
+				moveAlongPath(t, addOff(periods, pOffs[k]), ion, animPaths[k]);
 				i++;
-			}
-
+			}			
 		}
+
 		updateAnim = function(im, t) {
 			fna(im, t);
 		}
+		
 		window.onload = function() {
 			var s = Snap("#svg");
 			Snap.load("ion_channels_animation_nonpacemaker_base.svg", function(f) {
@@ -142,7 +90,7 @@
 	</script>
 </head>
 <body>
-	<svg id="svg" viewport="0 0 1000 500">
+	<svg id="svg">
 	</svg>
 </body>
 </html>
