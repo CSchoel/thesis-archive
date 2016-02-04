@@ -231,18 +231,26 @@
 <attribute NAME="nernst potential" VALUE="+134 mV"/>
 <attribute NAME="permeability" VALUE="low"/>
 </node>
-<node TEXT="Nernst potential" ID="ID_1028772442" CREATED="1453897707583" MODIFIED="1453903729036"><richcontent TYPE="DETAILS">
+<node TEXT="Nernst potential" ID="ID_1028772442" CREATED="1453897707583" MODIFIED="1454501277960"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p>
-      calculates equilibrium potential
-    </p>
+    <ul>
+      <li>
+        calculates equilibrium potential
+      </li>
+      <li>
+        <p>
+          also called &quot;reversal potential
+        </p>
+      </li>
+    </ul>
   </body>
 </html>
+
 </richcontent>
 <hook EQUATION="E_x = -61 \cdot \log \frac{[x]_i}{[x]_o}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="ion concentration inside the cell" ID="ID_427363261" CREATED="1453897707583" MODIFIED="1453903709112">
@@ -566,6 +574,7 @@
     <pdf_title>CLASSICAL PERSPECTIVES</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_delayed_rectifier.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="hergchannel.com" ID="ID_768658887" CREATED="1454500467366" MODIFIED="1454500477781" LINK="http://hergchannel.com/"/>
 </node>
 <node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454499755214" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
@@ -827,6 +836,38 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+<node TEXT="resources" ID="ID_1623928840" CREATED="1454500545741" MODIFIED="1454500548079">
+<node TEXT="Madame Curie Bioscience Database" ID="ID_67224945" CREATED="1454500619965" MODIFIED="1454500622940">
+<node TEXT="Voltage-Dependent Inactivation of Voltage Gated Calcium Channels&#xa;Mary T. An and Gerald. W. Zamponi." ID="ID_1173409767" CREATED="1454500677196" MODIFIED="1454501361581"/>
+</node>
+<node TEXT="Molecular Biology of the Cell. 4th edition&#xa;Alberts, Johnson, Lewis, et. al. 2002" ID="ID_330621464" CREATED="1454500842260" MODIFIED="1454500884718"/>
+<node TEXT="Spiking Neuron Models&#xa;Gerstner and Kistler 2002" ID="ID_1711852149" CREATED="1454500909871" MODIFIED="1454500926668">
+<node TEXT="The Zoo of Ion Channels" ID="ID_692510091" CREATED="1454500312583" MODIFIED="1454500337126" LINK="http://icwww.epfl.ch/~gerstner/SPNM/node15.html"/>
+</node>
+<node TEXT="PhysiologyWeb" ID="ID_1475676630" CREATED="1454500957467" MODIFIED="1454501713113" LINK="http://www.physiologyweb.com/lecture_notes/neuronal_action_potential/neuronal_action_potential_important_features.html"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        only source that mentions that closing of voltage-gated channels is due to voltage dropping below the threshold again
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Molecular Cell Biology, 4th edition&#xa;Lodish, Berk, Zipursky, 2000" ID="ID_1191436814" CREATED="1454500995187" MODIFIED="1454501026419">
+<node TEXT="Molecular Properties of Voltage-Gated Ion Channels" ID="ID_852595266" CREATED="1454501032066" MODIFIED="1454501056507" LINK="http://www.ncbi.nlm.nih.gov/books/NBK21608/"/>
+</node>
+<node TEXT="Essentials of Anatomy and Physiology, 6th Edition&#xa;Seeley, Stephens, Tate" ID="ID_1061730452" CREATED="1454501170793" MODIFIED="1454501223089">
+<node TEXT="Animation: Voltage-Gated Channels and the Action Potential" ID="ID_104314188" CREATED="1454501194568" MODIFIED="1454501208630" LINK="http://highered.mheducation.com/sites/0072943696/student_view0/chapter8/animation__voltage-gated_channels_and_the_action_potential__quiz_1_.html"/>
 </node>
 </node>
 </node>
