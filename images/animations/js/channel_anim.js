@@ -117,6 +117,26 @@ periodOffsets = function(len, rnd) {
 }
 
 /*\
+ * periods
+ [method]
+ * Generates period arrays based on a single start and end time.
+
+ > Arguments
+ - start (number) start of the first period
+ - end (number) end of the last period
+ - n (number) number of periods
+ = array of n periods ranging from start to end
+\*/
+periods = function(start, end, n) {
+	var len = 1.0 * (end - start) / n;
+	var p = [];
+	for (var i = 0; i < n; i++) {
+		p[i] = [start+i*len, start+(i+1)*len];
+	}
+	return p;
+}
+
+/*\
  * addOff
  [method]
  * adds period offsets to base periods
