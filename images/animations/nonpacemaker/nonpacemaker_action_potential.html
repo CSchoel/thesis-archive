@@ -7,6 +7,9 @@
 	<script src="../lib/snap.svg.js"></script>
 	<script src="../js/channel_anim.js"></script>
 	<script type="text/javascript">
+		var t0 = 0;
+		var tend = 300;
+		var animDur = 10000;
 		var tglob = 0;
 		var startPaths = {};
 		var endPaths = {};
@@ -17,6 +20,8 @@
 		var slider;
 		
 		setStartStates = function(im) {
+			findAndStore(im, startPaths, "t", "#time0");
+			findAndStore(im, endPaths, "t", "#time300");
 			// Open lid of fast Na+ channel
 			var lid = im.select("#poreLid");
 			var hinge = lid.node.pathSegList.getItem(0);
@@ -79,6 +84,8 @@
 		}
 
 		updateAnim = function(im, t) {
+			// update time slider
+			morph(1.0 * t / tend, im.select("#time0").node.pathSegList, startPaths["t"], endPaths["t"]);
 			fna(im, t);
 			slider.value = t;
 		}
@@ -96,7 +103,7 @@
 				anim.stop();
 				anim = null;
 			} else {
-				anim = Snap.animate(slider.value, 2000, function(t) { updateAnim(sglob, t); }, 100000);
+				anim = Snap.animate(slider.value, tend, function(t) { updateAnim(sglob, t); }, animDur);
 			}
 		}
 		
@@ -108,14 +115,16 @@
 			});
 			sglob = s;
 			slider = document.getElementById('slider');
+			slider.min = t0;
+			slider.max = tend;
 		}
 	</script>
 </head>
 <body>
-	<svg id="svg">
+	<svg id="svg" style="width:1000px;height:500px;">
 	</svg>
 	<div>
-		<input id="slider" type="range" name="time" min="0" max="2000" value="0" oninput="setTime(this.value)"/><br/>
+		<input id="slider" type="range" name="time" min="0" max="300" value="0" oninput="setTime(this.value)"/><br/>
 		<input type="button" name="playPause" onclick="playPause()" value="Play/Pause"/>
 	</div>
 </body>
