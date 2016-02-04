@@ -90,9 +90,9 @@ moveAlongPath = function(t, periods, ion, path) {
 	}
 	if (per < 0) { per = 0; }
 	else if (per > 1) { per = 1; }
-	var l = path.getTotalLength()
+	var l = path.getTotalLength();
 	var p = path.getPointAtLength(l * per);
-	ion.attr({cx: p.x, cy: p.y});
+	ion.attr({cx: p.x, cy: p.y, transform: "r "+(p.alpha+90)});
 }
 
 /*\
