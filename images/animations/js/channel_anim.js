@@ -52,21 +52,37 @@ rectRamp = function(t, vals) {
 \*/
 morph = function(per, f, fS, fE) {
 	for (var i = 0; i < f.numberOfItems; i++) {
-		var p = f.getItem(i);
-		var pS = fS.getItem(i);
-		var pE = fE.getItem(i);
-		if ("x" in p) {
-			p.x = pS.x + per * (pE.x - pS.x);	
-			p.y = pS.y + per * (pE.y - pS.y);
-		}
-		if ("x1" in p) {
-			p.x1 = pS.x1 + per * (pE.x1 - pS.x1);	
-			p.y1 = pS.y1 + per * (pE.y1 - pS.y1);
-		}
-		if ("x2" in p) {
-			p.x2 = pS.x2 + per * (pE.x2 - pS.x2);	
-			p.y2 = pS.y2 + per * (pE.y2 - pS.y2);
-		}
+		morphPoint(per, f, fS, fE, i);
+	}
+}
+
+/*\
+ * morph
+ [method]
+ * morphs a single point in a path to an intermediate state between a start and an end path
+
+ > Arguments
+ - per (number) the percentage how far the morph should lean towards fE
+ - f (pathSegList) list of path segments for form that should be morphed
+ - fS (pathSegList) list of path segments for start form
+ - fE (pathSegList) list of path segments for end form
+ - pidx (number) index of point that should be morphed
+\*/
+morphPoint = function(per, f, fS, fE, pidx) {
+	var p = f.getItem(pidx);
+	var pS = fS.getItem(pidx);
+	var pE = fE.getItem(pidx);
+	if ("x" in p) {
+		p.x = pS.x + per * (pE.x - pS.x);	
+		p.y = pS.y + per * (pE.y - pS.y);
+	}
+	if ("x1" in p) {
+		p.x1 = pS.x1 + per * (pE.x1 - pS.x1);	
+		p.y1 = pS.y1 + per * (pE.y1 - pS.y1);
+	}
+	if ("x2" in p) {
+		p.x2 = pS.x2 + per * (pE.x2 - pS.x2);	
+		p.y2 = pS.y2 + per * (pE.y2 - pS.y2);
 	}
 }
 
