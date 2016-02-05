@@ -55,6 +55,21 @@
 			animPaths["to_b"] = deepcopy(im.select("#to_bp"));
 			findAndStoreP(im, "toIp_", 2, 2);
 
+			//dr
+			makeAbs(im.select("#dr_l"));
+			makeAbs(im.select("#dr_r"));
+			makeAbs(im.select("#dr_lio"));
+			makeAbs(im.select("#dr_rio"));
+			findAndStore(im, startPaths, "dr_l", "#dr_l");
+			findAndStore(im, endPaths,   "dr_l", "#dr_lio");
+			findAndStore(im, startPaths, "dr_r", "#dr_r");
+			findAndStore(im, endPaths,   "dr_r", "#dr_rio");
+
+			findAndStoreP(im, "drIp_", 10, 10);
+		}
+
+		makeAbs = function(path) {
+			path.attr("d", Snap.path.toAbsolute(path.attr("d")));
 		}
 
 		findAndStore = function(image, obj, key, xml_id) {
@@ -136,10 +151,10 @@
 		to = function(im, t) {
 			var ball = im.select("#to_b");
 			var ball_path = animPaths["to_b"];
-			act = [8, 12, 182, 186];
-			inact = [8, 32, 182, 205];
-			pact = rectRamp(t, act);
-			pinact = rectRamp(t, inact);
+			var act = [8, 12, 182, 186];
+			var inact = [8, 32, 182, 205];
+			var pact = rectRamp(t, act);
+			var pinact = rectRamp(t, inact);
 
 			// move ball
 			var l = ball_path.getTotalLength() * pinact;
@@ -154,6 +169,33 @@
 
 			var ionPer = periods(10, 30, 2);
 			moveIons(im, t, ionPer, "toIp_", "#toI_");
+		}
+
+		// delayed rectifier
+		dr = function(im, t) {
+			var closed_ni_l = startPaths["dr_l"];
+			var closed_ni_r = startPaths["dr_r"];
+			var open_i_l = endPaths["dr_l"];
+			var open_i_r = endPaths["dr_r"];
+			var act = [8, 108, 185, 285];
+			var inact = [8, 13, 185, 190];
+			var pact = rectRamp(t, act);
+			var pinact = rectRamp(t, inact);
+
+			var pore_l = im.select("#dr_l").node.pathSegList;
+			var pore_r = im.select("#dr_r").node.pathSegList;
+
+			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 3);
+			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 4);
+			morphPoint(pinact, pore_l, closed_ni_l, open_i_l, 5);
+			morphPoint(pinact, pore_l, closed_ni_l, open_i_l, 6);
+			morphPoint(pact, pore_r, closed_ni_r, open_i_r, 3);
+			morphPoint(pact, pore_r, closed_ni_r, open_i_r, 4);
+			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 5);
+			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 6);
+
+			var ionPer = periods(190, 280, 3);
+			moveIons(im, t, ionPer, "drIp_", "#drI_");
 		}
 
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {
@@ -173,6 +215,7 @@
 			cal(im, t);
 			ir(im, t);
 			to(im, t);
+			dr(im, t);
 			slider.value = t;
 		}
 
