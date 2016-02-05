@@ -44,6 +44,17 @@
 			//ir
 			animPaths["spermine"] = deepcopy(im.select("#spermine_path"));
 			findAndStoreP(im, "irIp_", 20, 20);
+
+			//to
+			findAndStore(im, startPaths, "to_l", "#to_l");
+			findAndStore(im, endPaths,   "to_l", "#to_lo");
+			findAndStore(im, startPaths, "to_r", "#to_r");
+			findAndStore(im, endPaths,   "to_r", "#to_ro");
+			findAndStore(im, startPaths, "to_c", "#to_c");
+			findAndStore(im, endPaths,   "to_c", "#to_ci");
+			animPaths["to_b"] = deepcopy(im.select("#to_bp"));
+			findAndStoreP(im, "toIp_", 2, 2);
+
 		}
 
 		findAndStore = function(image, obj, key, xml_id) {
@@ -121,6 +132,30 @@
 			moveIons(im, t, ionPer, "irIp_", "#irI_");
 		}
 
+		// transient outward
+		to = function(im, t) {
+			var ball = im.select("#to_b");
+			var ball_path = animPaths["to_b"];
+			act = [8, 12, 182, 186];
+			inact = [8, 32, 182, 205];
+			pact = rectRamp(t, act);
+			pinact = rectRamp(t, inact);
+
+			// move ball
+			var l = ball_path.getTotalLength() * pinact;
+			var p = ball_path.getPointAtLength(l);
+			ball.attr({cx: p.x, cy: p.y});
+
+			// morph chain
+			morph(pinact, im.select("#to_c").node.pathSegList, startPaths["to_c"], endPaths["to_c"]);
+			// morph activation gates
+			morph(pact, im.select("#to_l").node.pathSegList, startPaths["to_l"], endPaths["to_l"]);
+			morph(pact, im.select("#to_r").node.pathSegList, startPaths["to_r"], endPaths["to_r"]);
+
+			var ionPer = periods(10, 30, 2);
+			moveIons(im, t, ionPer, "toIp_", "#toI_");
+		}
+
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {
 			var i = 0;
 			var ion;
@@ -137,6 +172,7 @@
 			fna(im, t);
 			cal(im, t);
 			ir(im, t);
+			to(im, t);
 			slider.value = t;
 		}
 
