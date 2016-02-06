@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="1.17">
+<hook NAME="MapStyle" zoom="1.064">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -132,7 +132,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Na+/K+-ATPAse" ID="ID_1942236220" CREATED="1453905773568" MODIFIED="1453905823635"><richcontent TYPE="DETAILS">
+<node TEXT="Na+/K+-ATPAse" ID="ID_1942236220" CREATED="1453905773568" MODIFIED="1454764417441"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -159,22 +159,29 @@
   </body>
 </html>
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_transport_nap-kp-pump.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="ATP-dependent Ca++ pump" ID="ID_1543345266" CREATED="1453897707584" MODIFIED="1453906028992"><richcontent TYPE="DETAILS">
+<node TEXT="Plasma membrane Ca2+ ATPase" ID="ID_1543345266" CREATED="1453897707584" MODIFIED="1454765113073"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p>
-      pumps Ca++ out of cell
-    </p>
+    <ul>
+      <li>
+        pumps Ca++ out of cell
+      </li>
+      <li>
+        &quot;slow but strong&quot; =&gt; helps to maintain very low Ca++ concentration at rest
+      </li>
+    </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="Sodium-Calcium exchanger" ID="ID_504492500" CREATED="1453897707584" MODIFIED="1453906060093"><richcontent TYPE="DETAILS">
+<node TEXT="Sodium-Calcium exchanger" ID="ID_504492500" CREATED="1453897707584" MODIFIED="1454765192697"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -194,9 +201,13 @@
       <li>
         strongly influenced by intracellular concentration of Na+
       </li>
+      <li>
+        &quot;fast but weak&quot; =&gt; mainly responsible for restoration of Ca++ concentration balance after AP
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
