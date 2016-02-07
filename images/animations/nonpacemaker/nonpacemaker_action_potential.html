@@ -68,8 +68,8 @@
 			findAndStoreP(im, "drIp_", 10, 10);
 
 			//naka
-			rot_centers["naka_l"] = [im.select("#naka_l").getBBox().cx, im.select("#naka_l").getBBox().cy]
-			rot_centers["naka_r"] = [im.select("#naka_r").getBBox().cx, im.select("#naka_r").getBBox().cy]
+			rot_centers["naka_l"] = [im.select("#nakaR_l").attr("cx"), im.select("#nakaR_l").attr("cy")];
+			rot_centers["naka_r"] = [im.select("#nakaR_r").attr("cx"), im.select("#nakaR_r").attr("cy")];
 			findAndStore(im, startPaths, "naka_l", "#naka_l");
 			findAndStore(im, endPaths,   "naka_l", "#naka_lc");
 			findAndStore(im, startPaths, "naka_r", "#naka_r");
@@ -219,17 +219,28 @@
 			var pphase = (cphase % pdur) / (pdur-1)
 			var poreLeft = im.select("#naka_l");
 			var poreRight = im.select("#naka_r");
-			var poreAngle = 50;
+			var phosphorSite = im.select("#naka_ps");
+			var poreAngleMax = 20;
+			var poreAngle;
+			var lClose;
+			var rClose;
 			if (phase == ACC_NA) {
-				alert(rot_centers["naka_l"].join(","));
-				poreLeft.attr("transform", "r "+(poreAngle * pphase)+" "+rot_centers["naka_l"].join(","));
+				poreAngle = poreAngleMax;
 			} else if (phase == ROT_NA) {
-
+				poreAngle = 2 * (0.5 - pphase) * poreAngleMax;
+				lClose = 0;
+				rClose = 0;
 			} else if (phase == ACC_K) {
-
+				poreAngle = -poreAngleMax;
 			} else if (phase == ROT_K) {
-
+				poreAngle = 2 * (pphase - 0.5) * poreAngleMax;
+				lClose = 0;
+				rClose = 0;
 			}
+			var tr = "r "+(-poreAngle)+" "+rot_centers["naka_r"].join(",");
+			poreLeft.attr("transform", "r "+(poreAngle)+" "+rot_centers["naka_l"].join(","));
+			phosphorSite.attr("transform", tr);
+			poreRight.attr("transform", tr);
 		}
 
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {

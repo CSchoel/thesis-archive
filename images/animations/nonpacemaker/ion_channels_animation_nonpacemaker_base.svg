@@ -146,11 +146,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="295.66409"
-     inkscape:cy="270.8826"
+     inkscape:zoom="8"
+     inkscape:cx="466.15663"
+     inkscape:cy="69.168756"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
@@ -2875,5 +2875,19 @@
        id="naka_rc"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscsscsscssccccc" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       id="nakaR_l"
+       cx="459.18314"
+       cy="358.63104"
+       rx="1.2374369"
+       ry="1.237437" />
+    <ellipse
+       ry="1.237437"
+       rx="1.2374369"
+       cy="358.63113"
+       cx="484.42911"
+       id="nakaR_r"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
