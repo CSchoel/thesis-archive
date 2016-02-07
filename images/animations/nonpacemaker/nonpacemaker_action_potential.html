@@ -15,6 +15,7 @@
 		var endPaths = {};
 		var animPaths = {};
 		var pOffs = {};
+		var rot_centers = {};
 		var sglob;
 		var anim = null;
 		var slider;
@@ -64,8 +65,15 @@
 			findAndStore(im, endPaths,   "dr_l", "#dr_lio");
 			findAndStore(im, startPaths, "dr_r", "#dr_r");
 			findAndStore(im, endPaths,   "dr_r", "#dr_rio");
-
 			findAndStoreP(im, "drIp_", 10, 10);
+
+			//naka
+			rot_centers["naka_l"] = [im.select("#naka_l").getBBox().cx, im.select("#naka_l").getBBox().cy]
+			rot_centers["naka_r"] = [im.select("#naka_r").getBBox().cx, im.select("#naka_r").getBBox().cy]
+			findAndStore(im, startPaths, "naka_l", "#naka_l");
+			findAndStore(im, endPaths,   "naka_l", "#naka_lc");
+			findAndStore(im, startPaths, "naka_r", "#naka_r");
+			findAndStore(im, endPaths,   "naka_r", "#naka_rc");
 		}
 
 		makeAbs = function(path) {
@@ -198,6 +206,32 @@
 			moveIons(im, t, ionPer, "drIp_", "#drI_");
 		}
 
+		//na+/k+-ATPase
+		naka = function(im, t) {
+			var ACC_NA = 0; // phase 0: release potassium and accept intracellular sodium
+			var ROT_NA = 1; // phase 1: rotate from inside to outside
+			var ACC_K  = 2; // phase 2: release sodium and accept extracellular potassium
+			var ROT_K  = 3; // phase 3: rotate from outside to inside
+			var cdur = 50; // cycle duration
+			var pdur = cdur / 4.0; // phase duration
+			var cphase = t % cdur;
+			var phase = Math.floor(cphase / pdur);
+			var pphase = (cphase % pdur) / (pdur-1)
+			var poreLeft = im.select("#naka_l");
+			var poreRight = im.select("#naka_r");
+			var poreAngle = 50;
+			if (phase == ACC_NA) {
+				alert(rot_centers["naka_l"].join(","));
+				poreLeft.attr("transform", "r "+(poreAngle * pphase)+" "+rot_centers["naka_l"].join(","));
+			} else if (phase == ROT_NA) {
+
+			} else if (phase == ACC_K) {
+
+			} else if (phase == ROT_K) {
+
+			}
+		}
+
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {
 			var i = 0;
 			var ion;
@@ -216,6 +250,7 @@
 			ir(im, t);
 			to(im, t);
 			dr(im, t);
+			naka(im, t);
 			slider.value = t;
 		}
 
