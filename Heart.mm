@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="1.064">
+<hook NAME="MapStyle" zoom="0.726">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -132,6 +132,22 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="primary active transport" ID="ID_1394586051" CREATED="1454768471792" MODIFIED="1454768625302" LINK="https://en.wikipedia.org/wiki/Active_transport"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        directly uses ATP to produce required energy
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="Na+/K+-ATPAse" ID="ID_1942236220" CREATED="1453905773568" MODIFIED="1454764417441"><richcontent TYPE="DETAILS">
 
 <html>
@@ -178,10 +194,45 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Sodium-Calcium exchanger" ID="ID_504492500" CREATED="1453897707584" MODIFIED="1454765192697"><richcontent TYPE="DETAILS">
+</node>
+<node TEXT="secondary active transport" ID="ID_777297784" CREATED="1454768544617" MODIFIED="1454768622180" LINK="https://en.wikipedia.org/wiki/Active_transport"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        uses electrochemical gradient as energy source
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="antiport" ID="ID_1318802844" CREATED="1454768597350" MODIFIED="1454768693633"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        one ion allowed to move with its gradient =&gt; produces energy
+      </li>
+      <li>
+        other ion transported against its gradient =&gt; requires energy
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Sodium-Calcium exchanger" ID="ID_504492500" CREATED="1453897707584" MODIFIED="1454846031138"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -207,8 +258,11 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_transport_sodium-calcium-exchanger.svg" SIZE="0.9884679" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="symport" ID="ID_387116830" CREATED="1454768601127" MODIFIED="1454768602465"/>
 </node>
 </node>
 </node>
