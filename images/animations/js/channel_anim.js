@@ -106,10 +106,25 @@ moveAlongPath = function(t, periods, ion, path) {
 	}
 	if (per < 0) { per = 0; }
 	else if (per > 1) { per = 1; }
+	setOnPath(per, ion, path);
+}
+
+/*\
+ * setOnPath
+ [method]
+ * sets the center of an ellipse or circle to a given percentage along a given path
+
+ > Arguments
+ - per (number) the percentage of the path where the ellipse should be displayed
+ - ion (circle or ellipse element) the element to move
+ - path (path element) the path to which the circle/ellipse should be moved 
+\*/
+setOnPath = function(per, ion, path) {
 	var l = path.getTotalLength();
 	var p = path.getPointAtLength(l * per);
 	ion.attr({cx: p.x, cy: p.y, transform: "r "+(p.alpha+90)});
 }
+
 
 /*\
  * periodOffsets

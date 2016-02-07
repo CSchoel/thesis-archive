@@ -74,6 +74,12 @@
 			findAndStore(im, endPaths,   "naka_l", "#naka_lc");
 			findAndStore(im, startPaths, "naka_r", "#naka_r");
 			findAndStore(im, endPaths,   "naka_r", "#naka_rc");
+			findAndStoreP(im, "nakaIp_ko_", 0, 0);
+			findAndStoreP(im, "nakaIp_nai_", 0, 0);
+			findAndStoreP(im, "nakaIp_ki_", 0, 0);
+			findAndStoreP(im, "nakaIp_nao_", 0, 0);
+			animPaths["naka_ppi"] = deepcopy(im.select("#naka_ppi"));
+			animPaths["naka_ppo"] = deepcopy(im.select("#naka_ppo"));
 		}
 
 		makeAbs = function(path) {
@@ -216,31 +222,132 @@
 			var pdur = cdur / 4.0; // phase duration
 			var cphase = t % cdur;
 			var phase = Math.floor(cphase / pdur);
-			var pphase = (cphase % pdur) / (pdur-1)
+			var pphase = (cphase % pdur) / (pdur-1);
+			var pbegin = t - cphase + phase * pdur;
 			var poreLeft = im.select("#naka_l");
 			var poreRight = im.select("#naka_r");
 			var phosphorSite = im.select("#naka_ps");
 			var poreAngleMax = 20;
 			var poreAngle;
-			var lClose;
-			var rClose;
+			var naClose;
+			var kClose;
+			var naPath;
+			var naPer;
+			var kPath;
+			var kPer;
+			var pPath;
+			var pPer;
 			if (phase == ACC_NA) {
+				// pore is opened towards cytoplasm
 				poreAngle = poreAngleMax;
+				// potassium moves out of pore, sodium moves into pore, phosphor moves towards binding site
+				kPath = "nakaIp_ko"; // potassium outward path
+				kPer = pphase;
+				naPath = "nakaIp_nai"; // sodium inward path
+				naPer = pphase;
+				pPath = "naka_ppi"; // phosphor inward path
+				pPer = pphase;
+				// sodium sites open, potassium sites close
+				naClose = (1 - pphase);
+				kClose = pphase;
 			} else if (phase == ROT_NA) {
+				// pore switches opening from inward to outward
 				poreAngle = 2 * (0.5 - pphase) * poreAngleMax;
-				lClose = 0;
-				rClose = 0;
+				// sodium stays in the ATPAse, potassium stays out of the pore, phosphor stays at binding site
+				kPath = "nakaIp_ko"; // potassium outward path
+				kPer = 1;
+				naPath = "nakaIp_nai"; // sodium inward path
+				naPer = 1;
+				pPath = "naka_ppi"; // phosphor inward path
+				pPer = 1;
+				// sodium sites stay open, potassium sites stay closed
+				naClose = 0;
+				kClose = 1;
+
 			} else if (phase == ACC_K) {
+				// pore stays open towards the outside
 				poreAngle = -poreAngleMax;
+				// potassium moves into pore, sodium moves out of pore, phosphor stays at binding site
+				kPath = "nakaIp_ki"; // potassium inward path
+				kPer = pphase;
+				naPath = "nakaIp_nao"; // sodium outward path
+				naPer = pphase;
+				pPath = "naka_ppi"; // phosphor inward path
+				pPer = 1;
+				// sodium sites close, potassium sites open
+				naClose = pphase;
+				kClose = (1-pphase);
 			} else if (phase == ROT_K) {
+				// pore switches opening from outward to inward
 				poreAngle = 2 * (pphase - 0.5) * poreAngleMax;
-				lClose = 0;
-				rClose = 0;
+				// potassium stays in the pore, sodium stays outside the pore, phosphor moves away from binding site
+				kPath = "nakaIp_ki"; // potassium inward path
+				kPer = 1;
+				naPath = "nakaIp_nao"; // sodium outward path
+				naPer = 1;
+				pPath = "naka_ppo"; // phosphor outward path
+				pPer = pphase;
+				// sodium sites stay closed, potassium sites stay open
+				naClose = 1;
+				kClose = 0;
 			}
+			// roate pores and phosphor binding site
 			var tr = "r "+(-poreAngle)+" "+rot_centers["naka_r"].join(",");
 			poreLeft.attr("transform", "r "+(poreAngle)+" "+rot_centers["naka_l"].join(","));
 			phosphorSite.attr("transform", tr);
 			poreRight.attr("transform", tr);
+
+			// open/close binding sites
+			morph(naClose, im.select("#naka_l").node.pathSegList, startPaths["naka_l"], endPaths["naka_l"]);
+			morph(kClose, im.select("#naka_r").node.pathSegList, startPaths["naka_r"], endPaths["naka_r"]);
+
+			// move ions
+			moveIonsSingle(im, naPer, naPath+"_", "#nakaI_na_");
+			moveIonsSingle(im, kPer, kPath+"_", "#nakaI_k_");
+			
+			// move phosphor
+			setOnPath(pPer, im.select("#naka_p"), animPaths[pPath]);
+			
+			var rl = "r "+(poreAngle - poreAngleMax)+" "+rot_centers["naka_l"].join(",");
+			var rr = "r "+(-poreAngle + poreAngleMax)+" "+rot_centers["naka_r"].join(",");
+			if (phase == ROT_NA) {
+				// sodium ions are in the pore => have to be rotated with pore
+				transformIons(im, "#nakaI_na_", rl);
+			}
+
+			if (phase == ROT_K) {
+				// potassium ions are in the pore => have to be rotated with pore
+				var rot = "r "+(-poreAngle - poreAngleMax)+" "+rot_centers["naka_r"].join(",");
+				transformIons(im, "#nakaI_k_", rot);
+			}
+
+			if (phase == ROT_NA || phase == ACC_K) {
+				// phosphor is bound to pore => has to be rotated with pore
+				im.select("#naka_p").attr("transform", rr);
+			}
+
+		}
+
+		transformIons = function (image, xml_prefix, trans_str) {
+			var i = 0;
+			var ion;
+			while (ion = image.select(xml_prefix + i)) {
+				ion.attr("transform", trans_str);
+				i++;
+			}
+		}
+
+		moveIonsSingle = function (image, per, path_prefix, xml_prefix) {
+			var i = 0;
+			var ion;
+			while (ion = image.select(xml_prefix + i)) {
+				var k = path_prefix + i;
+				setOnPath(per, ion, animPaths[k]);
+				i++;
+			}
+			if (i == 0) {
+				alert("no ions found with prefix "+xml_prefix);
+			}
 		}
 
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {

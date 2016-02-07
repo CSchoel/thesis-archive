@@ -146,13 +146,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="466.15663"
-     inkscape:cy="69.168756"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="450.23318"
+     inkscape:cy="64.267855"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -164,7 +164,7 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="false"
+     inkscape:snap-center="true"
      inkscape:snap-text-baseline="false"
      inkscape:window-width="1600"
      inkscape:window-height="838"
@@ -347,8 +347,8 @@
        id="naka_ps"
        d="m 481.35909,379.53253 2.6262,4.28031"
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       inkscape:transform-center-x="-7.2196046"
-       inkscape:transform-center-y="19.549529"
+       inkscape:transform-center-x="1.7569256"
+       inkscape:transform-center-y="23.041557"
        sodipodi:nodetypes="cc" />
     <g
        id="g11424">
@@ -2352,21 +2352,21 @@
        style="display:inline;opacity:1;fill:#ac9393;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <ellipse
        style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle7017"
-       cx="468.26019"
-       cy="326.89526"
+       id="nakaI_k_0"
+       cx="481.25839"
+       cy="323.80331"
        rx="1.4285713"
        ry="1.4285715" />
     <ellipse
-       cy="383.81284"
-       cx="483.98529"
+       cy="394.68784"
+       cx="504.36029"
        id="naka_p"
        style="display:inline;opacity:1;fill:#ff0fc0;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="1.9887378"
        ry="1.9887379" />
     <ellipse
-       cy="321.89526"
-       cx="477.76019"
+       cy="318.80331"
+       cx="490.75839"
        id="circle10351"
        style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="1.4285713"
@@ -2380,28 +2380,14 @@
        ry="1.4285715" />
     <ellipse
        style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle10359"
-       cx="462.50467"
-       cy="392.00647"
-       rx="2.0203052"
-       ry="2.0203054" />
-    <ellipse
-       cy="390.48727"
-       cx="481.97687"
-       id="circle10361"
-       style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       rx="2.0203052"
-       ry="2.0203054" />
-    <ellipse
-       style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle10417"
        cx="473.47687"
        cy="393.98727"
        rx="2.0203052"
        ry="2.0203054" />
     <ellipse
-       cy="318.76163"
-       cx="460.39304"
+       cy="316.64032"
+       cx="463.57501"
        id="circle10421"
        style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="2.0203052"
@@ -2416,7 +2402,7 @@
     <ellipse
        cy="326.39526"
        cx="489.76019"
-       id="circle10425"
+       id="nakaI_k_1"
        style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="1.4285713"
        ry="1.4285715" />
@@ -2656,6 +2642,55 @@
          d="m 186.75195,215.20732 0,-195.434176"
          style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
+    <ellipse
+       ry="2.0203054"
+       rx="2.0203052"
+       cy="331.26163"
+       cx="446.39304"
+       id="ellipse11970"
+       style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="nakaI_na_2"
+       cx="459.26968"
+       cy="403.6207"
+       rx="2.0203052"
+       ry="2.0203054" />
+    <ellipse
+       cy="394.68442"
+       cx="462.52222"
+       id="nakaI_na_1"
+       style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       rx="2.0203052"
+       ry="2.0203054" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="nakaI_na_0"
+       cx="465.77408"
+       cy="385.75"
+       rx="2.0203052"
+       ry="2.0203054" />
+    <ellipse
+       ry="1.4285715"
+       rx="1.4285713"
+       cy="386.85977"
+       cx="448.74026"
+       id="ellipse12004"
+       style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse12006"
+       cx="509.905"
+       cy="384.73846"
+       rx="1.4285713"
+       ry="1.4285715" />
+    <ellipse
+       ry="1.4285715"
+       rx="1.4285713"
+       cy="402.76968"
+       cx="481.79752"
+       id="ellipse12008"
+       style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2889,5 +2924,76 @@
        cx="484.42911"
        id="nakaR_r"
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccsc"
+       inkscape:transform-center-y="22.252868"
+       inkscape:transform-center-x="-6.2297079"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 504.36029,394.68784 c 0,0 0,-1.98874 -0.72348,-5.25119 -0.72349,-3.26244 -3.62393,-1.94454 -6.62913,-3.44714 -3.0052,-1.50261 -4.38298,-3.54352 -4.38298,-3.54352"
+       id="naka_ppi"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cssc"
+       inkscape:transform-center-y="21.051077"
+       inkscape:transform-center-x="9.5316463"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 475.3994,382.1424 c 0,0 3.66545,11.00656 7.90809,12.33239 4.24264,1.32582 10.69499,-6.18719 12.81631,-3.71231 2.12132,2.47487 8.23649,3.92536 8.23649,3.92536"
+       id="naka_ppo"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 462.62582,352.48065 c 4.22234,-5.30633 7.98096,-10.2251 6.33344,-15.14633 -1.64752,-4.92124 -8.72882,-10.45825 -12.31475,-16.22181"
+       id="nakaIp_nao_0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 465.87768,361.41507 c 0,0 6.23483,-7.33371 6.85355,-10.16214 0.61872,-2.82842 -2.74005,-30.49398 -2.74005,-30.49398"
+       id="nakaIp_nao_1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 469.13021,370.35132 c 0,0 5.01523,-2.39299 5.45717,-9.28728 0.44195,-6.89429 1.06066,-33.49918 1.06066,-33.49918"
+       id="nakaIp_nao_2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 462.97817,324.29444 c 0,0 5.56846,0.26516 9.72271,4.33103 4.15426,4.06586 1.94455,8.04334 2.91682,10.51821 0.97227,2.47487 8.56791,4.69819 8.56791,4.69819"
+       id="nakaIp_ki_0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 476.14803,326.32737 c 0,0 -4.33678,-1.57738 -2.56614,7.74079 1.77064,9.31816 1.59387,12.76531 3.89196,15.24018 2.2981,2.47487 3.45922,3.46979 3.45922,3.46979"
+       id="nakaIp_ki_1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 477.98868,356.39413 c 0,0 -2.81292,4.22791 -1.22193,12.53642 1.59099,8.3085 22.0087,29.6101 22.0087,29.6101"
+       id="nakaIp_ko_1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 474.73615,347.45787 c 0,0 -3.09592,18.46748 -1.06299,25.0966 5.14718,10.23964 11.08776,24.15871 20.15254,30.93593"
+       id="nakaIp_ko_0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 453.875,391.71248 c 0,0 4.44961,-0.34723 7.625,-6 3.17539,-5.65276 -2.23032,-11.70984 -2.23032,-11.70984"
+       id="nakaIp_nai_2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 472.75,399.33748 c 0,0 -5.75,-1.125 -5.5,-8.875 0.25,-7.75 3.875,-13.125 1.75,-17.375 -2.125,-4.25 -6.47779,-8.0211 -6.47779,-8.0211"
+       id="nakaIp_nai_1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 485.14182,393.89933 c 0,0 -5.14182,-1.18685 -8.89182,-8.43685 -3.75,-7.25 -3.75,-18.5 -5.625,-22.25 -1.875,-3.75 -4.85092,-7.08052 -4.85092,-7.08052"
+       id="nakaIp_nai_0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssc" />
   </g>
 </svg>
