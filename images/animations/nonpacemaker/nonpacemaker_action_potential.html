@@ -85,6 +85,9 @@
 			findAndStoreP(im, "nacaeIp_cao_", 0, 0);
 			findAndStoreP(im, "nacaeIp_nai_", 0, 0);
 			findAndStoreP(im, "nacaeIp_nao_", 0, 0);
+
+			//kl
+			findAndStoreP(im, "klIp_", 20, 20);
 		}
 
 		makeAbs = function(path) {
@@ -427,6 +430,13 @@
 			}
 		}
 
+		//potassium leak channels
+		kl = function(im, t) {
+			// we only need to move ions, because the channel is open anyway
+			var ionPer = periods(0, tend, 4);
+			moveIons(im, t, ionPer, "klIp_", "#klI_");
+		}
+
 		clipToPer = function(x) {
 			if (x < 0) { return 0; }
 			if (x > 1) { return 1; }
@@ -475,6 +485,7 @@
 			dr(im, t);
 			naka(im, t);
 			nacae(im, t);
+			kl(im, t);
 			slider.value = t;
 			$('#sliderT').text(Math.round(t)+' ms');
 		}
