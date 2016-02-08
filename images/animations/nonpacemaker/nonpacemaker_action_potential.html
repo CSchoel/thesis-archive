@@ -80,6 +80,14 @@
 			findAndStoreP(im, "nakaIp_nao_", 0, 0);
 			animPaths["naka_ppi"] = deepcopy(im.select("#naka_ppi"));
 			animPaths["naka_ppo"] = deepcopy(im.select("#naka_ppo"));
+
+
+			//nacae
+			rot_centers["nacae_p"] = [im.select("#nacaeR_p").attr("cx"), im.select("#nacaeR_p").attr(cy)];
+			findAndStoreP(im, "nacaeIp_cai_", 0, 0);
+			findAndStoreP(im, "nacaeIp_cao_", 0, 0);
+			findAndStoreP(im, "nacaeIp_nai_", 0, 0);
+			findAndStoreP(im, "nacaeIp_nao_", 0, 0);
 		}
 
 		makeAbs = function(path) {
@@ -223,7 +231,6 @@
 			var cphase = t % cdur;
 			var phase = Math.floor(cphase / pdur);
 			var pphase = (cphase % pdur) / (pdur-1);
-			var pbegin = t - cphase + phase * pdur;
 			var poreLeft = im.select("#naka_l");
 			var poreRight = im.select("#naka_r");
 			var phosphorSite = im.select("#naka_ps");
@@ -325,7 +332,65 @@
 				// phosphor is bound to pore => has to be rotated with pore
 				im.select("#naka_p").attr("transform", rr);
 			}
+		}
 
+		// sodium-calcium-exchanger
+		nacae = function(im, t) {
+			// note: always rotate half way
+			var BIND = 0;     // phase 0: bind ions
+			var ROTATE = 1;   // phase 1: rotate
+			var RELEASE = 2;  // phase 2: release ions
+			var reversed = false;
+			var pumpAngleMax = 45;
+			var cdur = 50; // cycle duration
+			var pdur = cdur / 3.0; // phase duration
+			var cphase = t % cdur;
+			var phase = Math.floor(cphase / pdur);
+			var pphase = (cphase % pdur) / (pdur-1);
+			var pump = im.select("#nacae_p");			
+
+			var pumpAngle;
+			var caPath, caPer;
+			var naPath, naPer;
+
+			if (reversed) {
+				pphase = 1 - pphase; // do all phases in reverse
+				// FIXME: do we also need to reverse order of phases to RELEASE-ROTATE-BIND?
+			}
+
+			if (phase == BIND) {
+				pumpAngle = pumpAngleMax;
+				caPath = "nacaeIp_cai";
+				caPer = pphase;
+				naPath = "nacaeIp_nai";
+				naPer = pphase;
+			} else if (phase == ROTATE) {
+				pumpAngle = (pphase - 0.5) * 2 * pumpAngleMax;
+				caPath = "nacaeIp_cai";
+				caPer = 1;
+				naPath = "nacaeIp_nai";
+				naPer = 1;
+			} else if (phase == RELEASE) {
+				pumpAngle = -pumpAngleMax;
+				caPath = "nacaeIp_cao";
+				caPer = pphase;
+				naPath = "nacaeIp_nao";
+				naPer = pphase;
+			}
+
+			// rotate pump
+			var rot = "r "+(poreAngle)+" "+rot_centers["nacae_r"].join(",");
+			pump.attr("transform", rot);
+
+			// move ions
+			moveIonsSingle(im, caPer, caPath+"_", "#nacaeI_ca_");
+			moveIonsSingle(im, naPer, naPath+"_", "#nacaeI_na_");
+
+			if (phase == ROTATE) {
+				// rotate ions with pump
+				transformIons(im, "#nacaeI_ca_", rot);
+				transformIons(im, "#nacaeI_na_", rot);
+			}
 		}
 
 		transformIons = function (image, xml_prefix, trans_str) {
