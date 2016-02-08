@@ -492,7 +492,8 @@
 				anim.stop();
 				anim = null;
 			} else {
-				anim = Snap.animate(slider.value, tend, function(t) { updateAnim(sglob, t); }, animDur);
+				var left = animDur * (1.0 - 1.0 * slider.value / tend)
+				anim = Snap.animate(slider.value, tend, function(t) { updateAnim(sglob, t); }, left);
 			}
 		}
 		
