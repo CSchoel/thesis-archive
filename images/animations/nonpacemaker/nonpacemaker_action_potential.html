@@ -441,6 +441,7 @@
 			naka(im, t);
 			nacae(im, t);
 			slider.value = t;
+			$('#sliderT').text(Math.round(t)+' ms');
 		}
 
 		setTime = function(t) {
@@ -478,7 +479,7 @@
 	</svg>
 	<div>
 		<div>
-			<input id="slider" type="range" name="time" min="0" max="300" value="0" oninput="setTime(this.value); $('#sliderT').text(this.value+' ms')"/> <span id="sliderT">0 ms</span>
+			<input id="slider" type="range" name="time" min="0" max="300" value="0" oninput="setTime(this.value)"/> <span id="sliderT">0 ms</span>
 		</div>
 		<input type="button" name="playPause" onclick="playPause()" value="Play/Pause"/>
 	</div>
