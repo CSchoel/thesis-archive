@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="0.726">
+<hook NAME="MapStyle" zoom="1.152">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -725,6 +725,36 @@
 <attribute NAME="activation speed" VALUE="fast"/>
 <attribute NAME="inactivation" VALUE="none"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_calcium_activated.svg" SIZE="0.9884679" NAME="ExternalObject"/>
+</node>
+<node TEXT="leak channel" ID="ID_1239310100" CREATED="1454947050848" MODIFIED="1454947210120">
+<attribute NAME="gating" VALUE="none"/>
+<attribute NAME="activation" VALUE="constitutive"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        always open
+      </li>
+      <li>
+        responsible for resting membrane potential
+
+        <ul>
+          <li>
+            membrane permable for K+, but not for Na+ and Ca+ =&gt; Em close to E_k
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_potassium_leak.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="nonselective" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
