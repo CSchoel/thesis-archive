@@ -344,7 +344,8 @@
 			var ROTATE = 1;   // phase 1: rotate
 			var RELEASE = 2;  // phase 2: release ions
 			var reversed = false;
-			var pumpAngleMax = 45;
+			var pumpAngleStart = 45;
+			var pumpAngleTurn = 180;
 			var cdur = 50; // cycle duration
 			var pdur = cdur / 3.0; // phase duration
 			var cphase = t % cdur;
@@ -362,19 +363,19 @@
 			}
 
 			if (phase == BIND) {
-				pumpAngle = pumpAngleMax;
+				pumpAngle = pumpAngleStart;
 				caPath = "nacaeIp_cai";
 				caPer = pphase;
 				naPath = "nacaeIp_nai";
 				naPer = pphase;
 			} else if (phase == ROTATE) {
-				pumpAngle = (pphase - 0.5) * 2 * pumpAngleMax;
+				pumpAngle = pumpAngleStart - pumpAngleTurn * pphase;
 				caPath = "nacaeIp_cai";
 				caPer = 1;
 				naPath = "nacaeIp_nai";
 				naPer = 1;
 			} else if (phase == RELEASE) {
-				pumpAngle = -pumpAngleMax;
+				pumpAngle = pumpAngleStart;
 				caPath = "nacaeIp_cao";
 				caPer = pphase;
 				naPath = "nacaeIp_nao";
@@ -382,7 +383,7 @@
 			}
 
 			// rotate pump
-			var rot = "r "+(poreAngle)+" "+rot_centers["nacae_r"].join(",");
+			var rot = "r "+(pumpAngle)+" "+rot_centers["nacae_p"].join(",");
 			pump.attr("transform", rot);
 
 			// move ions
@@ -390,6 +391,7 @@
 			moveIonsSingle(im, naPer, naPath+"_", "#nacaeI_na_");
 
 			if (phase == ROTATE) {
+				rot = "r "+(pumpAngle - pumpAngleStart)+" "+rot_centers["nacae_p"].join(",");
 				// rotate ions with pump
 				transformIons(im, "#nacaeI_ca_", rot);
 				transformIons(im, "#nacaeI_na_", rot);
