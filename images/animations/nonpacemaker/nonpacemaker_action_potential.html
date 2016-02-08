@@ -361,7 +361,7 @@
 				phase = RELEASE;
 				pdur = tr1;
 				reversed = false;
-				pphase = 1.0 * t / (pdur - 1);
+				pphase = clipToPer(1.0 * t / (pdur - 1));
 			} else if (t < tr2) {
 				cdur = 48;
 				pdur = Math.round(cdur / 3.0);
