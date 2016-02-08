@@ -234,6 +234,7 @@
 			var cphase = t % cdur;
 			var phase = Math.floor(cphase / pdur);
 			var pphase = (cphase % pdur) / (pdur-1);
+			pphase = clipToPer(pphase);
 			var poreLeft = im.select("#naka_l");
 			var poreRight = im.select("#naka_r");
 			var phosphorSite = im.select("#naka_ps");
@@ -301,6 +302,7 @@
 				naClose = 1;
 				kClose = 0;
 			}
+
 			// roate pores and phosphor binding site
 			var tr = "r "+(-poreAngle)+" "+rot_centers["naka_r"].join(",");
 			poreLeft.attr("transform", "r "+(poreAngle)+" "+rot_centers["naka_l"].join(","));
@@ -351,6 +353,7 @@
 			var cphase = t % cdur;
 			var phase = Math.floor(cphase / pdur);
 			var pphase = (cphase % pdur) / (pdur-1);
+			pphase = clipToPer(pphase);
 			var pump = im.select("#nacae_p");			
 
 			var pumpAngle;
@@ -384,7 +387,7 @@
 				naPath = "nacaeIp_nao";
 				naPer = pphase;
 			}
-
+			
 			// rotate pump
 			var rot = "r "+(pumpAngle)+" "+rot_centers["nacae_p"].join(",");
 			pump.attr("transform", rot);
@@ -399,6 +402,12 @@
 				transformIons(im, "#nacaeI_ca_", rot + " r 45");
 				transformIons(im, "#nacaeI_na_", rot);
 			}
+		}
+
+		clipToPer = function(x) {
+			if (x < 0) { return 0; }
+			if (x > 1) { return 1; }
+			return x;
 		}
 
 		transformIons = function (image, xml_prefix, trans_str) {

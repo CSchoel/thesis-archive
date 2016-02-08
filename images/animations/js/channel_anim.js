@@ -120,6 +120,7 @@ moveAlongPath = function(t, periods, ion, path) {
  - path (path element) the path to which the circle/ellipse should be moved 
 \*/
 setOnPath = function(per, ion, path) {
+	if (per < 0 || per > 1) { throw "argument per must be between 0 and 1, was "+per }
 	var l = path.getTotalLength();
 	var p = path.getPointAtLength(l * per);
 	ion.attr({cx: p.x, cy: p.y, transform: "r "+(p.alpha+90)});
