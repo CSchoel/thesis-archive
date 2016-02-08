@@ -345,16 +345,42 @@
 			var BIND = 0;     // phase 0: bind ions
 			var ROTATE = 1;   // phase 1: rotate
 			var RELEASE = 2;  // phase 2: release ions
-			var reversed = true;
+			var reversed = false;
 			var pumpAngleStart = 45;
 			var pumpAngleTurn = 180;
-			var cdur = 51; // cycle duration (sould be divisible by 3)
-			var pdur = Math.round(cdur / 3.0); // phase duration
-			var cphase = t % cdur;
-			var phase = Math.floor(cphase / pdur);
-			var pphase = (cphase % pdur) / (pdur-1);
-			pphase = clipToPer(pphase);
 			var pump = im.select("#nacae_p");			
+
+			var cdur, pdur;
+			var phase;
+			var cphase, pphase;
+
+			// normal from t = 0 to t = 16
+			// reversed from t = 16 to t = 166
+			// normal from t = 166 to t = 300
+			var tr1 = 16; // time of first reversal
+			var tr2 = 166; // time of second reversal
+			if (t < tr1) {
+				// just one release phase before cycle is reverted
+				phase = RELEASE;
+				pdur = tr1;
+				reversed = false;
+				pphase = 1.0 * t / (pdur - 1);
+			} else if (t < tr2) {
+				cdur = 48;
+				pdur = Math.round(cdur / 3.0);
+				reversed = true;
+				cphase = (t-tr1) % cdur;
+				phase = Math.floor(cphase / pdur);
+				pphase = clipToPer((cphase % pdur) / (pdur-1));
+			} else {
+				cdur = 48;
+				pdur = Math.round(cdur / 3.0);
+				reversed = false;
+				cphase = (t-tr2) % cdur;
+				phase = Math.floor(cphase / pdur);
+				pphase = clipToPer((cphase % pdur) / (pdur-1));
+			}
+			
 
 			var pumpAngle;
 			var caPath, caPer;
