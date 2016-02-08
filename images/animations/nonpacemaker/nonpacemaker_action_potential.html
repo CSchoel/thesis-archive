@@ -343,7 +343,7 @@
 			var BIND = 0;     // phase 0: bind ions
 			var ROTATE = 1;   // phase 1: rotate
 			var RELEASE = 2;  // phase 2: release ions
-			var reversed = false;
+			var reversed = true;
 			var pumpAngleStart = 45;
 			var pumpAngleTurn = 180;
 			var cdur = 51; // cycle duration (sould be divisible by 3)
@@ -359,7 +359,10 @@
 
 			if (reversed) {
 				pphase = 1 - pphase; // do all phases in reverse
-				// FIXME: do we also need to reverse order of phases to RELEASE-ROTATE-BIND?
+				// swap bind and release phases
+				var tmp = BIND;
+				BIND = RELEASE;
+				RELEASE = tmp;
 			}
 
 			if (phase == BIND) {
