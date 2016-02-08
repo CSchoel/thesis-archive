@@ -108,7 +108,10 @@
 					pOffs[k] = periodOffsets(noff, roff);	
 				}
 				i++;
-			}	
+			}
+			if (i == 0) {
+				alert("no paths found for prefix "+prefix);
+			}
 		}
 		
 		// fast natrium channels
