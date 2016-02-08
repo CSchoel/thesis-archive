@@ -346,7 +346,7 @@
 			var reversed = false;
 			var pumpAngleStart = 45;
 			var pumpAngleTurn = 180;
-			var cdur = 50; // cycle duration
+			var cdur = 51; // cycle duration (sould be divisible by 3)
 			var pdur = Math.round(cdur / 3.0); // phase duration
 			var cphase = t % cdur;
 			var phase = Math.floor(cphase / pdur);
