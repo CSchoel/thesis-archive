@@ -23,10 +23,6 @@
 		setStartStates = function(im) {
 			findAndStore(im, startPaths, "t", "#time0");
 			findAndStore(im, endPaths, "t", "#time300");
-			// Open lid of fast Na+ channel
-			var lid = im.select("#poreLid");
-			var hinge = lid.node.pathSegList.getItem(0);
-			lid.attr({transform: "r150 "+hinge.x+" "+hinge.y});
 			// find start paths of fna pore
 			findAndStore(im, startPaths, "fnal", "#poreLeft");
 			findAndStore(im, endPaths, "fnal", "#poreLeftOpen");
