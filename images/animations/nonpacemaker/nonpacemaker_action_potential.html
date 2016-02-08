@@ -393,7 +393,7 @@
 			if (phase == ROTATE) {
 				rot = "r "+(pumpAngle - pumpAngleStart)+" "+rot_centers["nacae_p"].join(",");
 				// rotate ions with pump
-				transformIons(im, "#nacaeI_ca_", rot);
+				transformIons(im, "#nacaeI_ca_", rot + " r 45");
 				transformIons(im, "#nacaeI_na_", rot);
 			}
 		}
