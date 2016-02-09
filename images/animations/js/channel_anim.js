@@ -242,7 +242,7 @@ forEachWithId = function(image, prefix, f, with_index, ignore_missing) {
 }
 
 /*\
- * clipToPer
+ * clip01
  [method]
  * Clips the given value to a value between 0 and 1
 
@@ -250,7 +250,7 @@ forEachWithId = function(image, prefix, f, with_index, ignore_missing) {
  - x (number) the value to clip
  = clipped value between 0 and 1 
 \*/
-clipToPer = function(x) {
+clip01 = function(x) {
 	if (x < 0) { return 0; }
 	if (x > 1) { return 1; }
 	return x;

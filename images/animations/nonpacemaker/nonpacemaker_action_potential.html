@@ -232,7 +232,7 @@
 			var cphase = t % cdur;
 			var phase = Math.floor(cphase / pdur);
 			var pphase = (cphase % pdur) / (pdur-1);
-			pphase = clipToPer(pphase);
+			pphase = clip01(pphase);
 			var poreLeft = im.select("#naka_l");
 			var poreRight = im.select("#naka_r");
 			var phosphorSite = im.select("#naka_ps");
@@ -362,21 +362,21 @@
 				phase = RELEASE;
 				pdur = tr1;
 				reversed = false;
-				pphase = clipToPer(1.0 * t / (pdur - 1));
+				pphase = clip01(1.0 * t / (pdur - 1));
 			} else if (t < tr2) {
 				cdur = 48;
 				pdur = Math.round(cdur / 3.0);
 				reversed = true;
 				cphase = (t-tr1) % cdur;
 				phase = Math.floor(cphase / pdur);
-				pphase = clipToPer((cphase % pdur) / (pdur-1));
+				pphase = clip01((cphase % pdur) / (pdur-1));
 			} else {
 				cdur = 48;
 				pdur = Math.round(cdur / 3.0);
 				reversed = false;
 				cphase = (t-tr2) % cdur;
 				phase = Math.floor(cphase / pdur);
-				pphase = clipToPer((cphase % pdur) / (pdur-1));
+				pphase = clip01((cphase % pdur) / (pdur-1));
 			}
 			
 
@@ -449,7 +449,7 @@
 			var start_ca = 100;
 			var end_ca = 138;
 			var pca = 1.0 * (t - start_ca) / (end_ca - start_ca)
-			pca = clipToPer(pca);
+			pca = clip01(pca);
 			setOnPath(pca, im.select("#caap_ca"), animPaths["caap_ca"]);
 		}
 
