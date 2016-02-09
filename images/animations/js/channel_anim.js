@@ -185,3 +185,33 @@ addOff = function(basePer, perOff) {
 	}
 	return mod;
 }
+
+
+makeAbs = function(path) {
+	path.attr("d", Snap.path.toAbsolute(path.attr("d")));
+}
+
+findAndStore = function(image, obj, key, xml_id) {
+	obj[key] = deepcopy(image.select("#"+xml_id)).node.pathSegList;
+}
+
+forEachWithId = function(image, prefix, f, with_index, ignore_missing) {
+	if (with_index === undefined) { with_index = false; }
+	if (ignore_missing === undefined) { ignore_missing = true; }
+	var i = 0;
+	var el;
+	while (el = image.select("#"+prefix+i)) {
+		if (with_index) { f(el, i); } else { f(el); }
+		i++;
+	}
+	if (i == 0 && !ignore_missing) {
+		throw "no elements found for prefix "+prefix;
+	}
+}
+
+clipToPer = function(x) {
+	if (x < 0) { return 0; }
+	if (x > 1) { return 1; }
+	return x;
+}
+

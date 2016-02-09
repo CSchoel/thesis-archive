@@ -98,27 +98,6 @@
 			animPaths["caap_ca"] = deepcopy(im.select("#caap_cap"));
 		}
 
-		makeAbs = function(path) {
-			path.attr("d", Snap.path.toAbsolute(path.attr("d")));
-		}
-
-		findAndStore = function(image, obj, key, xml_id) {
-			obj[key] = deepcopy(image.select(xml_id)).node.pathSegList;
-		}
-
-		forEachWithId = function(image, prefix, f, ignore_missing) {
-			if (ignore_missing === undefined) { ignore_missing = true; }
-			var i = 0;
-			var el;
-			while (el = image.select("#"+prefix+i)) {
-				f(el);
-				i++;
-			}
-			if (i == 0 && !ignore_missing) {
-				throw "no elements found for prefix "+prefix;
-			}
-		}
-
 		findAndStoreP = function(image, prefix, noff, roff) {
 			forEachWithId(image, prefix, function(el) {
 				animPaths[el.attr("id")] = deepcopy(el);
@@ -467,12 +446,6 @@
 			var pca = 1.0 * (t - start_ca) / (end_ca - start_ca)
 			pca = clipToPer(pca);
 			setOnPath(pca, im.select("#caap_ca"), animPaths["caap_ca"]);
-		}
-
-		clipToPer = function(x) {
-			if (x < 0) { return 0; }
-			if (x > 1) { return 1; }
-			return x;
 		}
 
 		transformIons = function (image, xml_prefix, trans_str) {
