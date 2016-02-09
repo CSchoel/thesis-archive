@@ -186,18 +186,50 @@ addOff = function(basePer, perOff) {
 	return mod;
 }
 
+/*\
+ * makeAbs
+ [method]
+ * makes the path definition of a path node absolute (M instead of m, L instead of l, ...)
 
+ > Arguments
+ - path (snap.svg node) path object that should get an absolute definition 
+\*/
 makeAbs = function(path) {
 	path.attr("d", Snap.path.toAbsolute(path.attr("d")));
 }
 
+/*\
+ * findAndStore
+ [method]
+ * small convenience method that stores a copy of an element in an object
+
+ > Arguments
+ - image (snap document) document in which the element should be found
+ - obj (object) where to store the object
+ - key (string) key under which the object should be stored
+ - xml_id (string) id of the element
+\*/
 findAndStore = function(image, obj, key, xml_id) {
 	obj[key] = deepcopy(image.select("#"+xml_id)).node.pathSegList;
 }
 
+/*\
+ * forEachWithId
+ [method]
+ * invokes a callback for each element found that has an id starting with the given
+ * prefix followed by an index number. The search will be started at index 0 and will end
+ * when no element with the current index can be found.
+
+ > Arguments
+ - image (snap document) document in which the element should be found
+ - prefix (string) prefix for the xml-id, search will start with id '<prefix>0'
+ - f (function) callback that can either take only the element (with_index = false) or the element and the index as argument
+ - with_index (boolean) if true, both the found element and the index of the element will be passed to the callback function (default false) 
+ - ignore_missing (boolean) if false, an error will be thrown when no elements could be found (default false)
+\*/
 forEachWithId = function(image, prefix, f, with_index, ignore_missing) {
 	if (with_index === undefined) { with_index = false; }
-	if (ignore_missing === undefined) { ignore_missing = true; }
+	if (ignore_missing === undefined) { ignore_missing = false; }
 	var i = 0;
 	var el;
 	while (el = image.select("#"+prefix+i)) {
@@ -209,6 +241,15 @@ forEachWithId = function(image, prefix, f, with_index, ignore_missing) {
 	}
 }
 
+/*\
+ * clipToPer
+ [method]
+ * Clips the given value to a value between 0 and 1
+
+ > Arguments
+ - x (number) the value to clip
+ = clipped value between 0 and 1 
+\*/
 clipToPer = function(x) {
 	if (x < 0) { return 0; }
 	if (x > 1) { return 1; }
