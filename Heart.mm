@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
-<hook NAME="MapStyle" zoom="1.152">
+<hook NAME="MapStyle" zoom="0.952">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -1418,7 +1418,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="nonpacemaker action potential" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1453986099861"><richcontent TYPE="DETAILS">
+<node TEXT="nonpacemaker action potential" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1455007280637"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1452,7 +1452,7 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2026_Action_Potential_Heart_Contraction.jpg" SIZE="0.32661948" NAME="ExternalObject"/>
-<node TEXT="phase 0: depolarization" ID="ID_514606924" CREATED="1453897707585" MODIFIED="1453907923325"><richcontent TYPE="DETAILS">
+<node TEXT="phase 0: depolarization" ID="ID_514606924" CREATED="1453897707585" MODIFIED="1455007027363"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1464,7 +1464,7 @@
         initiated by increase in conductance of voltage-gated fast Na+ channels
       </li>
       <li>
-        g'K+ falls
+        g'K+ falls (due to closing of inward rectifiers)
       </li>
       <li>
         =&gt; membrane potential rapidly moves away from potassium equilibrium to sodium equilibrium
@@ -1472,6 +1472,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="phase 1: initial repolarization" ID="ID_1031897482" CREATED="1453897707585" MODIFIED="1453908568926"><richcontent TYPE="DETAILS">
@@ -1579,7 +1580,7 @@
 </node>
 </node>
 </node>
-<node TEXT="pacemaker action potential" FOLDED="true" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1453986129984" VGAP="16"><richcontent TYPE="DETAILS">
+<node TEXT="pacemaker action potential" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1455007231669" VGAP="16"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1594,7 +1595,7 @@
         pacemaker cells have no true resting potential, because they do not rest ;P
       </li>
       <li>
-        depolarization maily by relatively slow Ca++ currents (through L-Type calcium channels)
+        depolarization mainly by relatively slow Ca++ currents (through L-Type calcium channels)
       </li>
       <li>
         sometimes called &quot;slow response&quot; action potentials, because depolarization is slower
@@ -1605,6 +1606,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2020_SA_Node_Tracing.jpg" SIZE="0.359928" NAME="ExternalObject"/>
 <node TEXT="overdrive suppression" ID="ID_1990788239" CREATED="1453897707586" MODIFIED="1454083716621"><richcontent TYPE="DETAILS">
@@ -1626,7 +1628,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="phases" FOLDED="true" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
+<node TEXT="phases" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
 <node TEXT="phase 0: depolarization" FOLDED="true" ID="ID_292516788" CREATED="1453897707586" MODIFIED="1453909541084"><richcontent TYPE="DETAILS">
 
 <html>
