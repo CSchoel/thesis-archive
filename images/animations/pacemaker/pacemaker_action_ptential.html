@@ -448,7 +448,6 @@
 		updateAnim = function(im, t) {
 			// update time slider
 			morph(1.0 * t / tend, im.select("#time0").node.pathSegList, startPaths["t"], endPaths["t"]);
-			fna(im, t);
 			cal(im, t);
 			ir(im, t);
 			to(im, t);
