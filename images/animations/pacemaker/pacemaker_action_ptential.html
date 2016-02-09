@@ -27,6 +27,9 @@
 		var slider;
 		
 		setStartStates = function(im) {
+			findAndStore(im, startPaths, "t", "time0");
+			findAndStore(im, endPaths, "t", "time300");
+
 			//cal
 			findAndStore(im, startPaths, "cal_l", "cal_l");
 			findAndStore(im, endPaths, "cal_l", "cal_lo");
