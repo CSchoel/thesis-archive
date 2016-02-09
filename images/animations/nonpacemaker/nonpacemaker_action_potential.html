@@ -106,20 +106,26 @@
 			obj[key] = deepcopy(image.select(xml_id)).node.pathSegList;
 		}
 
-		findAndStoreP = function(image, prefix, noff, roff) {
+		forEachWithId = function(image, prefix, f, ignore_missing) {
+			if (ignore_missing === undefined) { ignore_missing = true; }
 			var i = 0;
-			var p;
-			while(p = image.select("#"+prefix + i)) {
-				var k = prefix+i;
-				animPaths[k] = deepcopy(p);
-				if (noff > 0) {
-					pOffs[k] = periodOffsets(noff, roff);	
-				}
+			var el;
+			while (el = image.select("#"+prefix+i)) {
+				f(el);
 				i++;
 			}
-			if (i == 0) {
-				alert("no paths found for prefix "+prefix);
+			if (i == 0 && !ignore_missing) {
+				throw "no elements found for prefix "+prefix;
 			}
+		}
+
+		findAndStoreP = function(image, prefix, noff, roff) {
+			forEachWithId(image, prefix, function(el) {
+				animPaths[el.attr("id")] = deepcopy(el);
+				if (noff > 0) {
+					pOffs[el.attr("id")] = periodOffsets(noff, roff);
+				}
+			});
 		}
 		
 		// fast natrium channels
