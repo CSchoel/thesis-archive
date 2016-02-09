@@ -88,6 +88,14 @@
 
 			//kl
 			findAndStoreP(im, "klIp_", 20, 20);
+
+			//caap
+			findAndStore(im, startPaths, "caap_l", "#caap_l");
+			findAndStore(im, endPaths,   "caap_l", "#caap_lo");
+			findAndStore(im, startPaths, "caap_r", "#caap_r");
+			findAndStore(im, endPaths,   "caap_r", "#caap_ro");
+			findAndStoreP(im, "caapIp_", 20, 20);
+			animPaths["caap_ca"] = deepcopy(im.select("#caap_cap"));
 		}
 
 		makeAbs = function(path) {
@@ -437,6 +445,24 @@
 			moveIons(im, t, ionPer, "klIp_", "#klI_");
 		}
 
+		// calcium-activated potassium channels
+		caap = function(im, t) {
+			var act = [138, 150, 400, 410];
+			var pact = rectRamp(t, act);
+			
+			morph(pact, im.select("#caap_l").node.pathSegList, startPaths["caap_l"], endPaths["caap_l"]);
+			morph(pact, im.select("#caap_r").node.pathSegList, startPaths["caap_r"], endPaths["caap_r"]);
+
+			var ionPer = periods(150, 300, 4);
+			moveIons(im, t, ionPer, "caapIp_", "#caapI_");
+
+			var start_ca = 100;
+			var end_ca = 138;
+			var pca = 1.0 * (t - start_ca) / (end_ca - start_ca)
+			pca = clipToPer(pca);
+			setOnPath(pca, im.select("#caap_ca"), animPaths["caap_ca"]);
+		}
+
 		clipToPer = function(x) {
 			if (x < 0) { return 0; }
 			if (x > 1) { return 1; }
@@ -486,6 +512,7 @@
 			naka(im, t);
 			nacae(im, t);
 			kl(im, t);
+			caap(im, t);
 			slider.value = t;
 			$('#sliderT').text(Math.round(t)+' ms');
 		}
