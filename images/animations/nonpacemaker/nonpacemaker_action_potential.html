@@ -22,21 +22,21 @@
 		var slider;
 		
 		setStartStates = function(im) {
-			findAndStore(im, startPaths, "t", "#time0");
-			findAndStore(im, endPaths, "t", "#time300");
+			findAndStore(im, startPaths, "t", "time0");
+			findAndStore(im, endPaths, "t", "time300");
 			// find start paths of fna pore
-			findAndStore(im, startPaths, "fnal", "#poreLeft");
-			findAndStore(im, endPaths, "fnal", "#poreLeftOpen");
-			findAndStore(im, startPaths, "fnar", "#poreRight");
-			findAndStore(im, endPaths, "fnar", "#poreRightOpen");
+			findAndStore(im, startPaths, "fnal", "poreLeft");
+			findAndStore(im, endPaths, "fnal", "poreLeftOpen");
+			findAndStore(im, startPaths, "fnar", "poreRight");
+			findAndStore(im, endPaths, "fnar", "poreRightOpen");
 			// find start paths for fna Na+ ions
 			findAndStoreP(im, "fnaIp_", 2, 2);
 
 			//cal
-			findAndStore(im, startPaths, "cal_l", "#cal_l");
-			findAndStore(im, endPaths, "cal_l", "#cal_lo");
-			findAndStore(im, startPaths, "cal_r", "#cal_r");
-			findAndStore(im, endPaths, "cal_r", "#cal_ro");
+			findAndStore(im, startPaths, "cal_l", "cal_l");
+			findAndStore(im, endPaths, "cal_l", "cal_lo");
+			findAndStore(im, startPaths, "cal_r", "cal_r");
+			findAndStore(im, endPaths, "cal_r", "cal_ro");
 			findAndStoreP(im, "calIp_", 20, 20);
 
 			//ir
@@ -44,12 +44,12 @@
 			findAndStoreP(im, "irIp_", 20, 20);
 
 			//to
-			findAndStore(im, startPaths, "to_l", "#to_l");
-			findAndStore(im, endPaths,   "to_l", "#to_lo");
-			findAndStore(im, startPaths, "to_r", "#to_r");
-			findAndStore(im, endPaths,   "to_r", "#to_ro");
-			findAndStore(im, startPaths, "to_c", "#to_c");
-			findAndStore(im, endPaths,   "to_c", "#to_ci");
+			findAndStore(im, startPaths, "to_l", "to_l");
+			findAndStore(im, endPaths,   "to_l", "to_lo");
+			findAndStore(im, startPaths, "to_r", "to_r");
+			findAndStore(im, endPaths,   "to_r", "to_ro");
+			findAndStore(im, startPaths, "to_c", "to_c");
+			findAndStore(im, endPaths,   "to_c", "to_ci");
 			animPaths["to_b"] = deepcopy(im.select("#to_bp"));
 			findAndStoreP(im, "toIp_", 2, 2);
 
@@ -58,19 +58,19 @@
 			makeAbs(im.select("#dr_r"));
 			makeAbs(im.select("#dr_lio"));
 			makeAbs(im.select("#dr_rio"));
-			findAndStore(im, startPaths, "dr_l", "#dr_l");
-			findAndStore(im, endPaths,   "dr_l", "#dr_lio");
-			findAndStore(im, startPaths, "dr_r", "#dr_r");
-			findAndStore(im, endPaths,   "dr_r", "#dr_rio");
+			findAndStore(im, startPaths, "dr_l", "dr_l");
+			findAndStore(im, endPaths,   "dr_l", "dr_lio");
+			findAndStore(im, startPaths, "dr_r", "dr_r");
+			findAndStore(im, endPaths,   "dr_r", "dr_rio");
 			findAndStoreP(im, "drIp_", 10, 10);
 
 			//naka
 			rot_centers["naka_l"] = [im.select("#nakaR_l").attr("cx"), im.select("#nakaR_l").attr("cy")];
 			rot_centers["naka_r"] = [im.select("#nakaR_r").attr("cx"), im.select("#nakaR_r").attr("cy")];
-			findAndStore(im, startPaths, "naka_l", "#naka_l");
-			findAndStore(im, endPaths,   "naka_l", "#naka_lc");
-			findAndStore(im, startPaths, "naka_r", "#naka_r");
-			findAndStore(im, endPaths,   "naka_r", "#naka_rc");
+			findAndStore(im, startPaths, "naka_l", "naka_l");
+			findAndStore(im, endPaths,   "naka_l", "naka_lc");
+			findAndStore(im, startPaths, "naka_r", "naka_r");
+			findAndStore(im, endPaths,   "naka_r", "naka_rc");
 			findAndStoreP(im, "nakaIp_ko_", 0, 0);
 			findAndStoreP(im, "nakaIp_nai_", 0, 0);
 			findAndStoreP(im, "nakaIp_ki_", 0, 0);
@@ -90,10 +90,10 @@
 			findAndStoreP(im, "klIp_", 20, 20);
 
 			//caap
-			findAndStore(im, startPaths, "caap_l", "#caap_l");
-			findAndStore(im, endPaths,   "caap_l", "#caap_lo");
-			findAndStore(im, startPaths, "caap_r", "#caap_r");
-			findAndStore(im, endPaths,   "caap_r", "#caap_ro");
+			findAndStore(im, startPaths, "caap_l", "caap_l");
+			findAndStore(im, endPaths,   "caap_l", "caap_lo");
+			findAndStore(im, startPaths, "caap_r", "caap_r");
+			findAndStore(im, endPaths,   "caap_r", "caap_ro");
 			findAndStoreP(im, "caapIp_", 20, 20);
 			animPaths["caap_ca"] = deepcopy(im.select("#caap_cap"));
 		}
@@ -126,7 +126,7 @@
 			
 			// moves ions
 			var ionPer = periods(5,15,2);
-			moveIons(im, t, ionPer, "fnaIp_", "#fnaI_");
+			moveIons(im, t, ionPer, "fnaIp_", "fnaI_");
 		}
 
 		// l-type calcium channels
@@ -145,7 +145,7 @@
 			morph(pact, im.select("#cal_r").node.pathSegList, startPaths["cal_r"], endPaths["cal_r"]);
 
 			var ionPer = periods(17, 150, 5);
-			moveIons(im, t, ionPer, "calIp_", "#calI_");
+			moveIons(im, t, ionPer, "calIp_", "calI_");
 		}
 
 		// inward rectifier
@@ -162,7 +162,7 @@
 			sp.attr("transform", "r "+(p.alpha+90));
 
 			var ionPer = periods(220, 350, 5);
-			moveIons(im, t, ionPer, "irIp_", "#irI_");
+			moveIons(im, t, ionPer, "irIp_", "irI_");
 		}
 
 		// transient outward
@@ -186,7 +186,7 @@
 			morph(pact, im.select("#to_r").node.pathSegList, startPaths["to_r"], endPaths["to_r"]);
 
 			var ionPer = periods(10, 30, 2);
-			moveIons(im, t, ionPer, "toIp_", "#toI_");
+			moveIons(im, t, ionPer, "toIp_", "toI_");
 		}
 
 		// delayed rectifier
@@ -213,7 +213,7 @@
 			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 6);
 
 			var ionPer = periods(190, 280, 3);
-			moveIons(im, t, ionPer, "drIp_", "#drI_");
+			moveIons(im, t, ionPer, "drIp_", "drI_");
 		}
 
 		//na+/k+-ATPase
@@ -307,8 +307,8 @@
 			morph(kClose, im.select("#naka_r").node.pathSegList, startPaths["naka_r"], endPaths["naka_r"]);
 
 			// move ions
-			moveIonsSingle(im, naPer, naPath+"_", "#nakaI_na_");
-			moveIonsSingle(im, kPer, kPath+"_", "#nakaI_k_");
+			moveIonsSingle(im, naPer, naPath+"_", "nakaI_na_");
+			moveIonsSingle(im, kPer, kPath+"_", "nakaI_k_");
 			
 			// move phosphor
 			setOnPath(pPer, im.select("#naka_p"), animPaths[pPath]);
@@ -317,13 +317,13 @@
 			var rr = "r "+(-poreAngle + poreAngleMax)+" "+rot_centers["naka_r"].join(",");
 			if (phase == ROT_NA) {
 				// sodium ions are in the pore => have to be rotated with pore
-				transformIons(im, "#nakaI_na_", rl);
+				transformIons(im, "nakaI_na_", rl);
 			}
 
 			if (phase == ROT_K) {
 				// potassium ions are in the pore => have to be rotated with pore
 				var rot = "r "+(-poreAngle - poreAngleMax)+" "+rot_centers["naka_r"].join(",");
-				transformIons(im, "#nakaI_k_", rot);
+				transformIons(im, "nakaI_k_", rot);
 			}
 
 			if (phase == ROT_NA || phase == ACC_K) {
@@ -412,14 +412,14 @@
 			pump.attr("transform", rot);
 
 			// move ions
-			moveIonsSingle(im, caPer, caPath+"_", "#nacaeI_ca_");
-			moveIonsSingle(im, naPer, naPath+"_", "#nacaeI_na_");
+			moveIonsSingle(im, caPer, caPath+"_", "nacaeI_ca_");
+			moveIonsSingle(im, naPer, naPath+"_", "nacaeI_na_");
 
 			if (phase == ROTATE) {
 				rot = "r "+(pumpAngle - pumpAngleStart)+" "+rot_centers["nacae_p"].join(",");
 				// rotate ions with pump
-				transformIons(im, "#nacaeI_ca_", rot + " r 45");
-				transformIons(im, "#nacaeI_na_", rot);
+				transformIons(im, "nacaeI_ca_", rot + " r 45");
+				transformIons(im, "nacaeI_na_", rot);
 			}
 		}
 
@@ -427,7 +427,7 @@
 		kl = function(im, t) {
 			// we only need to move ions, because the channel is open anyway
 			var ionPer = periods(0, tend, 4);
-			moveIons(im, t, ionPer, "klIp_", "#klI_");
+			moveIons(im, t, ionPer, "klIp_", "klI_");
 		}
 
 		// calcium-activated potassium channels
@@ -439,7 +439,7 @@
 			morph(pact, im.select("#caap_r").node.pathSegList, startPaths["caap_r"], endPaths["caap_r"]);
 
 			var ionPer = periods(150, 300, 4);
-			moveIons(im, t, ionPer, "caapIp_", "#caapI_");
+			moveIons(im, t, ionPer, "caapIp_", "caapI_");
 
 			var start_ca = 100;
 			var end_ca = 138;
@@ -449,35 +449,22 @@
 		}
 
 		transformIons = function (image, xml_prefix, trans_str) {
-			var i = 0;
-			var ion;
-			while (ion = image.select(xml_prefix + i)) {
+			forEachWithId(image, xml_prefix, function(ion) {
 				ion.attr("transform", trans_str);
-				i++;
-			}
+			});
 		}
 
 		moveIonsSingle = function (image, per, path_prefix, xml_prefix) {
-			var i = 0;
-			var ion;
-			while (ion = image.select(xml_prefix + i)) {
-				var k = path_prefix + i;
-				setOnPath(per, ion, animPaths[k]);
-				i++;
-			}
-			if (i == 0) {
-				alert("no ions found with prefix "+xml_prefix);
-			}
+			forEachWithId(image, xml_prefix, function(ion, i) {
+				setOnPath(per, ion, animPaths[path_prefix + i]);
+			}, true);
 		}
 
 		moveIons = function(image, t, periods, path_prefix, xml_prefix) {
-			var i = 0;
-			var ion;
-			while (ion = image.select(xml_prefix + i)) {
+			forEachWithId(image, xml_prefix, function(ion, i) {
 				var k = path_prefix + i;
 				moveAlongPath(t, addOff(periods, pOffs[k]), ion, animPaths[k]);
-				i++;
-			}
+			}, true);
 		}
 
 		updateAnim = function(im, t) {
