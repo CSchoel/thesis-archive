@@ -8,6 +8,11 @@
 	<script src="../js/channel_anim.js"></script>
 	<script src="../lib/pathseg.js"></script> <!-- polyfill to use pathSegList that chrome has deprecated -->
 	<script type="text/javascript">
+		/*
+		 * General Note: In images added with Snap.load(...), element.attr("id") will give a generated id while
+		 * element.node.id will give the original id of the node from the loaded document.
+		 */
+
 		var t0 = 0;
 		var tend = 300;
 		var animDur = 10000;
@@ -100,9 +105,9 @@
 
 		findAndStoreP = function(image, prefix, noff, roff) {
 			forEachWithId(image, prefix, function(el) {
-				animPaths[el.attr("id")] = deepcopy(el);
+				animPaths[el.node.id] = deepcopy(el);
 				if (noff > 0) {
-					pOffs[el.attr("id")] = periodOffsets(noff, roff);
+					pOffs[el.node.id] = periodOffsets(noff, roff);
 				}
 			});
 		}
