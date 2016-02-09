@@ -27,16 +27,6 @@
 		var slider;
 		
 		setStartStates = function(im) {
-			findAndStore(im, startPaths, "t", "time0");
-			findAndStore(im, endPaths, "t", "time300");
-			// find start paths of fna pore
-			findAndStore(im, startPaths, "fnal", "poreLeft");
-			findAndStore(im, endPaths, "fnal", "poreLeftOpen");
-			findAndStore(im, startPaths, "fnar", "poreRight");
-			findAndStore(im, endPaths, "fnar", "poreRightOpen");
-			// find start paths for fna Na+ ions
-			findAndStoreP(im, "fnaIp_", 2, 2);
-
 			//cal
 			findAndStore(im, startPaths, "cal_l", "cal_l");
 			findAndStore(im, endPaths, "cal_l", "cal_lo");
@@ -112,28 +102,6 @@
 			});
 		}
 		
-		// fast natrium channels
-		fna = function(im, t) {
-			// sets the opening percentage of the fast Na lid
-			var lid = im.select("#poreLid");
-			var hinge = lid.node.pathSegList.getItem(0);
-			var act = [0, 5, 245, 250];
-			var inact = [0, 17, 245, 263];
-			var maxOpenIn = 150;
-			var pact = rectRamp(t, act);
-			var pinact = rectRamp(t, inact);
-			var deg = (1 - pinact) * maxOpenIn;
-			lid.attr({transform: "r"+deg+" "+hinge.x+" "+hinge.y});
-
-			// sets the open property of the channel
-			morph(pact,im.select("#poreLeft").node.pathSegList, startPaths["fnal"], endPaths["fnal"]);
-			morph(pact,im.select("#poreRight").node.pathSegList, startPaths["fnar"], endPaths["fnar"]);
-			
-			// moves ions
-			var ionPer = periods(5,15,2);
-			moveIons(im, t, ionPer, "fnaIp_", "fnaI_");
-		}
-
 		// l-type calcium channels
 		cal = function(im, t) {
 			var lid = im.select("#cal_lid");
