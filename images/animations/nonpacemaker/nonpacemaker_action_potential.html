@@ -157,8 +157,9 @@
 		ir = function(im, t) {
 			var sp = im.select("#spermine");
 			var spp = animPaths["spermine"];
-			var act = [200, 220, 350, 351];
+			var act = [6, 16, 200, 210];
 			var pact = rectRamp(t, act);
+			pact = 1 - pact;
 
 			var l = spp.getTotalLength() * pact;
 			var p = spp.getPointAtLength(l);
@@ -167,6 +168,7 @@
 			sp.attr("transform", "r "+(p.alpha+90));
 
 			var ionPer = periods(220, 350, 5);
+			ionPer.unshift([2,10]);
 			moveIons(im, t, ionPer, "irIp_", "irI_");
 		}
 
