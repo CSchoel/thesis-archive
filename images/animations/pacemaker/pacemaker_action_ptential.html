@@ -13,17 +13,22 @@
 		 * element.node.id will give the original id of the node from the loaded document.
 		 */
 
+		var	timeFac = 0.05; // how many real time milliseconds per animation millisecond
+		var repaint_loop_id;
+		var tlast = 0; // value of t at last repaint
+		var tglob = 0; // global animation time
 		var t0 = 0;
-		var tend = 300;
-		var animDur = 10000;
-		var tglob = 0;
+		var tend = 800;
 		var startPaths = {};
 		var endPaths = {};
 		var animPaths = {};
 		var pOffs = {};
 		var rot_centers = {};
 		var sglob;
-		var anim = null;
+		var anim_id = null;
+		var anim_start_t = 0;
+		var anim_start_v = 0;
+		var anim_duration = 0;
 		var slider;
 		
 		setStartStates = function(im) {
@@ -461,20 +466,45 @@
 		}
 
 		setTime = function(t) {
-			if (anim) {
-				anim.stop();
-				anim = null;	
+			if (anim_id !== null) {
+				clearInterval(anim_id);
+				anim_id = null;	
 			}
-			updateAnim(sglob, t);
+			tglob = t;
+		}
+
+		updateTime = function() {
+			var rt = (new Date()).getTime();
+			var anim_p = 1.0 * (rt - anim_start_t) / anim_duration;
+			var anim_rem = tend - anim_start_v;
+			//alert(anim_start_v + " " + anim_start_t + " " + anim_rem + " " + anim_p);
+			tglob = anim_start_v + anim_rem * anim_p;
+			if (tglob >= tend) {
+				tglob = tend;
+				clearInterval(anim_id);
+				anim_id = null;
+			}
 		}
 
 		playPause = function() {
-			if(anim) {
-				anim.stop();
-				anim = null;
+			if(anim_id !== null) {
+				clearInterval(anim_id);
+				anim_id = null;
 			} else {
-				var left = animDur * (1.0 - 1.0 * slider.value / tend)
-				anim = Snap.animate(slider.value, tend, function(t) { updateAnim(sglob, t); }, left);
+				anim_id = setInterval(updateTime, 10);
+				anim_start_v = slider.value;
+				anim_start_t = (new Date()).getTime();
+				anim_duration = 1.0 * (tend - anim_start_v) / timeFac;
+			}
+		}
+
+		var c = 0;
+		repaint = function() {
+			if (Math.abs(tlast - tglob) > 0.01) {
+				tlast = tglob;
+				updateAnim(sglob, tglob);
+				c++;
+				$("#test").text("c: "+c);
 			}
 		}
 		
@@ -483,6 +513,7 @@
 			Snap.load("ion_channels_animation_pacemaker_base.svg", function(f) {
 				setStartStates(f);
 				s.append(f.select("g"));
+				repaint_loop_id = setInterval(repaint, 20);
 			});
 			sglob = s;
 			slider = document.getElementById('slider');
@@ -496,9 +527,10 @@
 	</svg>
 	<div>
 		<div>
-			<input id="slider" type="range" name="time" min="0" max="300" value="0" oninput="setTime(this.value)"/> <span id="sliderT">0 ms</span>
+			<input id="slider" type="range" name="time" min="0" max="800" value="0" oninput="setTime(this.value)"/> <span id="sliderT">0 ms</span>
 		</div>
 		<input type="button" name="playPause" onclick="playPause()" value="Play/Pause"/>
+		<span id="test"></span>
 	</div>
 </body>
 </html>
