@@ -475,6 +475,11 @@
 		}
 
 		updateAnim = function(im, t) {
+			/*var oldim = im;
+			var animated = im.selectAll(".animated");
+			animated = Snap.fragment.apply(Snap, animated);
+			im = animated;*/
+			
 			// update time slider
 			morph(1.0 * t / tend, im.select("#time0").node.pathSegList, startPaths["t"], endPaths["t"]);
 			fna(im, t);
@@ -488,6 +493,8 @@
 			caap(im, t);
 			slider.value = t;
 			$('#sliderT').text(Math.round(t)+' ms');
+			
+			//oldim.append(im);
 		}
 
 		setTime = function(t) {
