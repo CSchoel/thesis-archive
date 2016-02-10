@@ -114,8 +114,8 @@
 		cal = function(im, t) {
 			var lid = im.select("#cal_lid");
 			var hinge = [lid.attr("x"), lid.attr("y")];
-			var act = [7, 17, 200, 210]
-			var inact = [17, 167, 200, 350]
+			var act = [16, 26, 160, 170]
+			var inact = [26, 170, 170, 320]
 			var maxOpenIn = 150;
 			var pact = rectRamp(t, act);
 			var pinact = rectRamp(t, inact);
@@ -125,7 +125,7 @@
 			morph(pact, im.select("#cal_l").node.pathSegList, startPaths["cal_l"], endPaths["cal_l"]);
 			morph(pact, im.select("#cal_r").node.pathSegList, startPaths["cal_r"], endPaths["cal_r"]);
 
-			var ionPer = periods(17, 150, 5);
+			var ionPer = periods(28, 155, 5);
 			moveIons(im, t, ionPer, "calIp_", "calI_");
 		}
 
@@ -133,7 +133,7 @@
 		ir = function(im, t) {
 			var sp = im.select("#spermine");
 			var spp = animPaths["spermine"];
-			var act = [6, 16, 200, 210];
+			var act = [12, 22, 156, 166];
 			var pact = rectRamp(t, act);
 			pact = 1 - pact;
 
@@ -143,8 +143,8 @@
 			sp.node.pathSegList.getItem(0).y = p.y;
 			sp.attr("transform", "r "+(p.alpha+90));
 
-			var ionPer = periods(220, 350, 5);
-			ionPer.unshift([2,10]);
+			var ionPer = periods(166, 800, 8);
+			ionPer.unshift([2,16]);
 			moveIons(im, t, ionPer, "irIp_", "irI_");
 		}
 
@@ -152,8 +152,8 @@
 		to = function(im, t) {
 			var ball = im.select("#to_b");
 			var ball_path = animPaths["to_b"];
-			var act = [8, 12, 182, 186];
-			var inact = [8, 32, 182, 205];
+			var act = [22, 26, 124, 128];
+			var inact = [26, 50, 128, 152];
 			var pact = rectRamp(t, act);
 			var pinact = rectRamp(t, inact);
 
@@ -168,7 +168,7 @@
 			morph(pact, im.select("#to_l").node.pathSegList, startPaths["to_l"], endPaths["to_l"]);
 			morph(pact, im.select("#to_r").node.pathSegList, startPaths["to_r"], endPaths["to_r"]);
 
-			var ionPer = periods(10, 30, 2);
+			var ionPer = periods(24, 48, 2);
 			moveIons(im, t, ionPer, "toIp_", "toI_");
 		}
 
