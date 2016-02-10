@@ -35,6 +35,21 @@
 			findAndStore(im, startPaths, "t", "time0");
 			findAndStore(im, endPaths, "t", "time300");
 
+			//hcn
+			findAndStore(im, endPaths, "hcn_l", "hcn_l");
+			findAndStore(im, startPaths, "hcn_l", "hcn_lc");
+			findAndStore(im, endPaths, "hcn_r", "hcn_r");
+			findAndStore(im, startPaths, "hcn_r", "hcn_rc");
+			findAndStoreP(im, "hcnIp_k_", 20, 20);
+			findAndStoreP(im, "hcnIp_na_", 20, 20);
+
+			//cat
+			findAndStore(im, startPaths, "cat_l", "cat_l");
+			findAndStore(im, endPaths, "cat_l", "cat_lo");
+			findAndStore(im, startPaths, "cat_r", "cat_r");
+			findAndStore(im, endPaths, "cat_r", "cat_ro");
+			findAndStoreP(im, "catIp_", 20, 20);
+
 			//cal
 			findAndStore(im, startPaths, "cal_l", "cal_l");
 			findAndStore(im, endPaths, "cal_l", "cal_lo");
@@ -108,6 +123,39 @@
 					pOffs[el.node.id] = periodOffsets(noff, roff);
 				}
 			});
+		}
+
+		// "funny" channels (HCN)
+		hcn = function(im, t) {
+			var act = [16, 26, 160, 170]
+			var pact = rectRamp(t, act);
+			
+			morph(pact, im.select("#hcn_l").node.pathSegList, startPaths["hcn_l"], endPaths["hcn_l"]);
+			morph(pact, im.select("#hcn_r").node.pathSegList, startPaths["hcn_r"], endPaths["hcn_r"]);
+
+			var ionPerK = periods(28, 155, 5);
+			moveIons(im, t, ionPerK, "hcnIp_k_", "hcnI_k_");
+			var ionPerNa = periods(28, 155, 5);
+			moveIons(im, t, ionPerNa, "hcnIp_na_", "hcnI_na_");
+		}
+
+		// t-type calcium channels
+		cat = function(im, t) {
+			var lid = im.select("#cat_lid");
+			var hinge = [lid.attr("x"), lid.attr("y")];
+			var act = [16, 26, 160, 170]
+			var inact = [26, 170, 170, 320]
+			var maxOpenIn = 150;
+			var pact = rectRamp(t, act);
+			var pinact = rectRamp(t, inact);
+			var deg = (1 - pinact) * maxOpenIn;
+			lid.attr({transform: "r"+deg+" "+hinge[0]+" "+hinge[1]});
+
+			morph(pact, im.select("#cat_l").node.pathSegList, startPaths["cat_l"], endPaths["cat_l"]);
+			morph(pact, im.select("#cat_r").node.pathSegList, startPaths["cat_r"], endPaths["cat_r"]);
+
+			var ionPer = periods(28, 155, 5);
+			moveIons(im, t, ionPer, "catIp_", "catI_");
 		}
 		
 		// l-type calcium channels
@@ -453,6 +501,8 @@
 		updateAnim = function(im, t) {
 			// update time slider
 			morph(1.0 * t / tend, im.select("#time0").node.pathSegList, startPaths["t"], endPaths["t"]);
+			hcn(im, t);
+			cat(im, t);
 			cal(im, t);
 			ir(im, t);
 			to(im, t);
