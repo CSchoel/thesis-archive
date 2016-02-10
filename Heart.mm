@@ -146,7 +146,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Na+/K+-ATPAse" ID="ID_1942236220" CREATED="1453905773568" MODIFIED="1454764417441"><richcontent TYPE="DETAILS">
 
@@ -211,7 +210,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="antiport" ID="ID_1318802844" CREATED="1454768597350" MODIFIED="1454768693633"><richcontent TYPE="DETAILS">
 
@@ -230,7 +228,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Sodium-Calcium exchanger" ID="ID_504492500" CREATED="1453897707584" MODIFIED="1454846031138"><richcontent TYPE="DETAILS">
 
@@ -315,7 +312,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook EQUATION="E_x = -61 \cdot \log \frac{[x]_i}{[x]_o}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="ion concentration inside the cell" ID="ID_427363261" CREATED="1453897707583" MODIFIED="1453903709112">
@@ -444,7 +440,7 @@
 <node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
 <node TEXT="Sodium" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
-<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1454498645787"><richcontent TYPE="DETAILS">
+<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1455106449133"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -479,6 +475,9 @@
           </li>
         </ul>
       </li>
+      <li>
+        not present in SAN [Chandler2009]
+      </li>
     </ul>
   </body>
 </html>
@@ -498,7 +497,7 @@
 </node>
 </node>
 <node TEXT="Calcium" ID="ID_1054880499" CREATED="1453997881003" MODIFIED="1453997882549">
-<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1454498693216">
+<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1455106593364">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="inactivation" VALUE="N-type"/>
@@ -523,13 +522,26 @@
       <li>
         undergo calcium-dependent inactivation
       </li>
+      <li>
+        role in SAN [Chandler2009]
+
+        <ul>
+          <li>
+            upstroke of action potential
+          </li>
+          <li>
+            diastolic depolarization
+          </li>
+        </ul>
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_LType.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1454498842073" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
+<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455106620049" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
 <attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="inactivation" VALUE="N-type"/>
@@ -554,9 +566,19 @@
       <li>
         primary alpha1-subunit forms pore
       </li>
+      <li>
+        role in SAN [Chandler2009]
+
+        <ul>
+          <li>
+            diastolic depolarization
+          </li>
+        </ul>
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="6C92FFE844DAC94CAFA673AD21DC4717D766F5AD31984D559364CEDF6722A">
     <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
@@ -752,7 +774,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_potassium_leak.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -844,7 +865,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="inactivating channels" ID="ID_640615334" CREATED="1454495058964" MODIFIED="1454495063862">
 <node TEXT="slow inactivation" ID="ID_155624059" CREATED="1454406951928" MODIFIED="1454406955448">
@@ -870,7 +890,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Molecular biology of the cell" ID="ID_1985859312" CREATED="1454405095205" MODIFIED="1454405139653" LINK="http://www.ncbi.nlm.nih.gov/books/NBK26910/figure/A2044/"/>
 <node TEXT="Armstrong CM, Bezanilla F, Rojas E. Destruction of sodium conductance inactivation in squid axons perfused with pronase.&#xa;J Gen Physiol. 1973;62:375&#x2013;391" ID="ID_1170174706" CREATED="1454495954782" MODIFIED="1454495957330"/>
@@ -889,7 +908,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -910,7 +928,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -929,7 +946,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -955,7 +971,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Molecular Cell Biology, 4th edition&#xa;Lodish, Berk, Zipursky, 2000" ID="ID_1191436814" CREATED="1454500995187" MODIFIED="1454501026419">
@@ -1472,7 +1487,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 1: initial repolarization" ID="ID_1031897482" CREATED="1453897707585" MODIFIED="1453908568926"><richcontent TYPE="DETAILS">
@@ -1606,7 +1620,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2020_SA_Node_Tracing.jpg" SIZE="0.359928" NAME="ExternalObject"/>
 <node TEXT="overdrive suppression" ID="ID_1990788239" CREATED="1453897707586" MODIFIED="1454083716621"><richcontent TYPE="DETAILS">
