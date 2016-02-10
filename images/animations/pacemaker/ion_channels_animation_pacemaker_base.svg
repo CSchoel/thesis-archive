@@ -161,11 +161,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="335.30714"
-     inkscape:cy="407.84137"
+     inkscape:zoom="4"
+     inkscape:cx="132.80754"
+     inkscape:cy="121.73904"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:snap-bbox="true"
@@ -4214,7 +4214,7 @@
     <path
        style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 53.005013,339.18997 15.04856,0 0,37.85715 -15.04856,0 z"
-       id="cat_l"
+       id="path6332"
        inkscape:connector-curvature="0"
        class="animated" />
     <path
@@ -4226,7 +4226,7 @@
        transform="scale(-1,1)" />
     <rect
        style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="car_l"
+       id="cat_l"
        width="32.448975"
        height="4"
        x="53.005013"
@@ -4239,11 +4239,11 @@
        rx="2.1428571"
        cy="310.79474"
        cx="47.05732"
-       id="carI_0"
+       id="catI_0"
        style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <ellipse
        style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="carI_1"
+       id="catI_1"
        cx="59.43232"
        cy="321.66974"
        rx="2.1428571"
@@ -4253,11 +4253,11 @@
        rx="2.1428571"
        cy="305.66974"
        cx="68.55732"
-       id="carI_2"
+       id="catI_2"
        style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <ellipse
        style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="carI_3"
+       id="catI_3"
        cx="79.68232"
        cy="321.54474"
        rx="2.1428571"
@@ -4649,22 +4649,22 @@
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 59.432316,321.66972 c 0,0 3.317653,8.06524 4.317653,12.79273 1,4.7275 5.75,46.75 2.25,53.75 -3.5,7 -22.75,8.25 -22.75,8.25"
-       id="carIp_0"
+       id="catIp_0"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 79.682314,321.54472 c 0,0 -5.432345,0.79273 -7.682345,14.16773 -2.25,13.375 -5.875,53.625 3,58.625 8.875,5 21.5,4.25 21.5,4.25"
-       id="carIp_3"
+       id="catIp_3"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 68.557315,305.66972 c 0,0 7.817654,78.29273 0.567654,89.66773 -7.25,11.375 -17.125,11.25 -17.125,11.25"
-       id="carIp_2"
+       id="catIp_2"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 47.057316,310.79472 c 0,0 18.192653,10.41773 19.567653,20.29273 1.375,9.875 -2.625,56 8.75,59.25 11.375,3.25 15.25,-1 15.25,-1"
-       id="carIp_1"
+       id="catIp_1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
