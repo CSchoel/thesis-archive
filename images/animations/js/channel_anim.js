@@ -210,7 +210,11 @@ makeAbs = function(path) {
  - xml_id (string) id of the element
 \*/
 findAndStore = function(image, obj, key, xml_id) {
-	obj[key] = deepcopy(image.select("#"+xml_id)).node.pathSegList;
+	el = image.select("#"+xml_id)
+	if (el === null) {
+		throw "could not find any element with id "+xml_id
+	}
+	obj[key] = deepcopy(el).node.pathSegList;
 }
 
 /*\
