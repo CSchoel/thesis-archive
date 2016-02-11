@@ -103,16 +103,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="330.11767"
-     inkscape:cy="160.45769"
+     inkscape:zoom="1.979899"
+     inkscape:cx="439.01154"
+     inkscape:cy="126.01329"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1178"
-     inkscape:window-x="2792"
-     inkscape:window-y="712"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="1192"
+     inkscape:window-y="1012"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
      inkscape:snap-bbox="true"
@@ -140,7 +140,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1030,7 +1030,7 @@
          y="400.7211"
          x="262.14285"
          id="tspan33158"
-         sodipodi:role="line">&gt; -60 mV</tspan></text>
+         sodipodi:role="line">&gt; -50 mV</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text33212"
@@ -1908,7 +1908,7 @@
          y="401.43539"
          x="648.02112"
          id="tspan60227"
-         sodipodi:role="line">hyperpol.</tspan></text>
+         sodipodi:role="line">&lt; -50 mv</tspan></text>
     <g
        id="g60229"
        transform="translate(546.20775,87.232159)">
