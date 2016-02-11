@@ -127,15 +127,18 @@
 
 		// "funny" channels (HCN)
 		hcn = function(im, t) {
-			var act = [16, 26, 160, 170]
+			// values mostyl from [Verkerk2015]
+			var act = [0, 116, 182, 300];//[0, 10, 187, 197];
+			//var rev = t > 21 && t < 127;
 			var pact = rectRamp(t, act);
+			pact = 1 - pact;
 			
 			morph(pact, im.select("#hcn_l").node.pathSegList, startPaths["hcn_l"], endPaths["hcn_l"]);
 			morph(pact, im.select("#hcn_r").node.pathSegList, startPaths["hcn_r"], endPaths["hcn_r"]);
 
-			var ionPerK = periods(28, 155, 5);
+			var ionPerK = periods(18, 100, 3);
 			moveIons(im, t, ionPerK, "hcnIp_k_", "hcnI_k_");
-			var ionPerNa = periods(28, 155, 5);
+			var ionPerNa = periods(190, 800, 5);
 			moveIons(im, t, ionPerNa, "hcnIp_na_", "hcnI_na_");
 		}
 
