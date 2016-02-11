@@ -637,7 +637,7 @@
 <hook EQUATION="I_{K1}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1454499143324" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
+<node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1455208105319" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -662,16 +662,20 @@
       <li>
         responsible for phase 1 of cardiac myocyte action potential (initial repolarization)
       </li>
+      <li>
+        less expressed in SAN than in atria [Chandler2009]
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_transient_outward.svg" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="current symbol" ID="ID_6289456" CREATED="1455200410166" MODIFIED="1455200531847">
 <hook EQUATION="I_{to}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455200616496" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
+<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455208138081" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -705,6 +709,9 @@
             slow (I_Ks)
           </li>
         </ul>
+      </li>
+      <li>
+        less expressed in SAN than in atrium [Chandler2009]
       </li>
     </ul>
   </body>
