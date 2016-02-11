@@ -182,8 +182,8 @@
 			var closed_ni_r = startPaths["dr_r"];
 			var open_i_l = endPaths["dr_l"];
 			var open_i_r = endPaths["dr_r"];
-			var act = [8, 108, 185, 285];
-			var inact = [8, 13, 185, 190];
+			var act = [16, 116, 163, 263];
+			var inact = [16, 21, 163, 168];
 			var pact = rectRamp(t, act);
 			var pinact = rectRamp(t, inact);
 
@@ -199,7 +199,7 @@
 			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 5);
 			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 6);
 
-			var ionPer = periods(190, 280, 3);
+			var ionPer = periods(168, 260, 3);
 			moveIons(im, t, ionPer, "drIp_", "drI_");
 		}
 
