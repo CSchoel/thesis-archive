@@ -544,6 +544,29 @@
 <node TEXT="current symbol" ID="ID_1903000704" CREATED="1455200665103" MODIFIED="1455200687421">
 <hook EQUATION="I_{Ca,L}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="Ca1.3-Variant" ID="ID_769709528" CREATED="1455210054701" MODIFIED="1455210189740" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2009-Chandler-MolecularArchitectureHumanSAN_annotated.pdf"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        expressed in the SAN instead of Ca1.2
+      </li>
+      <li>
+        activates at -50 mV instead of -30mV
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="A98B6185A6CDF50223662EA4C117652D7BC380A9AFAF2F30333631CBDB27F0">
+    <pdf_title>Arrhythmia/Electrophysiology</pdf_title>
+</pdf_annotation>
+</node>
 </node>
 <node TEXT="T-Type calcium channel" FOLDED="true" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455207482613" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
 <attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
