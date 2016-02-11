@@ -133,10 +133,11 @@
 		
 		// l-type calcium channels
 		cal = function(im, t) {
+			// behavior in pacemaker cells mostly taken from [Verkerk2015]
 			var lid = im.select("#cal_lid");
 			var hinge = [lid.attr("x"), lid.attr("y")];
-			var act = [16, 26, 160, 170];
-			var inact = [26, 170, 170, 320];
+			var act = [0, 2, 190, 192];
+			var inact = [2, 150, 192, 242];
 			var maxOpenIn = 150;
 			var pact = rectRamp(t, act);
 			var pinact = rectRamp(t, inact);
@@ -146,7 +147,7 @@
 			morph(pact, im.select("#cal_l").node.pathSegList, startPaths["cal_l"], endPaths["cal_l"]);
 			morph(pact, im.select("#cal_r").node.pathSegList, startPaths["cal_r"], endPaths["cal_r"]);
 
-			var ionPer = periods(28, 155, 5);
+			var ionPer = periods(2, 145, 5);
 			moveIons(im, t, ionPer, "calIp_", "calI_");
 		}
 
