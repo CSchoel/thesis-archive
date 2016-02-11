@@ -490,6 +490,9 @@
 <attribute NAME="activation speed" VALUE="fast"/>
 <attribute NAME="inactivation speed" VALUE="1-2 ms"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_fastNa.svg" SIZE="0.8941878" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_222037613" CREATED="1455200705598" MODIFIED="1455200718670">
+<hook EQUATION="I_{Na}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="Slow Na+ Channels" ID="ID_711202327" CREATED="1453997767707" MODIFIED="1454496884804">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_721757192" STARTINCLINATION="411;0;" ENDINCLINATION="411;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -538,6 +541,9 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_LType.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_1903000704" CREATED="1455200665103" MODIFIED="1455200687421">
+<hook EQUATION="I_{Ca,L}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455106620049" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
 <attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
@@ -581,10 +587,13 @@
     <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_TType.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_899537528" CREATED="1455200638630" MODIFIED="1455200660224">
+<hook EQUATION="I_{Ca, T}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 </node>
 <node TEXT="Potassium" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
-<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1455117773465">
+<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1455200122074">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
 <attribute NAME="gating" VALUE="rectifier"/>
 <attribute NAME="activation" VALUE="constitutive"/>
@@ -617,6 +626,9 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_inward_rectifier.svg" SIZE="0.921659" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_1176962339" CREATED="1455200124611" MODIFIED="1455200159031">
+<hook EQUATION="I_{K1}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1454499143324" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
@@ -648,8 +660,11 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_transient_outward.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_6289456" CREATED="1455200410166" MODIFIED="1455200531847">
+<hook EQUATION="I_{to}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1454499365116" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
+</node>
+<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455200616496" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -661,7 +676,38 @@
     <pdf_title>CLASSICAL PERSPECTIVES</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_delayed_rectifier.svg" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        three different variants
+
+        <ul>
+          <li>
+            ultrarapid (I_Kur)
+          </li>
+          <li>
+            rapid (I_Kr)
+          </li>
+          <li>
+            slow (I_Ks)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="hergchannel.com" ID="ID_768658887" CREATED="1454500467366" MODIFIED="1454500477781" LINK="http://hergchannel.com/"/>
+<node TEXT="current symbol" ID="ID_925780050" CREATED="1455200541168" MODIFIED="1455200561444">
+<hook EQUATION="I_{Kr}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454499755214" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
@@ -692,6 +738,9 @@
 </richcontent>
 <font SIZE="10"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_atp_sensitive.svg" SIZE="0.9983361" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_633556220" CREATED="1455200739414" MODIFIED="1455200754079">
+<hook EQUATION="I_{K,ATP}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1454499732568" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
@@ -739,6 +788,9 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ACh_activated.svg" SIZE="0.83798885" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_1740876373" CREATED="1455200757262" MODIFIED="1455200775911">
+<hook EQUATION="I_{K, ACh}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="Calcium-activated" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454499742314">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
@@ -747,6 +799,9 @@
 <attribute NAME="activation speed" VALUE="fast"/>
 <attribute NAME="inactivation" VALUE="none"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_calcium_activated.svg" SIZE="0.9884679" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_1823348338" CREATED="1455200779085" MODIFIED="1455200813787">
+<hook EQUATION="I_{K,Ca}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 <node TEXT="leak channel" ID="ID_1239310100" CREATED="1454947050848" MODIFIED="1454947210120">
 <attribute NAME="gating" VALUE="none"/>
@@ -827,6 +882,9 @@
 <node TEXT="Altomare2001" ID="ID_93759872" CREATED="1455197623108" MODIFIED="1455197648191"/>
 <node TEXT="Accili2002" ID="ID_1303218028" CREATED="1455197651275" MODIFIED="1455197664422"/>
 <node TEXT="Verkerk2015" ID="ID_340235078" CREATED="1455197666299" MODIFIED="1455197690031"/>
+</node>
+<node TEXT="current symbol" ID="ID_1755563504" CREATED="1455200850485" MODIFIED="1455200863254">
+<hook EQUATION="I_f" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
 </node>
