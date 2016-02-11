@@ -1,4 +1,4 @@
-<map version="docear 1.1" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart">
+<map version="docear 1.1" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="8"/>
@@ -481,7 +481,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
@@ -537,7 +536,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_LType.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
@@ -578,7 +576,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="6C92FFE844DAC94CAFA673AD21DC4717D766F5AD31984D559364CEDF6722A">
     <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
@@ -587,7 +584,7 @@
 </node>
 </node>
 <node TEXT="Potassium" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
-<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1454498985755">
+<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1455117773465">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
 <attribute NAME="gating" VALUE="rectifier"/>
 <attribute NAME="activation" VALUE="constitutive"/>
@@ -611,6 +608,9 @@
       </li>
       <li>
         slow membrane repolarization
+      </li>
+      <li>
+        not expressed in SAN [DiFrancesco2010, Chandler2009]
       </li>
     </ul>
   </body>
@@ -779,7 +779,7 @@
 </node>
 </node>
 <node TEXT="nonselective" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
-<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1454499902112" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1455117658929" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -799,6 +799,15 @@
       <li>
         activates upon hyperpolarization
       </li>
+      <li>
+        references
+
+        <ul>
+          <li>
+            reversal potential:[DiFrancesco2010]
+          </li>
+        </ul>
+      </li>
     </ul>
   </body>
 </html>
@@ -813,6 +822,12 @@
 <attribute NAME="activation potential" VALUE="[cAMP]-dependent"/>
 <attribute NAME="activation speed" VALUE="fast"/>
 <attribute NAME="inactivation" VALUE="none"/>
+<attribute NAME="reversal potential" VALUE="-10 mV"/>
+<node TEXT="Resources" ID="ID_694435329" CREATED="1455197608959" MODIFIED="1455197617449">
+<node TEXT="Altomare2001" ID="ID_93759872" CREATED="1455197623108" MODIFIED="1455197648191"/>
+<node TEXT="Accili2002" ID="ID_1303218028" CREATED="1455197651275" MODIFIED="1455197664422"/>
+<node TEXT="Verkerk2015" ID="ID_340235078" CREATED="1455197666299" MODIFIED="1455197690031"/>
+</node>
 </node>
 </node>
 <node TEXT="gating" ID="ID_856667665" CREATED="1454495010782" MODIFIED="1454495014059">
