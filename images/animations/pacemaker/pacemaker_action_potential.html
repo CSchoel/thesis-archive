@@ -335,33 +335,16 @@
 			var phase;
 			var cphase, pphase;
 
-			// normal from t = 0 to t = 16
-			// reversed from t = 16 to t = 166
-			// normal from t = 166 to t = 300
-			var tr1 = 16; // time of first reversal
-			var tr2 = 166; // time of second reversal
-			if (t < tr1) {
-				// just one release phase before cycle is reverted
-				phase = RELEASE;
-				pdur = tr1;
-				reversed = false;
-				pphase = clip01(1.0 * t / (pdur - 1));
-			} else if (t < tr2) {
-				cdur = 48;
-				pdur = Math.round(cdur / 3.0);
-				reversed = true;
-				cphase = (t-tr1) % cdur;
-				phase = Math.floor(cphase / pdur);
-				pphase = clip01((cphase % pdur) / (pdur-1));
-			} else {
-				cdur = 48;
-				pdur = Math.round(cdur / 3.0);
-				reversed = false;
-				cphase = (t-tr2) % cdur;
-				phase = Math.floor(cphase / pdur);
-				pphase = clip01((cphase % pdur) / (pdur-1));
-			}
-			
+			// in pacemaker cells, the NCX current is never reverted
+			// because action potential is driven by Ca++ which makes
+			// Ca++ "export" easier instead of harder (in contrast to
+			// Na+-driven AP in nonpacemaker cells)
+			cdur = 48;
+			pdur = Math.round(cdur / 3.0);
+			reversed = false;
+			cphase = t % cdur;
+			phase = Math.floor(cphase / pdur);
+			pphase = clip01((cphase % pdur) / (pdur-1));
 
 			var pumpAngle;
 			var caPath, caPer;
