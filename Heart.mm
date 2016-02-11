@@ -545,11 +545,11 @@
 <hook EQUATION="I_{Ca,L}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455106620049" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
+<node TEXT="T-Type calcium channel" FOLDED="true" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455207482613" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
 <attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="inactivation" VALUE="N-type"/>
-<attribute NAME="activation potential" VALUE="-60 mV"/>
+<attribute NAME="activation potential" VALUE="-50 mV"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
 <attribute NAME="activation speed" VALUE="fast"/>
 <attribute NAME="inactivation speed" VALUE="15 ms"/>
@@ -579,9 +579,16 @@
           </li>
         </ul>
       </li>
+      <li>
+        T-Type current has never been recorded for humans[Ono2010]
+      </li>
+      <li>
+        only very small expression levels in human SAN&#160;[Chandler2009]
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="6C92FFE844DAC94CAFA673AD21DC4717D766F5AD31984D559364CEDF6722A">
     <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
