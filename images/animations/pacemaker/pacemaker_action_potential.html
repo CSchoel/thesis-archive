@@ -57,10 +57,6 @@
 			findAndStore(im, endPaths, "cal_r", "cal_ro");
 			findAndStoreP(im, "calIp_", 20, 20);
 
-			//ir
-			animPaths["spermine"] = deepcopy(im.select("#spermine_path"));
-			findAndStoreP(im, "irIp_", 20, 20);
-
 			//to
 			findAndStore(im, startPaths, "to_l", "to_l");
 			findAndStore(im, endPaths,   "to_l", "to_lo");
@@ -180,24 +176,7 @@
 			moveIons(im, t, ionPer, "calIp_", "calI_");
 		}
 
-		// inward rectifier
-		ir = function(im, t) {
-			var sp = im.select("#spermine");
-			var spp = animPaths["spermine"];
-			var act = [12, 22, 156, 166];
-			var pact = rectRamp(t, act);
-			pact = 1 - pact;
 
-			var l = spp.getTotalLength() * pact;
-			var p = spp.getPointAtLength(l);
-			sp.node.pathSegList.getItem(0).x = p.x;
-			sp.node.pathSegList.getItem(0).y = p.y;
-			sp.attr("transform", "r "+(p.alpha+90));
-
-			var ionPer = periods(166, 800, 8);
-			ionPer.unshift([2,16]);
-			moveIons(im, t, ionPer, "irIp_", "irI_");
-		}
 
 		// transient outward
 		to = function(im, t) {
@@ -507,7 +486,6 @@
 			hcn(im, t);
 			cat(im, t);
 			cal(im, t);
-			ir(im, t);
 			to(im, t);
 			dr(im, t);
 			naka(im, t);
