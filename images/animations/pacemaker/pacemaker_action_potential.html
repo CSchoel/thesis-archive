@@ -442,17 +442,18 @@
 
 		// calcium-activated potassium channels
 		caap = function(im, t) {
-			var act = [138, 150, 400, 410];
+			// TODO not sure if this really plays a role in SAN
+			var act = [50, 62, 350, 362];
 			var pact = rectRamp(t, act);
 			
 			morph(pact, im.select("#caap_l").node.pathSegList, startPaths["caap_l"], endPaths["caap_l"]);
 			morph(pact, im.select("#caap_r").node.pathSegList, startPaths["caap_r"], endPaths["caap_r"]);
 
-			var ionPer = periods(150, 300, 4);
+			var ionPer = periods(70, 330, 5);
 			moveIons(im, t, ionPer, "caapIp_", "caapI_");
 
-			var start_ca = 100;
-			var end_ca = 138;
+			var start_ca = 25;
+			var end_ca = 50;
 			var pca = 1.0 * (t - start_ca) / (end_ca - start_ca)
 			pca = clip01(pca);
 			setOnPath(pca, im.select("#caap_ca"), animPaths["caap_ca"]);
