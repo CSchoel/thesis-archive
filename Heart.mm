@@ -544,7 +544,7 @@
 <node TEXT="current symbol" ID="ID_1903000704" CREATED="1455200665103" MODIFIED="1455200687421">
 <hook EQUATION="I_{Ca,L}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="Ca1.3-Variant" ID="ID_769709528" CREATED="1455210054701" MODIFIED="1455210189740" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2009-Chandler-MolecularArchitectureHumanSAN_annotated.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="Ca1.3-Variant" ID="ID_769709528" CREATED="1455210054701" MODIFIED="1455210502351" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2009-Chandler-MolecularArchitectureHumanSAN_annotated.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -698,7 +698,24 @@
 <hook EQUATION="I_{to}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="Delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455208138081" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
+<node TEXT="delayed rectifier" ID="ID_207321781" CREATED="1455291355052" MODIFIED="1455291360870" MOVED="1455291368487">
+<node TEXT="ultrarapid delayed rectifier" ID="ID_1178820359" CREATED="1455291451403" MODIFIED="1455291881752" MOVED="1455291459134" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1993-Wang-UltrarapidDelayedRectifier_annotated.pdf">
+<attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
+<attribute NAME="gating" VALUE="voltage-gated"/>
+<attribute NAME="activation" VALUE="voltage, depolarization"/>
+<attribute NAME="activation potential" VALUE="-30 mV"/>
+<attribute NAME="activation speed" VALUE="10 ms"/>
+<attribute NAME="inactivation" VALUE="C-type"/>
+<attribute NAME="inactivation speed" VALUE="slow"/>
+<pdf_annotation type="PDF_FILE" object_id="0" document_hash="AAE5F71F376721227561C9B44354DA61FDA529624F36D252E0849D529ADDCC66">
+    <pdf_title>Outward</pdf_title>
+</pdf_annotation>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ultrarapid_delayed_rectifier.svg" SIZE="0.7009346" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_1812163778" CREATED="1455291801472" MODIFIED="1455291866301">
+<hook EQUATION="I_{Kur}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="rapid delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455291896610" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -709,7 +726,6 @@
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="2CAECDD2CD540937F4BB476E127022ED96511CDB7578FDB166F77D623E2">
     <pdf_title>CLASSICAL PERSPECTIVES</pdf_title>
 </pdf_annotation>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_delayed_rectifier.svg" SIZE="1.0" NAME="ExternalObject"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -719,21 +735,6 @@
   <body>
     <ul>
       <li>
-        three different variants
-
-        <ul>
-          <li>
-            ultrarapid (I_Kur)
-          </li>
-          <li>
-            rapid (I_Kr)
-          </li>
-          <li>
-            slow (I_Ks)
-          </li>
-        </ul>
-      </li>
-      <li>
         less expressed in SAN than in atrium [Chandler2009]
       </li>
     </ul>
@@ -741,9 +742,31 @@
 </html>
 
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_rapid_delayed_rectifier.svg" SIZE="0.71343637" NAME="ExternalObject"/>
 <node TEXT="hergchannel.com" ID="ID_768658887" CREATED="1454500467366" MODIFIED="1454500477781" LINK="http://hergchannel.com/"/>
 <node TEXT="current symbol" ID="ID_925780050" CREATED="1455200541168" MODIFIED="1455200561444">
 <hook EQUATION="I_{Kr}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="slow delayed rectifier" ID="ID_1676730848" CREATED="1455291439506" MODIFIED="1455291786113"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        probably do not play a large role in action potential due to slow activation speed [Courtemanche1998]
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="current symbol" ID="ID_832682881" CREATED="1455291809225" MODIFIED="1455291840268">
+<hook EQUATION="I_{Ks}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 </node>
 <node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454499755214" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
