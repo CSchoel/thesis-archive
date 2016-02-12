@@ -71,6 +71,17 @@
 			findAndStore(im, endPaths,   "dr_r", "dr_rio");
 			findAndStoreP(im, "drIp_", 10, 10);
 
+			//udr
+			makeAbs(im.select("#udr_l"));
+			makeAbs(im.select("#udr_r"));
+			makeAbs(im.select("#udr_lio"));
+			makeAbs(im.select("#udr_rio"));
+			findAndStore(im, startPaths, "udr_l", "udr_l");
+			findAndStore(im, endPaths,   "udr_l", "udr_lio");
+			findAndStore(im, startPaths, "udr_r", "udr_r");
+			findAndStore(im, endPaths,   "udr_r", "udr_rio");
+			findAndStoreP(im, "udrIp_", 10, 10);
+
 			//naka
 			rot_centers["naka_l"] = [im.select("#nakaR_l").attr("cx"), im.select("#nakaR_l").attr("cy")];
 			rot_centers["naka_r"] = [im.select("#nakaR_r").attr("cx"), im.select("#nakaR_r").attr("cy")];
@@ -202,6 +213,34 @@
 
 			var ionPer = periods(168, 260, 3);
 			moveIons(im, t, ionPer, "drIp_", "drI_");
+		}
+
+		// ultrarapid delayed rectifier
+		udr = function(im, t) {
+			var closed_ni_l = startPaths["udr_l"];
+			var closed_ni_r = startPaths["udr_r"];
+			var open_i_l = endPaths["udr_l"];
+			var open_i_r = endPaths["udr_r"];
+			var act = [12, 32, 170, 200];
+			var inact = [32, 132, 170, 270];
+			var pact = rectRamp(t, act);
+			var pinact = rectRamp(t, inact);
+			pinact *= 0.5; // inactivation is only partial
+
+			var pore_l = im.select("#udr_l").node.pathSegList;
+			var pore_r = im.select("#udr_r").node.pathSegList;
+
+			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 3);
+			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 4);
+			morphPoint(pinact, pore_l, closed_ni_l, open_i_l, 5);
+			morphPoint(pinact, pore_l, closed_ni_l, open_i_l, 6);
+			morphPoint(pact, pore_r, closed_ni_r, open_i_r, 3);
+			morphPoint(pact, pore_r, closed_ni_r, open_i_r, 4);
+			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 5);
+			morphPoint(pinact, pore_r, closed_ni_r, open_i_r, 6);
+
+			var ionPer = periods(32, 160, 5);
+			moveIons(im, t, ionPer, "udrIp_", "udrI_");
 		}
 
 		//na+/k+-ATPase
@@ -445,6 +484,7 @@
 			cal(im, t);
 			to(im, t);
 			dr(im, t);
+			udr(im, t);
 			naka(im, t);
 			nacae(im, t);
 			kl(im, t);
