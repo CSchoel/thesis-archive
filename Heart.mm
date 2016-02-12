@@ -699,7 +699,7 @@
 </node>
 </node>
 <node TEXT="delayed rectifier" ID="ID_207321781" CREATED="1455291355052" MODIFIED="1455291360870" MOVED="1455291368487">
-<node TEXT="ultrarapid delayed rectifier" ID="ID_1178820359" CREATED="1455291451403" MODIFIED="1455291881752" MOVED="1455291459134" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1993-Wang-UltrarapidDelayedRectifier_annotated.pdf">
+<node TEXT="ultrarapid delayed rectifier" ID="ID_1178820359" CREATED="1455291451403" MODIFIED="1455292022008" MOVED="1455291459134" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1993-Wang-UltrarapidDelayedRectifier_annotated.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -711,6 +711,22 @@
     <pdf_title>Outward</pdf_title>
 </pdf_annotation>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ultrarapid_delayed_rectifier.svg" SIZE="0.7009346" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less expressed than rapid delayed rectifier, but still yield strong current
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="current symbol" ID="ID_1812163778" CREATED="1455291801472" MODIFIED="1455291866301">
 <hook EQUATION="I_{Kur}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
