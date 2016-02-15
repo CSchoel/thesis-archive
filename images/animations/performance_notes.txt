@@ -1,0 +1,2 @@
+pre-optim: 15-16 fps (Firefox), 15-16 fps (Chrome)
+
