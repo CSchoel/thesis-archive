@@ -1,2 +1,3 @@
 pre-optim: 15-16 fps (Firefox), 15-16 fps (Chrome)
-
+svg optim: 16 / 15
+1/4 image size (and removal of ap curve): 16 / 16
