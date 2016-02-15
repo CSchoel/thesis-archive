@@ -236,8 +236,7 @@
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,2.04e-5)">
+     id="layer1">
     <g
        transform="translate(7.9670821,84.853503)"
        id="g5632">
@@ -1674,8 +1673,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Hidden"
-     style="display:inline;opacity:0.5"
-     transform="translate(0,2.04e-5)">
+     style="display:inline;opacity:0.5">
     <path
        sodipodi:nodetypes="cccccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
