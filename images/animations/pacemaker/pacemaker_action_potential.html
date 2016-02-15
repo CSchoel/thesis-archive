@@ -528,12 +528,16 @@
 		}
 
 		var c = 0;
+		var ttotal = 0;
 		repaint = function() {
 			if (Math.abs(tlast - tglob) > 0.01) {
 				tlast = tglob;
+				var t = (new Date()).getTime();
 				updateAnim(sglob, tglob);
+				t = (new Date()).getTime() - t;
+				ttotal += t;
 				c++;
-				$("#test").text("c: "+c);
+				$("#test").text("c: "+c+" frames, "+ttotal+" ms ("+t+"ms ) => "+(1000.0*c/ttotal).toFixed(2)+" FPS");
 			}
 		}
 		
