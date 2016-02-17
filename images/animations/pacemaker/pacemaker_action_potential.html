@@ -4,8 +4,8 @@
 	<title>Pacemaker action potential of sinoatrial node</title>
 	<meta charset="UTF-8"/>
 	<script src="../lib/jquery-2.2.0.js"></script>
-	<script src="../js/channel_anim.js"></script>
 	<script src="../lib/pathseg.js"></script> <!-- polyfill to use pathSegList that chrome has deprecated -->
+	<script src="../js/channel_anim.js"></script>
 	<script type="text/javascript">
 		/*
 		 * General Note: In images added with Snap.load(...), element.attr("id") will give a generated id while
@@ -545,7 +545,8 @@
 		}
 		
 		window.onload = function() {
-			sglob = document.getElementById("svg2").getSVGDocument()
+			// FIXME: for the polyfill to work we need to add the required classes and methods also to THIS SVGDocument
+			sglob = document.getElementById("svg2").getSVGDocument();
 			sglob.getElementById("layer2").style.display = "none";
 			setStartStates(sglob);
 			repaint_loop_id = setInterval(repaint, 20);
