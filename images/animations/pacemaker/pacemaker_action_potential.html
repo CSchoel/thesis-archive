@@ -324,8 +324,8 @@
 			}
 
 			// roate pores and phosphor binding site
-			var tl = rotP(-poreAngle, rot_centers["naka_r"]);
-			var tr = rotP( poreAngle, rot_centers["naka_l"]);
+			var tl = rotP( poreAngle, rot_centers["naka_l"]);
+			var tr = rotP(-poreAngle, rot_centers["naka_r"]);
 			poreLeft.style.transform = tl;
 			phosphorSite.style.transform = tr;
 			poreRight.style.transform = tr;
@@ -427,9 +427,11 @@
 			moveIonsSingle(im, naPer, naPath+"_", "nacaeI_na_");
 
 			if (phase == ROTATE) {
-				rot = "r "+(pumpAngle - pumpAngleStart)+" "+rot_centers["nacae_p"].join(",");
+				rot = rotP(pumpAngle - pumpAngleStart, rot_centers["nacae_p"]);
+				var nacae_ca = getById(im, "nacaeI_ca_0");
+				rotCa = rotP(45, nacae_ca.getAttribute("cx"), nacae_ca.getAttribute("cy"));
 				// rotate ions with pump
-				transformIons(im, "nacaeI_ca_", rot + " r 45");
+				transformIons(im, "nacaeI_ca_", rot + " " + rotCa);
 				transformIons(im, "nacaeI_na_", rot);
 			}
 		}
