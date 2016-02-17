@@ -16,7 +16,7 @@
    id="svg25316"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="ion_channels_animation_pacemaker_optimized.svg">
+   sodipodi:docname="ion_channels_animation_pacemaker_base.svg">
   <defs
      id="defs25318">
     <marker
@@ -169,13 +169,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="339.43647"
-     inkscape:cy="96.36555"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="662.96963"
+     inkscape:cy="29.252265"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -1301,14 +1301,12 @@
        style="opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="2.02"
        ry="2.02" />
-    <ellipse
-       transform="matrix(0,1,-1,0,0,0)"
-       cy="-654.77"
-       cx="353.05"
+    <circle
+       cy="344.97"
+       cx="654.77002"
        id="nacaeI_na_2"
        style="opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       rx="2.02"
-       ry="2.02" />
+       r="2.02" />
     <ellipse
        transform="matrix(0,1,-1,0,0,0)"
        cy="-690.53"
@@ -1359,22 +1357,18 @@
        transform="scale(-1,-1)"
        inkscape:transform-center-x="-9.42"
        inkscape:transform-center-y="0.0" />
-    <ellipse
+    <circle
        style="opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="nacaeI_na_1"
-       cx="349.01"
-       cy="-654.77"
-       transform="matrix(0,1,-1,0,0,0)"
-       rx="2.02"
-       ry="2.02" />
-    <ellipse
-       transform="matrix(0,1,-1,0,0,0)"
-       cy="-654.77"
-       cx="344.97"
+       cx="654.77002"
+       cy="349.01001"
+       r="2.02" />
+    <circle
+       cy="353.04999"
+       cx="654.77002"
        id="nacaeI_na_0"
        style="opacity:1;fill:#fbff91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       rx="2.02"
-       ry="2.02" />
+       r="2.02" />
     <path
        style="display:inline;opacity:1;fill:#91ccff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 751.28,339.31 0,37.5 -12.57,0 c 0,0 0.03,-1.8 0,-3.41 -0.02,-1.06 1.9,-3.68 1.89,-5.42 -10e-4,-1.7 -1.8,-3.63 -1.89,-5.42 -0.09,-1.64 1.8,-3.58 1.89,-5.42 0.09,-1.81 -1.86,-3.67 -1.89,-5.42 -0.07,-3.5 1.89,-2.65 1.89,-5.42 0,-1.75 -1.89,-4.32 -1.89,-5.42 -0.01,-0.97 0,-1.54 0,-1.54 z"
@@ -1820,20 +1814,20 @@
        id="naka_rc"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscsscsscssccccc" />
-    <ellipse
+    <circle
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
        id="nakaR_l"
        cx="561.51"
        cy="358.63"
-       rx="1.24"
-       ry="1.24" />
-    <ellipse
        ry="1.24"
-       rx="1.24"
+       rx="1.24" />
+    <circle
        cy="358.63"
        cx="586.76"
        id="nakaR_r"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       ry="1.24"
+       rx="1.24" />
     <path
        sodipodi:nodetypes="ccsc"
        inkscape:transform-center-y="22.25"
