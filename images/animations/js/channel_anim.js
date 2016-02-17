@@ -124,7 +124,36 @@ setOnPath = function(per, ion, path) {
 	var p = path.getPointAtLength(l * per);
 	ion.setAttribute("cx", p.x);
 	ion.setAttribute("cy", p.y);
-	ion.style.transform = "rotate("+(p.alpha+90)+")";
+
+	// FIXME: commenting out the following two lines results in performance boost from 50 to 100 FPS
+	// ideas: do not rotate perfect circles (duh!), improve performance of alphaP
+	if (!isCircle(ion)) {
+		var r =  rotP(rad2deg(alphaP(path, l*per))+90, p.x, p.y);
+		ion.style.transform = r;
+	} else {
+		ion.style.transform = "";
+	}
+}
+
+isCircle = function(ellipse) {
+	return Math.abs(ellipse.getAttribute("rx")-ellipse.getAttribute("ry")) < 0.1;
+}
+
+alphaP = function(path, v) {
+	// TODO this can be done in an analytically precise fashion using getPathSegAtLength
+	// and some fancy math
+	var eps = 0.5;
+	var l = path.getTotalLength();
+	var v2;
+	if (v + eps >= l) {
+		v2 = v;
+		v -= eps;
+	} else {
+		v2 = v + eps;
+	}
+	var p1 = path.getPointAtLength(v);
+	var p2 = path.getPointAtLength(v2);
+	return Math.atan2(p2.y - p1.y, p2.x - p1.x);
 }
 
 
@@ -311,6 +340,14 @@ setFramework = function(fw) {
 	}
 }
 
+deg2rad = function(deg) {
+	return deg/360.0 * Math.PI * 2;
+}
+
+rad2deg = function(rad) {
+	return rad/(Math.PI * 2) * 360.0;
+}
+
 rotP = function(ang, x, y) {
 	/*
 	 * $1 $3 $5
@@ -322,6 +359,7 @@ rotP = function(ang, x, y) {
 		y = x[1];
 		x = x[0];
 	}
+	ang = deg2rad(ang);
 	trans = [Math.cos(ang), Math.sin(ang), -Math.sin(ang), Math.cos(ang)];
 	trans.push(x - trans[0]*x - trans[2]*y);
 	trans.push(y - trans[1]*x - trans[3]*y);
