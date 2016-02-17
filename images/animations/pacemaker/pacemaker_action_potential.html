@@ -536,7 +536,6 @@
 			if (Math.abs(tlast - tglob) > 0.01) {
 				tlast = tglob;
 				var t = (new Date()).getTime();
-				sglob.getElementById("layer1").style.display = "none";
 				updateAnim(sglob, tglob);
 				t = (new Date()).getTime() - t;
 				ttotal += t;
