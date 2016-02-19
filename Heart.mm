@@ -58,7 +58,7 @@
 </hook>
 <node TEXT="electrical activity" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
 <edge COLOR="#ff0000"/>
-<node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
+<node TEXT="membrane potential (Em)" FOLDED="true" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -437,7 +437,7 @@
 <hook EQUATION="g&apos;{}X" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
+<node TEXT="ion channels" FOLDED="true" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
 <node TEXT="Sodium" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
 <node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1455106449133"><richcontent TYPE="DETAILS">
@@ -561,7 +561,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="A98B6185A6CDF50223662EA4C117652D7BC380A9AFAF2F30333631CBDB27F0">
     <pdf_title>Arrhythmia/Electrophysiology</pdf_title>
@@ -611,7 +610,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="6C92FFE844DAC94CAFA673AD21DC4717D766F5AD31984D559364CEDF6722A">
     <pdf_title>Voltage-Gated Calcium Channels</pdf_title>
@@ -691,7 +689,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_transient_outward.svg" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="current symbol" ID="ID_6289456" CREATED="1455200410166" MODIFIED="1455200531847">
@@ -725,7 +722,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="current symbol" ID="ID_1812163778" CREATED="1455291801472" MODIFIED="1455291866301">
 <hook EQUATION="I_{Kur}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -756,7 +752,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_rapid_delayed_rectifier.svg" SIZE="0.71343637" NAME="ExternalObject"/>
 <node TEXT="hergchannel.com" ID="ID_768658887" CREATED="1454500467366" MODIFIED="1454500477781" LINK="http://hergchannel.com/"/>
@@ -778,7 +773,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="current symbol" ID="ID_832682881" CREATED="1455291809225" MODIFIED="1455291840268">
 <hook EQUATION="I_{Ks}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -1582,7 +1576,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="nonpacemaker action potential" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1455007280637"><richcontent TYPE="DETAILS">
+<node TEXT="nonpacemaker action potential" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1455885186475"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1609,14 +1603,18 @@
           <li>
             repolarization
           </li>
+          <li>
+            resting potential
+          </li>
         </ol>
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2026_Action_Potential_Heart_Contraction.jpg" SIZE="0.32661948" NAME="ExternalObject"/>
-<node TEXT="phase 0: depolarization" ID="ID_514606924" CREATED="1453897707585" MODIFIED="1455007027363"><richcontent TYPE="DETAILS">
+<node TEXT="phase 0: depolarization" ID="ID_514606924" CREATED="1453897707585" MODIFIED="1455884733254"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1625,7 +1623,7 @@
   <body>
     <ul>
       <li>
-        initiated by increase in conductance of voltage-gated fast Na+ channels
+        triggered by opening of fast Na+ channels =&gt; g'Na+ increases
       </li>
       <li>
         g'K+ falls (due to closing of inward rectifiers)
@@ -1636,9 +1634,10 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="phase 1: initial repolarization" ID="ID_1031897482" CREATED="1453897707585" MODIFIED="1453908568926"><richcontent TYPE="DETAILS">
+<node TEXT="phase 1: initial repolarization" ID="ID_1031897482" CREATED="1453897707585" MODIFIED="1455884867612"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1648,13 +1647,26 @@
     <ul>
       <li>
         caused by opening of K+ channels and inactivation of Na+ channels
+
+        <ul>
+          <li>
+            transient outward channels open briefly
+          </li>
+          <li>
+            ultrarapid delayed rectifiers open slowly
+          </li>
+          <li>
+            fast Na+ channels inactivate
+          </li>
+        </ul>
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="phase 2: plateau phase" ID="ID_709229897" CREATED="1453897707585" MODIFIED="1453908251294"><richcontent TYPE="DETAILS">
+<node TEXT="phase 2: plateau phase" ID="ID_709229897" CREATED="1453897707585" MODIFIED="1455885051612"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1664,16 +1676,29 @@
     <ul>
       <li>
         large increase in slow inward g'Ca++ delays repolarization
-      </li>
-      <li>
-        voltage-gated calcium channels open when membrane potential reaches - 40 mV
+
+        <ul>
+          <li>
+            L-Type calcium channels open
+          </li>
+          <li>
+            at the same time, ultrarapid delayed rectifiers are still open
+          </li>
+          <li>
+            and calcium-activated potassium channels open
+          </li>
+          <li>
+            =&gt; effects cancel each other out =&gt; plateau
+          </li>
+        </ul>
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="phase 3: repolarization" ID="ID_345523212" CREATED="1453897707585" MODIFIED="1453908281940"><richcontent TYPE="DETAILS">
+<node TEXT="phase 3: repolarization" ID="ID_345523212" CREATED="1453897707585" MODIFIED="1455885325380"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1682,14 +1707,83 @@
   <body>
     <ul>
       <li>
-        g'K+ increases through delayed rectifier potassium channels
+        g'K+ increases
+
+        <ul>
+          <li>
+            (rapid) delayed rectifier channels open
+          </li>
+          <li>
+            inward rectifier channels open
+          </li>
+          <li>
+            ultrarapid delayed rectifier channels close
+          </li>
+          <li>
+            calcium-activated channels stay open
+          </li>
+        </ul>
       </li>
       <li>
         g'Ca++ decreases
+
+        <ul>
+          <li>
+            L-Type calcium channels close
+          </li>
+        </ul>
       </li>
     </ul>
   </body>
 </html>
+
+</richcontent>
+</node>
+<node TEXT="phase 4: resting potential" ID="ID_1099377019" CREATED="1455885331872" MODIFIED="1455885622867" MOVED="1455885334403"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ion pumps restore resting potential and ion concentrations
+
+        <ul>
+          <li>
+            Na+/K+-ATPAse pumps 3 Na+ out and 2 K+ in
+          </li>
+          <li>
+            Sodium-Calcium-Exchanger pumps 1 Ca++ out and 3 Na+ in
+          </li>
+          <li>
+            =&gt; if activated at nearly same rate
+
+            <ul>
+              <li>
+                [Na+]_i stays almost the same
+              </li>
+              <li>
+                [K+]_i rises
+              </li>
+              <li>
+                [Ca++]_i falls
+              </li>
+              <li>
+                membrane potential does not change much
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        calcium-activated channels stay open for some time (limits magnitude of premature APs)
+      </li>
+    </ul>
+  </body>
+</html>
+
 </richcontent>
 </node>
 <node TEXT="refractory period" ID="ID_1321120109" CREATED="1453897707585" MODIFIED="1453907866443" MOVED="1453908161376">
@@ -1743,7 +1837,7 @@
 </node>
 </node>
 </node>
-<node TEXT="pacemaker action potential" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1455007231669" VGAP="16"><richcontent TYPE="DETAILS">
+<node TEXT="pacemaker action potential" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1455885747038" VGAP="16"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1766,9 +1860,25 @@
       <li>
         inhibited by SA through &quot;overdrive suppression&quot;
       </li>
+      <li>
+        same phase numbers as nonpacemaker ap, but phase 1 and 2 missing
+
+        <ul>
+          <li>
+            phase 0: depolarization
+          </li>
+          <li>
+            phase 3: repolarization
+          </li>
+          <li>
+            phase 4: spontaneous depolarization
+          </li>
+        </ul>
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2020_SA_Node_Tracing.jpg" SIZE="0.359928" NAME="ExternalObject"/>
 <node TEXT="overdrive suppression" ID="ID_1990788239" CREATED="1453897707586" MODIFIED="1454083716621"><richcontent TYPE="DETAILS">
@@ -1791,7 +1901,7 @@
 </richcontent>
 </node>
 <node TEXT="phases" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
-<node TEXT="phase 0: depolarization" FOLDED="true" ID="ID_292516788" CREATED="1453897707586" MODIFIED="1453909541084"><richcontent TYPE="DETAILS">
+<node TEXT="phase 0: depolarization" FOLDED="true" ID="ID_292516788" CREATED="1453897707586" MODIFIED="1455886029689"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1812,18 +1922,19 @@
         rate is slower because Ca++ moves slower through channels
       </li>
       <li>
-        transient decrease in gK+ also contributes to depolarization
+        transient decrease in gK+ also contributes to depolarization (inward rectifier?)
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="activation threshold for L-Type calcium channels: -40 mV" STYLE_REF="number" ID="ID_1819339197" CREATED="1453911524095" MODIFIED="1453911605959">
 <attribute_layout NAME_WIDTH="247" VALUE_WIDTH="247"/>
 <attribute NAME="activation threshold for L-Type Ca channels" VALUE="-40 mV"/>
 </node>
 </node>
-<node TEXT="phase 3: repolarization" FOLDED="true" ID="ID_1296555033" CREATED="1453897707586" MODIFIED="1453909583716"><richcontent TYPE="DETAILS">
+<node TEXT="phase 3: repolarization" FOLDED="true" ID="ID_1296555033" CREATED="1453897707586" MODIFIED="1455886255880"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1832,30 +1943,43 @@
   <body>
     <ul>
       <li>
-        voltage-operated delayed rectifier potassium channels open
-      </li>
-      <li>
         =&gt; gK+ increases
-      </li>
-      <li>
-        Ca++ channels close again
+
+        <ul>
+          <li>
+            ultrarapid delayed rectifier potassium channels open
+          </li>
+          <li>
+            then also rapid delayed rectifier potassium channels open
+          </li>
+          <li>
+            and calcium-activated channels
+          </li>
+        </ul>
       </li>
       <li>
         =&gt; gCa++ decreases
+
+        <ul>
+          <li>
+            L-Type Ca++ channels close
+          </li>
+        </ul>
       </li>
       <li>
-        ends when Em ~= 65 mV
+        ends when Em ~= -65 mV
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="maximal polarization of pacemaker cells: -65 mV" STYLE_REF="number" ID="ID_136054519" CREATED="1453911434520" MODIFIED="1454084175795">
 <attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
 <attribute NAME="max. polarization of pacemaker cells" VALUE="-65 mV"/>
 </node>
 </node>
-<node TEXT="phase 4: spontaneous depolarization" FOLDED="true" ID="ID_1896257135" CREATED="1453897707586" MODIFIED="1453909782722"><richcontent TYPE="DETAILS">
+<node TEXT="phase 4: spontaneous depolarization" FOLDED="true" ID="ID_1896257135" CREATED="1453897707586" MODIFIED="1455886463762"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1864,14 +1988,33 @@
   <body>
     <ul>
       <li>
-        mechanisms not entirely clear
+        ionic pumps restore concentrations
       </li>
       <li>
-        probably involve multiple ionic currents
+        funny current increases gNa+
+
+        <ul>
+          <li>
+            activates at voltages <u>negative</u>&#160;to -40 mV
+          </li>
+          <li>
+            slowly depolarizes cell
+          </li>
+        </ul>
+      </li>
+      <li>
+        T-Type calcium channels may also play a role
+
+        <ul>
+          <li>
+            but probably not in humans
+          </li>
+        </ul>
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="declining g&apos;K+" ID="ID_1378672509" CREATED="1453897707586" MODIFIED="1453909831314"><richcontent TYPE="DETAILS">
 
@@ -3565,7 +3708,7 @@
 </node>
 </node>
 </node>
-<node TEXT="blood flow" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1453901543505" HGAP="-89" VSHIFT="208">
+<node TEXT="blood flow" FOLDED="true" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1453901543505" HGAP="-89" VSHIFT="208">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
