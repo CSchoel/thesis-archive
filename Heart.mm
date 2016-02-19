@@ -58,7 +58,7 @@
 </hook>
 <node TEXT="electrical activity" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
 <edge COLOR="#ff0000"/>
-<node TEXT="membrane potential (Em)" FOLDED="true" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
+<node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -437,7 +437,7 @@
 <hook EQUATION="g&apos;{}X" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="ion channels" FOLDED="true" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
+<node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
 <node TEXT="Sodium" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
 <node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1455106449133"><richcontent TYPE="DETAILS">
@@ -492,6 +492,24 @@
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_fastNa.svg" SIZE="0.8941878" NAME="ExternalObject"/>
 <node TEXT="current symbol" ID="ID_222037613" CREATED="1455200705598" MODIFIED="1455200718670">
 <hook EQUATION="I_{Na}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="channel" ID="ID_955854880" CREATED="1455889066438" MODIFIED="1455890187753">
+<hook EQUATION="Na_v1.5" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_471191543" CREATED="1455890191774" MODIFIED="1455890225447"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SCN5A
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="Slow Na+ Channels" ID="ID_711202327" CREATED="1453997767707" MODIFIED="1454496884804">
@@ -566,8 +584,26 @@
     <pdf_title>Arrhythmia/Electrophysiology</pdf_title>
 </pdf_annotation>
 </node>
+<node TEXT="channel" ID="ID_1546640337" CREATED="1455890249485" MODIFIED="1455890270856">
+<hook EQUATION="Ca_v1.2" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="T-Type calcium channel" FOLDED="true" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455207482613" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
+<node TEXT="gene" ID="ID_167173629" CREATED="1455890279613" MODIFIED="1455890301234"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CACNA1C
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455207482613" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
 <attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="inactivation" VALUE="N-type"/>
@@ -618,6 +654,24 @@
 <node TEXT="current symbol" ID="ID_899537528" CREATED="1455200638630" MODIFIED="1455200660224">
 <hook EQUATION="I_{Ca, T}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="channel" ID="ID_28968044" CREATED="1455890325235" MODIFIED="1455890350654">
+<hook EQUATION="Ca_v3.1/3.2" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1715629207" CREATED="1455890363973" MODIFIED="1455890389409"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CACNA1G
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="Potassium" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
@@ -657,6 +711,24 @@
 <node TEXT="current symbol" ID="ID_1176962339" CREATED="1455200124611" MODIFIED="1455200159031">
 <hook EQUATION="I_{K1}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="channel" ID="ID_1292993249" CREATED="1455890405196" MODIFIED="1455890438219">
+<hook EQUATION="Kir 2.1/2.2" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1014107345" CREATED="1455890448300" MODIFIED="1455890470948"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNJ2/12
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1455208105319" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
@@ -694,6 +766,44 @@
 <node TEXT="current symbol" ID="ID_6289456" CREATED="1455200410166" MODIFIED="1455200531847">
 <hook EQUATION="I_{to}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="fast" ID="ID_251519933" CREATED="1455890690603" MODIFIED="1455890691652">
+<node TEXT="channel" ID="ID_1884248176" CREATED="1455890475915" MODIFIED="1455890598984">
+<hook EQUATION="KV \; 4.2/4.3" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1604116302" CREATED="1455890624155" MODIFIED="1455890656817"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCND2/3
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="slow" ID="ID_178498464" CREATED="1455890693794" MODIFIED="1455890697044">
+<node TEXT="channel" ID="ID_1746825918" CREATED="1455890566723" MODIFIED="1455890618957">
+<hook EQUATION="KV \; 1.4/1.7/3.4" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1768336212" CREATED="1455890663394" MODIFIED="1455890687263"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNA4 / KCNA7 / KCNC4
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="delayed rectifier" ID="ID_207321781" CREATED="1455291355052" MODIFIED="1455291360870" MOVED="1455291368487">
 <node TEXT="ultrarapid delayed rectifier" ID="ID_1178820359" CREATED="1455291451403" MODIFIED="1455292022008" MOVED="1455291459134" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1993-Wang-UltrarapidDelayedRectifier_annotated.pdf">
@@ -726,6 +836,24 @@
 <node TEXT="current symbol" ID="ID_1812163778" CREATED="1455291801472" MODIFIED="1455291866301">
 <hook EQUATION="I_{Kur}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="channel" ID="ID_1734950090" CREATED="1455890726098" MODIFIED="1455890746562">
+<hook EQUATION="KV \; 1.5/3.1" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1663967277" CREATED="1455890750706" MODIFIED="1455890771343"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNA5 / KCNC1
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="rapid delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455291896610" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
@@ -757,6 +885,24 @@
 <node TEXT="hergchannel.com" ID="ID_768658887" CREATED="1454500467366" MODIFIED="1454500477781" LINK="http://hergchannel.com/"/>
 <node TEXT="current symbol" ID="ID_925780050" CREATED="1455200541168" MODIFIED="1455200561444">
 <hook EQUATION="I_{Kr}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="channel" ID="ID_1301344251" CREATED="1455890780338" MODIFIED="1455890794980">
+<hook EQUATION="HERG" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_789337281" CREATED="1455890799450" MODIFIED="1455890814398"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNH2
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="slow delayed rectifier" ID="ID_1676730848" CREATED="1455291439506" MODIFIED="1455291786113"><richcontent TYPE="DETAILS">
@@ -811,6 +957,24 @@
 <node TEXT="current symbol" ID="ID_633556220" CREATED="1455200739414" MODIFIED="1455200754079">
 <hook EQUATION="I_{K,ATP}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="channel" ID="ID_15835481" CREATED="1455890839377" MODIFIED="1455890877127">
+<hook EQUATION="Kir \; 6.2 \; (SURA)" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1826075914" CREATED="1455890880768" MODIFIED="1455890892261"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNJ11
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1454499732568" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
@@ -861,6 +1025,24 @@
 <node TEXT="current symbol" ID="ID_1740876373" CREATED="1455200757262" MODIFIED="1455200775911">
 <hook EQUATION="I_{K, ACh}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+<node TEXT="channel" ID="ID_292501869" CREATED="1455890900233" MODIFIED="1455890927610">
+<hook EQUATION="Kir \; 3.1/3.4" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="gene" ID="ID_1684708758" CREATED="1455890930792" MODIFIED="1455890961805"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNJ3/5
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="Calcium-activated" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454499742314">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
@@ -901,6 +1083,39 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_potassium_leak.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="current symbol" ID="ID_1464933678" CREATED="1455891001864" MODIFIED="1455891020490">
+<hook EQUATION="I_{KP}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="channel" ID="ID_1334754264" CREATED="1455891023432" MODIFIED="1455891097765"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TWK-1/2 / TASK-1 / TRAAK
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="gene" ID="ID_1041466641" CREATED="1455891100503" MODIFIED="1455891127347"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KCNK1/6 / KCNK3 / KCNK4
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="nonselective" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
@@ -955,6 +1170,36 @@
 </node>
 <node TEXT="current symbol" ID="ID_1755563504" CREATED="1455200850485" MODIFIED="1455200863254">
 <hook EQUATION="I_f" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="channel" ID="ID_1250599430" CREATED="1455891145615" MODIFIED="1455891159611"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HCN2/4
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="gene" ID="ID_251322779" CREATED="1455891162727" MODIFIED="1455891171523"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HCN2/4
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
@@ -2138,7 +2383,7 @@
 <attribute NAME="duration of AP" VALUE="200-400 ms"/>
 </node>
 </node>
-<node TEXT="regulation of SA-nodal pacemaker activity" FOLDED="true" ID="ID_235719046" CREATED="1453897707586" MODIFIED="1453910282184"><richcontent TYPE="DETAILS">
+<node TEXT="regulation of SA-nodal pacemaker activity" ID="ID_235719046" CREATED="1453897707586" MODIFIED="1453910282184"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2209,7 +2454,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="sympathetic activation" FOLDED="true" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1453910668110"><richcontent TYPE="DETAILS">
+<node TEXT="sympathetic activation" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1453910668110"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2265,7 +2510,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="vagal stimulation:" FOLDED="true" ID="ID_1045581943" CREATED="1453897707587" MODIFIED="1453910899244"><richcontent TYPE="DETAILS">
+<node TEXT="vagal stimulation:" ID="ID_1045581943" CREATED="1453897707587" MODIFIED="1453910899244"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
