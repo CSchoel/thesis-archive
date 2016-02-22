@@ -1829,7 +1829,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="nonpacemaker action potential" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1455885186475"><richcontent TYPE="DETAILS">
+<node TEXT="nonpacemaker action potential" FOLDED="true" ID="ID_634044066" CREATED="1453897707585" MODIFIED="1455885186475"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2090,7 +2090,7 @@
 </node>
 </node>
 </node>
-<node TEXT="pacemaker action potential" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1455885747038" VGAP="16"><richcontent TYPE="DETAILS">
+<node TEXT="pacemaker action potential" FOLDED="true" ID="ID_303551493" CREATED="1453897707586" MODIFIED="1455885747038" VGAP="16"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2462,7 +2462,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="sympathetic activation" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1453910668110"><richcontent TYPE="DETAILS">
+<node TEXT="sympathetic activation" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1456136327286"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2477,7 +2477,19 @@
         lowers threshold
       </li>
       <li>
-        accelerated repolarization
+        accelerated repolarization [?]
+
+        <ul>
+          <li>
+            PKA-dependent phosphorylation reduces I_to&#160;[Grant2009]
+          </li>
+          <li>
+            PKA-dependent phosphorylation increases I_ks [Grant2009]
+          </li>
+        </ul>
+      </li>
+      <li>
+        net effects
 
         <ul>
           <li>
@@ -2491,6 +2503,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="mechanism" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1456130960319"><richcontent TYPE="DETAILS">
 
