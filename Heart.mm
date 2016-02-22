@@ -493,7 +493,7 @@
 <node TEXT="current symbol" ID="ID_222037613" CREATED="1455200705598" MODIFIED="1455200718670">
 <hook EQUATION="I_{Na}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_955854880" CREATED="1455889066438" MODIFIED="1455890187753">
+<node TEXT="protein" ID="ID_955854880" CREATED="1455889066438" MODIFIED="1456130654553">
 <hook EQUATION="Na_v1.5" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_471191543" CREATED="1455890191774" MODIFIED="1455890225447"><richcontent TYPE="DETAILS">
@@ -584,7 +584,7 @@
     <pdf_title>Arrhythmia/Electrophysiology</pdf_title>
 </pdf_annotation>
 </node>
-<node TEXT="channel" ID="ID_1546640337" CREATED="1455890249485" MODIFIED="1455890270856">
+<node TEXT="protein" ID="ID_1546640337" CREATED="1455890249485" MODIFIED="1456130665951">
 <hook EQUATION="Ca_v1.2" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_167173629" CREATED="1455890279613" MODIFIED="1455890301234"><richcontent TYPE="DETAILS">
@@ -654,7 +654,7 @@
 <node TEXT="current symbol" ID="ID_899537528" CREATED="1455200638630" MODIFIED="1455200660224">
 <hook EQUATION="I_{Ca, T}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_28968044" CREATED="1455890325235" MODIFIED="1455890350654">
+<node TEXT="protein" ID="ID_28968044" CREATED="1455890325235" MODIFIED="1456130670183">
 <hook EQUATION="Ca_v3.1/3.2" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1715629207" CREATED="1455890363973" MODIFIED="1455890389409"><richcontent TYPE="DETAILS">
@@ -711,7 +711,7 @@
 <node TEXT="current symbol" ID="ID_1176962339" CREATED="1455200124611" MODIFIED="1455200159031">
 <hook EQUATION="I_{K1}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_1292993249" CREATED="1455890405196" MODIFIED="1455890438219">
+<node TEXT="protein" ID="ID_1292993249" CREATED="1455890405196" MODIFIED="1456130677720">
 <hook EQUATION="Kir 2.1/2.2" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1014107345" CREATED="1455890448300" MODIFIED="1455890470948"><richcontent TYPE="DETAILS">
@@ -767,7 +767,7 @@
 <hook EQUATION="I_{to}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="fast" ID="ID_251519933" CREATED="1455890690603" MODIFIED="1455890691652">
-<node TEXT="channel" ID="ID_1884248176" CREATED="1455890475915" MODIFIED="1455890598984">
+<node TEXT="protein" ID="ID_1884248176" CREATED="1455890475915" MODIFIED="1456130683079">
 <hook EQUATION="KV \; 4.2/4.3" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1604116302" CREATED="1455890624155" MODIFIED="1455890656817"><richcontent TYPE="DETAILS">
@@ -786,7 +786,7 @@
 </node>
 </node>
 <node TEXT="slow" ID="ID_178498464" CREATED="1455890693794" MODIFIED="1455890697044">
-<node TEXT="channel" ID="ID_1746825918" CREATED="1455890566723" MODIFIED="1455890618957">
+<node TEXT="protein" ID="ID_1746825918" CREATED="1455890566723" MODIFIED="1456130686335">
 <hook EQUATION="KV \; 1.4/1.7/3.4" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1768336212" CREATED="1455890663394" MODIFIED="1455890687263"><richcontent TYPE="DETAILS">
@@ -836,7 +836,7 @@
 <node TEXT="current symbol" ID="ID_1812163778" CREATED="1455291801472" MODIFIED="1455291866301">
 <hook EQUATION="I_{Kur}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_1734950090" CREATED="1455890726098" MODIFIED="1455890746562">
+<node TEXT="protein" ID="ID_1734950090" CREATED="1455890726098" MODIFIED="1456130690800">
 <hook EQUATION="KV \; 1.5/3.1" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1663967277" CREATED="1455890750706" MODIFIED="1455890771343"><richcontent TYPE="DETAILS">
@@ -886,7 +886,7 @@
 <node TEXT="current symbol" ID="ID_925780050" CREATED="1455200541168" MODIFIED="1455200561444">
 <hook EQUATION="I_{Kr}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_1301344251" CREATED="1455890780338" MODIFIED="1455890794980">
+<node TEXT="protein" ID="ID_1301344251" CREATED="1455890780338" MODIFIED="1456130695944">
 <hook EQUATION="HERG" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_789337281" CREATED="1455890799450" MODIFIED="1455890814398"><richcontent TYPE="DETAILS">
@@ -925,7 +925,7 @@
 </node>
 </node>
 </node>
-<node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1454499755214" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
+<node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1456131628400" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <attribute NAME="gating" VALUE="ligand-gated"/>
 <attribute NAME="inhibition" VALUE="ATP"/>
@@ -948,16 +948,20 @@
       <li>
         opens when ATP decreases during hypoxia
       </li>
+      <li>
+        reduces heart rate until more ATP is available [Pollard2008]
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <font SIZE="10"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_atp_sensitive.svg" SIZE="0.9983361" NAME="ExternalObject"/>
 <node TEXT="current symbol" ID="ID_633556220" CREATED="1455200739414" MODIFIED="1455200754079">
 <hook EQUATION="I_{K,ATP}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_15835481" CREATED="1455890839377" MODIFIED="1455890877127">
+<node TEXT="protein" ID="ID_15835481" CREATED="1455890839377" MODIFIED="1456130702143">
 <hook EQUATION="Kir \; 6.2 \; (SURA)" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1826075914" CREATED="1455890880768" MODIFIED="1455890892261"><richcontent TYPE="DETAILS">
@@ -976,7 +980,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1454499732568" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
+<node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1456131672116" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <attribute NAME="gating" VALUE="ligand-gated"/>
 <attribute NAME="activation" VALUE="ACh"/>
@@ -1017,15 +1021,19 @@
           </li>
         </ul>
       </li>
+      <li>
+        inward rectifying [Pollard2008]
+      </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ACh_activated.svg" SIZE="0.83798885" NAME="ExternalObject"/>
 <node TEXT="current symbol" ID="ID_1740876373" CREATED="1455200757262" MODIFIED="1455200775911">
 <hook EQUATION="I_{K, ACh}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_292501869" CREATED="1455890900233" MODIFIED="1455890927610">
+<node TEXT="protein" ID="ID_292501869" CREATED="1455890900233" MODIFIED="1456130705360">
 <hook EQUATION="Kir \; 3.1/3.4" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="gene" ID="ID_1684708758" CREATED="1455890930792" MODIFIED="1455890961805"><richcontent TYPE="DETAILS">
@@ -1086,7 +1094,7 @@
 <node TEXT="current symbol" ID="ID_1464933678" CREATED="1455891001864" MODIFIED="1455891020490">
 <hook EQUATION="I_{KP}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_1334754264" CREATED="1455891023432" MODIFIED="1455891097765"><richcontent TYPE="DETAILS">
+<node TEXT="protein" ID="ID_1334754264" CREATED="1455891023432" MODIFIED="1456130712055"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1171,7 +1179,7 @@
 <node TEXT="current symbol" ID="ID_1755563504" CREATED="1455200850485" MODIFIED="1455200863254">
 <hook EQUATION="I_f" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="channel" ID="ID_1250599430" CREATED="1455891145615" MODIFIED="1455891159611"><richcontent TYPE="DETAILS">
+<node TEXT="protein" ID="ID_1250599430" CREATED="1455891145615" MODIFIED="1456130725396"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2484,7 +2492,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="mechanism" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1453910657148"><richcontent TYPE="DETAILS">
+<node TEXT="mechanism" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1456130960319"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2508,6 +2516,7 @@
   </body>
 </html>
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ans_san_regulation_sym.svg" SIZE="0.9677419" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="vagal stimulation:" ID="ID_1045581943" CREATED="1453897707587" MODIFIED="1453910899244"><richcontent TYPE="DETAILS">
@@ -2540,7 +2549,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="mechanism" ID="ID_1067165032" CREATED="1453897707587" MODIFIED="1453910878307"><richcontent TYPE="DETAILS">
+<node TEXT="mechanism" ID="ID_1067165032" CREATED="1453897707587" MODIFIED="1456131089812"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2558,6 +2567,7 @@
   </body>
 </html>
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ans_san_regulation_para.svg" SIZE="0.88757396" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="other possible sources of heart rate change" FOLDED="true" ID="ID_1750818355" CREATED="1453897707587" MODIFIED="1453897707587">
