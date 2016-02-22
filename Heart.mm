@@ -2517,6 +2517,12 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ans_san_regulation_sym.svg" SIZE="0.9677419" NAME="ExternalObject"/>
+<node TEXT="PKA Structure" ID="ID_1666934903" CREATED="1456132378226" MODIFIED="1456132466020" LINK="http://pdb101.rcsb.org/motm/152">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/152-cAMP-dependentProteinKinase_PKA.jpg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Adenylyl-cyclase activation" ID="ID_682283308" CREATED="1456132476713" MODIFIED="1456132618130" LINK="http://www.pharmacology2000.com/Autonomics/Adrenergics1/Adrenergic-4.htm">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/adenylyl%20cyclase%20activation%20by%20G%20proteinB_smaller.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 <node TEXT="vagal stimulation:" ID="ID_1045581943" CREATED="1453897707587" MODIFIED="1453910899244"><richcontent TYPE="DETAILS">
