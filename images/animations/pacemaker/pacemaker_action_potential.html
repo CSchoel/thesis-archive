@@ -4,9 +4,8 @@
 	<title>Pacemaker action potential of sinoatrial node</title>
 	<meta charset="UTF-8"/>
 	<script src="../lib/jquery-2.2.0.js"></script>
-	<script src="../lib/snap.svg.js"></script>
-	<script src="../js/channel_anim.js"></script>
 	<script src="../lib/pathseg.js"></script> <!-- polyfill to use pathSegList that chrome has deprecated -->
+	<script src="../js/channel_anim.js"></script>
 	<script type="text/javascript">
 		/*
 		 * General Note: In images added with Snap.load(...), element.attr("id") will give a generated id while
@@ -57,14 +56,14 @@
 			findAndStore(im, endPaths,   "to_r", "to_ro");
 			findAndStore(im, startPaths, "to_c", "to_c");
 			findAndStore(im, endPaths,   "to_c", "to_ci");
-			animPaths["to_b"] = deepcopy(im.select("#to_bp"));
+			animPaths["to_b"] = deepcopy(getById(im, "to_bp"));
 			findAndStoreP(im, "toIp_", 2, 2);
 
 			//dr
-			makeAbs(im.select("#dr_l"));
-			makeAbs(im.select("#dr_r"));
-			makeAbs(im.select("#dr_lio"));
-			makeAbs(im.select("#dr_rio"));
+			makeAbs(getById(im, "dr_l"));
+			makeAbs(getById(im, "dr_r"));
+			makeAbs(getById(im, "dr_lio"));
+			makeAbs(getById(im, "dr_rio"));
 			findAndStore(im, startPaths, "dr_l", "dr_l");
 			findAndStore(im, endPaths,   "dr_l", "dr_lio");
 			findAndStore(im, startPaths, "dr_r", "dr_r");
@@ -72,10 +71,10 @@
 			findAndStoreP(im, "drIp_", 10, 10);
 
 			//udr
-			makeAbs(im.select("#udr_l"));
-			makeAbs(im.select("#udr_r"));
-			makeAbs(im.select("#udr_lio"));
-			makeAbs(im.select("#udr_rio"));
+			makeAbs(getById(im, "udr_l"));
+			makeAbs(getById(im, "udr_r"));
+			makeAbs(getById(im, "udr_lio"));
+			makeAbs(getById(im, "udr_rio"));
 			findAndStore(im, startPaths, "udr_l", "udr_l");
 			findAndStore(im, endPaths,   "udr_l", "udr_lio");
 			findAndStore(im, startPaths, "udr_r", "udr_r");
@@ -83,8 +82,8 @@
 			findAndStoreP(im, "udrIp_", 10, 10);
 
 			//naka
-			rot_centers["naka_l"] = [im.select("#nakaR_l").attr("cx"), im.select("#nakaR_l").attr("cy")];
-			rot_centers["naka_r"] = [im.select("#nakaR_r").attr("cx"), im.select("#nakaR_r").attr("cy")];
+			rot_centers["naka_l"] = [getById(im, "nakaR_l").getAttribute("cx"), getById(im, "nakaR_l").getAttribute("cy")];
+			rot_centers["naka_r"] = [getById(im, "nakaR_r").getAttribute("cx"), getById(im, "nakaR_r").getAttribute("cy")];
 			findAndStore(im, startPaths, "naka_l", "naka_l");
 			findAndStore(im, endPaths,   "naka_l", "naka_lc");
 			findAndStore(im, startPaths, "naka_r", "naka_r");
@@ -93,12 +92,12 @@
 			findAndStoreP(im, "nakaIp_nai_", 0, 0);
 			findAndStoreP(im, "nakaIp_ki_", 0, 0);
 			findAndStoreP(im, "nakaIp_nao_", 0, 0);
-			animPaths["naka_ppi"] = deepcopy(im.select("#naka_ppi"));
-			animPaths["naka_ppo"] = deepcopy(im.select("#naka_ppo"));
+			animPaths["naka_ppi"] = deepcopy(getById(im, "naka_ppi"));
+			animPaths["naka_ppo"] = deepcopy(getById(im, "naka_ppo"));
 
 
 			//nacae
-			rot_centers["nacae_p"] = [im.select("#nacaeR_p").attr("cx"), im.select("#nacaeR_p").attr("cy")];
+			rot_centers["nacae_p"] = [getById(im, "nacaeR_p").getAttribute("cx"), getById(im, "nacaeR_p").getAttribute("cy")];
 			findAndStoreP(im, "nacaeIp_cai_", 0, 0);
 			findAndStoreP(im, "nacaeIp_cao_", 0, 0);
 			findAndStoreP(im, "nacaeIp_nai_", 0, 0);
@@ -113,14 +112,14 @@
 			findAndStore(im, startPaths, "caap_r", "caap_r");
 			findAndStore(im, endPaths,   "caap_r", "caap_ro");
 			findAndStoreP(im, "caapIp_", 20, 20);
-			animPaths["caap_ca"] = deepcopy(im.select("#caap_cap"));
+			animPaths["caap_ca"] = deepcopy(getById(im, "caap_cap"));
 		}
 
 		findAndStoreP = function(image, prefix, noff, roff) {
 			forEachWithId(image, prefix, function(el) {
-				animPaths[el.node.id] = deepcopy(el);
+				animPaths[el.id] = deepcopy(el);
 				if (noff > 0) {
-					pOffs[el.node.id] = periodOffsets(noff, roff);
+					pOffs[el.id] = periodOffsets(noff, roff);
 				}
 			});
 		}
@@ -133,8 +132,8 @@
 			var pact = rectRamp(t, act);
 			pact = 1 - pact;
 			
-			morph(pact, im.select("#hcn_l").node.pathSegList, startPaths["hcn_l"], endPaths["hcn_l"]);
-			morph(pact, im.select("#hcn_r").node.pathSegList, startPaths["hcn_r"], endPaths["hcn_r"]);
+			morph(pact, getById(im, "hcn_l").pathSegList, startPaths["hcn_l"], endPaths["hcn_l"]);
+			morph(pact, getById(im, "hcn_r").pathSegList, startPaths["hcn_r"], endPaths["hcn_r"]);
 
 			var ionPerK = periods(18, 100, 3);
 			moveIons(im, t, ionPerK, "hcnIp_k_", "hcnI_k_");
@@ -145,18 +144,18 @@
 		// l-type calcium channels
 		cal = function(im, t) {
 			// behavior in pacemaker cells mostly taken from [Verkerk2015]
-			var lid = im.select("#cal_lid");
-			var hinge = [lid.attr("x"), lid.attr("y")];
+			var lid = getById(im, "cal_lid");
+			var hinge = [lid.getAttribute("x"), lid.getAttribute("y")];
 			var act = [0, 2, 190, 192];
 			var inact = [2, 150, 192, 242];
 			var maxOpenIn = 150;
 			var pact = rectRamp(t, act);
 			var pinact = rectRamp(t, inact);
 			var deg = (1 - pinact) * maxOpenIn;
-			lid.attr({transform: "r"+deg+" "+hinge[0]+" "+hinge[1]});
-
-			morph(pact, im.select("#cal_l").node.pathSegList, startPaths["cal_l"], endPaths["cal_l"]);
-			morph(pact, im.select("#cal_r").node.pathSegList, startPaths["cal_r"], endPaths["cal_r"]);
+			lid.style.transform = rotP(deg, hinge[0], hinge[1]);
+			
+			morph(pact, getById(im, "cal_l").pathSegList, startPaths["cal_l"], endPaths["cal_l"]);
+			morph(pact, getById(im, "cal_r").pathSegList, startPaths["cal_r"], endPaths["cal_r"]);
 
 			var ionPer = periods(2, 145, 5);
 			moveIons(im, t, ionPer, "calIp_", "calI_");
@@ -166,7 +165,7 @@
 
 		// transient outward
 		to = function(im, t) {
-			var ball = im.select("#to_b");
+			var ball = getById(im, "to_b");
 			var ball_path = animPaths["to_b"];
 			var act = [22, 26, 124, 128];
 			var inact = [26, 50, 128, 152];
@@ -176,13 +175,14 @@
 			// move ball
 			var l = ball_path.getTotalLength() * pinact;
 			var p = ball_path.getPointAtLength(l);
-			ball.attr({cx: p.x, cy: p.y});
+			ball.setAttribute("cx", p.x);
+			ball.setAttribute("cy", p.y);
 
 			// morph chain
-			morph(pinact, im.select("#to_c").node.pathSegList, startPaths["to_c"], endPaths["to_c"]);
+			morph(pinact, getById(im, "to_c").pathSegList, startPaths["to_c"], endPaths["to_c"]);
 			// morph activation gates
-			morph(pact, im.select("#to_l").node.pathSegList, startPaths["to_l"], endPaths["to_l"]);
-			morph(pact, im.select("#to_r").node.pathSegList, startPaths["to_r"], endPaths["to_r"]);
+			morph(pact, getById(im, "to_l").pathSegList, startPaths["to_l"], endPaths["to_l"]);
+			morph(pact, getById(im, "to_r").pathSegList, startPaths["to_r"], endPaths["to_r"]);
 
 			var ionPer = periods(24, 48, 2);
 			moveIons(im, t, ionPer, "toIp_", "toI_");
@@ -199,8 +199,8 @@
 			var pact = rectRamp(t, act);
 			var pinact = rectRamp(t, inact);
 
-			var pore_l = im.select("#dr_l").node.pathSegList;
-			var pore_r = im.select("#dr_r").node.pathSegList;
+			var pore_l = getById(im, "dr_l").pathSegList;
+			var pore_r = getById(im, "dr_r").pathSegList;
 
 			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 3);
 			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 4);
@@ -227,8 +227,8 @@
 			var pinact = rectRamp(t, inact);
 			pinact *= 0.5; // inactivation is only partial
 
-			var pore_l = im.select("#udr_l").node.pathSegList;
-			var pore_r = im.select("#udr_r").node.pathSegList;
+			var pore_l = getById(im, "udr_l").pathSegList;
+			var pore_r = getById(im, "udr_r").pathSegList;
 
 			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 3);
 			morphPoint(pact, pore_l, closed_ni_l, open_i_l, 4);
@@ -255,9 +255,9 @@
 			var phase = Math.floor(cphase / pdur);
 			var pphase = (cphase % pdur) / (pdur-1);
 			pphase = clip01(pphase);
-			var poreLeft = im.select("#naka_l");
-			var poreRight = im.select("#naka_r");
-			var phosphorSite = im.select("#naka_ps");
+			var poreLeft = getById(im, "naka_l");
+			var poreRight = getById(im, "naka_r");
+			var phosphorSite = getById(im, "naka_ps");
 			var poreAngleMax = 20;
 			var poreAngle;
 			var naClose;
@@ -324,24 +324,25 @@
 			}
 
 			// roate pores and phosphor binding site
-			var tr = "r "+(-poreAngle)+" "+rot_centers["naka_r"].join(",");
-			poreLeft.attr("transform", "r "+(poreAngle)+" "+rot_centers["naka_l"].join(","));
-			phosphorSite.attr("transform", tr);
-			poreRight.attr("transform", tr);
+			var tl = rotP( poreAngle, rot_centers["naka_l"]);
+			var tr = rotP(-poreAngle, rot_centers["naka_r"]);
+			poreLeft.style.transform = tl;
+			phosphorSite.style.transform = tr;
+			poreRight.style.transform = tr;
 
 			// open/close binding sites
-			morph(naClose, im.select("#naka_l").node.pathSegList, startPaths["naka_l"], endPaths["naka_l"]);
-			morph(kClose, im.select("#naka_r").node.pathSegList, startPaths["naka_r"], endPaths["naka_r"]);
+			morph(naClose, getById(im, "naka_l").pathSegList, startPaths["naka_l"], endPaths["naka_l"]);
+			morph(kClose, getById(im, "naka_r").pathSegList, startPaths["naka_r"], endPaths["naka_r"]);
 
 			// move ions
 			moveIonsSingle(im, naPer, naPath+"_", "nakaI_na_");
 			moveIonsSingle(im, kPer, kPath+"_", "nakaI_k_");
 			
 			// move phosphor
-			setOnPath(pPer, im.select("#naka_p"), animPaths[pPath]);
+			setOnPath(pPer, getById(im, "naka_p"), animPaths[pPath]);
 			
-			var rl = "r "+(poreAngle - poreAngleMax)+" "+rot_centers["naka_l"].join(",");
-			var rr = "r "+(-poreAngle + poreAngleMax)+" "+rot_centers["naka_r"].join(",");
+			var rl = rotP(poreAngle - poreAngleMax, rot_centers["naka_l"]);
+			var rr = rotP(-poreAngle + poreAngleMax, rot_centers["naka_r"]);
 			if (phase == ROT_NA) {
 				// sodium ions are in the pore => have to be rotated with pore
 				transformIons(im, "nakaI_na_", rl);
@@ -349,13 +350,13 @@
 
 			if (phase == ROT_K) {
 				// potassium ions are in the pore => have to be rotated with pore
-				var rot = "r "+(-poreAngle - poreAngleMax)+" "+rot_centers["naka_r"].join(",");
+				var rot = rotP(-poreAngle - poreAngleMax, rot_centers["naka_r"]);
 				transformIons(im, "nakaI_k_", rot);
 			}
 
 			if (phase == ROT_NA || phase == ACC_K) {
 				// phosphor is bound to pore => has to be rotated with pore
-				im.select("#naka_p").attr("transform", rr);
+				getById(im, "naka_p").style.transform = rr;
 			}
 		}
 
@@ -368,7 +369,7 @@
 			var reversed = false;
 			var pumpAngleStart = 45;
 			var pumpAngleTurn = 180;
-			var pump = im.select("#nacae_p");			
+			var pump = getById(im, "nacae_p");			
 
 			var cdur, pdur;
 			var phase;
@@ -418,17 +419,19 @@
 			}
 			
 			// rotate pump
-			var rot = "r "+(pumpAngle)+" "+rot_centers["nacae_p"].join(",");
-			pump.attr("transform", rot);
+			var rot = rotP(pumpAngle, rot_centers["nacae_p"]);
+			pump.style.transform = rot;
 
 			// move ions
 			moveIonsSingle(im, caPer, caPath+"_", "nacaeI_ca_");
 			moveIonsSingle(im, naPer, naPath+"_", "nacaeI_na_");
 
 			if (phase == ROTATE) {
-				rot = "r "+(pumpAngle - pumpAngleStart)+" "+rot_centers["nacae_p"].join(",");
+				rot = rotP(pumpAngle - pumpAngleStart, rot_centers["nacae_p"]);
+				var nacae_ca = getById(im, "nacaeI_ca_0");
+				rotCa = rotP(45, nacae_ca.getAttribute("cx"), nacae_ca.getAttribute("cy"));
 				// rotate ions with pump
-				transformIons(im, "nacaeI_ca_", rot + " r 45");
+				transformIons(im, "nacaeI_ca_", rot + " " + rotCa);
 				transformIons(im, "nacaeI_na_", rot);
 			}
 		}
@@ -446,8 +449,8 @@
 			var act = [50, 62, 350, 362];
 			var pact = rectRamp(t, act);
 			
-			morph(pact, im.select("#caap_l").node.pathSegList, startPaths["caap_l"], endPaths["caap_l"]);
-			morph(pact, im.select("#caap_r").node.pathSegList, startPaths["caap_r"], endPaths["caap_r"]);
+			morph(pact, getById(im, "caap_l").pathSegList, startPaths["caap_l"], endPaths["caap_l"]);
+			morph(pact, getById(im, "caap_r").pathSegList, startPaths["caap_r"], endPaths["caap_r"]);
 
 			var ionPer = periods(70, 330, 5);
 			moveIons(im, t, ionPer, "caapIp_", "caapI_");
@@ -456,12 +459,12 @@
 			var end_ca = 50;
 			var pca = 1.0 * (t - start_ca) / (end_ca - start_ca)
 			pca = clip01(pca);
-			setOnPath(pca, im.select("#caap_ca"), animPaths["caap_ca"]);
+			setOnPath(pca, getById(im, "caap_ca"), animPaths["caap_ca"]);
 		}
 
 		transformIons = function (image, xml_prefix, trans_str) {
 			forEachWithId(image, xml_prefix, function(ion) {
-				ion.attr("transform", trans_str);
+				ion.style.transform = trans_str;
 			});
 		}
 
@@ -480,7 +483,7 @@
 
 		updateAnim = function(im, t) {
 			// update time slider
-			morph(1.0 * t / tend, im.select("#time0").node.pathSegList, startPaths["t"], endPaths["t"]);
+			morph(1.0 * t / tend, getById(im, "time0").pathSegList, startPaths["t"], endPaths["t"]);
 			hcn(im, t);
 			cal(im, t);
 			to(im, t);
@@ -528,23 +531,26 @@
 		}
 
 		var c = 0;
+		var ttotal = 0;
 		repaint = function() {
 			if (Math.abs(tlast - tglob) > 0.01) {
 				tlast = tglob;
+				var t = (new Date()).getTime();
 				updateAnim(sglob, tglob);
+				t = (new Date()).getTime() - t;
+				ttotal += t;
 				c++;
-				$("#test").text("c: "+c);
+				$("#test").text("c: "+c+" frames, "+ttotal+" ms ("+t+"ms ) => "+(1000.0*c/ttotal).toFixed(2)+" FPS");
 			}
 		}
 		
 		window.onload = function() {
-			var s = Snap("#svg");
-			Snap.load("ion_channels_animation_pacemaker_base.svg", function(f) {
-				setStartStates(f);
-				s.append(f.select("g"));
-				repaint_loop_id = setInterval(repaint, 20);
-			});
-			sglob = s;
+			// FIXME: for the polyfill to work we need to add the required classes and methods also to THIS SVGDocument
+			sglob = document.getElementById("svg2").getSVGDocument();
+			sglob.getElementById("layer2").style.display = "none";
+			setStartStates(sglob);
+			repaint_loop_id = setInterval(repaint, 20);
+			
 			slider = document.getElementById('slider');
 			slider.min = t0;
 			slider.max = tend;
@@ -552,8 +558,7 @@
 	</script>
 </head>
 <body>
-	<svg id="svg" style="width:1000px;height:450px;">
-	</svg>
+	<object id="svg2" data="ion_channels_animation_pacemaker_base.svg"></object>
 	<div>
 		<div>
 			<input id="slider" type="range" name="time" min="0" max="800" value="0" oninput="setTime(this.value)"/> <span id="sliderT">0 ms</span>

@@ -8,8 +8,7 @@
  = copy of the given object
 \*/
 deepcopy = function(el) {
-	var nel = el.clone();
-	nel.attr({display: "none"});
+	var nel = el.cloneNode(true);
 	return nel;
 }
 
@@ -123,7 +122,38 @@ setOnPath = function(per, ion, path) {
 	if (per < 0 || per > 1) { throw "argument per must be between 0 and 1, was "+per }
 	var l = path.getTotalLength();
 	var p = path.getPointAtLength(l * per);
-	ion.attr({cx: p.x, cy: p.y, transform: "r "+(p.alpha+90)});
+	ion.setAttribute("cx", p.x);
+	ion.setAttribute("cy", p.y);
+
+	// FIXME: commenting out the following two lines results in performance boost from 50 to 100 FPS
+	// ideas: do not rotate perfect circles (duh!), improve performance of alphaP
+	if (!isCircle(ion)) {
+		var r =  rotP(rad2deg(alphaP(path, l*per))+90, p.x, p.y);
+		ion.style.transform = r;
+	} else {
+		ion.style.transform = "";
+	}
+}
+
+isCircle = function(ellipse) {
+	return Math.abs(ellipse.getAttribute("rx")-ellipse.getAttribute("ry")) < 0.1;
+}
+
+alphaP = function(path, v) {
+	// TODO this can be done in an analytically precise fashion using getPathSegAtLength
+	// and some fancy math
+	var eps = 0.5;
+	var l = path.getTotalLength();
+	var v2;
+	if (v + eps >= l) {
+		v2 = v;
+		v -= eps;
+	} else {
+		v2 = v + eps;
+	}
+	var p1 = path.getPointAtLength(v);
+	var p2 = path.getPointAtLength(v2);
+	return Math.atan2(p2.y - p1.y, p2.x - p1.x);
 }
 
 
@@ -195,7 +225,36 @@ addOff = function(basePer, perOff) {
  - path (snap.svg node) path object that should get an absolute definition 
 \*/
 makeAbs = function(path) {
-	path.attr("d", Snap.path.toAbsolute(path.attr("d")));
+	// author: Phrogz (http://stackoverflow.com/questions/9677885/convert-svg-path-to-absolute-commands)
+	var x0,y0,x1,y1,x2,y2,segs = path.pathSegList;
+  for (var x=0,y=0,i=0,len=segs.numberOfItems;i<len;++i){
+    var seg = segs.getItem(i), c=seg.pathSegTypeAsLetter;
+    if (/[MLHVCSQTA]/.test(c)){
+      if ('x' in seg) x=seg.x;
+      if ('y' in seg) y=seg.y;
+    }else{
+      if ('x1' in seg) x1=x+seg.x1;
+      if ('x2' in seg) x2=x+seg.x2;
+      if ('y1' in seg) y1=y+seg.y1;
+      if ('y2' in seg) y2=y+seg.y2;
+      if ('x'  in seg) x+=seg.x;
+      if ('y'  in seg) y+=seg.y;
+      switch(c){
+        case 'm': segs.replaceItem(path.createSVGPathSegMovetoAbs(x,y),i);                   break;
+        case 'l': segs.replaceItem(path.createSVGPathSegLinetoAbs(x,y),i);                   break;
+        case 'h': segs.replaceItem(path.createSVGPathSegLinetoHorizontalAbs(x),i);           break;
+        case 'v': segs.replaceItem(path.createSVGPathSegLinetoVerticalAbs(y),i);             break;
+        case 'c': segs.replaceItem(path.createSVGPathSegCurvetoCubicAbs(x,y,x1,y1,x2,y2),i); break;
+        case 's': segs.replaceItem(path.createSVGPathSegCurvetoCubicSmoothAbs(x,y,x2,y2),i); break;
+        case 'q': segs.replaceItem(path.createSVGPathSegCurvetoQuadraticAbs(x,y,x1,y1),i);   break;
+        case 't': segs.replaceItem(path.createSVGPathSegCurvetoQuadraticSmoothAbs(x,y),i);   break;
+        case 'a': segs.replaceItem(path.createSVGPathSegArcAbs(x,y,seg.r1,seg.r2,seg.angle,seg.largeArcFlag,seg.sweepFlag),i);   break;
+        case 'z': case 'Z': x=x0; y=y0; break;
+      }
+    }
+    // Record the start of a subpath
+    if (c=='M' || c=='m') x0=x, y0=y;
+  }
 }
 
 /*\
@@ -210,11 +269,11 @@ makeAbs = function(path) {
  - xml_id (string) id of the element
 \*/
 findAndStore = function(image, obj, key, xml_id) {
-	el = image.select("#"+xml_id)
+	el = getById(image, xml_id);
 	if (el === null) {
 		throw "could not find any element with id "+xml_id
 	}
-	obj[key] = deepcopy(el).node.pathSegList;
+	obj[key] = deepcopy(el).pathSegList;
 }
 
 /*\
@@ -236,7 +295,7 @@ forEachWithId = function(image, prefix, f, with_index, ignore_missing) {
 	if (ignore_missing === undefined) { ignore_missing = false; }
 	var i = 0;
 	var el;
-	while (el = image.select("#"+prefix+i)) {
+	while (el = getById(image, prefix+i)) {
 		if (with_index) { f(el, i); } else { f(el); }
 		i++;
 	}
@@ -260,3 +319,49 @@ clip01 = function(x) {
 	return x;
 }
 
+
+getById_snap = function(doc, id) {
+	return doc.select("#"+id);
+}
+
+getById_dom = function(doc, id) {
+	return doc.getElementById(id);
+}
+
+getById = getById_dom;
+
+setFramework = function(fw) {
+	if (fw == "snap.svg") {
+		getById = getById_snap;
+	} else if (fw == "none") {
+		getById = getById_dom;
+	} else {
+		throw "unknown framework ("+fw+")";
+	}
+}
+
+deg2rad = function(deg) {
+	return deg/360.0 * Math.PI * 2;
+}
+
+rad2deg = function(rad) {
+	return rad/(Math.PI * 2) * 360.0;
+}
+
+rotP = function(ang, x, y) {
+	/*
+	 * $1 $3 $5
+	 * $2 $4 $6
+	 *  0  0  1
+	 */
+	if (y === undefined) {
+		// allow to pass an array instead of two separate values
+		y = x[1];
+		x = x[0];
+	}
+	ang = deg2rad(ang);
+	trans = [Math.cos(ang), Math.sin(ang), -Math.sin(ang), Math.cos(ang)];
+	trans.push(x - trans[0]*x - trans[2]*y);
+	trans.push(y - trans[1]*x - trans[3]*y);
+	return "matrix("+trans.join(",")+")";
+}
