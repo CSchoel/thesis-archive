@@ -1,7 +1,7 @@
 <map version="docear 1.1" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
-<hook NAME="AutomaticEdgeColor" COUNTER="8"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9"/>
 <hook NAME="MapStyle" zoom="0.952">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
@@ -1379,7 +1379,7 @@
 </node>
 </node>
 <node TEXT="Action potential generation" ID="ID_781967274" CREATED="1453749244100" MODIFIED="1453749250174" MOVED="1453911691879">
-<node TEXT="electrical conductance within the heart" FOLDED="true" ID="ID_129286125" CREATED="1453749251469" MODIFIED="1454339261992"><richcontent TYPE="DETAILS">
+<node TEXT="electrical conductance within the heart" ID="ID_129286125" CREATED="1453749251469" MODIFIED="1454339261992"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2462,7 +2462,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="sympathetic activation" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1456136327286"><richcontent TYPE="DETAILS">
+<node TEXT="sympathetic activation" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1456141302041"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2477,7 +2477,7 @@
         lowers threshold
       </li>
       <li>
-        accelerated repolarization [?]
+        accelerated repolarization due to increase in gK+ [?]
 
         <ul>
           <li>
@@ -2821,7 +2821,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="P wave" FOLDED="true" ID="ID_368120032" CREATED="1453804283725" MODIFIED="1453809515931"><richcontent TYPE="DETAILS">
+<node TEXT="P wave" ID="ID_368120032" CREATED="1453804283725" MODIFIED="1453809515931"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2854,7 +2854,7 @@
 <node TEXT="duration of P wave: 0.08 to 0.1 s" STYLE_REF="number" ID="ID_1060722589" CREATED="1453804570418" MODIFIED="1453804604897"/>
 <node TEXT="PR-Interval: 0.12 to 0.2 s" STYLE_REF="number" ID="ID_1031893533" CREATED="1453804622747" MODIFIED="1453805265488"/>
 </node>
-<node TEXT="QRS complex" FOLDED="true" ID="ID_611770040" CREATED="1453804774105" MODIFIED="1453805389490"><richcontent TYPE="DETAILS">
+<node TEXT="QRS complex" ID="ID_611770040" CREATED="1453804774105" MODIFIED="1453805389490"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2933,7 +2933,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="QT interval" FOLDED="true" ID="ID_1527911318" CREATED="1453805801626" MODIFIED="1453806058447"><richcontent TYPE="DETAILS">
+<node TEXT="QT interval" ID="ID_1527911318" CREATED="1453805801626" MODIFIED="1453806058447"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3113,7 +3113,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="AV block" FOLDED="true" ID="ID_445886087" CREATED="1453811755703" MODIFIED="1453812957734"><richcontent TYPE="DETAILS">
+<node TEXT="AV block" ID="ID_445886087" CREATED="1453811755703" MODIFIED="1453812957734"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3324,7 +3324,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="principles and rules of interpretation" FOLDED="true" ID="ID_824768726" CREATED="1453817471092" MODIFIED="1453817529918">
+<node TEXT="principles and rules of interpretation" ID="ID_824768726" CREATED="1453817471092" MODIFIED="1453817529918">
 <node TEXT="electrical vectors" ID="ID_1294053332" CREATED="1453817531556" MODIFIED="1453818668643"><richcontent TYPE="DETAILS">
 
 <html>
@@ -4096,6 +4096,200 @@
 <node TEXT="lymphatic system" FOLDED="true" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1453900657047">
 <edge COLOR="#ffff00"/>
 <node TEXT="lymphatic vessels return fluid from the tissue interstitium to the subclavian veins above the right atrium" ID="ID_75385356" CREATED="1453900637638" MODIFIED="1453900659777"/>
+</node>
+<node TEXT="cellular structure" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1456151605353">
+<edge COLOR="#007c00"/>
+<node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
+<attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
+<attribute NAME="diameter of ventricular myocyte" VALUE="25 &#x3bc;m"/>
+<attribute NAME="length of ventricular myocyte" VALUE="100 &#x3bc;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        single nucleus
+      </li>
+      <li>
+        not as long as skeletal muscle cells
+      </li>
+      <li>
+        atrial myocytes are smaller than ventricular myocytes
+      </li>
+      <li>
+        composed of myofibrills
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2017abc_Cardiac_Muscle.jpg" SIZE="0.30257186" NAME="ExternalObject"/>
+<node TEXT="striated muscle" ID="ID_1906942734" CREATED="1456151895850" MODIFIED="1456151952203"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      crossbands / cross strations in microscopic structure
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="diameter of a ventricular myocyte: 25 &#x3bc;m" STYLE_REF="number" ID="ID_470646513" CREATED="1456152213768" MODIFIED="1456152529623">
+<attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
+</node>
+<node TEXT="length of a ventricular myocyte: 100 &#x3bc;m" STYLE_REF="number" ID="ID_105532277" CREATED="1456152331646" MODIFIED="1456152529638">
+<attribute_layout NAME_WIDTH="164" VALUE_WIDTH="164"/>
+</node>
+<node TEXT="functional syncytium" ID="ID_1961658947" CREATED="1456152581310" MODIFIED="1456152815376"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        branching network of myocytes resulting from cell fusion
+      </li>
+      <li>
+        myocytes connect to each other by specialized cell membranes (intercalated disks)
+      </li>
+      <li>
+        electrical signals can pass from one cell to the other via gap junctions
+      </li>
+      <li>
+        allows the heart to contract as a unit (synctium)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="intercalated disk" ID="ID_1698750386" CREATED="1456152708284" MODIFIED="1456153126373"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      membrane that connects two myocytes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="gap junction" ID="ID_1314024833" CREATED="1456152715740" MODIFIED="1456152885066"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        low-resistance pathway between cells
+      </li>
+      <li>
+        permits conduction of ionic currents
+      </li>
+      <li>
+        only present in heart muscle cells and not e.g. skeletal muscles
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="myofibrill" ID="ID_1788258358" CREATED="1456152914107" MODIFIED="1456153204700"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bundles of myofilaments that make up myocytes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456153209707"/>
+</node>
+<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456155157530">
+<attribute NAME="length" VALUE="1.6 - 2.2 &#x3bc;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        basic contractile unit of myocyte
+      </li>
+      <li>
+        region between two &quot;Z-Lines&quot; (visible under microscope)
+      </li>
+      <li>
+        length determines contractile force
+      </li>
+      <li>
+        contains think (actin) and thin filaments (myosin)&#160;(50% of cell volume)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="sarcomere length: 1.6 - 2.2 &#x3bc;m" STYLE_REF="number" ID="ID_681801520" CREATED="1456153349448" MODIFIED="1456153367446"/>
+<node TEXT="thick filaments" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456155056973"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      consist of actin
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="thin filaments" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456155090571"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      consist of myosin and other proteins
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
