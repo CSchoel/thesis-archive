@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="9"/>
-<hook NAME="MapStyle" zoom="0.952">
+<hook NAME="MapStyle" zoom="0.865">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -4228,9 +4228,12 @@
 </html>
 
 </richcontent>
-<node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456153209707"/>
+<node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456228432602">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1927763304" STARTINCLINATION="404;-42;" ENDINCLINATION="144;-75;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456155157530">
+</node>
+<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456228227614">
 <attribute NAME="length" VALUE="1.6 - 2.2 &#x3bc;m"/>
 <richcontent TYPE="DETAILS">
 
@@ -4244,7 +4247,7 @@
         basic contractile unit of myocyte
       </li>
       <li>
-        region between two &quot;Z-Lines&quot; (visible under microscope)
+        region between two &quot;Z-Lines&quot;
       </li>
       <li>
         length determines contractile force
@@ -4257,8 +4260,58 @@
 </html>
 
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Sarcomere.jpg" SIZE="0.75" NAME="ExternalObject"/>
 <node TEXT="sarcomere length: 1.6 - 2.2 &#x3bc;m" STYLE_REF="number" ID="ID_681801520" CREATED="1456153349448" MODIFIED="1456153367446"/>
-<node TEXT="thick filaments" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456155056973"><richcontent TYPE="DETAILS">
+<node TEXT="thick filaments" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456229219449"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        consist of myosin (300 molecules per filament)
+      </li>
+      <li>
+        surrounded by hexagonal arrangement of 6 thin filaments
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="myosin" ID="ID_970177230" CREATED="1456228350299" MODIFIED="1456229173566"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        large molecule
+      </li>
+      <li>
+        two heads as site for myosin adenosine triphosphatase (myosin ATPase)
+
+        <ul>
+          <li>
+            interact with binding site on actin
+          </li>
+          <li>
+            have regulatory subunits (light chains) that can be phosphorylated
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="thin filaments" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456229292123"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4266,14 +4319,90 @@
   </head>
   <body>
     <p>
-      consist of actin
+      consist of actin, tropomyosin and troponin
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="actin" ID="ID_985146609" CREATED="1456228357139" MODIFIED="1456229354370"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        two helical strands of repeating globular units
+      </li>
+      <li>
+        tropomyosin between the two strands
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="tropomyosin" ID="ID_860526219" CREATED="1456229356244" MODIFIED="1456229490634"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        rod-shaped
+      </li>
+      <li>
+        carries troponin regulatory complex at regular intervals
+      </li>
+      <li>
+        one tropomyosin per 7 actin
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="troponin" ID="ID_254937729" CREATED="1456229494419" MODIFIED="1456229830010"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        holds tropomyosin in place =&gt; prevents myosin heads from binding to actin
+      </li>
+      <li>
+        when Ca++ binds to TN-C, conformation changes =&gt; binding site of actin exposed
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="troponin-T (TN-T)" ID="ID_1558312705" CREATED="1456229507628" MODIFIED="1456229569908"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      attaches to tropomyosin
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="thin filaments" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456155090571"><richcontent TYPE="DETAILS">
+<node TEXT="troponin-C (TN-C)" ID="ID_579563864" CREATED="1456229524732" MODIFIED="1456229585097"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4281,8 +4410,593 @@
   </head>
   <body>
     <p>
-      consist of myosin and other proteins
+      binding site for Ca++
     </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="troponin-I (TN-I)" ID="ID_1110954762" CREATED="1456229534563" MODIFIED="1456229635976"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      inhibits myosin binding to actin
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="titin" ID="ID_329023521" CREATED="1456225901069" MODIFIED="1456228135883"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        elastic protein that connects myosin filaments to Z-Lines
+      </li>
+      <li>
+        helpts to keep actin filaments centered
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="sarcolemma" ID="ID_1784805838" CREATED="1456230151758" MODIFIED="1456230524853"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        surrounds bundle of myofibrills (outer cell membrane)
+      </li>
+      <li>
+        has deep invaginations (transverse tubules)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="transverse tubules (T tubules)" ID="ID_466969632" CREATED="1456230269318" MODIFIED="1456230417869"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        invaginations in sarcolemma
+      </li>
+      <li>
+        open to external cell environment
+
+        <ul>
+          <li>
+            =&gt; ions can freely enter and ion exchange can happen deep inside the myocyte
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="sarcoplasmic reticulum" ID="ID_1351979255" CREATED="1456230421893" MODIFIED="1456230951015"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        branching tubular network surrounding myofilaments
+      </li>
+      <li>
+        regulates intracellular calcium concentrations
+      </li>
+      <li>
+        close to T tubules
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="terminal cisternae" ID="ID_329433892" CREATED="1456230952857" MODIFIED="1456232029239"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        end pouches of SR adjacent to T tubules
+      </li>
+      <li>
+        contain calcium-release channels (ryanodine-sensitive)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&quot;feet&quot;" ID="ID_959858230" CREATED="1456230957913" MODIFIED="1456231071333"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        electron-dense regions between terminal cisternae and T tubules
+      </li>
+      <li>
+        believed to sense calcium from L-type calcium channels
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="excitation-contraction coupling" ID="ID_278191118" CREATED="1456229885601" MODIFIED="1456230144432" MOVED="1456231511062"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        coupling between myocite action potential and contraction
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456233400554"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        Calcium Ions enter the cell (at T tubules) through L-type calcium channe
+
+        <ul>
+          <li>
+            does not significantly change intracellular calcium concentration
+          </li>
+        </ul>
+      </li>
+      <li>
+        Calcium is sensed by &quot;feet&quot; of calcium-release channels in SR.
+      </li>
+      <li>
+        Calcium release channels in terminal cisternae release large amounts of calcium.
+
+        <ul>
+          <li>
+            increases intracellular calcium concentration 100-fold
+          </li>
+        </ul>
+      </li>
+      <li>
+        Free calcium binds to TN-C.
+      </li>
+      <li>
+        Myosin-binding site on actin molecules becomes exposed.
+      </li>
+      <li>
+        ATP hydrolysis during binding yields energy for conformational change.
+      </li>
+      <li>
+        Actin and myosin fragments slide past each other (&quot;ratcheting&quot;)
+
+        <ul>
+          <li>
+            ???
+          </li>
+        </ul>
+      </li>
+      <li>
+        Calcium entry into cell dminishes.
+      </li>
+      <li>
+        Sarcoendoplasmic reticulum calcium ATPAse (SERCA) pumps calcium back into SR
+      </li>
+      <li>
+        Calcium dissociates from TN-C.
+      </li>
+      <li>
+        Normal length of sarcomere is restored
+      </li>
+      <li>
+        new ATP binds to myosin head, displacing ADP
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="contraction regulation (inotropy)" ID="ID_646170614" CREATED="1456233482135" MODIFIED="1456233495610">
+<node TEXT="calcium entry through L-Type channels" ID="ID_885294699" CREATED="1456233725726" MODIFIED="1456233739903">
+<node TEXT="changes in cAMP concentration" ID="ID_1935072646" CREATED="1456233742255" MODIFIED="1456233769022">
+<node TEXT="norepinephrine / epinephrine (positive inotropy)" ID="ID_892820798" CREATED="1456233770213" MODIFIED="1456233782503"/>
+<node TEXT="acetylcholine (negative inotropy)" ID="ID_919714122" CREATED="1456233783933" MODIFIED="1456233790831"/>
+<node TEXT="adenosine (negative inotropy)" ID="ID_1320282494" CREATED="1456233814813" MODIFIED="1456233856803"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        adenosine-receptors are coupled to same G-Protein as muscarinic acetylcholine-receptors
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="calcium release by SR" ID="ID_391481305" CREATED="1456233864669" MODIFIED="1456233871606">
+<node TEXT="PKA phosphorylates parts of SR (positive inotropy)" ID="ID_1705948507" CREATED="1456233921764" MODIFIED="1456233976134"/>
+<node TEXT="&#x3b1;1-adrenoreceptors coupled to Gq-proteins (positive inotropy)" ID="ID_1510286610" CREATED="1456234033459" MODIFIED="1456234118795"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less important than cAMP/PKA
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="calcium binding to TN-C" ID="ID_784967699" CREATED="1456234128083" MODIFIED="1456234197956">
+<node TEXT="acidosis during mytochondrial hypoxia (negative inotropy)" ID="ID_57663687" CREATED="1456234199906" MODIFIED="1456234245479"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        acidosis decreases TN-C affinity for calcium
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="preload (positive inotropy)" ID="ID_238821387" CREATED="1456234287978" MODIFIED="1456234333376"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        more force generated when sacromere length is increased
+      </li>
+      <li>
+        mechanisms unknown
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="myosin ATPase activity" ID="ID_988346722" CREATED="1456234361833" MODIFIED="1456234369874">
+<node TEXT="myosin light chain kinase (positive inotropy?)" ID="ID_1326356298" CREATED="1456234413720" MODIFIED="1456234456652"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        phosphorylates light chains of myosin
+      </li>
+      <li>
+        physiological significance unknown
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="calcium uptake by SR" ID="ID_436280101" CREATED="1456234460544" MODIFIED="1456234634069"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        the more calcium is pumped into SR, the more calcium can be released at the next contraction
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="PKA phosphorylation of phospholamban (positive inotropy)" ID="ID_1670909193" CREATED="1456234473952" MODIFIED="1456234663843"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        decreases inhibitory effect of phospholamban on SERCA
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="hypoxia (negative inotropy)" ID="ID_298988516" CREATED="1456234668703" MODIFIED="1456234689233"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less ATP leads to less SERCA activity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="regulation of calcium efflux" ID="ID_1183164802" CREATED="1456234699359" MODIFIED="1456234708368">
+<node TEXT="inhibiting sodium-calcium exchanger in sarcolemma (positive inotropy)" ID="ID_1644994867" CREATED="1456234720471" MODIFIED="1456234875560"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        inhtibiting NCX leads to increased intracellular calcium concentration because SR uptake is increased
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="inhibiting Na+/K+-ATPase" ID="ID_360275202" CREATED="1456234865469" MODIFIED="1456235043794"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases [Na+]_i
+      </li>
+      <li>
+        =&gt; I_NCX reverses =&gt; increased [Ca++]_i
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="hypoxia (no inotropy)" ID="ID_411742730" CREATED="1456235084044" MODIFIED="1456235137085"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        reduces activity of Na+/K+-ATPase and Ca++-ATPase
+      </li>
+      <li>
+        but does not have inotropic effect because of lack of ATP
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="relaxation regulation (lusitropy)" ID="ID_1700102051" CREATED="1456235155476" MODIFIED="1456235395816"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        for relaxation to occur, [Ca++]_i must be reduced
+      </li>
+      <li>
+        =&gt; calcium accumulation inside the cell impairs relaxation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&quot;calcium overload&quot; during ischemia (negative lusitropy)" ID="ID_385146092" CREATED="1456235248971" MODIFIED="1456235283684"/>
+<node TEXT="inhibition of sodium-calcium exchanger (negative lusitropy)" ID="ID_1724093019" CREATED="1456235285514" MODIFIED="1456235341093"/>
+<node TEXT="increased SERCA activity (positive lusitropy)" ID="ID_679576839" CREATED="1456235418786" MODIFIED="1456235428403">
+<node TEXT="phosphorylation of phospholamban" ID="ID_509028263" CREATED="1456235440977" MODIFIED="1456235456171"/>
+</node>
+<node TEXT="decreased SERCA activity (negative lusitropy)" ID="ID_1695735040" CREATED="1456235481481" MODIFIED="1456235491131">
+<node TEXT="some forms of heart failure" ID="ID_1608718575" CREATED="1456235495865" MODIFIED="1456235504603"/>
+</node>
+<node TEXT="PKA phosphorylation of TN-I (positive lusitropy)" ID="ID_1793761286" CREATED="1456235510929" MODIFIED="1456235666848"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases calcium dissociation from TN-C
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="metabolsim" ID="ID_375475922" CREATED="1456235798383" MODIFIED="1456236194156"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cardiac myocytes have exceptionally high metabolic rate
+    </p>
+    <p>
+      repetitive contractions require enormous amount of ATP
+    </p>
+    <p>
+      =&gt; large number of mitochondria
+    </p>
+    <p>
+      only limites anaerobic capacity for meeting ATP requirements
+    </p>
+    <p>
+      =&gt; in the absence of oxgygen: contraction capabilities only last for a minute
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ATP requirements" ID="ID_1656552790" CREATED="1456236195828" MODIFIED="1456236358531"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        cardiac myocytes have exceptionally high metabolic rate
+      </li>
+      <li>
+        repetitive contractions require enormous amount of ATP
+      </li>
+      <li>
+        =&gt; large number of mitochondria
+      </li>
+      <li>
+        only limited anaerobic capacity for meeting ATP requirements
+      </li>
+      <li>
+        =&gt; in the absence of oxgygen: contraction capabilities only last for a minute
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ATP regeneration" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
+<node TEXT="oxidative" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456236380069">
+<node TEXT="fatty acids" ID="ID_1928194588" CREATED="1456236381603" MODIFIED="1456236384724"/>
+<node TEXT="carbohydrates" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
+<node TEXT="lactate" ID="ID_1018061171" CREATED="1456236419219" MODIFIED="1456236421172"/>
+<node TEXT="glucose" ID="ID_1750870789" CREATED="1456236422554" MODIFIED="1456236425844"/>
+</node>
+<node TEXT="aminoacids" ID="ID_1487530918" CREATED="1456236427762" MODIFIED="1456236434972"/>
+<node TEXT="ketones" ID="ID_1803975911" CREATED="1456236436107" MODIFIED="1456236457603"/>
+</node>
+</node>
+<node TEXT="reaction to increased activity" ID="ID_1704337692" CREATED="1456236224724" MODIFIED="1456236563570"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increase in heart rate and force of contraction dramatically increase energy requirements
+      </li>
+      <li>
+        =&gt; increased oxygen consumption
+      </li>
+      <li>
+        biochemical signals from myocytes dilate coronary blood vessels
+      </li>
+      <li>
+        =&gt; additional blood flow and oxygen
+      </li>
+    </ul>
   </body>
 </html>
 
