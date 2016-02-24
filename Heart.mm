@@ -4580,7 +4580,7 @@
 </html>
 
 </richcontent>
-<node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456233400554"><richcontent TYPE="DETAILS">
+<node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456237725062" LINK="https://www.youtube.com/watch?v=CbfK1Gi-aCk"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4617,15 +4617,15 @@
       </li>
       <li>
         ATP hydrolysis during binding yields energy for conformational change.
-      </li>
-      <li>
-        Actin and myosin fragments slide past each other (&quot;ratcheting&quot;)
 
         <ul>
           <li>
-            ???
+            head is cocked =&gt; actin is moved towards Z-line where myosin is attached
           </li>
         </ul>
+      </li>
+      <li>
+        Actin and myosin fragments slide past each other (&quot;ratcheting&quot;)
       </li>
       <li>
         Calcium entry into cell dminishes.
@@ -4647,6 +4647,9 @@
 </html>
 
 </richcontent>
+<node TEXT="contraction" ID="ID_329463012" CREATED="1456238643251" MODIFIED="1456238664032">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/1008_Skeletal_Muscle_Contraction.jpg" SIZE="0.7398274" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 <node TEXT="contraction regulation (inotropy)" ID="ID_646170614" CREATED="1456233482135" MODIFIED="1456233495610">
@@ -4966,14 +4969,56 @@
 </richcontent>
 </node>
 <node TEXT="ATP regeneration" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
-<node TEXT="oxidative" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456236380069">
+<node TEXT="energy sources (oxidative)" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456304952208"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        at rest: 60% fatty acids, 40% carbohydrates
+      </li>
+      <li>
+        can adapt to only use carbohydrates
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="fatty acids" ID="ID_1928194588" CREATED="1456236381603" MODIFIED="1456236384724"/>
 <node TEXT="carbohydrates" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
-<node TEXT="lactate" ID="ID_1018061171" CREATED="1456236419219" MODIFIED="1456236421172"/>
+<node TEXT="lactate" ID="ID_1018061171" CREATED="1456236419219" MODIFIED="1456304977475"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        can be used in place of glucose
+      </li>
+      <li>
+        becomes especially important during exercise
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="glucose" ID="ID_1750870789" CREATED="1456236422554" MODIFIED="1456236425844"/>
 </node>
-<node TEXT="aminoacids" ID="ID_1487530918" CREATED="1456236427762" MODIFIED="1456236434972"/>
+<node TEXT="aminoacids" ID="ID_1487530918" CREATED="1456236427762" MODIFIED="1456305003468">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="ketones" ID="ID_1803975911" CREATED="1456236436107" MODIFIED="1456236457603"/>
+<node TEXT="replacement for fatty acids" ID="ID_1654056463" CREATED="1456305003461" MODIFIED="1456305023753">
+<hook NAME="SummaryNode"/>
+</node>
 </node>
 </node>
 <node TEXT="reaction to increased activity" ID="ID_1704337692" CREATED="1456236224724" MODIFIED="1456236563570"><richcontent TYPE="DETAILS">
@@ -5002,6 +5047,648 @@
 
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="vascular structure" ID="ID_1480579208" CREATED="1456305411724" MODIFIED="1456307730813"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        three layers (from inside to outside, *: separating membranes)
+
+        <ul>
+          <li>
+            intima
+          </li>
+          <li>
+            *basement membrane
+          </li>
+          <li>
+            media
+          </li>
+          <li>
+            *external elastic lamina
+          </li>
+          <li>
+            adventitia
+          </li>
+        </ul>
+      </li>
+      <li>
+        capillaries only have endothelial cells and basal lamina (no smooth muscles)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="intima" ID="ID_936287537" CREATED="1456306007967" MODIFIED="1456306066091"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        single layer of endothelial cells
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="vascular endothelial cells" ID="ID_1709203739" CREATED="1456310974364" MODIFIED="1456315326154">
+<attribute NAME="diameter" VALUE="0.2 - 2.0 &#xb5;m"/>
+<attribute NAME="length" VALUE="1 - 20 &#xb5;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        line all blood vessels
+      </li>
+      <li>
+        flat, single-nucleated, elongated
+      </li>
+      <li>
+        types of intracellular junctions vary with tissue type
+
+        <ul>
+          <li>
+            arteries and skeletal muscle capillaries have tight connections
+          </li>
+          <li>
+            capillaries in spleen and bone marrows have gaps
+
+            <ul>
+              <li>
+                allow blood to easily move in and out of capillary
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        functions
+
+        <ul>
+          <li>
+            barrier for exchange of fluid, electrolytes, macromolecules and cells
+          </li>
+          <li>
+            regulating smooth muscle function
+          </li>
+          <li>
+            modulating platelet aggregation (blood clot)
+          </li>
+          <li>
+            modulating leukocyte adhesion and transendothelial migration
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="production of nitrous oxide (NO)" ID="ID_1836146580" CREATED="1456313781137" MODIFIED="1456315897834"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        enhanced by
+
+        <ul>
+          <li>
+            agonists binding to specific receptors
+
+            <ul>
+              <li>
+                acetylcholine
+              </li>
+              <li>
+                bradykinin
+              </li>
+            </ul>
+          </li>
+          <li>
+            shearing forces on endothelial surface (increased blood flow)
+          </li>
+          <li>
+            cytokines released by leukocytes during inflammation and infection
+          </li>
+        </ul>
+      </li>
+      <li>
+        functions of NO
+
+        <ul>
+          <li>
+            smooth muscle relaxation
+          </li>
+          <li>
+            inhibits platelet aggregation
+          </li>
+          <li>
+            inhibits inflammatory responses
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="endothelin-1 (ET-1) synthesis" ID="ID_683174065" CREATED="1456314298284" MODIFIED="1456314512913"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ET-1 is powerful vasoconstrictor
+      </li>
+      <li>
+        stimulated by
+
+        <ul>
+          <li>
+            angiotensin II
+          </li>
+          <li>
+            vasopressin
+          </li>
+          <li>
+            thrombin
+          </li>
+          <li>
+            cytokines
+          </li>
+          <li>
+            shearing forces
+          </li>
+        </ul>
+      </li>
+      <li>
+        inhibitted by
+
+        <ul>
+          <li>
+            NO
+          </li>
+          <li>
+            PGI_2
+          </li>
+        </ul>
+      </li>
+      <li>
+        ET-1 binds to receptors on vascular smooth muscles causing activation of IP_3 pathway
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="synthesis of PGI_2" ID="ID_1511849637" CREATED="1456314516371" MODIFIED="1456314976583"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        functions
+
+        <ul>
+          <li>
+            smooth muscle relaxation
+          </li>
+          <li>
+            inhibition of platelet aggregation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="dysfunction" ID="ID_910538838" CREATED="1456314993592" MODIFIED="1456315154110"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less NO and PGI_2
+
+        <ul>
+          <li>
+            vasoconstriction
+          </li>
+          <li>
+            loss of vasodilatory capacity
+          </li>
+          <li>
+            thrombosis
+          </li>
+          <li>
+            vascular inflammation
+          </li>
+        </ul>
+      </li>
+      <li>
+        enhanced ET-1 contributes to hypertension
+      </li>
+      <li>
+        damage at capillary level can cause tissue edema
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="media" ID="ID_1576907133" CREATED="1456306013975" MODIFIED="1456306497712"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        contains smooth muscle cells (embedded in collagen, elastin and glycoproteins)
+      </li>
+      <li>
+        may be arranged in several layers
+
+        <ul>
+          <li>
+            either circumferentially (around the vessel)
+          </li>
+          <li>
+            or helically along the vessel
+          </li>
+        </ul>
+      </li>
+      <li>
+        function: constrict the vessel (reduce diameter)
+      </li>
+      <li>
+        ratio between collagen, elastin and muscle cells determine elastic properties
+
+        <ul>
+          <li>
+            example: aorta has large amount of elastin =&gt; dampens blood pressure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="vascular smooth muscle cells" ID="ID_1618826955" CREATED="1456306787658" MODIFIED="1456308561085">
+<attribute NAME="diameter" VALUE="5 - 10 &#xb5;m"/>
+<attribute NAME="length" VALUE="50 - 300 &#xb5;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        many small invaginations (caveolae) =&gt; increased surface area
+      </li>
+      <li>
+        SR is poorly developed compared to cardiac myocytes
+      </li>
+      <li>
+        actin/myosin-filaments are joined by dense bodies (cell interior) and dense bands (cell membrane)
+
+        <ul>
+          <li>
+            no distinct bands as in cardiac myocytes
+          </li>
+          <li>
+            dense bands/bodies function like Z-lines
+          </li>
+        </ul>
+      </li>
+      <li>
+        gap junctions between cells
+
+        <ul>
+          <li>
+            =&gt; cell-to-cell conduction of depolarization currents is possible
+          </li>
+        </ul>
+      </li>
+      <li>
+        slow and sustained contractions instead of fast and short as in cardiac myocytes
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="contraction" ID="ID_1481917345" CREATED="1456308507845" MODIFIED="1456309247969"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        normally smooth muscles are in partially contracted state
+      </li>
+      <li>
+        determined by stimulatory and inhibitory influences
+
+        <ul>
+          <li>
+            sympathetic adrenergic nerves
+          </li>
+          <li>
+            circulating hormones (norepinephrine, angiotensin II)
+          </li>
+          <li>
+            substances released by endothelium
+          </li>
+          <li>
+            vasoactive substances relased by tissue surrounding the blood vessel
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be initiated by different stimuli
+
+        <ul>
+          <li>
+            electrical via L-type calcium channels
+          </li>
+          <li>
+            chemical by changes in ion concentrations (extracellular or via receptor-coupled opening of channels)
+
+            <ul>
+              <li>
+                stimuli: norepinephrine, epinephrine, angiotensin II, vasopressin, ...
+              </li>
+              <li>
+                all lead to increased&#160;&#160;intracellular calcium
+              </li>
+            </ul>
+          </li>
+          <li>
+            mechanical by passive stretching from muscle itself (myogenic response)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="contraction by increased calcium concentrations" ID="ID_607753203" CREATED="1456308814148" MODIFIED="1456309518107"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        calcium binds to calmodulin
+      </li>
+      <li>
+        calcium-calmodulin activates myosin light chain kinase (requires ATP)
+      </li>
+      <li>
+        myosin light chain phosphorylation leads to cross-bridge binding between myosin head and actin filaments
+      </li>
+      <li>
+        myosin head moves =&gt; cell contracts
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="calcium concentration regulation" ID="ID_607303477" CREATED="1456309602670" MODIFIED="1456309692020"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        calcium can enter the cell through L-type calcium channels
+      </li>
+      <li>
+        sodium-calcium exchanger and Ca++-ATPase pump calcium out of cell
+      </li>
+      <li>
+        SR can release calcium
+      </li>
+      <li>
+        pump similar to cardiac SERCA pumps calcium into SR
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="three major pahtways" ID="ID_936193630" CREATED="1456309721452" MODIFIED="1456309728279">
+<node TEXT="Gq-protein activation of phospholipase C" ID="ID_1033643062" CREATED="1456309729069" MODIFIED="1456310246335">
+<hook EQUATION="IP_3" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        similar to IP_3 in heart
+      </li>
+      <li>
+        activation of&#160;&#160;phospholipase C by
+
+        <ul>
+          <li>
+            norepinephrine
+          </li>
+          <li>
+            epinephrine
+          </li>
+          <li>
+            angiotensin II
+          </li>
+          <li>
+            endothelin-I
+          </li>
+          <li>
+            vasopressin
+          </li>
+          <li>
+            acetylcholine
+          </li>
+        </ul>
+      </li>
+      <li>
+        formation of IP_3 from PIP_2 (IP_3 = PIP_2 + DAG)
+      </li>
+      <li>
+        IP_3 stimulates SR to release calcium
+      </li>
+      <li>
+        additional indirect effect
+
+        <ul>
+          <li>
+            diacylglycerol (DAG) also activates protein kinase C (PKC)
+          </li>
+          <li>
+            PKC can modulate contraction via protein phosphorylation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cAMP via Gs-protein actiavtion of adenylyl cyclase" ID="ID_1539287048" CREATED="1456309800468" MODIFIED="1456310483129"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        release mechanism is the same as in the heart
+
+        <ul>
+          <li>
+            but is also triggered by adenosine and prostacyclin
+          </li>
+        </ul>
+      </li>
+      <li>
+        but increase in cAMP causes relaxation
+      </li>
+      <li>
+        cAMP inhibits protein light chain kinase
+      </li>
+      <li>
+        decreases myosin light chain phosphorylation
+      </li>
+      <li>
+        inhibits interactions between actin and myosin
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cyclic guanosine monophosphate (cGMP) via nitric oxide (NO) activation of guanylyl cyclase" ID="ID_494429609" CREATED="1456309836452" MODIFIED="1456310691422"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        vasodilator substances activate&#160;&#160;NO synthase
+      </li>
+      <li>
+        NO activates guanylyl cyclase
+      </li>
+      <li>
+        causes smooth muscle relaxation
+      </li>
+      <li>
+        exact mechanisms unknown
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="adventitia" ID="ID_415551913" CREATED="1456306017679" MODIFIED="1456306685977"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        contains
+
+        <ul>
+          <li>
+            collagen
+          </li>
+          <li>
+            fibroblasts
+          </li>
+          <li>
+            blood vessels (vasa vasorum in large vessels)
+          </li>
+          <li>
+            lymphatics
+          </li>
+          <li>
+            autonomic nerves (primary sympathetic adrenergic)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
