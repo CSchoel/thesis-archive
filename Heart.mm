@@ -4675,6 +4675,57 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="pressure-volume loop" ID="ID_1425546802" CREATED="1456328621863" MODIFIED="1456329144220"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        plot left ventricular pressure against left ventricular volume
+      </li>
+      <li>
+        can help to analyze cardiac cycle
+      </li>
+    </ul>
+    <img src="images/PV loop animation.gif"/>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="end-diastolic pressure-volume relationship (EDPVR)" ID="ID_930320203" CREATED="1456328838478" MODIFIED="1456329012577"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      passive filling curve for ventricle
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="end-systolic pressure-volume relationship (ESPVR)" ID="ID_1038978245" CREATED="1456328856366" MODIFIED="1456329053184"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      maximal pressure developed by ventricle at any given left ventricular volume
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="lymphatic system" FOLDED="true" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1456317089252" HGAP="51" VSHIFT="-6">
