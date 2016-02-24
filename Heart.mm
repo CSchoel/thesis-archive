@@ -1,7 +1,7 @@
 <map version="docear 1.1" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
-<hook NAME="AutomaticEdgeColor" COUNTER="9"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11"/>
 <hook NAME="MapStyle" zoom="0.865">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
@@ -56,7 +56,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="electrical activity" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
+<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
 <edge COLOR="#ff0000"/>
 <node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
@@ -3850,7 +3850,7 @@
 </node>
 </node>
 </node>
-<node TEXT="adaptation to environmental conditions" POSITION="left" ID="ID_159938327" CREATED="1453901798076" MODIFIED="1453910145440" HGAP="-102" VSHIFT="-50" MOVED="1453901828309">
+<node TEXT="adaptation to environmental conditions" POSITION="left" ID="ID_159938327" CREATED="1453901798076" MODIFIED="1456317111379" HGAP="-100" VSHIFT="43" MOVED="1453901828309">
 <edge COLOR="#7c0000"/>
 <node TEXT="mechanisms" FOLDED="true" ID="ID_1224912627" CREATED="1453901892492" MODIFIED="1453901894845">
 <node TEXT="baroreceptors" ID="ID_1221612288" CREATED="1453897707583" MODIFIED="1453902189435"><richcontent TYPE="DETAILS">
@@ -3982,9 +3982,9 @@
 </node>
 </node>
 </node>
-<node TEXT="blood flow" FOLDED="true" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1453901543505" HGAP="-89" VSHIFT="208">
+<node TEXT="blood flow" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1456317147198" HGAP="-89" VSHIFT="208">
 <edge COLOR="#00ff00"/>
-<richcontent TYPE="DETAILS" HIDDEN="true">
+<richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4086,18 +4086,602 @@
 <node TEXT="left atrium input pressure: 10 mmHg" STYLE_REF="number" ID="ID_1775291724" CREATED="1453901470799" MODIFIED="1453901521782"/>
 <node TEXT="max. systolic pressure in aorta: 100 - 140 mmHg" STYLE_REF="number" ID="ID_138053166" CREATED="1453901494929" MODIFIED="1453901521787"/>
 </node>
-<node TEXT="function" POSITION="left" ID="ID_1612755434" CREATED="1453900587101" MODIFIED="1453900600512">
+<node TEXT="function" POSITION="left" ID="ID_1612755434" CREATED="1453900587101" MODIFIED="1456317132194" HGAP="220" VSHIFT="59">
 <edge COLOR="#00ffff"/>
 <node TEXT="complex organisms need circulation to connect cells to &quot;outside world&quot; (exchange substances)" ID="ID_785213564" CREATED="1453897707582" MODIFIED="1453910253787"/>
 <node TEXT="hormone production" FOLDED="true" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
 <node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1453897707582"/>
 </node>
+<node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456327747333"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        from one P wave to the next
+      </li>
+      <li>
+        systole: ventricular contraction and ejection
+      </li>
+      <li>
+        diastole: everything else
+      </li>
+      <li>
+        at higher heart rates: both diastole and systole shorten
+
+        <ul>
+          <li>
+            but diastole shortens much more than systole
+          </li>
+          <li>
+            =&gt; compensatory mechanisms required to retain ventricular filling
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="phases" ID="ID_1345408208" CREATED="1456320770135" MODIFIED="1456320876295"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        atrial systole
+      </li>
+      <li>
+        isovolumetric contraction
+      </li>
+      <li>
+        rapid ejection
+      </li>
+      <li>
+        reduced ejection
+      </li>
+      <li>
+        isovolumetric relaxation
+      </li>
+      <li>
+        rapid filling
+      </li>
+      <li>
+        reduced filling
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Phase 1: atrial systole" ID="ID_1884838028" CREATED="1456320878431" MODIFIED="1456324552148">
+<attribute_layout NAME_WIDTH="119" VALUE_WIDTH="119"/>
+<attribute NAME="EDV" VALUE="120 ml"/>
+<attribute NAME="EDP (left ventricle)" VALUE="8 mmHg"/>
+<attribute NAME="EDP (right ventricle)" VALUE="4 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        P wave = depolarization of atria
+      </li>
+      <li>
+        atria contract in a directed fashion, creating a &quot;milking&quot; effect
+
+        <ul>
+          <li>
+            prevents reverse flow (along with venous return)
+          </li>
+        </ul>
+      </li>
+      <li>
+        pressure in atrial chamber rises
+      </li>
+      <li>
+        blood is pumped into ventricles
+      </li>
+      <li>
+        net rise of pressure increase in atria is low but measurable
+
+        <ul>
+          <li>
+            &quot;a wave&quot;
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial pressure falls =&gt; &quot;x descent&quot;
+      </li>
+      <li>
+        AV valves (tricuspid and mithral) float upward (preposition) and close
+      </li>
+      <li>
+        ventricles reach end-diastolic volume
+
+        <ul>
+          <li>
+            left ventricle: 120 ml at 8 mmHg
+          </li>
+          <li>
+            right ventricle: 120 ml at 4 mmHg
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="left ventricle" ID="ID_729577124" CREATED="1456321424802" MODIFIED="1456321656663"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        filling (from pulmonary veins) is mostly passive
+      </li>
+      <li>
+        only 10% form atrial contraction at rest
+      </li>
+      <li>
+        but may account for up to 40% at higher heart rates (less time for passive filling)
+      </li>
+      <li>
+        percentage also increases with force of&#160;contraction (&quot;atrial kick&quot; by sympathetic nerve activation)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="lymphatic system" FOLDED="true" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1453900657047">
+<node TEXT="4th heart sound (S4)" ID="ID_1997699090" CREATED="1456322119782" MODIFIED="1456322188418"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sometimes heard during atrial contraction
+      </li>
+      <li>
+        when ventricle compliance is reduced (&quot;stiff&quot; ventricles)
+      </li>
+      <li>
+        commonly present in older individuals
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="end-diastolic volume (EDV) of ventricles: 120 ml" STYLE_REF="number" ID="ID_92343465" CREATED="1456324425069" MODIFIED="1456324503615"/>
+<node TEXT="end-diastolic pressure in left ventricle: 8 mmHg" STYLE_REF="number" ID="ID_1913666446" CREATED="1456324453141" MODIFIED="1456324503629"/>
+<node TEXT="end-diastolic pressure in right ventricle: 4 mmHg" STYLE_REF="number" ID="ID_978267491" CREATED="1456324483173" MODIFIED="1456324503637"/>
+</node>
+<node TEXT="Phase 2: isovolumetric contraction" ID="ID_1398008675" CREATED="1456320895342" MODIFIED="1456323917427"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ventricles contract (QRS)
+      </li>
+      <li>
+        pressure in ventricles rises
+      </li>
+      <li>
+        =&gt; AV valves close =&gt; all valves closed
+
+        <ul>
+          <li>
+            vibration in blood causes&#160;first heart sound (S1)
+          </li>
+        </ul>
+      </li>
+      <li>
+        pressure increases further, but volume stays the same =&gt; &quot;isovolumetric&quot;
+      </li>
+      <li>
+        atrial pressure increases transiently, because of venous return and bulging of AV valves back into atria
+
+        <ul>
+          <li>
+            &quot;c wave&quot;
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="1st heart sound (S1)" ID="ID_1755124091" CREATED="1456323469076" MODIFIED="1456323566464"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        caused by closing of AV valves (tricuspid and mitral)
+      </li>
+      <li>
+        normally split by 40 ms because mitral valve closes before tricuspid
+
+        <ul>
+          <li>
+            still perceived as single sound by stetoscope
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Phase 3: rapid ejection" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456324615266">
+<attribute_layout NAME_WIDTH="172" VALUE_WIDTH="172"/>
+<attribute NAME="maximal aortic pressure" VALUE="120 mmHg"/>
+<attribute NAME="maximal pulmonary pressure" VALUE="25 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        aortic and pulmonic valves open as pressure in ventricles rises above pressure in arteries
+      </li>
+      <li>
+        ventricular pressure is only a few mmHg higher than atrial pressure
+      </li>
+      <li>
+        outflow is maximal early in this phase
+      </li>
+      <li>
+        maximal artery pressures are achieved
+      </li>
+      <li>
+        atria still fill with blood, but atrial pressure decreases
+
+        <ul>
+          <li>
+            base of atria is pulled down =&gt; atrial chambers expand
+          </li>
+          <li>
+            &quot;x' descent&quot;
+          </li>
+        </ul>
+      </li>
+      <li>
+        no sounds heart (healthy valve opening is silent)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="maximal systolic aortic pressure: 120 mmHg" STYLE_REF="number" ID="ID_1748068349" CREATED="1456324625708" MODIFIED="1456324696171"/>
+<node TEXT="maximal systolic pulmonary pressure: 25 mmHg" STYLE_REF="number" ID="ID_1867800457" CREATED="1456324638412" MODIFIED="1456324696183"/>
+</node>
+<node TEXT="Phase 4: reduced ejection" ID="ID_245834116" CREATED="1456320913318" MODIFIED="1456325083949"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ventricular repolarization (T wave) occurs approximately 150 to 200 ms after QRS
+      </li>
+      <li>
+        active tension of ventricles decreases (muscle relaxation)
+      </li>
+      <li>
+        rate of ejection falls
+      </li>
+      <li>
+        ventricular pressure falls slightly below outlfow pressure
+      </li>
+      <li>
+        outflow still occurs due to kinetic (inertial) energy of blood
+      </li>
+      <li>
+        atrial pressures rise due to continued venous return
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Phase 5: isovolumetric relaxation" ID="ID_1146825252" CREATED="1456320920518" MODIFIED="1456325816517"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        total energy (kinetic + pressure) of blood in ventricles falls below that of blood in arteries
+      </li>
+      <li>
+        =&gt; aortic and pulmonary valves close (abruptly)
+
+        <ul>
+          <li>
+            second heart sound (S2)
+          </li>
+        </ul>
+      </li>
+      <li>
+        valve closure leads to characteristic notch (incisura) in artery pressure tracings
+      </li>
+      <li>
+        decline in arterial pressure is not abrupt but slow
+
+        <ul>
+          <li>
+            potential energy stored in elastic walls is slowly released
+          </li>
+          <li>
+            systemic and pulmonary resistances prevent pressure from falling too fast
+          </li>
+        </ul>
+      </li>
+      <li>
+        all valves are closed =&gt; volume in ventricles stays constant
+      </li>
+      <li>
+        end-systolic volume (ESV) is reached
+
+        <ul>
+          <li>
+            left ventricle: 50 ml
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial volumes and pressures continue to increase (venous return)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="2nd heart sound (S2)" ID="ID_541558095" CREATED="1456325884835" MODIFIED="1456326001071"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        caused by abrupt closing of aortic and pulmonary valve
+      </li>
+      <li>
+        physiologically and audibly split
+
+        <ul>
+          <li>
+            aortic valve closes before pulmonary valve
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ejection fraction (EF)" ID="ID_1809823979" CREATED="1456325896211" MODIFIED="1456326332226">
+<attribute NAME="EF" VALUE="55%"/>
+<hook EQUATION="\frac{SV}{EDV}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fraction of blood in the ventricle that is ejected during systole
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="normal ejection fraction: &gt; 55%" STYLE_REF="number" ID="ID_1114818643" CREATED="1456326206784" MODIFIED="1456326304838"/>
+</node>
+<node TEXT="stroke volume (SV)" ID="ID_931664411" CREATED="1456326089171" MODIFIED="1456326337557">
+<attribute_layout NAME_WIDTH="73" VALUE_WIDTH="73"/>
+<attribute NAME="SV" VALUE="70 ml"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        amount of blood pumped out of ventricle durng systole
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook EQUATION="EDV - ESV" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="normal stroke volume: 70 ml" STYLE_REF="number" ID="ID_479298696" CREATED="1456326227481" MODIFIED="1456326304826"/>
+</node>
+</node>
+<node TEXT="Phase 6: rapid filling" ID="ID_1226825666" CREATED="1456320932862" MODIFIED="1456326989984"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ventricular pressure falls below atrial pressure
+      </li>
+      <li>
+        AV valves open =&gt; ventricular filling begins
+      </li>
+      <li>
+        pressure in ventricles still falls because ventricles are still relaxing
+
+        <ul>
+          <li>
+            begins to rise when relaxation is complete
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial pressure falls rapidly
+
+        <ul>
+          <li>
+            from rising &quot;v wave&quot; to falling &quot;y descent&quot;
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="3rd heart sound" ID="ID_388578123" CREATED="1456327002707" MODIFIED="1456327092723"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        results from tensing of chordae tendineae and AV ring
+      </li>
+      <li>
+        normal in children, but pathological in adults (associated with dilation)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="AV ring" ID="ID_164190322" CREATED="1456327094442" MODIFIED="1456327140687"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        connective tissue support for valve leaflets
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="chordae tendineae" ID="ID_666687590" CREATED="1456327097826" MODIFIED="1456327181418"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fibrous strands connecting AV valves to papillary muscles
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Phase 7: reduced filling" ID="ID_327444482" CREATED="1456320938741" MODIFIED="1456327670147"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fluid transition between rapid and reduced filling
+      </li>
+      <li>
+        passive ventricular filling nears completion
+      </li>
+      <li>
+        sometimes called &quot;ventricular diastasis&quot;
+      </li>
+      <li>
+        ventricles become less compliant (&quot;stiffer&quot;)
+
+        <ul>
+          <li>
+            =&gt; intraventricular pressure rises
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial pressure still rises
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="lymphatic system" FOLDED="true" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1456317089252" HGAP="51" VSHIFT="-6">
 <edge COLOR="#ffff00"/>
 <node TEXT="lymphatic vessels return fluid from the tissue interstitium to the subclavian veins above the right atrium" ID="ID_75385356" CREATED="1453900637638" MODIFIED="1453900659777"/>
 </node>
-<node TEXT="cellular structure" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1456151605353">
+<node TEXT="cellular structure" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1456317117962" HGAP="226" VSHIFT="438">
 <edge COLOR="#007c00"/>
 <node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
 <attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
@@ -5683,6 +6267,75 @@
             autonomic nerves (primary sympathetic adrenergic)
           </li>
         </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="anatomy" POSITION="left" ID="ID_336751138" CREATED="1456316958802" MODIFIED="1456317636466" HGAP="141" VSHIFT="-590" MOVED="1456317010631">
+<edge COLOR="#007c7c"/>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Diagram_of_the_human_heart_(cropped).svg" SIZE="0.9230769" NAME="ExternalObject"/>
+<node TEXT="innervation" ID="ID_1568451710" CREATED="1456319759198" MODIFIED="1456319821840">
+<node TEXT="efferent (away from nerve)" ID="ID_1036052498" CREATED="1456320193011" MODIFIED="1456320295180">
+<node TEXT="vagal (parasympathetic)" ID="ID_1786361815" CREATED="1456319901957" MODIFIED="1456320093804"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        left vagus nerve preferentially innervates SA node
+      </li>
+      <li>
+        right vagus nerve preferentially innervates AV node
+      </li>
+      <li>
+        atrial muscle also innervated
+      </li>
+      <li>
+        ventricles only sparsely
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="sympathetic" ID="ID_318593304" CREATED="1456319984500" MODIFIED="1456320150819"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        innervation throughout atria and ventricles and conduction system (especially SA node)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="afferent (towards nerve)" ID="ID_1251823832" CREATED="1456320297106" MODIFIED="1456320396268"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        both vagal and sympathetic nerve fibers exist
+      </li>
+      <li>
+        relay information from stretch and pain receptors
       </li>
     </ul>
   </body>
