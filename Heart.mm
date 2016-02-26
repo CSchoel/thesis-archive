@@ -4753,6 +4753,9 @@
 
 </richcontent>
 </node>
+<node TEXT="calculation of ESPVR and EDPVR" ID="ID_1825989270" CREATED="1456481671191" MODIFIED="1456481695347">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/pvl_ESPVR_EDPVR.svg" SIZE="0.6904488" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 <node TEXT="cardiac output" ID="ID_492494540" CREATED="1456401210195" MODIFIED="1456404978328">
@@ -4866,7 +4869,7 @@
 </node>
 </node>
 </node>
-<node TEXT="preload" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456407945469"><richcontent TYPE="DETAILS">
+<node TEXT="preload" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456482025905"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4897,6 +4900,7 @@
 </html>
 
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-preload.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="ventricle compliance" ID="ID_1281588900" CREATED="1456406620883" MODIFIED="1456407637868"><richcontent TYPE="DETAILS">
 
 <html>
@@ -5173,7 +5177,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="afterload" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456414844988"><richcontent TYPE="DETAILS">
+<node TEXT="afterload" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456482035249"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5204,6 +5208,7 @@
 </html>
 
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-afterload.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="ventricular wall stress" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
 <hook EQUATION="\sigma \propto \frac{P \cdot r}{h}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
@@ -5373,7 +5378,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="effects of inotropy on SV" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456418699856"><richcontent TYPE="DETAILS">
+<node TEXT="effects of inotropy on SV" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456482045260"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5392,6 +5397,7 @@
 </html>
 
 </richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="force-velocity relationship" ID="ID_1379649419" CREATED="1456418701302" MODIFIED="1456418826438"><richcontent TYPE="DETAILS">
 
 <html>

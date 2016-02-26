@@ -42,8 +42,8 @@
      id="namedview5106"
      showgrid="false"
      inkscape:zoom="0.70855792"
-     inkscape:cx="151.15795"
-     inkscape:cy="248.01218"
+     inkscape:cx="162.02606"
+     inkscape:cy="166.51701"
      inkscape:window-x="2792"
      inkscape:window-y="712"
      inkscape:window-maximized="1"
@@ -611,18 +611,6 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       sodipodi:nodetypes="ccsccsc"
-       inkscape:connector-curvature="0"
-       id="path5800"
-       d="M 598.648,537.96749 599.64595,176.9621 C 600.06233,115.32168 511.96303,-5.8343269 350.18121,-5.8343269 c -19.91463,0 -65.67823,5.838449 -65.8648,31.9344699 l 0,518.354037 c 0,0 -1.94689,17.32978 16.96518,15.96723 173.14366,-12.47447 270.81177,-16.77718 297.36641,-22.45392 z"
-       style="fill:none;fill-rule:evenodd;stroke:#c30000;stroke-width:1.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.00000125, 3.00000125;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#c30000;stroke-width:1.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.00000125, 3.00000125;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 660.97596,526.67695 661.97391,85.075994 C 662.39029,23.43557 548.88727,-97.720434 387.10545,-97.720434 c -19.91463,0 -65.8648,12.806899 -65.8648,31.93447 l 0,608.123164 c 0,0 -1.94937,17.29478 16.96518,15.96723 205.95962,-14.45569 279.17508,-19.89211 322.77013,-31.62748 z"
-       id="path5802"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsccsc" />
-    <path
        style="fill:none;fill-rule:evenodd;stroke:#1555e3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 55.380632,578.29893 C 680.09877,532.8921 703.47069,546.87183 734.48705,465.03135"
        id="path5806"
@@ -639,12 +627,12 @@
          id="tspan4227"
          x="510.92679"
          y="6.9615769"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#c30000;fill-opacity:1">increased preload</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#c30000;fill-opacity:1">increased afterload</tspan><tspan
          sodipodi:role="line"
          x="510.92679"
          y="28.836586"
          id="tspan4229"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#c30000;fill-opacity:1">(balloon in inferior vena cava)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#c30000;fill-opacity:1">(balloon in aorta)</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4231"
@@ -686,5 +674,46 @@
          y="335.14713"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1"
          id="tspan4247">(normal phys. conditions)</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4890"
+       y="487.51526"
+       x="234.3085"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Calligraph421 BT';-inkscape-font-specification:'Calligraph421 BT';letter-spacing:0px;word-spacing:0px;fill:#00c313;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#00c313;fill-opacity:1"
+         y="487.51526"
+         x="234.3085"
+         id="tspan4892"
+         sodipodi:role="line">decreased preload</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000763px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#00c313;fill-opacity:1"
+         id="tspan4894"
+         y="509.39026"
+         x="234.3085"
+         sodipodi:role="line">(balloon in inferior vena cava)</tspan></text>
+    <path
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:connector-curvature="0"
+       id="path4896"
+       d="m 556.76338,541.87369 0,-366.74739 c 0.41638,-61.64042 -43.22641,-187.61497 -205.00823,-187.61497 -19.91463,0 -65.8648,16.8126972 -65.8648,31.93447 l 0,527.41765 c 0,0 -1.95488,14.96844 16.96518,13.72184 234.76722,-15.46832 205.39826,-14.78128 253.90785,-18.7116 z"
+       style="fill:none;fill-rule:evenodd;stroke:#b40303;stroke-width:1.00000036;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4.00000143,4.00000143;stroke-dashoffset:0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#b40303;stroke-width:1.00000036;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4.00000143,4.00000143;stroke-dashoffset:0"
+       d="m 584.99834,538.38086 0,-435.64135 c 0.41638,-61.640416 -42.52075,-185.619065 -204.30257,-185.619065 -19.91463,0 -65.8648,15.220773 -65.8648,31.93447 l 0,593.927415 c 0,0 -1.93959,17.42761 16.96518,15.96723 235.76517,-18.21269 194.2141,-13.89402 253.20219,-20.5687 z"
+       id="path4900"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc" />
+    <path
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:connector-curvature="0"
+       id="path4902"
+       d="m 484.62355,548.05555 0,-288.53135 c 0.41638,-61.64042 -23.46796,-145.02343 -185.24978,-145.02343 -19.91463,0 -65.8648,17.2924 -65.8648,31.93447 l 0,402.19236 c 0,0 -1.954,17.22719 16.96518,15.96723 236.01466,-15.71781 173.41489,-11.61101 234.1494,-16.53928 z"
+       style="fill:none;fill-rule:evenodd;stroke:#00c313;stroke-width:1.00000036;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4.00000143,4.00000143;stroke-dashoffset:0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#00c313;stroke-width:1.00000036;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4.00000143,4.00000143;stroke-dashoffset:0"
+       d="m 438.99535,551.10475 0,-262.27546 c 0.25442,-37.66341 3.10745,-125.30548 -158.67437,-125.30548 -19.91463,0 -65.8648,18.00161 -65.8648,31.93447 l 0,354.52377 c 0,0 -1.954,17.22719 16.96518,15.96723 236.01466,-15.71781 146.83948,-9.91626 207.57399,-14.84453 z"
+       id="path4904"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccsc" />
   </g>
 </svg>
