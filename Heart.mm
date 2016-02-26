@@ -4695,31 +4695,832 @@
 </html>
 
 </richcontent>
-<node TEXT="end-diastolic pressure-volume relationship (EDPVR)" ID="ID_930320203" CREATED="1456328838478" MODIFIED="1456329012577"><richcontent TYPE="DETAILS">
+<node TEXT="end-diastolic pressure-volume relationship (EDPVR)" ID="ID_930320203" CREATED="1456328838478" MODIFIED="1456395996594"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p>
-      passive filling curve for ventricle
-    </p>
+    <ul>
+      <li>
+        end-diastolic point in pressure-volume loop for different loads(?)
+      </li>
+      <li>
+        points connected as curve
+      </li>
+      <li>
+        =&gt; end-diastolic pressure-volume relationship
+
+        <ul>
+          <li>
+            how does pressure and volume relate when ventricle is fully relaxed
+          </li>
+          <li>
+            tells about elastance properties (pressure/volume)
+          </li>
+        </ul>
+      </li>
+    </ul>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="end-systolic pressure-volume relationship (ESPVR)" ID="ID_1038978245" CREATED="1456328856366" MODIFIED="1456329053184"><richcontent TYPE="DETAILS">
+<node TEXT="end-systolic pressure-volume relationship (ESPVR)" ID="ID_1038978245" CREATED="1456328856366" MODIFIED="1456396096085"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
     
   </head>
   <body>
-    <p>
-      maximal pressure developed by ventricle at any given left ventricular volume
-    </p>
+    <ul>
+      <li>
+        maximal pressure developed by ventricle at any given left ventricular volume
+      </li>
+      <li>
+        obtained in the same way as EDPVR
+
+        <ul>
+          <li>
+            take multiple measurements of end-systolic value on pressure-volume loop
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="cardiac output" ID="ID_492494540" CREATED="1456401210195" MODIFIED="1456404978328">
+<attribute_layout NAME_WIDTH="88" VALUE_WIDTH="88"/>
+<attribute NAME="cardiac output" VALUE="5 - 6 l/min"/>
+<hook EQUATION="CO = SV \cdot HR" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        liter of blood per minute pumped into aorta
+      </li>
+      <li>
+        heart rate influence is more important than stroke volume
+
+        <ul>
+          <li>
+            heart rate more than doubles or triples during exercise
+          </li>
+          <li>
+            stroke volume can only increase by about 50%
+          </li>
+        </ul>
+      </li>
+      <li>
+        not every increase in heart rate also triggers increase in CO
+
+        <ul>
+          <li>
+            by itself, faster heart rate leads to reduced SV (less time for ventricular filling)
+          </li>
+          <li>
+            physiological mechanisms during exercise can actually <u>increase</u>&#160; SV
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="cardiac index" ID="ID_1363099281" CREATED="1456402482625" MODIFIED="1456403063659">
+<attribute_layout NAME_WIDTH="83" VALUE_WIDTH="103"/>
+<attribute NAME="cardiac index" VALUE="2.6 - 4.2 l/min/m&#xb2;"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        cardiac output divided by estimated body surface area (BSA)
+      </li>
+      <li>
+        normalizes CO to individuals of different size
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="estimated body surface area (BSA) - Mosteller formula" ID="ID_1233602478" CREATED="1456402850606" MODIFIED="1456403008109">
+<hook EQUATION="BSA[m^2] = \sqrt{\frac{height[cm] * weight[kg]}{3600}}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="cardiac index: 2.6 - 4.2 l/min/m&#xb2;" STYLE_REF="number" ID="ID_1844643997" CREATED="1456403221668" MODIFIED="1456403242495"/>
+</node>
+<node TEXT="cardiac output: 5 - 6 l/min" STYLE_REF="number" ID="ID_231866958" CREATED="1456403113164" MODIFIED="1456403242517"/>
+<node TEXT="measurement" ID="ID_661827643" CREATED="1456403371147" MODIFIED="1456403739343"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        direct measurement is too invasive to be used in humans
+      </li>
+      <li>
+        =&gt; indirect measurement with catheter
+      </li>
+      <li>
+        echocardiography can also be used to estimate SV
+      </li>
+      <li>
+        Fick method permits measurement of CO by oxygen concentrations
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Fick Principle" ID="ID_1094810368" CREATED="1456403780391" MODIFIED="1456403928222">
+<hook EQUATION="CO = \frac{\dot{V}O_2}{CaO_2 - CvO_2}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="aterial blood oxygen content" ID="ID_1025514512" CREATED="1456403943470" MODIFIED="1456404434689">
+<hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="venous blood oxygen content [ml O2 / ml blood]" ID="ID_263820649" CREATED="1456404047238" MODIFIED="1456404403298">
+<hook EQUATION="CvO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="whole body oxygen consumption [ml O2/min]" ID="ID_661055206" CREATED="1456404072261" MODIFIED="1456404497710">
+<hook EQUATION="\dot{V}O_2 \left[\frac{ml \; O_2}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="preload" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456407945469"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        initial stretching of cardiac myocytes prior to contraction (sarcomere length at end of diastole)
+      </li>
+      <li>
+        sarcomere length cannot be determined in living heart
+      </li>
+      <li>
+        =&gt; EDV or end-diastolic pressure used as estimates
+
+        <ul>
+          <li>
+            do not correspond directly with sarcomere length, but actute changes are visible
+          </li>
+          <li>
+            elevated EDV may actually be associated with increased, decreased or unchanged sarcomere lengths
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ventricle compliance" ID="ID_1281588900" CREATED="1456406620883" MODIFIED="1456407637868"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        change in volume divided by resulting change in pressure
+      </li>
+      <li>
+        opposite of &quot;stiffness&quot;
+      </li>
+      <li>
+        relationship is nonlinear in ventricle
+
+        <ul>
+          <li>
+            decreases with increasing pressure or volume
+          </li>
+        </ul>
+      </li>
+      <li>
+        determined by relaxation and physical properties of ventricular wall tissues
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook EQUATION="\frac{\Delta V}{\Delta p}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="length-tension relationship" ID="ID_1326645876" CREATED="1456408076337" MODIFIED="1456408767557">
+<attribute_layout NAME_WIDTH="216" VALUE_WIDTH="216"/>
+<attribute NAME="sarcomere length of max. act. tension" VALUE="2.2 &#xb5;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        how do changes in preload affect ability of muscle to develop force (tension)
+      </li>
+      <li>
+        experimental setup:
+
+        <ul>
+          <li>
+            piece of cardiac muscle attached to fixed support rod at one side and force transducer on other side
+          </li>
+          <li>
+            length is not allowed to change (isometric contraction)
+          </li>
+          <li>
+            resulting force can be measured at different sarcomere lengths
+          </li>
+        </ul>
+      </li>
+      <li>
+        increases in preload lead to increase in tension
+
+        <ul>
+          <li>
+            only amplitude changes, not duration of contraction or time-to-peak tension
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be plotted on length-tension diagram
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="sarcomere length where maximal active tension is reached: 2.2 &#xb5;m" STYLE_REF="number" ID="ID_1615256065" CREATED="1456408772948" MODIFIED="1456408793935"/>
+</node>
+<node TEXT="pressure-volume relationship" ID="ID_179505238" CREATED="1456409116763" MODIFIED="1456409292893"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        at level of the whole ventricle, length-tension relationship becomes pressure-volume relationship
+
+        <ul>
+          <li>
+            tension and pressure are related
+          </li>
+          <li>
+            length and volume are also related
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="length-dependent activation" ID="ID_943947086" CREATED="1456409295289" MODIFIED="1456410099541"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased sarcomere length increases sensibility of TP-C to calcium
+      </li>
+      <li>
+        fiber stretching&#160;&#160;may alter calcium homeostasis =&gt; increased calcium available
+      </li>
+      <li>
+        when length increases, diameter reduces =&gt; actin and myosin are closer together
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Frank-Starling Mechanism" ID="ID_1397295139" CREATED="1456410320146" MODIFIED="1456412680635"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased venous return and preload =&gt; increased SV
+      </li>
+      <li>
+        balances output of ventricles
+
+        <ul>
+          <li>
+            increased return to right atrium
+          </li>
+          <li>
+            =FS=&gt; increased output of right ventricle
+          </li>
+          <li>
+            =&gt; increased return to left atrium
+          </li>
+          <li>
+            =FS=&gt; increased output of left ventricle
+          </li>
+        </ul>
+      </li>
+      <li>
+        EDV and ESV are also affected by venous return
+
+        <ul>
+          <li>
+            EDV increases with increased venous return
+          </li>
+          <li>
+            ventricle empties to same ESV
+          </li>
+          <li>
+            =&gt; increased SV
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF003%20single%20Frank-Starling.png" SIZE="0.48192772" NAME="ExternalObject"/>
+</node>
+<node TEXT="factors determining preload" ID="ID_1432503089" CREATED="1456412758200" MODIFIED="1456413686643"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        venous pressure
+
+        <ul>
+          <li>
+            determined by venous blood volume and compliance (smooth muscle contraction)
+          </li>
+        </ul>
+      </li>
+      <li>
+        ventricular compliance
+
+        <ul>
+          <li>
+            determines EDV
+          </li>
+          <li>
+            greater compliance =&gt; greater ventricular filling
+          </li>
+        </ul>
+      </li>
+      <li>
+        heart rate
+
+        <ul>
+          <li>
+            higher heart rate =&gt; less filling time =&gt; less EDV
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial contraction
+
+        <ul>
+          <li>
+            sympathetic activation increases force of atrial contraction
+          </li>
+          <li>
+            =&gt; significantly enhances ventricular filling
+          </li>
+          <li>
+            =&gt; maintains preload at higher heart rates
+          </li>
+        </ul>
+      </li>
+      <li>
+        inflow resistance
+
+        <ul>
+          <li>
+            e.g. tricuspid valve stenosis
+          </li>
+          <li>
+            reduced rate of ventricular filling =&gt; reduced preload
+          </li>
+        </ul>
+      </li>
+      <li>
+        outflow resistance
+
+        <ul>
+          <li>
+            e.g. pulmonary valve stenosis
+          </li>
+          <li>
+            impairs ability of right ventricle to empty
+          </li>
+          <li>
+            =&gt; increased preload
+          </li>
+        </ul>
+      </li>
+      <li>
+        ventricular inotropy
+
+        <ul>
+          <li>
+            diminished inotropy =&gt; ventricle cannot eject as much blood =&gt; increased preload
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="afterload" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456414844988"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        load against which heart must contract to eject blood
+      </li>
+      <li>
+        main factors
+
+        <ul>
+          <li>
+            left ventricle: aortic pressure
+          </li>
+          <li>
+            right ventricle: pulmonary pressure
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be estimated by ventricular wall stress
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ventricular wall stress" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
+<hook EQUATION="\sigma \propto \frac{P \cdot r}{h}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        formula assumes that ventricle is a sphere
+
+        <ul>
+          <li>
+            for determination of actual wall stress the correct geometry and orientation of fibers would have to be taken into account
+          </li>
+        </ul>
+      </li>
+      <li>
+        average tension needed for muscle fibers to shorten against intraventricular pressure
+      </li>
+      <li>
+        ventricular dilation increases radius =&gt; increases wall stress
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="intraventricular pressure" ID="ID_43777106" CREATED="1456415003000" MODIFIED="1456415074321">
+<hook EQUATION="P" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="ventricular radius" ID="ID_659503498" CREATED="1456415010328" MODIFIED="1456415085365">
+<hook EQUATION="r" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="wall thickness" ID="ID_669988149" CREATED="1456415024233" MODIFIED="1456415108298">
+<hook EQUATION="h" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="force-velocity relationship" ID="ID_14741042" CREATED="1456416733140" MODIFIED="1456417790090"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        with increased afterload, velocity of fiber shortening is decreased
+      </li>
+      <li>
+        experimental setup
+
+        <ul>
+          <li>
+            muscle placed in in vitro bath at fixed initial length (preload)
+          </li>
+          <li>
+            load attached to one end
+          </li>
+          <li>
+            upon stimulation, contraction is first isometrically (no change in length)
+          </li>
+          <li>
+            when tension of muscle exceeds force of load attached muscle begins to shorten
+          </li>
+          <li>
+            continues until muscle begins to relax
+          </li>
+          <li>
+            resumes initial &quot;resting&quot; state
+          </li>
+          <li>
+            increased load =&gt;&#160;&#160;decrease in maximal shortening velocity and degree
+          </li>
+        </ul>
+      </li>
+      <li>
+        continuation of experiment at different afterloads leads to force-velocity curves
+
+        <ul>
+          <li>
+            x-axis: afterload (force), y-axis: shortening velocity
+          </li>
+          <li>
+            x-axis intercept: maximal isometric force
+          </li>
+          <li>
+            y-axis intercept: maximal velocity (V_max)
+
+            <ul>
+              <li>
+                has to be interpolated, because muscles do not contract without any load
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="influence of preload on force-velocity relationship" ID="ID_162368908" CREATED="1456417613574" MODIFIED="1456417838207"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased preload increases shortening velocity
+      </li>
+      <li>
+        increases maximal isometric force, but not V_max
+      </li>
+      <li>
+        =&gt; increase in preload helps to counteract reduced velocity from increased afterload
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="effect on Frank-Starling curves" ID="ID_1297760053" CREATED="1456417859612" MODIFIED="1456418083573"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased afterload =&gt; decreased velocity and degree of shortening =&gt; decreased SV
+      </li>
+      <li>
+        visible in FS-curve (less steep for increased afterload)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="effect on pressure-volume loops" ID="ID_632400668" CREATED="1456418107834" MODIFIED="1456418305208"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased afterload =&gt; decrease in SV and increase in ESV
+      </li>
+      <li>
+        =&gt; pressure-volume loop becomes thinner and higher
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="effects of inotropy on SV" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456418699856"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy =&gt; increased force of contraction (independent of pre-/afterload)
+      </li>
+      <li>
+        changes in inotropy can lead to changes in afterload and preload
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="force-velocity relationship" ID="ID_1379649419" CREATED="1456418701302" MODIFIED="1456418826438"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy increases both x-intercept and y-intercept
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="effect on Frank-Starling curve" ID="ID_1979195273" CREATED="1456418830333" MODIFIED="1456418919021"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy =&gt; increased SV =&gt; shifts FS-curve upwards
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="effect on pressure-volume loop" ID="ID_766285375" CREATED="1456418988036" MODIFIED="1456419278581"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy =&gt; increased fiber shortening velocity
+      </li>
+      <li>
+        =&gt; increased rate of pressure development
+      </li>
+      <li>
+        =&gt; increased ejection velocity and SV and reduced ESV
+      </li>
+      <li>
+        ESPVR shifted to the left and becomes steeper
+
+        <ul>
+          <li>
+            ESPVR sometimes used to determine inotropic state of ventricle
+          </li>
+        </ul>
+      </li>
+      <li>
+        increased&#160;inotropy also increases ejection fraction
+
+        <ul>
+          <li>
+            EF often used as clinical index for inotropy
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="factors for inotropy" ID="ID_950781242" CREATED="1456419419561" MODIFIED="1456419621555"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        see: cellular structure of cardiac myocytes
+      </li>
+      <li>
+        increase of inotropy by sympathetic activation important to counteract negative influence of heart rate on SV
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Anrep effect" ID="ID_1340476506" CREATED="1456419473465" MODIFIED="1456419510952"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        abrupt increase in afterload can increase inotropy
+      </li>
+      <li>
+        mechanism not fully understood
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Bowditch effect" ID="ID_528167500" CREATED="1456419477096" MODIFIED="1456419575761"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increase in heart rate can cause positive inotropy
+      </li>
+      <li>
+        probably because Na+/K+-ATPase cannot keep up and Natrium accumulates leading to accumulation of Calcium via NCX
+      </li>
+    </ul>
   </body>
 </html>
 
@@ -4868,7 +5669,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456228227614">
+<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
 <attribute NAME="length" VALUE="1.6 - 2.2 &#x3bc;m"/>
 <richcontent TYPE="DETAILS">
 
@@ -4880,6 +5681,9 @@
     <ul>
       <li>
         basic contractile unit of myocyte
+      </li>
+      <li>
+        one myocyte has many sarcomeres
       </li>
       <li>
         region between two &quot;Z-Lines&quot;
