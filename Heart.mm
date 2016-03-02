@@ -8280,14 +8280,145 @@
 </richcontent>
 <hook EQUATION="SVR = \frac{MAP - CVP}{CO}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1733714193" STARTINCLINATION="1731;0;" ENDINCLINATION="1731;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="mean arterial pressure" ID="ID_724603053" CREATED="1456922188793" MODIFIED="1456922218651">
-<hook EQUATION="MAP" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="mean arterial pressure" ID="ID_724603053" CREATED="1456922188793" MODIFIED="1456922504610">
+<hook EQUATION="MAP \; [mmHg]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="cardiac output" ID="ID_1825867949" CREATED="1456922220425" MODIFIED="1456922230803">
-<hook EQUATION="CO" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="cardiac output" ID="ID_1825867949" CREATED="1456922220425" MODIFIED="1456922546838">
+<hook EQUATION="CO  \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="central venous pressure" ID="ID_997600414" CREATED="1456922300248" MODIFIED="1456922326105">
-<hook EQUATION="CVP" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="central venous pressure" ID="ID_997600414" CREATED="1456922300248" MODIFIED="1456922564035">
+<hook EQUATION="CVP  \; [mmHg]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="systemic vascular resistance" ID="ID_655044367" CREATED="1456922589854" MODIFIED="1456922639691">
+<hook EQUATION="SVR  \; \left[\frac{mmHg \cdot min}{ml}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="factors" ID="ID_1641856924" CREATED="1456922681757" MODIFIED="1456922729685"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        diameter
+      </li>
+      <li>
+        length
+      </li>
+      <li>
+        anatomical arrangement
+      </li>
+      <li>
+        blood viscosity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="vascular tone" ID="ID_904768414" CREATED="1456923191042" MODIFIED="1456923930265"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        equilibrium between vasodilator and vasoconstrictor influences
+      </li>
+      <li>
+        at &quot;rest&quot; the smooth muscles of vessels are partially contracted
+
+        <ul>
+          <li>
+            =&gt; can dilate or constrict in response to different signals
+          </li>
+        </ul>
+      </li>
+      <li>
+        trade-off between
+
+        <ul>
+          <li>
+            maintenance of blood pressure (vasoconstrictor)
+          </li>
+          <li>
+            organ perfusion (vasodilator)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="extrinsic factors" ID="ID_1105029768" CREATED="1456923583471" MODIFIED="1456923660708"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sympathetic nerves (vasoconstrictor)
+      </li>
+      <li>
+        circulating hormones (vasoconstrictor)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="intrinsic factors" ID="ID_653470071" CREATED="1456923589759" MODIFIED="1456923855109"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        endothelial-derived factors
+
+        <ul>
+          <li>
+            endothelin-I (vasoconstrictor)
+          </li>
+          <li>
+            endothelial NO (vasodilator)
+          </li>
+        </ul>
+      </li>
+      <li>
+        smooth muscle myogenic tone
+      </li>
+      <li>
+        locally produced hormones
+      </li>
+      <li>
+        tissue metabolites
+
+        <ul>
+          <li>
+            adenosine (vasodilator)
+          </li>
+          <li>
+            hydogen ions (vasodilator)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
