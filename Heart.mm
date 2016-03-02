@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
 <hook NAME="AutomaticEdgeColor" COUNTER="12"/>
-<hook NAME="MapStyle" zoom="0.865">
+<hook NAME="MapStyle" zoom="0.952">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -7778,6 +7778,7 @@
 </node>
 </node>
 </node>
+</node>
 <node TEXT="arterial blood pressure" ID="ID_741683316" CREATED="1456825766349" MODIFIED="1456825770951">
 <node TEXT="pulse pressure" ID="ID_1120102885" CREATED="1456825807115" MODIFIED="1456825987918"><richcontent TYPE="DETAILS">
 
@@ -7793,7 +7794,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook EQUATION="\text{systolic pressure} - \text{diastolic pressure}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="systolic pressure" ID="ID_1083067080" CREATED="1456825990651" MODIFIED="1456826021783"><richcontent TYPE="DETAILS">
@@ -7810,7 +7810,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="diastolic pressure" ID="ID_1595432733" CREATED="1456825994746" MODIFIED="1456826039309"><richcontent TYPE="DETAILS">
@@ -7827,7 +7826,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7851,7 +7849,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="estimation" ID="ID_908481748" CREATED="1456827264298" MODIFIED="1456827267675">
 <node TEXT="at high heart rates" ID="ID_484819936" CREATED="1456827269657" MODIFIED="1456827357157"><richcontent TYPE="DETAILS">
@@ -7871,7 +7868,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="at resting heart rate" ID="ID_27761701" CREATED="1456826880205" MODIFIED="1456827308210">
@@ -7917,7 +7913,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7951,7 +7946,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="determining factors" ID="ID_800182818" CREATED="1456829931742" MODIFIED="1456829947360">
 <node TEXT="stroke volume (SV)" ID="ID_728725392" CREATED="1456829948366" MODIFIED="1456829961080"/>
@@ -7986,7 +7980,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="change in volume" ID="ID_769875780" CREATED="1456830003511" MODIFIED="1456833780978">
 <hook EQUATION="\Delta V \; [m^3]" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -8008,7 +8001,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8029,7 +8021,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="blood flow (through an organ)" ID="ID_1434488928" CREATED="1456836579680" MODIFIED="1456837528227">
 <hook EQUATION="F = \frac{\Delta P}{R}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -8098,7 +8089,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8139,7 +8129,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="only valid for single vessel, not for network of vessels" ID="ID_1702441098" CREATED="1456915471040" MODIFIED="1456915487305"/>
@@ -8162,7 +8151,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="turbulent" ID="ID_1144954716" CREATED="1456914899220" MODIFIED="1456915394266"><richcontent TYPE="DETAILS">
@@ -8200,7 +8188,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8226,7 +8213,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8269,11 +8255,39 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="regulation of systemic vascular resistance" ID="ID_635067114" CREATED="1456922005411" MODIFIED="1456922021084">
+<node TEXT="systemic vascular resistance (SVR)" ID="ID_1420643634" CREATED="1456922026554" MODIFIED="1456922388357"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        also called total peripheral resistance (TPR)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook EQUATION="SVR = \frac{MAP - CVP}{CO}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1733714193" STARTINCLINATION="1731;0;" ENDINCLINATION="1731;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="mean arterial pressure" ID="ID_724603053" CREATED="1456922188793" MODIFIED="1456922218651">
+<hook EQUATION="MAP" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="cardiac output" ID="ID_1825867949" CREATED="1456922220425" MODIFIED="1456922230803">
+<hook EQUATION="CO" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="central venous pressure" ID="ID_997600414" CREATED="1456922300248" MODIFIED="1456922326105">
+<hook EQUATION="CVP" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
 </node>
