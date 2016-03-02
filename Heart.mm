@@ -1,7 +1,7 @@
-<map version="docear 1.1" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd">
+<map version="docear 1.1" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
-<hook NAME="AutomaticEdgeColor" COUNTER="11"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12"/>
 <hook NAME="MapStyle" zoom="0.865">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
@@ -56,7 +56,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1453803342967">
+<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1456495178503" HGAP="51" VSHIFT="23">
 <edge COLOR="#ff0000"/>
 <node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
@@ -508,7 +508,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -599,7 +598,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -669,7 +667,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -726,7 +723,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -851,7 +847,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -901,7 +896,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -954,7 +948,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="10"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_atp_sensitive.svg" SIZE="0.9983361" NAME="ExternalObject"/>
@@ -976,7 +969,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1027,7 +1019,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/ion_channels_ACh_activated.svg" SIZE="0.83798885" NAME="ExternalObject"/>
 <node TEXT="current symbol" ID="ID_1740876373" CREATED="1455200757262" MODIFIED="1455200775911">
@@ -1048,7 +1039,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1106,7 +1096,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="gene" ID="ID_1041466641" CREATED="1455891100503" MODIFIED="1455891127347"><richcontent TYPE="DETAILS">
@@ -1121,7 +1110,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1191,7 +1179,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="gene" ID="ID_251322779" CREATED="1455891162727" MODIFIED="1455891171523"><richcontent TYPE="DETAILS">
@@ -1206,7 +1193,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1864,7 +1850,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2026_Action_Potential_Heart_Contraction.jpg" SIZE="0.32661948" NAME="ExternalObject"/>
 <node TEXT="phase 0: depolarization" ID="ID_514606924" CREATED="1453897707585" MODIFIED="1455884733254"><richcontent TYPE="DETAILS">
@@ -1887,7 +1872,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 1: initial repolarization" ID="ID_1031897482" CREATED="1453897707585" MODIFIED="1455884867612"><richcontent TYPE="DETAILS">
@@ -1916,7 +1900,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 2: plateau phase" ID="ID_709229897" CREATED="1453897707585" MODIFIED="1455885051612"><richcontent TYPE="DETAILS">
@@ -1948,7 +1931,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 3: repolarization" ID="ID_345523212" CREATED="1453897707585" MODIFIED="1455885325380"><richcontent TYPE="DETAILS">
@@ -1989,7 +1971,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="phase 4: resting potential" ID="ID_1099377019" CREATED="1455885331872" MODIFIED="1455885622867" MOVED="1455885334403"><richcontent TYPE="DETAILS">
@@ -2036,7 +2017,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="refractory period" ID="ID_1321120109" CREATED="1453897707585" MODIFIED="1453907866443" MOVED="1453908161376">
@@ -2131,7 +2111,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2020_SA_Node_Tracing.jpg" SIZE="0.359928" NAME="ExternalObject"/>
 <node TEXT="overdrive suppression" ID="ID_1990788239" CREATED="1453897707586" MODIFIED="1454083716621"><richcontent TYPE="DETAILS">
@@ -2180,7 +2159,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="activation threshold for L-Type calcium channels: -40 mV" STYLE_REF="number" ID="ID_1819339197" CREATED="1453911524095" MODIFIED="1453911605959">
 <attribute_layout NAME_WIDTH="247" VALUE_WIDTH="247"/>
@@ -2225,7 +2203,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="maximal polarization of pacemaker cells: -65 mV" STYLE_REF="number" ID="ID_136054519" CREATED="1453911434520" MODIFIED="1454084175795">
 <attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
@@ -2267,7 +2244,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="declining g&apos;K+" ID="ID_1378672509" CREATED="1453897707586" MODIFIED="1453909831314"><richcontent TYPE="DETAILS">
 
@@ -2503,7 +2479,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mechanism" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1456130960319"><richcontent TYPE="DETAILS">
 
@@ -3982,7 +3957,7 @@
 </node>
 </node>
 </node>
-<node TEXT="blood flow" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1456317147198" HGAP="-89" VSHIFT="208">
+<node TEXT="blood flow" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1456495169155" HGAP="99" VSHIFT="242">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="DETAILS">
 
@@ -4092,7 +4067,7 @@
 <node TEXT="hormone production" FOLDED="true" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
 <node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1453897707582"/>
 </node>
-<node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456327747333"><richcontent TYPE="DETAILS">
+<node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456824305357" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/HyperHeart1.swf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4124,7 +4099,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="phases" ID="ID_1345408208" CREATED="1456320770135" MODIFIED="1456320876295"><richcontent TYPE="DETAILS">
 
@@ -4158,7 +4132,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Phase 1: atrial systole" ID="ID_1884838028" CREATED="1456320878431" MODIFIED="1456324552148">
 <attribute_layout NAME_WIDTH="119" VALUE_WIDTH="119"/>
@@ -4221,7 +4194,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="left ventricle" ID="ID_729577124" CREATED="1456321424802" MODIFIED="1456321656663"><richcontent TYPE="DETAILS">
 
@@ -4246,7 +4218,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="4th heart sound (S4)" ID="ID_1997699090" CREATED="1456322119782" MODIFIED="1456322188418"><richcontent TYPE="DETAILS">
@@ -4269,7 +4240,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="end-diastolic volume (EDV) of ventricles: 120 ml" STYLE_REF="number" ID="ID_92343465" CREATED="1456324425069" MODIFIED="1456324503615"/>
@@ -4314,7 +4284,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="1st heart sound (S1)" ID="ID_1755124091" CREATED="1456323469076" MODIFIED="1456323566464"><richcontent TYPE="DETAILS">
 
@@ -4339,11 +4308,10 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Phase 3: rapid ejection" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456324615266">
+<node TEXT="Phase 3: rapid ejection" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456742153233">
 <attribute_layout NAME_WIDTH="172" VALUE_WIDTH="172"/>
 <attribute NAME="maximal aortic pressure" VALUE="120 mmHg"/>
 <attribute NAME="maximal pulmonary pressure" VALUE="25 mmHg"/>
@@ -4359,7 +4327,7 @@
         aortic and pulmonic valves open as pressure in ventricles rises above pressure in arteries
       </li>
       <li>
-        ventricular pressure is only a few mmHg higher than atrial pressure
+        ventricular pressure is only a few mmHg higher than aterial pressure
       </li>
       <li>
         outflow is maximal early in this phase
@@ -4419,7 +4387,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Phase 5: isovolumetric relaxation" ID="ID_1146825252" CREATED="1456320920518" MODIFIED="1456325816517"><richcontent TYPE="DETAILS">
@@ -4475,7 +4442,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="2nd heart sound (S2)" ID="ID_541558095" CREATED="1456325884835" MODIFIED="1456326001071"><richcontent TYPE="DETAILS">
 
@@ -4500,7 +4466,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ejection fraction (EF)" ID="ID_1809823979" CREATED="1456325896211" MODIFIED="1456326332226">
@@ -4520,7 +4485,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="normal ejection fraction: &gt; 55%" STYLE_REF="number" ID="ID_1114818643" CREATED="1456326206784" MODIFIED="1456326304838"/>
 </node>
@@ -4541,7 +4505,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook EQUATION="EDV - ESV" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="normal stroke volume: 70 ml" STYLE_REF="number" ID="ID_479298696" CREATED="1456326227481" MODIFIED="1456326304826"/>
@@ -4582,7 +4545,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="3rd heart sound" ID="ID_388578123" CREATED="1456327002707" MODIFIED="1456327092723"><richcontent TYPE="DETAILS">
 
@@ -4601,7 +4563,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="AV ring" ID="ID_164190322" CREATED="1456327094442" MODIFIED="1456327140687"><richcontent TYPE="DETAILS">
 
@@ -4617,7 +4578,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="chordae tendineae" ID="ID_666687590" CREATED="1456327097826" MODIFIED="1456327181418"><richcontent TYPE="DETAILS">
@@ -4634,7 +4594,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4671,7 +4630,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4693,7 +4651,6 @@
     <img src="images/PV loop animation.gif"/>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="end-diastolic pressure-volume relationship (EDPVR)" ID="ID_930320203" CREATED="1456328838478" MODIFIED="1456395996594"><richcontent TYPE="DETAILS">
 
@@ -4724,7 +4681,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="end-systolic pressure-volume relationship (ESPVR)" ID="ID_1038978245" CREATED="1456328856366" MODIFIED="1456396096085"><richcontent TYPE="DETAILS">
@@ -4750,7 +4706,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="calculation of ESPVR and EDPVR" ID="ID_1825989270" CREATED="1456481671191" MODIFIED="1456481695347">
@@ -4800,7 +4755,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="cardiac index" ID="ID_1363099281" CREATED="1456402482625" MODIFIED="1456403063659">
 <attribute_layout NAME_WIDTH="83" VALUE_WIDTH="103"/>
@@ -4822,7 +4776,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="estimated body surface area (BSA) - Mosteller formula" ID="ID_1233602478" CREATED="1456402850606" MODIFIED="1456403008109">
 <hook EQUATION="BSA[m^2] = \sqrt{\frac{height[cm] * weight[kg]}{3600}}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -4853,7 +4806,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Fick Principle" ID="ID_1094810368" CREATED="1456403780391" MODIFIED="1456403928222">
 <hook EQUATION="CO = \frac{\dot{V}O_2}{CaO_2 - CvO_2}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -4898,7 +4850,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-preload.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="ventricle compliance" ID="ID_1281588900" CREATED="1456406620883" MODIFIED="1456407637868"><richcontent TYPE="DETAILS">
@@ -4930,7 +4881,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook EQUATION="\frac{\Delta V}{\Delta p}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
@@ -4978,7 +4928,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="sarcomere length where maximal active tension is reached: 2.2 &#xb5;m" STYLE_REF="number" ID="ID_1615256065" CREATED="1456408772948" MODIFIED="1456408793935"/>
 </node>
@@ -5005,7 +4954,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="length-dependent activation" ID="ID_943947086" CREATED="1456409295289" MODIFIED="1456410099541"><richcontent TYPE="DETAILS">
@@ -5028,7 +4976,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Frank-Starling Mechanism" ID="ID_1397295139" CREATED="1456410320146" MODIFIED="1456412680635"><richcontent TYPE="DETAILS">
@@ -5173,7 +5120,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5206,7 +5152,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-afterload.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="ventricular wall stress" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
@@ -5237,7 +5182,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="intraventricular pressure" ID="ID_43777106" CREATED="1456415003000" MODIFIED="1456415074321">
 <hook EQUATION="P" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -5311,7 +5255,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="influence of preload on force-velocity relationship" ID="ID_162368908" CREATED="1456417613574" MODIFIED="1456417838207"><richcontent TYPE="DETAILS">
 
@@ -5333,7 +5276,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5354,7 +5296,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="effect on pressure-volume loops" ID="ID_632400668" CREATED="1456418107834" MODIFIED="1456418305208"><richcontent TYPE="DETAILS">
@@ -5374,7 +5315,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5395,7 +5335,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="force-velocity relationship" ID="ID_1379649419" CREATED="1456418701302" MODIFIED="1456418826438"><richcontent TYPE="DETAILS">
@@ -5412,7 +5351,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="effect on Frank-Starling curve" ID="ID_1979195273" CREATED="1456418830333" MODIFIED="1456418919021"><richcontent TYPE="DETAILS">
@@ -5429,7 +5367,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="effect on pressure-volume loop" ID="ID_766285375" CREATED="1456418988036" MODIFIED="1456419278581"><richcontent TYPE="DETAILS">
@@ -5470,7 +5407,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="factors for inotropy" ID="ID_950781242" CREATED="1456419419561" MODIFIED="1456419621555"><richcontent TYPE="DETAILS">
@@ -5490,7 +5426,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Anrep effect" ID="ID_1340476506" CREATED="1456419473465" MODIFIED="1456419510952"><richcontent TYPE="DETAILS">
 
@@ -5509,7 +5444,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Bowditch effect" ID="ID_528167500" CREATED="1456419477096" MODIFIED="1456419575761"><richcontent TYPE="DETAILS">
@@ -5529,13 +5463,329 @@
     </ul>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="interdependence of preload, afterload and inotropy" ID="ID_1652717392" CREATED="1456483547562" MODIFIED="1456483739640"><richcontent TYPE="DETAILS">
 
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        changes in preload =&gt; changes in afterload
+      </li>
+      <li>
+        changes in afterload =&gt; changes in preload
+      </li>
+      <li>
+        change in inotropy =&gt; change in preload and afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="increase in preload" ID="ID_860333765" CREATED="1456483765480" MODIFIED="1456484250761">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loop%20preload%20interactions%202015.png" SIZE="0.61349696" NAME="ExternalObject"/>
+<node TEXT="increase in SV" ID="ID_1483068211" CREATED="1456484016575" MODIFIED="1456484049597"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increase in CO
+      </li>
+      <li>
+        =&gt; increase in arterial pressure
+      </li>
+      <li>
+        =&gt; increase in afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="diminished by increased afterload" ID="ID_1272989917" CREATED="1456484159366" MODIFIED="1456484216243"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased preload still least to increase in SV, but only small
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="increased ventricular wall stress" ID="ID_1390215230" CREATED="1456484053526" MODIFIED="1456484074516"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      =&gt; increased afterload
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="increase in afterload" ID="ID_1947759176" CREATED="1456483774008" MODIFIED="1456484328954">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loops%20afterload%20interactions%202015.png" SIZE="0.6" NAME="ExternalObject"/>
+<node TEXT="decrease in SV" ID="ID_1207589414" CREATED="1456484500035" MODIFIED="1456484504629">
+<node TEXT="partially compensated by increased preload" ID="ID_1274745659" CREATED="1456487057906" MODIFIED="1456487075963"/>
+</node>
+<node TEXT="increase in ESV" ID="ID_961282743" CREATED="1456484608122" MODIFIED="1456486930368"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increase in EDV
+      </li>
+      <li>
+        =&gt; increase in preload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="increase in inotropy" ID="ID_1240973964" CREATED="1456483779048" MODIFIED="1456484339192">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
+<node TEXT="increase in SV" ID="ID_1030562033" CREATED="1456487141656" MODIFIED="1456487337967"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increased CO
+      </li>
+      <li>
+        =&gt; increased arterial pressure
+      </li>
+      <li>
+        =&gt; increased afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="decrease in ESV" ID="ID_606444195" CREATED="1456487146113" MODIFIED="1456487392792">
+<node TEXT="decrease in EDV" ID="ID_1302034696" CREATED="1456487418918" MODIFIED="1456487424072">
+<node TEXT="partially offset by increased afterload" ID="ID_1197347120" CREATED="1456487425687" MODIFIED="1456487434736"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="oxygen consumption" ID="ID_1914975456" CREATED="1456488400191" MODIFIED="1456489513129">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="97"/>
+<attribute NAME="MVO2 at rest" VALUE="8 ml/min/100g"/>
+<attribute NAME="min MVO2" VALUE="2 ml/min/100g"/>
+<attribute NAME="max MVO2" VALUE="70 ml/min/100g"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        usually expressed per 100g of tissue weight
+      </li>
+      <li>
+        even if no contraction takes place, oxygen is required for normal cellular function
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="myocardial oxygen consumption (formula)" ID="ID_920300481" CREATED="1456488441000" MODIFIED="1456489176434">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="90"/>
+<hook EQUATION="M\dot{V}O_2 = CBF \cdot (CaO_2 - CvO_2)" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="coronary blood flow" ID="ID_764206315" CREATED="1456488497807" MODIFIED="1456488692716">
+<hook EQUATION="CBF \; \left[ \frac{ml}{min} \right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="aterial blood oxygen content" ID="ID_363714827" CREATED="1456403943470" MODIFIED="1456404434689">
+<hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="venous blood oxygen content" ID="ID_715148870" CREATED="1456404047238" MODIFIED="1456488605495">
+<hook EQUATION="CvO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="MVO2 at rest: 8 ml/min/100g" STYLE_REF="number" ID="ID_1607661607" CREATED="1456489282122" MODIFIED="1456489347877"/>
+<node TEXT="min MVO2: 2 ml/min/100g" STYLE_REF="number" ID="ID_1189549088" CREATED="1456489295604" MODIFIED="1456489347872"/>
+<node TEXT="nax MVO2: 70 ml/min/100g" STYLE_REF="number" ID="ID_794213578" CREATED="1456489313034" MODIFIED="1456489347861"/>
+<node TEXT="sometimes estimated by pressure-rate product" ID="ID_384224728" CREATED="1456488747733" MODIFIED="1456489912161">
+<hook EQUATION="\text{heart rate} \cdot \text{systolic arterial pressure}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        CBF and CvO2 must be measured invasively
+      </li>
+      <li>
+        =&gt; not always possible
+      </li>
+      <li>
+        =&gt; use estimates (usually only valid for narrow range of conditions)
+      </li>
+      <li>
+        experiments have shown that reasonable correlation exists between MVO2 and pressure-rate product
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="factors that influence oxygen consumption" ID="ID_1486255816" CREATED="1456489992932" MODIFIED="1456490541746">
+<node TEXT="heart rate" ID="ID_722884791" CREATED="1456490613384" MODIFIED="1456490643335"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        doubled heart rate =&gt; doubled oxygen consumption (contraction occurs twice as often)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="increased inotropy" ID="ID_1258269374" CREATED="1456490645592" MODIFIED="1456490768537"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        higher rate of tension development
+      </li>
+      <li>
+        higher maximum tension
+      </li>
+      <li>
+        =&gt; increased oxygen consumption
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="increased afterload" ID="ID_1328590857" CREATED="1456490678912" MODIFIED="1456490807808"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases tension required to pump blood
+      </li>
+      <li>
+        =&gt; increased oxygen consumption
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="increased preload" ID="ID_1721458889" CREATED="1456490683711" MODIFIED="1456491446143"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases SV
+      </li>
+      <li>
+        =&gt; increases oxygen consumption
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="less impact than afterload" ID="ID_959210222" CREATED="1456491320715" MODIFIED="1456491434708"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        wall stress related to tension required to generate pressure
+      </li>
+      <li>
+        wall stress depends on radius, but radius only increases with cubic root of volume
+      </li>
+      <li>
+        =&gt; 50% increase in volume =&gt; 14% increase in wall stress
+      </li>
+      <li>
+        however, wall stress is not a good estimate of oxygen consumption
+
+        <ul>
+          <li>
+            hypertrophied ventricle
+          </li>
+          <li>
+            =&gt; thicker heart
+          </li>
+          <li>
+            =&gt; less wall stress but more cells
+          </li>
+          <li>
+            =&gt; oxygen consumtpion is not reduced!
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="lymphatic system" FOLDED="true" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1456317089252" HGAP="51" VSHIFT="-6">
+</node>
+<node TEXT="lymphatic system" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1456317089252" HGAP="51" VSHIFT="-6">
 <edge COLOR="#ffff00"/>
 <node TEXT="lymphatic vessels return fluid from the tissue interstitium to the subclavian veins above the right atrium" ID="ID_75385356" CREATED="1453900637638" MODIFIED="1453900659777"/>
 </node>
@@ -5568,7 +5818,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2017abc_Cardiac_Muscle.jpg" SIZE="0.30257186" NAME="ExternalObject"/>
 <node TEXT="striated muscle" ID="ID_1906942734" CREATED="1456151895850" MODIFIED="1456151952203"><richcontent TYPE="DETAILS">
@@ -5583,7 +5832,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="diameter of a ventricular myocyte: 25 &#x3bc;m" STYLE_REF="number" ID="ID_470646513" CREATED="1456152213768" MODIFIED="1456152529623">
@@ -5615,7 +5863,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="intercalated disk" ID="ID_1698750386" CREATED="1456152708284" MODIFIED="1456153126373"><richcontent TYPE="DETAILS">
 
@@ -5629,7 +5876,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="gap junction" ID="ID_1314024833" CREATED="1456152715740" MODIFIED="1456152885066"><richcontent TYPE="DETAILS">
@@ -5652,7 +5898,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5668,11 +5913,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456228432602">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1927763304" STARTINCLINATION="404;-42;" ENDINCLINATION="144;-75;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1927763304" STARTINCLINATION="404;-42;" ENDINCLINATION="144;-75;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
@@ -5703,7 +5947,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Sarcomere.jpg" SIZE="0.75" NAME="ExternalObject"/>
 <node TEXT="sarcomere length: 1.6 - 2.2 &#x3bc;m" STYLE_REF="number" ID="ID_681801520" CREATED="1456153349448" MODIFIED="1456153367446"/>
@@ -5724,7 +5967,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="myosin" ID="ID_970177230" CREATED="1456228350299" MODIFIED="1456229173566"><richcontent TYPE="DETAILS">
 
@@ -5752,7 +5994,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5768,7 +6009,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="actin" ID="ID_985146609" CREATED="1456228357139" MODIFIED="1456229354370"><richcontent TYPE="DETAILS">
 
@@ -5787,7 +6027,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="tropomyosin" ID="ID_860526219" CREATED="1456229356244" MODIFIED="1456229490634"><richcontent TYPE="DETAILS">
@@ -5810,7 +6049,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="troponin" ID="ID_254937729" CREATED="1456229494419" MODIFIED="1456229830010"><richcontent TYPE="DETAILS">
@@ -5830,7 +6068,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="troponin-T (TN-T)" ID="ID_1558312705" CREATED="1456229507628" MODIFIED="1456229569908"><richcontent TYPE="DETAILS">
 
@@ -5844,7 +6081,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="troponin-C (TN-C)" ID="ID_579563864" CREATED="1456229524732" MODIFIED="1456229585097"><richcontent TYPE="DETAILS">
@@ -5859,7 +6095,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="troponin-I (TN-I)" ID="ID_1110954762" CREATED="1456229534563" MODIFIED="1456229635976"><richcontent TYPE="DETAILS">
@@ -5874,7 +6109,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5896,7 +6130,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5917,7 +6150,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="transverse tubules (T tubules)" ID="ID_466969632" CREATED="1456230269318" MODIFIED="1456230417869"><richcontent TYPE="DETAILS">
 
@@ -5942,7 +6174,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5966,7 +6197,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="terminal cisternae" ID="ID_329433892" CREATED="1456230952857" MODIFIED="1456232029239"><richcontent TYPE="DETAILS">
 
@@ -5985,7 +6215,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&quot;feet&quot;" ID="ID_959858230" CREATED="1456230957913" MODIFIED="1456231071333"><richcontent TYPE="DETAILS">
@@ -6005,7 +6234,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6023,7 +6251,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456237725062" LINK="https://www.youtube.com/watch?v=CbfK1Gi-aCk"><richcontent TYPE="DETAILS">
 
@@ -6090,7 +6317,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="contraction" ID="ID_329463012" CREATED="1456238643251" MODIFIED="1456238664032">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/1008_Skeletal_Muscle_Contraction.jpg" SIZE="0.7398274" NAME="ExternalObject"/>
@@ -6116,7 +6342,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6137,7 +6362,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6156,7 +6380,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="preload (positive inotropy)" ID="ID_238821387" CREATED="1456234287978" MODIFIED="1456234333376"><richcontent TYPE="DETAILS">
@@ -6176,7 +6399,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6198,7 +6420,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6216,7 +6437,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="PKA phosphorylation of phospholamban (positive inotropy)" ID="ID_1670909193" CREATED="1456234473952" MODIFIED="1456234663843"><richcontent TYPE="DETAILS">
 
@@ -6232,7 +6452,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="hypoxia (negative inotropy)" ID="ID_298988516" CREATED="1456234668703" MODIFIED="1456234689233"><richcontent TYPE="DETAILS">
@@ -6249,7 +6468,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6268,7 +6486,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="inhibiting Na+/K+-ATPase" ID="ID_360275202" CREATED="1456234865469" MODIFIED="1456235043794"><richcontent TYPE="DETAILS">
 
@@ -6287,7 +6504,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6308,7 +6524,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6330,7 +6545,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&quot;calcium overload&quot; during ischemia (negative lusitropy)" ID="ID_385146092" CREATED="1456235248971" MODIFIED="1456235283684"/>
 <node TEXT="inhibition of sodium-calcium exchanger (negative lusitropy)" ID="ID_1724093019" CREATED="1456235285514" MODIFIED="1456235341093"/>
@@ -6354,7 +6568,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6382,7 +6595,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ATP requirements" ID="ID_1656552790" CREATED="1456236195828" MODIFIED="1456236358531"><richcontent TYPE="DETAILS">
 
@@ -6410,7 +6622,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ATP regeneration" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
@@ -6431,7 +6642,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="fatty acids" ID="ID_1928194588" CREATED="1456236381603" MODIFIED="1456236384724"/>
 <node TEXT="carbohydrates" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
@@ -6452,7 +6662,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="glucose" ID="ID_1750870789" CREATED="1456236422554" MODIFIED="1456236425844"/>
@@ -6489,7 +6698,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6529,7 +6737,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="intima" ID="ID_936287537" CREATED="1456306007967" MODIFIED="1456306066091"><richcontent TYPE="DETAILS">
 
@@ -6545,7 +6752,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="vascular endothelial cells" ID="ID_1709203739" CREATED="1456310974364" MODIFIED="1456315326154">
 <attribute NAME="diameter" VALUE="0.2 - 2.0 &#xb5;m"/>
@@ -6603,7 +6809,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="production of nitrous oxide (NO)" ID="ID_1836146580" CREATED="1456313781137" MODIFIED="1456315897834"><richcontent TYPE="DETAILS">
 
@@ -6655,7 +6860,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="endothelin-1 (ET-1) synthesis" ID="ID_683174065" CREATED="1456314298284" MODIFIED="1456314512913"><richcontent TYPE="DETAILS">
@@ -6708,7 +6912,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="synthesis of PGI_2" ID="ID_1511849637" CREATED="1456314516371" MODIFIED="1456314976583"><richcontent TYPE="DETAILS">
@@ -6734,7 +6937,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="dysfunction" ID="ID_910538838" CREATED="1456314993592" MODIFIED="1456315154110"><richcontent TYPE="DETAILS">
@@ -6772,7 +6974,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6815,7 +7016,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="vascular smooth muscle cells" ID="ID_1618826955" CREATED="1456306787658" MODIFIED="1456308561085">
 <attribute NAME="diameter" VALUE="5 - 10 &#xb5;m"/>
@@ -6861,7 +7061,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="contraction" ID="ID_1481917345" CREATED="1456308507845" MODIFIED="1456309247969"><richcontent TYPE="DETAILS">
 
@@ -6919,7 +7118,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="contraction by increased calcium concentrations" ID="ID_607753203" CREATED="1456308814148" MODIFIED="1456309518107"><richcontent TYPE="DETAILS">
 
@@ -6944,7 +7142,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="calcium concentration regulation" ID="ID_607303477" CREATED="1456309602670" MODIFIED="1456309692020"><richcontent TYPE="DETAILS">
@@ -6970,7 +7167,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="three major pahtways" ID="ID_936193630" CREATED="1456309721452" MODIFIED="1456309728279">
 <node TEXT="Gq-protein activation of phospholipase C" ID="ID_1033643062" CREATED="1456309729069" MODIFIED="1456310246335">
@@ -7031,7 +7227,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cAMP via Gs-protein actiavtion of adenylyl cyclase" ID="ID_1539287048" CREATED="1456309800468" MODIFIED="1456310483129"><richcontent TYPE="DETAILS">
@@ -7066,7 +7261,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cyclic guanosine monophosphate (cGMP) via nitric oxide (NO) activation of guanylyl cyclase" ID="ID_494429609" CREATED="1456309836452" MODIFIED="1456310691422"><richcontent TYPE="DETAILS">
@@ -7092,7 +7286,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7132,7 +7325,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7201,8 +7393,888 @@
     </ul>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="papillary muscles" ID="ID_732199407" CREATED="1456494410045" MODIFIED="1456494419522">
+<node TEXT="hold back AV valves through chordae tendinae" ID="ID_84240829" CREATED="1456494420693" MODIFIED="1456494436662"/>
+</node>
+<node TEXT="layers of the heart wall" ID="ID_1012696253" CREATED="1456494439877" MODIFIED="1456494510483"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        from inner to outer:
+
+        <ul>
+          <li>
+            endocardium
+          </li>
+          <li>
+            myocardium
+          </li>
+          <li>
+            pericardium
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="endocardium" ID="ID_467613886" CREATED="1456494463159" MODIFIED="1456494467677"/>
+<node TEXT="myocardium" ID="ID_107699508" CREATED="1456494469076" MODIFIED="1456494617453"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        contains muscle cells
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="pericardium" ID="ID_1619350638" CREATED="1456494474118" MODIFIED="1456494724962"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        has gap between visceral pericardium (towards heart) and parietal pericardium (towards outside)
+      </li>
+      <li>
+        like very flat balloon wrapped around heart
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="vascular system" POSITION="right" ID="ID_1552739746" CREATED="1456494773978" MODIFIED="1456494779150">
+<edge COLOR="#7c7c00"/>
+<node TEXT="anatomy" ID="ID_300980368" CREATED="1456494786835" MODIFIED="1456494793051">
+<node TEXT="vessel types" ID="ID_1736677533" CREATED="1456495103264" MODIFIED="1456495106241">
+<node TEXT="aorta" ID="ID_1340493591" CREATED="1456495108936" MODIFIED="1456498551662">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="25 mm"/>
+<attribute NAME="blood pressure" VALUE="95 mmHg"/>
+<hook NAME="FirstGroupNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        dampens pressure from left ventricle
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="large arteries" ID="ID_876599329" CREATED="1456495112016" MODIFIED="1456825467401">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="1.0 - 10.0 mm"/>
+<attribute NAME="blood pressure" VALUE="90 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        distribute blood to organs or regions of the body
+      </li>
+      <li>
+        e.g. carotid, mesenteric, renal, ...
+      </li>
+      <li>
+        no significant role in pressure regulation
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="small arteries" ID="ID_1425768168" CREATED="1456495116872" MODIFIED="1456825494373">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="0.2 - 1.0 mm"/>
+<attribute NAME="blood pressure" VALUE="55 - 90 mmHg"/>
+<hook NAME="FirstGroupNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        distribute blood flow within organs
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="arterioles" ID="ID_970807864" CREATED="1456495122280" MODIFIED="1456825511059">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="0.01 - 0.2 mm"/>
+<attribute NAME="blood pressure" VALUE="55 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        smaller than small arteries
+      </li>
+      <li>
+        no other (sharp) distinction criterium
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="resistance vessels" ID="ID_1489109320" CREATED="1456496126656" MODIFIED="1456498509268">
+<hook NAME="SummaryNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        regulate aterial blood pressure and flow within organs
+      </li>
+      <li>
+        highly innervated by autonomic nerves (particularly sympathetic)
+      </li>
+      <li>
+        have a lot of receptors for circulating hormones
+      </li>
+      <li>
+        constrict or dilate in response to changes in nerve activity and hormone concentrations
+      </li>
+      <li>
+        50-70% of total pressure drop occurs here
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Capillaries" ID="ID_1326574262" CREATED="1456495128615" MODIFIED="1456498571605">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="101"/>
+<attribute NAME="diameter" VALUE="0.006 - 0.01 mm"/>
+<attribute NAME="blood pressure" VALUE="25 - 30 mmHg"/>
+<hook NAME="FirstGroupNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        have no smooth muscles
+      </li>
+      <li>
+        small but many =&gt; have largest cross-sectional area
+      </li>
+      <li>
+        1000 times larger than in aorta
+      </li>
+      <li>
+        =&gt; velocity is 1000 fold smaller
+      </li>
+      <li>
+        primary exchange vessels of the body
+
+        <ul>
+          <li>
+            greatest surface area
+          </li>
+        </ul>
+      </li>
+      <li>
+        join together to postcapillary venules
+
+        <ul>
+          <li>
+            still no smooth muscles
+          </li>
+          <li>
+            also exchange vessels
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="blood flow (formula)" ID="ID_1510033643" CREATED="1456496984954" MODIFIED="1456497016915">
+<hook EQUATION="F = V \cdot A" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="mean velocity" ID="ID_1995876659" CREATED="1456497079410" MODIFIED="1456497377621">
+<attribute_layout NAME_WIDTH="81" VALUE_WIDTH="81"/>
+<attribute NAME="in capillaries" VALUE="0.05 cm/s"/>
+<attribute NAME="in aorta" VALUE="50 cm/s"/>
+<hook EQUATION="V \left[\frac{m}{s}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="blood velocity in capillaries: 0.05 cm/s" STYLE_REF="number" ID="ID_1807648403" CREATED="1456497299168" MODIFIED="1456497389467"/>
+<node TEXT="blood velocity in aorta: 50 cm/s" STYLE_REF="number" ID="ID_488032309" CREATED="1456497310776" MODIFIED="1456497389479"/>
+</node>
+<node TEXT="cross-sectional area" ID="ID_344518228" CREATED="1456497089650" MODIFIED="1456497160887">
+<hook EQUATION="A \left[m^2\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="blood flow" ID="ID_803567552" CREATED="1456497250329" MODIFIED="1456497278103">
+<hook EQUATION="F \left[\frac{m^3}{s}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+<node TEXT="venules" ID="ID_1200128355" CREATED="1456495134760" MODIFIED="1456825558926">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="0.01 - 0.2 mm"/>
+<attribute NAME="blood pressure" VALUE="15 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        small postcapillary venules have no smooth muscle
+      </li>
+      <li>
+        but larger venules do have smooth muscles
+      </li>
+      <li>
+        constriction and dilation regulates capillary pressure and venous blood volume
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="veins" ID="ID_1783567680" CREATED="1456495143952" MODIFIED="1456825570537">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="0.2 - 10 mm"/>
+<attribute NAME="blood pressure" VALUE="10 mmHg"/>
+</node>
+<node TEXT="vena cava" ID="ID_747246975" CREATED="1456495148799" MODIFIED="1456498707517">
+<attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
+<attribute NAME="diameter" VALUE="35 mm"/>
+<attribute NAME="blood pressure" VALUE="&lt;&lt; 1 mmHg"/>
+</node>
+<node TEXT="capacitance vessels" ID="ID_1448744554" CREATED="1456497871604" MODIFIED="1456498743322">
+<hook NAME="SummaryNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        site where most of blood volume is found (60 - 80%)
+      </li>
+      <li>
+        regulate regional blood volume
+      </li>
+      <li>
+        constriction can increase venous pressure and reduce venous volume
+
+        <ul>
+          <li>
+            alters cardiac output by increasing right ventricular preload
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="pressure and volume distribution" ID="ID_1224881602" CREATED="1456497969540" MODIFIED="1456498492301"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        highest pressure in aorta (95 mmHg for normal adult)
+      </li>
+      <li>
+        pressure decreases as blood flows further away from heart
+
+        <ul>
+          <li>
+            reason: energy lost as heat due to friction (within blood itself and at vessel walls)
+          </li>
+          <li>
+            resistance is small in aorta and large veins, but large in small veins and aterioles
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="pressure loss (formula)" ID="ID_807708087" CREATED="1456498117602" MODIFIED="1456498182508">
+<hook EQUATION="\Delta P = F \cdot R" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (hydrodynamic form of Ohm's law)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="blood flow" ID="ID_626609467" CREATED="1456498206586" MODIFIED="1456498311976">
+<hook EQUATION="F \; \left[\frac{m^3}{s}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="vessel resistance" ID="ID_37193235" CREATED="1456498215410" MODIFIED="1456498370098">
+<hook EQUATION="R \; \left[\frac{s \cdot mmHg}{m^3}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="fall in pressure" ID="ID_276491554" CREATED="1456498233706" MODIFIED="1456498258640">
+<hook EQUATION="\Delta P \; [mmHg]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+<node TEXT="arterial blood pressure" ID="ID_741683316" CREATED="1456825766349" MODIFIED="1456825770951">
+<node TEXT="pulse pressure" ID="ID_1120102885" CREATED="1456825807115" MODIFIED="1456825987918"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        measured with arm blood pressure cuff (sphygmomanometer)
+      </li>
+    </ul>
+  </body>
+</html>
 
 </richcontent>
+<hook EQUATION="\text{systolic pressure} - \text{diastolic pressure}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="systolic pressure" ID="ID_1083067080" CREATED="1456825990651" MODIFIED="1456826021783"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        peak aortic pressure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="diastolic pressure" ID="ID_1595432733" CREATED="1456825994746" MODIFIED="1456826039309"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        minimal aortic pressure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="mean arterial pressure (MAP)" ID="ID_1177497672" CREATED="1456826059746" MODIFIED="1456826887214"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        average arterial pressure over a cardiac cycle
+      </li>
+      <li>
+        determines the blood flow in organs
+      </li>
+      <li>
+        important for hemodynamic analysis
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="estimation" ID="ID_908481748" CREATED="1456827264298" MODIFIED="1456827267675">
+<node TEXT="at high heart rates" ID="ID_484819936" CREATED="1456827269657" MODIFIED="1456827357157"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        MAP more closely approximated by arithmetic mean of systolic and diastolic pressure
+      </li>
+      <li>
+        reason: diastole shortens more than systole
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="at resting heart rate" ID="ID_27761701" CREATED="1456826880205" MODIFIED="1456827308210">
+<hook EQUATION="MAP \approx P_{dia} + \frac{1}{3} (P_{sys} - P_{dia})" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="systolic pressure" ID="ID_1960730617" CREATED="1456826963420" MODIFIED="1456826991420">
+<hook EQUATION="P_{sys}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="diastolic pressure" ID="ID_333419214" CREATED="1456826978347" MODIFIED="1456827007303">
+<hook EQUATION="P_{dia}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+<node TEXT="physiological factors" ID="ID_1733714193" CREATED="1456827492009" MODIFIED="1456827530835">
+<hook EQUATION="MAP = (CO \cdot SVR) + CVP" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="systemic vascular resistance" ID="ID_591879350" CREATED="1456827545288" MODIFIED="1456827747968">
+<hook EQUATION="SVR" NAME="plugins/latex/LatexNodeHook.properties"/>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="central venous pressure" ID="ID_423876540" CREATED="1456827558096" MODIFIED="1456827597030">
+<hook EQUATION="CVP" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="cardiac output" ID="ID_1480035064" CREATED="1456827566599" MODIFIED="1456827603988">
+<hook EQUATION="CO" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="constantly change interdependently" ID="ID_578706904" CREATED="1456827747958" MODIFIED="1456827759936">
+<hook NAME="SummaryNode"/>
+</node>
+</node>
+<node TEXT="regulation" ID="ID_886132987" CREATED="1456827765005" MODIFIED="1456827870766"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fall in cardiac output (e.g. from standing up) does not mean fall in MAP
+      </li>
+      <li>
+        compensated by increased vascular resistance (due to baroreceptors)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="aortic pulse pressure" ID="ID_689912385" CREATED="1456827883453" MODIFIED="1456834075823">
+<attribute_layout NAME_WIDTH="202" VALUE_WIDTH="202"/>
+<attribute NAME="aortic pulse pressure (young adult)" VALUE="40 - 45 mmHg"/>
+<attribute NAME="aortic pulse pressure (elderly)" VALUE="60 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        farther away from the heart =&gt; higher systolic pressure, lower diastolic pressure
+
+        <ul>
+          <li>
+            decreased compliance in distal vessels
+          </li>
+          <li>
+            reflective waves (e.g. at branch points) summate with pulse wave
+          </li>
+        </ul>
+      </li>
+      <li>
+        measurements on the arm reflect pressure in the brachial artery
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="determining factors" ID="ID_800182818" CREATED="1456829931742" MODIFIED="1456829947360">
+<node TEXT="stroke volume (SV)" ID="ID_728725392" CREATED="1456829948366" MODIFIED="1456829961080"/>
+<node TEXT="compliance (C)" ID="ID_784606733" CREATED="1456829962398" MODIFIED="1456834310336">
+<hook EQUATION="C = \frac{\Delta V}{\Delta P}  \; \left[\frac{m^3}{mmHg}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        determined by proportion of elastin fibers vs. smooth muscle and collagen
+      </li>
+      <li>
+        elastin has highest compliance
+      </li>
+      <li>
+        collagen has lowest compliance
+      </li>
+      <li>
+        aorta has very high compliance
+      </li>
+      <li>
+        change in compliance only affects pulse pressure but not MAP
+      </li>
+      <li>
+        not a single value, but nonlinear relationship
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="change in volume" ID="ID_769875780" CREATED="1456830003511" MODIFIED="1456833780978">
+<hook EQUATION="\Delta V \; [m^3]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="change in pressure" ID="ID_1809765273" CREATED="1456830015374" MODIFIED="1456833768592">
+<hook EQUATION="\Delta P \; [mmHg]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="nonlinearity" ID="ID_817400169" CREATED="1456834327256" MODIFIED="1456834380080"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        at higher pressures and volumes the slope decreases
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="hemodynamics" ID="ID_252755750" CREATED="1456834604878" MODIFIED="1456836578207"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        physical factors governing blood flow
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="blood flow (through an organ)" ID="ID_1434488928" CREATED="1456836579680" MODIFIED="1456837528227">
+<hook EQUATION="F = \frac{\Delta P}{R}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<hook NAME="FirstGroupNode"/>
+<node TEXT="pressure gradient" ID="ID_243653897" CREATED="1456836616736" MODIFIED="1456836675318">
+<hook EQUATION="\Delta P \; [mmHg]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="resistance" ID="ID_88248810" CREATED="1456836642135" MODIFIED="1456836915676">
+<hook EQUATION="R \; \left[\frac{mmHg \cdot min}{ml}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="blood flow" ID="ID_270791321" CREATED="1456836830062" MODIFIED="1456836863268">
+<hook EQUATION="F \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="factors for vessel resistance" ID="ID_1385170857" CREATED="1456836951605" MODIFIED="1456837044294">
+<hook EQUATION="R \propto \frac{\eta L}{r^4}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="vessel length" ID="ID_956791480" CREATED="1456837016845" MODIFIED="1456837242626">
+<hook EQUATION="L \; [mm]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="blood viscosity" ID="ID_747214180" CREATED="1456837031917" MODIFIED="1456912438841">
+<hook EQUATION="\eta \; [mmHg \cdot min]" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="typical values" STYLE_REF="number" ID="ID_1672347068" CREATED="1456912486598" MODIFIED="1456913032388">
+<attribute_layout NAME_WIDTH="87" VALUE_WIDTH="119"/>
+<attribute NAME="water" VALUE="1.12E-7 mmHg min" OBJECT="org.freeplane.features.format.FormattedObject|1.12E-7 mmHg min|date:date:dd.MM.yy HH:mm"/>
+<attribute NAME="blood plasma" VALUE="~2E-7 mmHg min" OBJECT="org.freeplane.features.format.FormattedObject|~2E-7 mmHg min|number:decimal:#0.####"/>
+<attribute NAME="blood" VALUE="~4E-7 mmHg min"/>
+</node>
+<node TEXT="can vary considerably" ID="ID_1492246289" CREATED="1456913111602" MODIFIED="1456913377405"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        2% change in viscosity for 1&#176;C change in blood temperature
+      </li>
+      <li>
+        change in hematocrit (percentage of blood volume taken up by&#160;red blood cells)
+
+        <ul>
+          <li>
+            increase from 40% to 60% can double viscosity
+          </li>
+        </ul>
+      </li>
+      <li>
+        flow rate
+
+        <ul>
+          <li>
+            at very low flow rates, viscosity can increase severalfold
+
+            <ul>
+              <li>
+                cell-to-cell adhesion
+              </li>
+              <li>
+                protein-to-cell adhesion
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="vessel radius" ID="ID_1337961752" CREATED="1456837054221" MODIFIED="1456837503030">
+<hook EQUATION="r \; [mm]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="Poiseuille&apos;s equation" ID="ID_1091991907" CREATED="1456837528218" MODIFIED="1456837635082">
+<hook NAME="SummaryNode"/>
+<hook NAME="FirstGroupNode"/>
+<hook EQUATION="F \approx \frac{\pi \cdot \Delta P \cdot r^4}{8 \cdot \eta \cdot L}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="assumptions" ID="ID_840101713" CREATED="1456837659296" MODIFIED="1456837738754"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        vessels are long straight rigid tubes
+      </li>
+      <li>
+        blood is Newtonian fluid
+
+        <ul>
+          <li>
+            constant viscosity
+          </li>
+          <li>
+            viscosity independent of flow
+          </li>
+        </ul>
+      </li>
+      <li>
+        blood is flowing under steady laminar flow
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="only valid for single vessel, not for network of vessels" ID="ID_1702441098" CREATED="1456915471040" MODIFIED="1456915487305"/>
+</node>
+<node TEXT="flow types" ID="ID_1775223534" CREATED="1456914440441" MODIFIED="1456914895648">
+<node TEXT="laminar" ID="ID_1959714742" CREATED="1456914896420" MODIFIED="1456915027738"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &quot;normal&quot; orderly flow
+      </li>
+      <li>
+        same direction in all parts of the vessel
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="turbulent" ID="ID_1144954716" CREATED="1456914899220" MODIFIED="1456915394266"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        whirls and local backflow
+      </li>
+      <li>
+        net direction unchanged, but energy is lost
+      </li>
+      <li>
+        found in constricted vessels and/or at high velocities
+
+        <ul>
+          <li>
+            stenotic valves
+          </li>
+          <li>
+            large artery branch points
+          </li>
+          <li>
+            in ascending aorta at high ejection velocities
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be heared with stetoscope
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="vessel arrangement" ID="ID_1156152706" CREATED="1456915449659" MODIFIED="1456915457210">
+<node TEXT="parallel" ID="ID_400609516" CREATED="1456916399058" MODIFIED="1456920551355">
+<hook NAME="FirstGroupNode"/>
+<node TEXT="total resistance (parallel)" ID="ID_1761934014" CREATED="1456919762754" MODIFIED="1456919860344">
+<hook EQUATION="\frac{1}{R_T} = \sum\limits_{i=0}^n \frac{1}{R_i}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT=" =&gt; total resistance is smaller than smallest individual resistance" ID="ID_613906197" CREATED="1456919912185" MODIFIED="1456920136661">
+<hook EQUATION="\Rightarrow \frac{1}{R_T} \geq \frac{1}{\min \limits_i R_i} \Rightarrow R_T \leq \min \limits_i R_i" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="increasing individual resistances has little influence on total resistance" ID="ID_134293714" CREATED="1456920191559" MODIFIED="1456920365850"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        decreasing resistances <u>can</u>&#160;have a large effect if the minimum resistance changes
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="in series" ID="ID_1697801681" CREATED="1456919745226" MODIFIED="1456919759171">
+<node TEXT="total resistance (series)" ID="ID_389861756" CREATED="1456919783066" MODIFIED="1456919890083">
+<hook EQUATION="R_T = \sum \limits_{i=0}^n R_i" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="effect of change in vessel resistance depends on absolute vessel resistance" ID="ID_932927144" CREATED="1456920579748" MODIFIED="1456921212851"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        arteries have low resistance
+
+        <ul>
+          <li>
+            change in artery resistance has low effect on total resistance
+          </li>
+        </ul>
+      </li>
+      <li>
+        arterioles have high resistance
+
+        <ul>
+          <li>
+            change in arteriole resistance has high effect on total resistance
+
+            <ul>
+              <li>
+                assuming the change happens across <u>all</u>&#160;arterioles
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
