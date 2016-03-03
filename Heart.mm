@@ -56,7 +56,3271 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1456495178503" HGAP="51" VSHIFT="23">
+<node TEXT="function" FOLDED="true" POSITION="left" ID="ID_1612755434" CREATED="1453900587101" MODIFIED="1457011953377" HGAP="138" VSHIFT="330" MOVED="1457011888567">
+<edge COLOR="#00ffff"/>
+<node TEXT="complex organisms need circulation to connect cells to &quot;outside world&quot; (exchange substances)" ID="ID_785213564" CREATED="1453897707582" MODIFIED="1453910253787"/>
+<node TEXT="hormone production" FOLDED="true" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
+<node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1453897707582"/>
+</node>
+<node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456824305357" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/HyperHeart1.swf"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        from one P wave to the next
+      </li>
+      <li>
+        systole: ventricular contraction and ejection
+      </li>
+      <li>
+        diastole: everything else
+      </li>
+      <li>
+        at higher heart rates: both diastole and systole shorten
+
+        <ul>
+          <li>
+            but diastole shortens much more than systole
+          </li>
+          <li>
+            =&gt; compensatory mechanisms required to retain ventricular filling
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="phases" ID="ID_1345408208" CREATED="1456320770135" MODIFIED="1456320876295"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        atrial systole
+      </li>
+      <li>
+        isovolumetric contraction
+      </li>
+      <li>
+        rapid ejection
+      </li>
+      <li>
+        reduced ejection
+      </li>
+      <li>
+        isovolumetric relaxation
+      </li>
+      <li>
+        rapid filling
+      </li>
+      <li>
+        reduced filling
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Phase 1: atrial systole" ID="ID_1884838028" CREATED="1456320878431" MODIFIED="1456324552148">
+<attribute_layout NAME_WIDTH="119" VALUE_WIDTH="119"/>
+<attribute NAME="EDV" VALUE="120 ml"/>
+<attribute NAME="EDP (left ventricle)" VALUE="8 mmHg"/>
+<attribute NAME="EDP (right ventricle)" VALUE="4 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        P wave = depolarization of atria
+      </li>
+      <li>
+        atria contract in a directed fashion, creating a &quot;milking&quot; effect
+
+        <ul>
+          <li>
+            prevents reverse flow (along with venous return)
+          </li>
+        </ul>
+      </li>
+      <li>
+        pressure in atrial chamber rises
+      </li>
+      <li>
+        blood is pumped into ventricles
+      </li>
+      <li>
+        net rise of pressure increase in atria is low but measurable
+
+        <ul>
+          <li>
+            &quot;a wave&quot;
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial pressure falls =&gt; &quot;x descent&quot;
+      </li>
+      <li>
+        AV valves (tricuspid and mithral) float upward (preposition) and close
+      </li>
+      <li>
+        ventricles reach end-diastolic volume
+
+        <ul>
+          <li>
+            left ventricle: 120 ml at 8 mmHg
+          </li>
+          <li>
+            right ventricle: 120 ml at 4 mmHg
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="left ventricle" ID="ID_729577124" CREATED="1456321424802" MODIFIED="1456321656663"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        filling (from pulmonary veins) is mostly passive
+      </li>
+      <li>
+        only 10% form atrial contraction at rest
+      </li>
+      <li>
+        but may account for up to 40% at higher heart rates (less time for passive filling)
+      </li>
+      <li>
+        percentage also increases with force of&#160;contraction (&quot;atrial kick&quot; by sympathetic nerve activation)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="4th heart sound (S4)" ID="ID_1997699090" CREATED="1456322119782" MODIFIED="1456322188418"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sometimes heard during atrial contraction
+      </li>
+      <li>
+        when ventricle compliance is reduced (&quot;stiff&quot; ventricles)
+      </li>
+      <li>
+        commonly present in older individuals
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="end-diastolic volume (EDV) of ventricles: 120 ml" STYLE_REF="number" ID="ID_92343465" CREATED="1456324425069" MODIFIED="1456324503615"/>
+<node TEXT="end-diastolic pressure in left ventricle: 8 mmHg" STYLE_REF="number" ID="ID_1913666446" CREATED="1456324453141" MODIFIED="1456324503629"/>
+<node TEXT="end-diastolic pressure in right ventricle: 4 mmHg" STYLE_REF="number" ID="ID_978267491" CREATED="1456324483173" MODIFIED="1456324503637"/>
+</node>
+<node TEXT="Phase 2: isovolumetric contraction" ID="ID_1398008675" CREATED="1456320895342" MODIFIED="1456323917427"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ventricles contract (QRS)
+      </li>
+      <li>
+        pressure in ventricles rises
+      </li>
+      <li>
+        =&gt; AV valves close =&gt; all valves closed
+
+        <ul>
+          <li>
+            vibration in blood causes&#160;first heart sound (S1)
+          </li>
+        </ul>
+      </li>
+      <li>
+        pressure increases further, but volume stays the same =&gt; &quot;isovolumetric&quot;
+      </li>
+      <li>
+        atrial pressure increases transiently, because of venous return and bulging of AV valves back into atria
+
+        <ul>
+          <li>
+            &quot;c wave&quot;
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="1st heart sound (S1)" ID="ID_1755124091" CREATED="1456323469076" MODIFIED="1456323566464"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        caused by closing of AV valves (tricuspid and mitral)
+      </li>
+      <li>
+        normally split by 40 ms because mitral valve closes before tricuspid
+
+        <ul>
+          <li>
+            still perceived as single sound by stetoscope
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Phase 3: rapid ejection" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456742153233">
+<attribute_layout NAME_WIDTH="172" VALUE_WIDTH="172"/>
+<attribute NAME="maximal aortic pressure" VALUE="120 mmHg"/>
+<attribute NAME="maximal pulmonary pressure" VALUE="25 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        aortic and pulmonic valves open as pressure in ventricles rises above pressure in arteries
+      </li>
+      <li>
+        ventricular pressure is only a few mmHg higher than aterial pressure
+      </li>
+      <li>
+        outflow is maximal early in this phase
+      </li>
+      <li>
+        maximal artery pressures are achieved
+      </li>
+      <li>
+        atria still fill with blood, but atrial pressure decreases
+
+        <ul>
+          <li>
+            base of atria is pulled down =&gt; atrial chambers expand
+          </li>
+          <li>
+            &quot;x' descent&quot;
+          </li>
+        </ul>
+      </li>
+      <li>
+        no sounds heart (healthy valve opening is silent)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="maximal systolic aortic pressure: 120 mmHg" STYLE_REF="number" ID="ID_1748068349" CREATED="1456324625708" MODIFIED="1456324696171"/>
+<node TEXT="maximal systolic pulmonary pressure: 25 mmHg" STYLE_REF="number" ID="ID_1867800457" CREATED="1456324638412" MODIFIED="1456324696183"/>
+</node>
+<node TEXT="Phase 4: reduced ejection" ID="ID_245834116" CREATED="1456320913318" MODIFIED="1456325083949"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ventricular repolarization (T wave) occurs approximately 150 to 200 ms after QRS
+      </li>
+      <li>
+        active tension of ventricles decreases (muscle relaxation)
+      </li>
+      <li>
+        rate of ejection falls
+      </li>
+      <li>
+        ventricular pressure falls slightly below outlfow pressure
+      </li>
+      <li>
+        outflow still occurs due to kinetic (inertial) energy of blood
+      </li>
+      <li>
+        atrial pressures rise due to continued venous return
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Phase 5: isovolumetric relaxation" ID="ID_1146825252" CREATED="1456320920518" MODIFIED="1456325816517"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        total energy (kinetic + pressure) of blood in ventricles falls below that of blood in arteries
+      </li>
+      <li>
+        =&gt; aortic and pulmonary valves close (abruptly)
+
+        <ul>
+          <li>
+            second heart sound (S2)
+          </li>
+        </ul>
+      </li>
+      <li>
+        valve closure leads to characteristic notch (incisura) in artery pressure tracings
+      </li>
+      <li>
+        decline in arterial pressure is not abrupt but slow
+
+        <ul>
+          <li>
+            potential energy stored in elastic walls is slowly released
+          </li>
+          <li>
+            systemic and pulmonary resistances prevent pressure from falling too fast
+          </li>
+        </ul>
+      </li>
+      <li>
+        all valves are closed =&gt; volume in ventricles stays constant
+      </li>
+      <li>
+        end-systolic volume (ESV) is reached
+
+        <ul>
+          <li>
+            left ventricle: 50 ml
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial volumes and pressures continue to increase (venous return)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="2nd heart sound (S2)" ID="ID_541558095" CREATED="1456325884835" MODIFIED="1456326001071"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        caused by abrupt closing of aortic and pulmonary valve
+      </li>
+      <li>
+        physiologically and audibly split
+
+        <ul>
+          <li>
+            aortic valve closes before pulmonary valve
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ejection fraction (EF)" ID="ID_1809823979" CREATED="1456325896211" MODIFIED="1456326332226">
+<attribute NAME="EF" VALUE="55%"/>
+<hook EQUATION="\frac{SV}{EDV}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fraction of blood in the ventricle that is ejected during systole
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="normal ejection fraction: &gt; 55%" STYLE_REF="number" ID="ID_1114818643" CREATED="1456326206784" MODIFIED="1456326304838"/>
+</node>
+<node TEXT="stroke volume (SV)" ID="ID_931664411" CREATED="1456326089171" MODIFIED="1456326337557">
+<attribute_layout NAME_WIDTH="73" VALUE_WIDTH="73"/>
+<attribute NAME="SV" VALUE="70 ml"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        amount of blood pumped out of ventricle durng systole
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook EQUATION="EDV - ESV" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="normal stroke volume: 70 ml" STYLE_REF="number" ID="ID_479298696" CREATED="1456326227481" MODIFIED="1456326304826"/>
+</node>
+</node>
+<node TEXT="Phase 6: rapid filling" ID="ID_1226825666" CREATED="1456320932862" MODIFIED="1456326989984"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ventricular pressure falls below atrial pressure
+      </li>
+      <li>
+        AV valves open =&gt; ventricular filling begins
+      </li>
+      <li>
+        pressure in ventricles still falls because ventricles are still relaxing
+
+        <ul>
+          <li>
+            begins to rise when relaxation is complete
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial pressure falls rapidly
+
+        <ul>
+          <li>
+            from rising &quot;v wave&quot; to falling &quot;y descent&quot;
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="3rd heart sound" ID="ID_388578123" CREATED="1456327002707" MODIFIED="1456327092723"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        results from tensing of chordae tendineae and AV ring
+      </li>
+      <li>
+        normal in children, but pathological in adults (associated with dilation)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="AV ring" ID="ID_164190322" CREATED="1456327094442" MODIFIED="1456327140687"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        connective tissue support for valve leaflets
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="chordae tendineae" ID="ID_666687590" CREATED="1456327097826" MODIFIED="1456327181418"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fibrous strands connecting AV valves to papillary muscles
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Phase 7: reduced filling" ID="ID_327444482" CREATED="1456320938741" MODIFIED="1456327670147"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fluid transition between rapid and reduced filling
+      </li>
+      <li>
+        passive ventricular filling nears completion
+      </li>
+      <li>
+        sometimes called &quot;ventricular diastasis&quot;
+      </li>
+      <li>
+        ventricles become less compliant (&quot;stiffer&quot;)
+
+        <ul>
+          <li>
+            =&gt; intraventricular pressure rises
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial pressure still rises
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="pressure-volume loop" ID="ID_1425546802" CREATED="1456328621863" MODIFIED="1456329144220"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        plot left ventricular pressure against left ventricular volume
+      </li>
+      <li>
+        can help to analyze cardiac cycle
+      </li>
+    </ul>
+    <img src="images/PV loop animation.gif"/>
+  </body>
+</html>
+</richcontent>
+<node TEXT="end-diastolic pressure-volume relationship (EDPVR)" ID="ID_930320203" CREATED="1456328838478" MODIFIED="1456395996594"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        end-diastolic point in pressure-volume loop for different loads(?)
+      </li>
+      <li>
+        points connected as curve
+      </li>
+      <li>
+        =&gt; end-diastolic pressure-volume relationship
+
+        <ul>
+          <li>
+            how does pressure and volume relate when ventricle is fully relaxed
+          </li>
+          <li>
+            tells about elastance properties (pressure/volume)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="end-systolic pressure-volume relationship (ESPVR)" ID="ID_1038978245" CREATED="1456328856366" MODIFIED="1456396096085"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        maximal pressure developed by ventricle at any given left ventricular volume
+      </li>
+      <li>
+        obtained in the same way as EDPVR
+
+        <ul>
+          <li>
+            take multiple measurements of end-systolic value on pressure-volume loop
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="calculation of ESPVR and EDPVR" ID="ID_1825989270" CREATED="1456481671191" MODIFIED="1456481695347">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/pvl_ESPVR_EDPVR.svg" SIZE="0.6904488" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="cardiac output" ID="ID_492494540" CREATED="1456401210195" MODIFIED="1456404978328">
+<attribute_layout NAME_WIDTH="88" VALUE_WIDTH="88"/>
+<attribute NAME="cardiac output" VALUE="5 - 6 l/min"/>
+<hook EQUATION="CO = SV \cdot HR" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        liter of blood per minute pumped into aorta
+      </li>
+      <li>
+        heart rate influence is more important than stroke volume
+
+        <ul>
+          <li>
+            heart rate more than doubles or triples during exercise
+          </li>
+          <li>
+            stroke volume can only increase by about 50%
+          </li>
+        </ul>
+      </li>
+      <li>
+        not every increase in heart rate also triggers increase in CO
+
+        <ul>
+          <li>
+            by itself, faster heart rate leads to reduced SV (less time for ventricular filling)
+          </li>
+          <li>
+            physiological mechanisms during exercise can actually <u>increase</u>&#160; SV
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="cardiac index" ID="ID_1363099281" CREATED="1456402482625" MODIFIED="1456403063659">
+<attribute_layout NAME_WIDTH="83" VALUE_WIDTH="103"/>
+<attribute NAME="cardiac index" VALUE="2.6 - 4.2 l/min/m&#xb2;"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        cardiac output divided by estimated body surface area (BSA)
+      </li>
+      <li>
+        normalizes CO to individuals of different size
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="estimated body surface area (BSA) - Mosteller formula" ID="ID_1233602478" CREATED="1456402850606" MODIFIED="1456403008109">
+<hook EQUATION="BSA[m^2] = \sqrt{\frac{height[cm] * weight[kg]}{3600}}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="cardiac index: 2.6 - 4.2 l/min/m&#xb2;" STYLE_REF="number" ID="ID_1844643997" CREATED="1456403221668" MODIFIED="1456403242495"/>
+</node>
+<node TEXT="cardiac output: 5 - 6 l/min" STYLE_REF="number" ID="ID_231866958" CREATED="1456403113164" MODIFIED="1456403242517"/>
+<node TEXT="measurement" ID="ID_661827643" CREATED="1456403371147" MODIFIED="1456403739343"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        direct measurement is too invasive to be used in humans
+      </li>
+      <li>
+        =&gt; indirect measurement with catheter
+      </li>
+      <li>
+        echocardiography can also be used to estimate SV
+      </li>
+      <li>
+        Fick method permits measurement of CO by oxygen concentrations
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Fick Principle" ID="ID_1094810368" CREATED="1456403780391" MODIFIED="1456403928222">
+<hook EQUATION="CO = \frac{\dot{V}O_2}{CaO_2 - CvO_2}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="aterial blood oxygen content" ID="ID_1025514512" CREATED="1456403943470" MODIFIED="1456404434689">
+<hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="venous blood oxygen content [ml O2 / ml blood]" ID="ID_263820649" CREATED="1456404047238" MODIFIED="1456404403298">
+<hook EQUATION="CvO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="whole body oxygen consumption [ml O2/min]" ID="ID_661055206" CREATED="1456404072261" MODIFIED="1456404497710">
+<hook EQUATION="\dot{V}O_2 \left[\frac{ml \; O_2}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="preload" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456482025905"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        initial stretching of cardiac myocytes prior to contraction (sarcomere length at end of diastole)
+      </li>
+      <li>
+        sarcomere length cannot be determined in living heart
+      </li>
+      <li>
+        =&gt; EDV or end-diastolic pressure used as estimates
+
+        <ul>
+          <li>
+            do not correspond directly with sarcomere length, but actute changes are visible
+          </li>
+          <li>
+            elevated EDV may actually be associated with increased, decreased or unchanged sarcomere lengths
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-preload.png" SIZE="0.63357973" NAME="ExternalObject"/>
+<node TEXT="ventricle compliance" ID="ID_1281588900" CREATED="1456406620883" MODIFIED="1456407637868"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        change in volume divided by resulting change in pressure
+      </li>
+      <li>
+        opposite of &quot;stiffness&quot;
+      </li>
+      <li>
+        relationship is nonlinear in ventricle
+
+        <ul>
+          <li>
+            decreases with increasing pressure or volume
+          </li>
+        </ul>
+      </li>
+      <li>
+        determined by relaxation and physical properties of ventricular wall tissues
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook EQUATION="\frac{\Delta V}{\Delta p}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="length-tension relationship" ID="ID_1326645876" CREATED="1456408076337" MODIFIED="1456408767557">
+<attribute_layout NAME_WIDTH="216" VALUE_WIDTH="216"/>
+<attribute NAME="sarcomere length of max. act. tension" VALUE="2.2 &#xb5;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        how do changes in preload affect ability of muscle to develop force (tension)
+      </li>
+      <li>
+        experimental setup:
+
+        <ul>
+          <li>
+            piece of cardiac muscle attached to fixed support rod at one side and force transducer on other side
+          </li>
+          <li>
+            length is not allowed to change (isometric contraction)
+          </li>
+          <li>
+            resulting force can be measured at different sarcomere lengths
+          </li>
+        </ul>
+      </li>
+      <li>
+        increases in preload lead to increase in tension
+
+        <ul>
+          <li>
+            only amplitude changes, not duration of contraction or time-to-peak tension
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be plotted on length-tension diagram
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="sarcomere length where maximal active tension is reached: 2.2 &#xb5;m" STYLE_REF="number" ID="ID_1615256065" CREATED="1456408772948" MODIFIED="1456408793935"/>
+</node>
+<node TEXT="pressure-volume relationship" ID="ID_179505238" CREATED="1456409116763" MODIFIED="1456409292893"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        at level of the whole ventricle, length-tension relationship becomes pressure-volume relationship
+
+        <ul>
+          <li>
+            tension and pressure are related
+          </li>
+          <li>
+            length and volume are also related
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="length-dependent activation" ID="ID_943947086" CREATED="1456409295289" MODIFIED="1456410099541"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased sarcomere length increases sensibility of TP-C to calcium
+      </li>
+      <li>
+        fiber stretching&#160;&#160;may alter calcium homeostasis =&gt; increased calcium available
+      </li>
+      <li>
+        when length increases, diameter reduces =&gt; actin and myosin are closer together
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Frank-Starling Mechanism" ID="ID_1397295139" CREATED="1456410320146" MODIFIED="1456412680635"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased venous return and preload =&gt; increased SV
+      </li>
+      <li>
+        balances output of ventricles
+
+        <ul>
+          <li>
+            increased return to right atrium
+          </li>
+          <li>
+            =FS=&gt; increased output of right ventricle
+          </li>
+          <li>
+            =&gt; increased return to left atrium
+          </li>
+          <li>
+            =FS=&gt; increased output of left ventricle
+          </li>
+        </ul>
+      </li>
+      <li>
+        EDV and ESV are also affected by venous return
+
+        <ul>
+          <li>
+            EDV increases with increased venous return
+          </li>
+          <li>
+            ventricle empties to same ESV
+          </li>
+          <li>
+            =&gt; increased SV
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF003%20single%20Frank-Starling.png" SIZE="0.48192772" NAME="ExternalObject"/>
+</node>
+<node TEXT="factors determining preload" ID="ID_1432503089" CREATED="1456412758200" MODIFIED="1456413686643"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        venous pressure
+
+        <ul>
+          <li>
+            determined by venous blood volume and compliance (smooth muscle contraction)
+          </li>
+        </ul>
+      </li>
+      <li>
+        ventricular compliance
+
+        <ul>
+          <li>
+            determines EDV
+          </li>
+          <li>
+            greater compliance =&gt; greater ventricular filling
+          </li>
+        </ul>
+      </li>
+      <li>
+        heart rate
+
+        <ul>
+          <li>
+            higher heart rate =&gt; less filling time =&gt; less EDV
+          </li>
+        </ul>
+      </li>
+      <li>
+        atrial contraction
+
+        <ul>
+          <li>
+            sympathetic activation increases force of atrial contraction
+          </li>
+          <li>
+            =&gt; significantly enhances ventricular filling
+          </li>
+          <li>
+            =&gt; maintains preload at higher heart rates
+          </li>
+        </ul>
+      </li>
+      <li>
+        inflow resistance
+
+        <ul>
+          <li>
+            e.g. tricuspid valve stenosis
+          </li>
+          <li>
+            reduced rate of ventricular filling =&gt; reduced preload
+          </li>
+        </ul>
+      </li>
+      <li>
+        outflow resistance
+
+        <ul>
+          <li>
+            e.g. pulmonary valve stenosis
+          </li>
+          <li>
+            impairs ability of right ventricle to empty
+          </li>
+          <li>
+            =&gt; increased preload
+          </li>
+        </ul>
+      </li>
+      <li>
+        ventricular inotropy
+
+        <ul>
+          <li>
+            diminished inotropy =&gt; ventricle cannot eject as much blood =&gt; increased preload
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="afterload" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456482035249"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        load against which heart must contract to eject blood
+      </li>
+      <li>
+        main factors
+
+        <ul>
+          <li>
+            left ventricle: aortic pressure
+          </li>
+          <li>
+            right ventricle: pulmonary pressure
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be estimated by ventricular wall stress
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-afterload.png" SIZE="0.63357973" NAME="ExternalObject"/>
+<node TEXT="ventricular wall stress" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
+<hook EQUATION="\sigma \propto \frac{P \cdot r}{h}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        formula assumes that ventricle is a sphere
+
+        <ul>
+          <li>
+            for determination of actual wall stress the correct geometry and orientation of fibers would have to be taken into account
+          </li>
+        </ul>
+      </li>
+      <li>
+        average tension needed for muscle fibers to shorten against intraventricular pressure
+      </li>
+      <li>
+        ventricular dilation increases radius =&gt; increases wall stress
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="intraventricular pressure" ID="ID_43777106" CREATED="1456415003000" MODIFIED="1456415074321">
+<hook EQUATION="P" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="ventricular radius" ID="ID_659503498" CREATED="1456415010328" MODIFIED="1456415085365">
+<hook EQUATION="r" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="wall thickness" ID="ID_669988149" CREATED="1456415024233" MODIFIED="1456415108298">
+<hook EQUATION="h" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="force-velocity relationship" ID="ID_14741042" CREATED="1456416733140" MODIFIED="1456417790090"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        with increased afterload, velocity of fiber shortening is decreased
+      </li>
+      <li>
+        experimental setup
+
+        <ul>
+          <li>
+            muscle placed in in vitro bath at fixed initial length (preload)
+          </li>
+          <li>
+            load attached to one end
+          </li>
+          <li>
+            upon stimulation, contraction is first isometrically (no change in length)
+          </li>
+          <li>
+            when tension of muscle exceeds force of load attached muscle begins to shorten
+          </li>
+          <li>
+            continues until muscle begins to relax
+          </li>
+          <li>
+            resumes initial &quot;resting&quot; state
+          </li>
+          <li>
+            increased load =&gt;&#160;&#160;decrease in maximal shortening velocity and degree
+          </li>
+        </ul>
+      </li>
+      <li>
+        continuation of experiment at different afterloads leads to force-velocity curves
+
+        <ul>
+          <li>
+            x-axis: afterload (force), y-axis: shortening velocity
+          </li>
+          <li>
+            x-axis intercept: maximal isometric force
+          </li>
+          <li>
+            y-axis intercept: maximal velocity (V_max)
+
+            <ul>
+              <li>
+                has to be interpolated, because muscles do not contract without any load
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="influence of preload on force-velocity relationship" ID="ID_162368908" CREATED="1456417613574" MODIFIED="1456417838207"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased preload increases shortening velocity
+      </li>
+      <li>
+        increases maximal isometric force, but not V_max
+      </li>
+      <li>
+        =&gt; increase in preload helps to counteract reduced velocity from increased afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="effect on Frank-Starling curves" ID="ID_1297760053" CREATED="1456417859612" MODIFIED="1456418083573"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased afterload =&gt; decreased velocity and degree of shortening =&gt; decreased SV
+      </li>
+      <li>
+        visible in FS-curve (less steep for increased afterload)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="effect on pressure-volume loops" ID="ID_632400668" CREATED="1456418107834" MODIFIED="1456418305208"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased afterload =&gt; decrease in SV and increase in ESV
+      </li>
+      <li>
+        =&gt; pressure-volume loop becomes thinner and higher
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="effects of inotropy on SV" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456482045260"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy =&gt; increased force of contraction (independent of pre-/afterload)
+      </li>
+      <li>
+        changes in inotropy can lead to changes in afterload and preload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
+<node TEXT="force-velocity relationship" ID="ID_1379649419" CREATED="1456418701302" MODIFIED="1456418826438"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy increases both x-intercept and y-intercept
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="effect on Frank-Starling curve" ID="ID_1979195273" CREATED="1456418830333" MODIFIED="1456418919021"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy =&gt; increased SV =&gt; shifts FS-curve upwards
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="effect on pressure-volume loop" ID="ID_766285375" CREATED="1456418988036" MODIFIED="1456419278581"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased inotropy =&gt; increased fiber shortening velocity
+      </li>
+      <li>
+        =&gt; increased rate of pressure development
+      </li>
+      <li>
+        =&gt; increased ejection velocity and SV and reduced ESV
+      </li>
+      <li>
+        ESPVR shifted to the left and becomes steeper
+
+        <ul>
+          <li>
+            ESPVR sometimes used to determine inotropic state of ventricle
+          </li>
+        </ul>
+      </li>
+      <li>
+        increased&#160;inotropy also increases ejection fraction
+
+        <ul>
+          <li>
+            EF often used as clinical index for inotropy
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="factors for inotropy" ID="ID_950781242" CREATED="1456419419561" MODIFIED="1456419621555"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        see: cellular structure of cardiac myocytes
+      </li>
+      <li>
+        increase of inotropy by sympathetic activation important to counteract negative influence of heart rate on SV
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Anrep effect" ID="ID_1340476506" CREATED="1456419473465" MODIFIED="1456419510952"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        abrupt increase in afterload can increase inotropy
+      </li>
+      <li>
+        mechanism not fully understood
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Bowditch effect" ID="ID_528167500" CREATED="1456419477096" MODIFIED="1456419575761"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increase in heart rate can cause positive inotropy
+      </li>
+      <li>
+        probably because Na+/K+-ATPase cannot keep up and Natrium accumulates leading to accumulation of Calcium via NCX
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="interdependence of preload, afterload and inotropy" ID="ID_1652717392" CREATED="1456483547562" MODIFIED="1456483739640"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        changes in preload =&gt; changes in afterload
+      </li>
+      <li>
+        changes in afterload =&gt; changes in preload
+      </li>
+      <li>
+        change in inotropy =&gt; change in preload and afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="increase in preload" ID="ID_860333765" CREATED="1456483765480" MODIFIED="1456484250761">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loop%20preload%20interactions%202015.png" SIZE="0.61349696" NAME="ExternalObject"/>
+<node TEXT="increase in SV" ID="ID_1483068211" CREATED="1456484016575" MODIFIED="1456484049597"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increase in CO
+      </li>
+      <li>
+        =&gt; increase in arterial pressure
+      </li>
+      <li>
+        =&gt; increase in afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="diminished by increased afterload" ID="ID_1272989917" CREATED="1456484159366" MODIFIED="1456484216243"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased preload still least to increase in SV, but only small
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="increased ventricular wall stress" ID="ID_1390215230" CREATED="1456484053526" MODIFIED="1456484074516"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      =&gt; increased afterload
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="increase in afterload" ID="ID_1947759176" CREATED="1456483774008" MODIFIED="1456484328954">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loops%20afterload%20interactions%202015.png" SIZE="0.6" NAME="ExternalObject"/>
+<node TEXT="decrease in SV" ID="ID_1207589414" CREATED="1456484500035" MODIFIED="1456484504629">
+<node TEXT="partially compensated by increased preload" ID="ID_1274745659" CREATED="1456487057906" MODIFIED="1456487075963"/>
+</node>
+<node TEXT="increase in ESV" ID="ID_961282743" CREATED="1456484608122" MODIFIED="1456486930368"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increase in EDV
+      </li>
+      <li>
+        =&gt; increase in preload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="increase in inotropy" ID="ID_1240973964" CREATED="1456483779048" MODIFIED="1456484339192">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
+<node TEXT="increase in SV" ID="ID_1030562033" CREATED="1456487141656" MODIFIED="1456487337967"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increased CO
+      </li>
+      <li>
+        =&gt; increased arterial pressure
+      </li>
+      <li>
+        =&gt; increased afterload
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="decrease in ESV" ID="ID_606444195" CREATED="1456487146113" MODIFIED="1456487392792">
+<node TEXT="decrease in EDV" ID="ID_1302034696" CREATED="1456487418918" MODIFIED="1456487424072">
+<node TEXT="partially offset by increased afterload" ID="ID_1197347120" CREATED="1456487425687" MODIFIED="1456487434736"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="oxygen consumption" ID="ID_1914975456" CREATED="1456488400191" MODIFIED="1456489513129">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="97"/>
+<attribute NAME="MVO2 at rest" VALUE="8 ml/min/100g"/>
+<attribute NAME="min MVO2" VALUE="2 ml/min/100g"/>
+<attribute NAME="max MVO2" VALUE="70 ml/min/100g"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        usually expressed per 100g of tissue weight
+      </li>
+      <li>
+        even if no contraction takes place, oxygen is required for normal cellular function
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="myocardial oxygen consumption (formula)" ID="ID_920300481" CREATED="1456488441000" MODIFIED="1456489176434">
+<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="90"/>
+<hook EQUATION="M\dot{V}O_2 = CBF \cdot (CaO_2 - CvO_2)" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="coronary blood flow" ID="ID_764206315" CREATED="1456488497807" MODIFIED="1456488692716">
+<hook EQUATION="CBF \; \left[ \frac{ml}{min} \right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="aterial blood oxygen content" ID="ID_363714827" CREATED="1456403943470" MODIFIED="1456404434689">
+<hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="venous blood oxygen content" ID="ID_715148870" CREATED="1456404047238" MODIFIED="1456488605495">
+<hook EQUATION="CvO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="MVO2 at rest: 8 ml/min/100g" STYLE_REF="number" ID="ID_1607661607" CREATED="1456489282122" MODIFIED="1456489347877"/>
+<node TEXT="min MVO2: 2 ml/min/100g" STYLE_REF="number" ID="ID_1189549088" CREATED="1456489295604" MODIFIED="1456489347872"/>
+<node TEXT="nax MVO2: 70 ml/min/100g" STYLE_REF="number" ID="ID_794213578" CREATED="1456489313034" MODIFIED="1456489347861"/>
+<node TEXT="sometimes estimated by pressure-rate product" ID="ID_384224728" CREATED="1456488747733" MODIFIED="1456489912161">
+<hook EQUATION="\text{heart rate} \cdot \text{systolic arterial pressure}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        CBF and CvO2 must be measured invasively
+      </li>
+      <li>
+        =&gt; not always possible
+      </li>
+      <li>
+        =&gt; use estimates (usually only valid for narrow range of conditions)
+      </li>
+      <li>
+        experiments have shown that reasonable correlation exists between MVO2 and pressure-rate product
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="factors that influence oxygen consumption" ID="ID_1486255816" CREATED="1456489992932" MODIFIED="1456490541746">
+<node TEXT="heart rate" ID="ID_722884791" CREATED="1456490613384" MODIFIED="1456490643335"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        doubled heart rate =&gt; doubled oxygen consumption (contraction occurs twice as often)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="increased inotropy" ID="ID_1258269374" CREATED="1456490645592" MODIFIED="1456490768537"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        higher rate of tension development
+      </li>
+      <li>
+        higher maximum tension
+      </li>
+      <li>
+        =&gt; increased oxygen consumption
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="increased afterload" ID="ID_1328590857" CREATED="1456490678912" MODIFIED="1456490807808"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases tension required to pump blood
+      </li>
+      <li>
+        =&gt; increased oxygen consumption
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="increased preload" ID="ID_1721458889" CREATED="1456490683711" MODIFIED="1456491446143"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases SV
+      </li>
+      <li>
+        =&gt; increases oxygen consumption
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="less impact than afterload" ID="ID_959210222" CREATED="1456491320715" MODIFIED="1456491434708"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        wall stress related to tension required to generate pressure
+      </li>
+      <li>
+        wall stress depends on radius, but radius only increases with cubic root of volume
+      </li>
+      <li>
+        =&gt; 50% increase in volume =&gt; 14% increase in wall stress
+      </li>
+      <li>
+        however, wall stress is not a good estimate of oxygen consumption
+
+        <ul>
+          <li>
+            hypertrophied ventricle
+          </li>
+          <li>
+            =&gt; thicker heart
+          </li>
+          <li>
+            =&gt; less wall stress but more cells
+          </li>
+          <li>
+            =&gt; oxygen consumtpion is not reduced!
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="cellular structure" FOLDED="true" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1457011950839" HGAP="340" VSHIFT="-61" MOVED="1457011744726">
+<edge COLOR="#007c00"/>
+<node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
+<attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
+<attribute NAME="diameter of ventricular myocyte" VALUE="25 &#x3bc;m"/>
+<attribute NAME="length of ventricular myocyte" VALUE="100 &#x3bc;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        single nucleus
+      </li>
+      <li>
+        not as long as skeletal muscle cells
+      </li>
+      <li>
+        atrial myocytes are smaller than ventricular myocytes
+      </li>
+      <li>
+        composed of myofibrills
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2017abc_Cardiac_Muscle.jpg" SIZE="0.30257186" NAME="ExternalObject"/>
+<node TEXT="striated muscle" ID="ID_1906942734" CREATED="1456151895850" MODIFIED="1456151952203"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      crossbands / cross strations in microscopic structure
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="diameter of a ventricular myocyte: 25 &#x3bc;m" STYLE_REF="number" ID="ID_470646513" CREATED="1456152213768" MODIFIED="1456152529623">
+<attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
+</node>
+<node TEXT="length of a ventricular myocyte: 100 &#x3bc;m" STYLE_REF="number" ID="ID_105532277" CREATED="1456152331646" MODIFIED="1456152529638">
+<attribute_layout NAME_WIDTH="164" VALUE_WIDTH="164"/>
+</node>
+<node TEXT="functional syncytium" ID="ID_1961658947" CREATED="1456152581310" MODIFIED="1456152815376"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        branching network of myocytes resulting from cell fusion
+      </li>
+      <li>
+        myocytes connect to each other by specialized cell membranes (intercalated disks)
+      </li>
+      <li>
+        electrical signals can pass from one cell to the other via gap junctions
+      </li>
+      <li>
+        allows the heart to contract as a unit (synctium)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="intercalated disk" ID="ID_1698750386" CREATED="1456152708284" MODIFIED="1456153126373"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      membrane that connects two myocytes
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="gap junction" ID="ID_1314024833" CREATED="1456152715740" MODIFIED="1456152885066"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        low-resistance pathway between cells
+      </li>
+      <li>
+        permits conduction of ionic currents
+      </li>
+      <li>
+        only present in heart muscle cells and not e.g. skeletal muscles
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="myofibrill" ID="ID_1788258358" CREATED="1456152914107" MODIFIED="1456153204700"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bundles of myofilaments that make up myocytes
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456228432602">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1927763304" STARTINCLINATION="404;-42;" ENDINCLINATION="144;-75;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
+<attribute NAME="length" VALUE="1.6 - 2.2 &#x3bc;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        basic contractile unit of myocyte
+      </li>
+      <li>
+        one myocyte has many sarcomeres
+      </li>
+      <li>
+        region between two &quot;Z-Lines&quot;
+      </li>
+      <li>
+        length determines contractile force
+      </li>
+      <li>
+        contains think (actin) and thin filaments (myosin)&#160;(50% of cell volume)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Sarcomere.jpg" SIZE="0.75" NAME="ExternalObject"/>
+<node TEXT="sarcomere length: 1.6 - 2.2 &#x3bc;m" STYLE_REF="number" ID="ID_681801520" CREATED="1456153349448" MODIFIED="1456153367446"/>
+<node TEXT="thick filaments" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456229219449"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        consist of myosin (300 molecules per filament)
+      </li>
+      <li>
+        surrounded by hexagonal arrangement of 6 thin filaments
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="myosin" ID="ID_970177230" CREATED="1456228350299" MODIFIED="1456229173566"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        large molecule
+      </li>
+      <li>
+        two heads as site for myosin adenosine triphosphatase (myosin ATPase)
+
+        <ul>
+          <li>
+            interact with binding site on actin
+          </li>
+          <li>
+            have regulatory subunits (light chains) that can be phosphorylated
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="thin filaments" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456229292123"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      consist of actin, tropomyosin and troponin
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="actin" ID="ID_985146609" CREATED="1456228357139" MODIFIED="1456229354370"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        two helical strands of repeating globular units
+      </li>
+      <li>
+        tropomyosin between the two strands
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="tropomyosin" ID="ID_860526219" CREATED="1456229356244" MODIFIED="1456229490634"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        rod-shaped
+      </li>
+      <li>
+        carries troponin regulatory complex at regular intervals
+      </li>
+      <li>
+        one tropomyosin per 7 actin
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="troponin" ID="ID_254937729" CREATED="1456229494419" MODIFIED="1456229830010"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        holds tropomyosin in place =&gt; prevents myosin heads from binding to actin
+      </li>
+      <li>
+        when Ca++ binds to TN-C, conformation changes =&gt; binding site of actin exposed
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="troponin-T (TN-T)" ID="ID_1558312705" CREATED="1456229507628" MODIFIED="1456229569908"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      attaches to tropomyosin
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="troponin-C (TN-C)" ID="ID_579563864" CREATED="1456229524732" MODIFIED="1456229585097"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      binding site for Ca++
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="troponin-I (TN-I)" ID="ID_1110954762" CREATED="1456229534563" MODIFIED="1456229635976"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      inhibits myosin binding to actin
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="titin" ID="ID_329023521" CREATED="1456225901069" MODIFIED="1456228135883"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        elastic protein that connects myosin filaments to Z-Lines
+      </li>
+      <li>
+        helpts to keep actin filaments centered
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="sarcolemma" ID="ID_1784805838" CREATED="1456230151758" MODIFIED="1456230524853"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        surrounds bundle of myofibrills (outer cell membrane)
+      </li>
+      <li>
+        has deep invaginations (transverse tubules)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="transverse tubules (T tubules)" ID="ID_466969632" CREATED="1456230269318" MODIFIED="1456230417869"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        invaginations in sarcolemma
+      </li>
+      <li>
+        open to external cell environment
+
+        <ul>
+          <li>
+            =&gt; ions can freely enter and ion exchange can happen deep inside the myocyte
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="sarcoplasmic reticulum" ID="ID_1351979255" CREATED="1456230421893" MODIFIED="1456230951015"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        branching tubular network surrounding myofilaments
+      </li>
+      <li>
+        regulates intracellular calcium concentrations
+      </li>
+      <li>
+        close to T tubules
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="terminal cisternae" ID="ID_329433892" CREATED="1456230952857" MODIFIED="1456232029239"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        end pouches of SR adjacent to T tubules
+      </li>
+      <li>
+        contain calcium-release channels (ryanodine-sensitive)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&quot;feet&quot;" ID="ID_959858230" CREATED="1456230957913" MODIFIED="1456231071333"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        electron-dense regions between terminal cisternae and T tubules
+      </li>
+      <li>
+        believed to sense calcium from L-type calcium channels
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="excitation-contraction coupling" ID="ID_278191118" CREATED="1456229885601" MODIFIED="1456230144432" MOVED="1456231511062"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        coupling between myocite action potential and contraction
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456237725062" LINK="https://www.youtube.com/watch?v=CbfK1Gi-aCk"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        Calcium Ions enter the cell (at T tubules) through L-type calcium channe
+
+        <ul>
+          <li>
+            does not significantly change intracellular calcium concentration
+          </li>
+        </ul>
+      </li>
+      <li>
+        Calcium is sensed by &quot;feet&quot; of calcium-release channels in SR.
+      </li>
+      <li>
+        Calcium release channels in terminal cisternae release large amounts of calcium.
+
+        <ul>
+          <li>
+            increases intracellular calcium concentration 100-fold
+          </li>
+        </ul>
+      </li>
+      <li>
+        Free calcium binds to TN-C.
+      </li>
+      <li>
+        Myosin-binding site on actin molecules becomes exposed.
+      </li>
+      <li>
+        ATP hydrolysis during binding yields energy for conformational change.
+
+        <ul>
+          <li>
+            head is cocked =&gt; actin is moved towards Z-line where myosin is attached
+          </li>
+        </ul>
+      </li>
+      <li>
+        Actin and myosin fragments slide past each other (&quot;ratcheting&quot;)
+      </li>
+      <li>
+        Calcium entry into cell dminishes.
+      </li>
+      <li>
+        Sarcoendoplasmic reticulum calcium ATPAse (SERCA) pumps calcium back into SR
+      </li>
+      <li>
+        Calcium dissociates from TN-C.
+      </li>
+      <li>
+        Normal length of sarcomere is restored
+      </li>
+      <li>
+        new ATP binds to myosin head, displacing ADP
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node TEXT="contraction" ID="ID_329463012" CREATED="1456238643251" MODIFIED="1456238664032">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/1008_Skeletal_Muscle_Contraction.jpg" SIZE="0.7398274" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="contraction regulation (inotropy)" ID="ID_646170614" CREATED="1456233482135" MODIFIED="1456233495610">
+<node TEXT="calcium entry through L-Type channels" ID="ID_885294699" CREATED="1456233725726" MODIFIED="1456233739903">
+<node TEXT="changes in cAMP concentration" ID="ID_1935072646" CREATED="1456233742255" MODIFIED="1456233769022">
+<node TEXT="norepinephrine / epinephrine (positive inotropy)" ID="ID_892820798" CREATED="1456233770213" MODIFIED="1456233782503"/>
+<node TEXT="acetylcholine (negative inotropy)" ID="ID_919714122" CREATED="1456233783933" MODIFIED="1456233790831"/>
+<node TEXT="adenosine (negative inotropy)" ID="ID_1320282494" CREATED="1456233814813" MODIFIED="1456233856803"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        adenosine-receptors are coupled to same G-Protein as muscarinic acetylcholine-receptors
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="calcium release by SR" ID="ID_391481305" CREATED="1456233864669" MODIFIED="1456233871606">
+<node TEXT="PKA phosphorylates parts of SR (positive inotropy)" ID="ID_1705948507" CREATED="1456233921764" MODIFIED="1456233976134"/>
+<node TEXT="&#x3b1;1-adrenoreceptors coupled to Gq-proteins (positive inotropy)" ID="ID_1510286610" CREATED="1456234033459" MODIFIED="1456234118795"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less important than cAMP/PKA
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="calcium binding to TN-C" ID="ID_784967699" CREATED="1456234128083" MODIFIED="1456234197956">
+<node TEXT="acidosis during mytochondrial hypoxia (negative inotropy)" ID="ID_57663687" CREATED="1456234199906" MODIFIED="1456234245479"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        acidosis decreases TN-C affinity for calcium
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="preload (positive inotropy)" ID="ID_238821387" CREATED="1456234287978" MODIFIED="1456234333376"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        more force generated when sacromere length is increased
+      </li>
+      <li>
+        mechanisms unknown
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="myosin ATPase activity" ID="ID_988346722" CREATED="1456234361833" MODIFIED="1456234369874">
+<node TEXT="myosin light chain kinase (positive inotropy?)" ID="ID_1326356298" CREATED="1456234413720" MODIFIED="1456234456652"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        phosphorylates light chains of myosin
+      </li>
+      <li>
+        physiological significance unknown
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="calcium uptake by SR" ID="ID_436280101" CREATED="1456234460544" MODIFIED="1456234634069"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        the more calcium is pumped into SR, the more calcium can be released at the next contraction
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="PKA phosphorylation of phospholamban (positive inotropy)" ID="ID_1670909193" CREATED="1456234473952" MODIFIED="1456234663843"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        decreases inhibitory effect of phospholamban on SERCA
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="hypoxia (negative inotropy)" ID="ID_298988516" CREATED="1456234668703" MODIFIED="1456234689233"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less ATP leads to less SERCA activity
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="regulation of calcium efflux" ID="ID_1183164802" CREATED="1456234699359" MODIFIED="1456234708368">
+<node TEXT="inhibiting sodium-calcium exchanger in sarcolemma (positive inotropy)" ID="ID_1644994867" CREATED="1456234720471" MODIFIED="1456234875560"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        inhtibiting NCX leads to increased intracellular calcium concentration because SR uptake is increased
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="inhibiting Na+/K+-ATPase" ID="ID_360275202" CREATED="1456234865469" MODIFIED="1456235043794"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases [Na+]_i
+      </li>
+      <li>
+        =&gt; I_NCX reverses =&gt; increased [Ca++]_i
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="hypoxia (no inotropy)" ID="ID_411742730" CREATED="1456235084044" MODIFIED="1456235137085"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        reduces activity of Na+/K+-ATPase and Ca++-ATPase
+      </li>
+      <li>
+        but does not have inotropic effect because of lack of ATP
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="relaxation regulation (lusitropy)" ID="ID_1700102051" CREATED="1456235155476" MODIFIED="1456235395816"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        for relaxation to occur, [Ca++]_i must be reduced
+      </li>
+      <li>
+        =&gt; calcium accumulation inside the cell impairs relaxation
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&quot;calcium overload&quot; during ischemia (negative lusitropy)" ID="ID_385146092" CREATED="1456235248971" MODIFIED="1456235283684"/>
+<node TEXT="inhibition of sodium-calcium exchanger (negative lusitropy)" ID="ID_1724093019" CREATED="1456235285514" MODIFIED="1456235341093"/>
+<node TEXT="increased SERCA activity (positive lusitropy)" ID="ID_679576839" CREATED="1456235418786" MODIFIED="1456235428403">
+<node TEXT="phosphorylation of phospholamban" ID="ID_509028263" CREATED="1456235440977" MODIFIED="1456235456171"/>
+</node>
+<node TEXT="decreased SERCA activity (negative lusitropy)" ID="ID_1695735040" CREATED="1456235481481" MODIFIED="1456235491131">
+<node TEXT="some forms of heart failure" ID="ID_1608718575" CREATED="1456235495865" MODIFIED="1456235504603"/>
+</node>
+<node TEXT="PKA phosphorylation of TN-I (positive lusitropy)" ID="ID_1793761286" CREATED="1456235510929" MODIFIED="1456235666848"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases calcium dissociation from TN-C
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="metabolsim" ID="ID_375475922" CREATED="1456235798383" MODIFIED="1456236194156"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cardiac myocytes have exceptionally high metabolic rate
+    </p>
+    <p>
+      repetitive contractions require enormous amount of ATP
+    </p>
+    <p>
+      =&gt; large number of mitochondria
+    </p>
+    <p>
+      only limites anaerobic capacity for meeting ATP requirements
+    </p>
+    <p>
+      =&gt; in the absence of oxgygen: contraction capabilities only last for a minute
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="ATP requirements" ID="ID_1656552790" CREATED="1456236195828" MODIFIED="1456236358531"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        cardiac myocytes have exceptionally high metabolic rate
+      </li>
+      <li>
+        repetitive contractions require enormous amount of ATP
+      </li>
+      <li>
+        =&gt; large number of mitochondria
+      </li>
+      <li>
+        only limited anaerobic capacity for meeting ATP requirements
+      </li>
+      <li>
+        =&gt; in the absence of oxgygen: contraction capabilities only last for a minute
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ATP regeneration" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
+<node TEXT="energy sources (oxidative)" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456304952208"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        at rest: 60% fatty acids, 40% carbohydrates
+      </li>
+      <li>
+        can adapt to only use carbohydrates
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="fatty acids" ID="ID_1928194588" CREATED="1456236381603" MODIFIED="1456236384724"/>
+<node TEXT="carbohydrates" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
+<node TEXT="lactate" ID="ID_1018061171" CREATED="1456236419219" MODIFIED="1456304977475"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        can be used in place of glucose
+      </li>
+      <li>
+        becomes especially important during exercise
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="glucose" ID="ID_1750870789" CREATED="1456236422554" MODIFIED="1456236425844"/>
+</node>
+<node TEXT="aminoacids" ID="ID_1487530918" CREATED="1456236427762" MODIFIED="1456305003468">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="ketones" ID="ID_1803975911" CREATED="1456236436107" MODIFIED="1456236457603"/>
+<node TEXT="replacement for fatty acids" ID="ID_1654056463" CREATED="1456305003461" MODIFIED="1456305023753">
+<hook NAME="SummaryNode"/>
+</node>
+</node>
+</node>
+<node TEXT="reaction to increased activity" ID="ID_1704337692" CREATED="1456236224724" MODIFIED="1456236563570"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increase in heart rate and force of contraction dramatically increase energy requirements
+      </li>
+      <li>
+        =&gt; increased oxygen consumption
+      </li>
+      <li>
+        biochemical signals from myocytes dilate coronary blood vessels
+      </li>
+      <li>
+        =&gt; additional blood flow and oxygen
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="vascular structure" ID="ID_1480579208" CREATED="1456305411724" MODIFIED="1456307730813"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        three layers (from inside to outside, *: separating membranes)
+
+        <ul>
+          <li>
+            intima
+          </li>
+          <li>
+            *basement membrane
+          </li>
+          <li>
+            media
+          </li>
+          <li>
+            *external elastic lamina
+          </li>
+          <li>
+            adventitia
+          </li>
+        </ul>
+      </li>
+      <li>
+        capillaries only have endothelial cells and basal lamina (no smooth muscles)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="intima" ID="ID_936287537" CREATED="1456306007967" MODIFIED="1456306066091"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        single layer of endothelial cells
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="vascular endothelial cells" ID="ID_1709203739" CREATED="1456310974364" MODIFIED="1456315326154">
+<attribute NAME="diameter" VALUE="0.2 - 2.0 &#xb5;m"/>
+<attribute NAME="length" VALUE="1 - 20 &#xb5;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        line all blood vessels
+      </li>
+      <li>
+        flat, single-nucleated, elongated
+      </li>
+      <li>
+        types of intracellular junctions vary with tissue type
+
+        <ul>
+          <li>
+            arteries and skeletal muscle capillaries have tight connections
+          </li>
+          <li>
+            capillaries in spleen and bone marrows have gaps
+
+            <ul>
+              <li>
+                allow blood to easily move in and out of capillary
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        functions
+
+        <ul>
+          <li>
+            barrier for exchange of fluid, electrolytes, macromolecules and cells
+          </li>
+          <li>
+            regulating smooth muscle function
+          </li>
+          <li>
+            modulating platelet aggregation (blood clot)
+          </li>
+          <li>
+            modulating leukocyte adhesion and transendothelial migration
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="production of nitrous oxide (NO)" ID="ID_1836146580" CREATED="1456313781137" MODIFIED="1456315897834"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        enhanced by
+
+        <ul>
+          <li>
+            agonists binding to specific receptors
+
+            <ul>
+              <li>
+                acetylcholine
+              </li>
+              <li>
+                bradykinin
+              </li>
+            </ul>
+          </li>
+          <li>
+            shearing forces on endothelial surface (increased blood flow)
+          </li>
+          <li>
+            cytokines released by leukocytes during inflammation and infection
+          </li>
+        </ul>
+      </li>
+      <li>
+        functions of NO
+
+        <ul>
+          <li>
+            smooth muscle relaxation
+          </li>
+          <li>
+            inhibits platelet aggregation
+          </li>
+          <li>
+            inhibits inflammatory responses
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="endothelin-1 (ET-1) synthesis" ID="ID_683174065" CREATED="1456314298284" MODIFIED="1456314512913"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ET-1 is powerful vasoconstrictor
+      </li>
+      <li>
+        stimulated by
+
+        <ul>
+          <li>
+            angiotensin II
+          </li>
+          <li>
+            vasopressin
+          </li>
+          <li>
+            thrombin
+          </li>
+          <li>
+            cytokines
+          </li>
+          <li>
+            shearing forces
+          </li>
+        </ul>
+      </li>
+      <li>
+        inhibitted by
+
+        <ul>
+          <li>
+            NO
+          </li>
+          <li>
+            PGI_2
+          </li>
+        </ul>
+      </li>
+      <li>
+        ET-1 binds to receptors on vascular smooth muscles causing activation of IP_3 pathway
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="synthesis of PGI_2" ID="ID_1511849637" CREATED="1456314516371" MODIFIED="1456314976583"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        functions
+
+        <ul>
+          <li>
+            smooth muscle relaxation
+          </li>
+          <li>
+            inhibition of platelet aggregation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="dysfunction" ID="ID_910538838" CREATED="1456314993592" MODIFIED="1456315154110"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        less NO and PGI_2
+
+        <ul>
+          <li>
+            vasoconstriction
+          </li>
+          <li>
+            loss of vasodilatory capacity
+          </li>
+          <li>
+            thrombosis
+          </li>
+          <li>
+            vascular inflammation
+          </li>
+        </ul>
+      </li>
+      <li>
+        enhanced ET-1 contributes to hypertension
+      </li>
+      <li>
+        damage at capillary level can cause tissue edema
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="media" ID="ID_1576907133" CREATED="1456306013975" MODIFIED="1456306497712"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        contains smooth muscle cells (embedded in collagen, elastin and glycoproteins)
+      </li>
+      <li>
+        may be arranged in several layers
+
+        <ul>
+          <li>
+            either circumferentially (around the vessel)
+          </li>
+          <li>
+            or helically along the vessel
+          </li>
+        </ul>
+      </li>
+      <li>
+        function: constrict the vessel (reduce diameter)
+      </li>
+      <li>
+        ratio between collagen, elastin and muscle cells determine elastic properties
+
+        <ul>
+          <li>
+            example: aorta has large amount of elastin =&gt; dampens blood pressure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="vascular smooth muscle cells" ID="ID_1618826955" CREATED="1456306787658" MODIFIED="1456308561085">
+<attribute NAME="diameter" VALUE="5 - 10 &#xb5;m"/>
+<attribute NAME="length" VALUE="50 - 300 &#xb5;m"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        many small invaginations (caveolae) =&gt; increased surface area
+      </li>
+      <li>
+        SR is poorly developed compared to cardiac myocytes
+      </li>
+      <li>
+        actin/myosin-filaments are joined by dense bodies (cell interior) and dense bands (cell membrane)
+
+        <ul>
+          <li>
+            no distinct bands as in cardiac myocytes
+          </li>
+          <li>
+            dense bands/bodies function like Z-lines
+          </li>
+        </ul>
+      </li>
+      <li>
+        gap junctions between cells
+
+        <ul>
+          <li>
+            =&gt; cell-to-cell conduction of depolarization currents is possible
+          </li>
+        </ul>
+      </li>
+      <li>
+        slow and sustained contractions instead of fast and short as in cardiac myocytes
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="contraction" ID="ID_1481917345" CREATED="1456308507845" MODIFIED="1456309247969"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        normally smooth muscles are in partially contracted state
+      </li>
+      <li>
+        determined by stimulatory and inhibitory influences
+
+        <ul>
+          <li>
+            sympathetic adrenergic nerves
+          </li>
+          <li>
+            circulating hormones (norepinephrine, angiotensin II)
+          </li>
+          <li>
+            substances released by endothelium
+          </li>
+          <li>
+            vasoactive substances relased by tissue surrounding the blood vessel
+          </li>
+        </ul>
+      </li>
+      <li>
+        can be initiated by different stimuli
+
+        <ul>
+          <li>
+            electrical via L-type calcium channels
+          </li>
+          <li>
+            chemical by changes in ion concentrations (extracellular or via receptor-coupled opening of channels)
+
+            <ul>
+              <li>
+                stimuli: norepinephrine, epinephrine, angiotensin II, vasopressin, ...
+              </li>
+              <li>
+                all lead to increased&#160;&#160;intracellular calcium
+              </li>
+            </ul>
+          </li>
+          <li>
+            mechanical by passive stretching from muscle itself (myogenic response)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="contraction by increased calcium concentrations" ID="ID_607753203" CREATED="1456308814148" MODIFIED="1456309518107"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        calcium binds to calmodulin
+      </li>
+      <li>
+        calcium-calmodulin activates myosin light chain kinase (requires ATP)
+      </li>
+      <li>
+        myosin light chain phosphorylation leads to cross-bridge binding between myosin head and actin filaments
+      </li>
+      <li>
+        myosin head moves =&gt; cell contracts
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="calcium concentration regulation" ID="ID_607303477" CREATED="1456309602670" MODIFIED="1456309692020"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        calcium can enter the cell through L-type calcium channels
+      </li>
+      <li>
+        sodium-calcium exchanger and Ca++-ATPase pump calcium out of cell
+      </li>
+      <li>
+        SR can release calcium
+      </li>
+      <li>
+        pump similar to cardiac SERCA pumps calcium into SR
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="three major pahtways" ID="ID_936193630" CREATED="1456309721452" MODIFIED="1456309728279">
+<node TEXT="Gq-protein activation of phospholipase C" ID="ID_1033643062" CREATED="1456309729069" MODIFIED="1456310246335">
+<hook EQUATION="IP_3" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        similar to IP_3 in heart
+      </li>
+      <li>
+        activation of&#160;&#160;phospholipase C by
+
+        <ul>
+          <li>
+            norepinephrine
+          </li>
+          <li>
+            epinephrine
+          </li>
+          <li>
+            angiotensin II
+          </li>
+          <li>
+            endothelin-I
+          </li>
+          <li>
+            vasopressin
+          </li>
+          <li>
+            acetylcholine
+          </li>
+        </ul>
+      </li>
+      <li>
+        formation of IP_3 from PIP_2 (IP_3 = PIP_2 + DAG)
+      </li>
+      <li>
+        IP_3 stimulates SR to release calcium
+      </li>
+      <li>
+        additional indirect effect
+
+        <ul>
+          <li>
+            diacylglycerol (DAG) also activates protein kinase C (PKC)
+          </li>
+          <li>
+            PKC can modulate contraction via protein phosphorylation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="cAMP via Gs-protein actiavtion of adenylyl cyclase" ID="ID_1539287048" CREATED="1456309800468" MODIFIED="1456310483129"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        release mechanism is the same as in the heart
+
+        <ul>
+          <li>
+            but is also triggered by adenosine and prostacyclin
+          </li>
+        </ul>
+      </li>
+      <li>
+        but increase in cAMP causes relaxation
+      </li>
+      <li>
+        cAMP inhibits protein light chain kinase
+      </li>
+      <li>
+        decreases myosin light chain phosphorylation
+      </li>
+      <li>
+        inhibits interactions between actin and myosin
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="cyclic guanosine monophosphate (cGMP) via nitric oxide (NO) activation of guanylyl cyclase" ID="ID_494429609" CREATED="1456309836452" MODIFIED="1456310691422"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        vasodilator substances activate&#160;&#160;NO synthase
+      </li>
+      <li>
+        NO activates guanylyl cyclase
+      </li>
+      <li>
+        causes smooth muscle relaxation
+      </li>
+      <li>
+        exact mechanisms unknown
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="adventitia" ID="ID_415551913" CREATED="1456306017679" MODIFIED="1456306685977"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        contains
+
+        <ul>
+          <li>
+            collagen
+          </li>
+          <li>
+            fibroblasts
+          </li>
+          <li>
+            blood vessels (vasa vasorum in large vessels)
+          </li>
+          <li>
+            lymphatics
+          </li>
+          <li>
+            autonomic nerves (primary sympathetic adrenergic)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1457011937839" HGAP="29" VSHIFT="-108">
 <edge COLOR="#ff0000"/>
 <node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
@@ -3825,7 +7089,7 @@
 </node>
 </node>
 </node>
-<node TEXT="adaptation to environmental conditions" POSITION="left" ID="ID_159938327" CREATED="1453901798076" MODIFIED="1456317111379" HGAP="-100" VSHIFT="43" MOVED="1453901828309">
+<node TEXT="adaptation to environmental conditions" POSITION="left" ID="ID_159938327" CREATED="1453901798076" MODIFIED="1457011955559" HGAP="343" VSHIFT="-60" MOVED="1453901828309">
 <edge COLOR="#7c0000"/>
 <node TEXT="mechanisms" FOLDED="true" ID="ID_1224912627" CREATED="1453901892492" MODIFIED="1453901894845">
 <node TEXT="baroreceptors" ID="ID_1221612288" CREATED="1453897707583" MODIFIED="1453902189435"><richcontent TYPE="DETAILS">
@@ -3957,3379 +7221,11 @@
 </node>
 </node>
 </node>
-<node TEXT="blood flow" POSITION="right" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1456495169155" HGAP="99" VSHIFT="242">
-<edge COLOR="#00ff00"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        right ventricle -&gt; lung -&gt; left ventricle -&gt; systemic circulation -&gt; right ventricle
-
-        <ol>
-          <li>
-            right atrium receives blood at nearly 0 mmHg
-          </li>
-          <li>
-            maximum systolic pressure in pulmonary artery: 20 - 30 mmHg
-          </li>
-          <li>
-            left atrium received blood at about 10 mmHg
-          </li>
-          <li>
-            maximum systolic pressure in aorta: 100 - 140 mmHg
-          </li>
-        </ol>
-      </li>
-      <li>
-        blood flow through organs (systemic circulation) is in parallel
-
-        <ul>
-          <li>
-            <p>
-              &#160;=&gt; change of blood flow in one organ does not have a large effect on the blood flow in other organs
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li>
-        right ventricle is low pressure pump
-      </li>
-      <li>
-        left ventricle is high pressure pump
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="organ blood flow" ID="ID_574775850" CREATED="1453897707582" MODIFIED="1453898980825">
-<hook EQUATION="\text{organ blood flow} = \frac{\text{arterial pressure} - \text{venous pressure}}{\text{vascular resistance of organ}}" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="stroke volume" ID="ID_1601293965" CREATED="1453897707582" MODIFIED="1453899405199"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      blood ejected after each contraction
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="cardiac output" ID="ID_1589414900" CREATED="1453897707582" MODIFIED="1453899321263">
-<hook EQUATION="\text{cardiac output} = \text{stroke volume} * \text{heart rate} \;\; [l/s]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="blood vessels" FOLDED="true" ID="ID_1182798777" CREATED="1453899113816" MODIFIED="1453899116739">
-<node TEXT="aorta" ID="ID_1132724571" CREATED="1453897707582" MODIFIED="1453899158550"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      artery connected to left ventricle
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="superior and inferior vena cava" ID="ID_983124141" CREATED="1453897707582" MODIFIED="1453899177253"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      veins returning blood from systemic circulation to the right ventricle
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="right atrium input pressure: 0 mmHg" STYLE_REF="number" ID="ID_917536014" CREATED="1453901412519" MODIFIED="1453901521769"/>
-<node TEXT="max. systolic pressure in pulmonary artery: 20 - 30 mmHg" STYLE_REF="number" ID="ID_109083537" CREATED="1453901433071" MODIFIED="1453901521776"/>
-<node TEXT="left atrium input pressure: 10 mmHg" STYLE_REF="number" ID="ID_1775291724" CREATED="1453901470799" MODIFIED="1453901521782"/>
-<node TEXT="max. systolic pressure in aorta: 100 - 140 mmHg" STYLE_REF="number" ID="ID_138053166" CREATED="1453901494929" MODIFIED="1453901521787"/>
-</node>
-<node TEXT="function" POSITION="left" ID="ID_1612755434" CREATED="1453900587101" MODIFIED="1456317132194" HGAP="220" VSHIFT="59">
-<edge COLOR="#00ffff"/>
-<node TEXT="complex organisms need circulation to connect cells to &quot;outside world&quot; (exchange substances)" ID="ID_785213564" CREATED="1453897707582" MODIFIED="1453910253787"/>
-<node TEXT="hormone production" FOLDED="true" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
-<node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1453897707582"/>
-</node>
-<node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456824305357" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/HyperHeart1.swf"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        from one P wave to the next
-      </li>
-      <li>
-        systole: ventricular contraction and ejection
-      </li>
-      <li>
-        diastole: everything else
-      </li>
-      <li>
-        at higher heart rates: both diastole and systole shorten
-
-        <ul>
-          <li>
-            but diastole shortens much more than systole
-          </li>
-          <li>
-            =&gt; compensatory mechanisms required to retain ventricular filling
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="phases" ID="ID_1345408208" CREATED="1456320770135" MODIFIED="1456320876295"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ol>
-      <li>
-        atrial systole
-      </li>
-      <li>
-        isovolumetric contraction
-      </li>
-      <li>
-        rapid ejection
-      </li>
-      <li>
-        reduced ejection
-      </li>
-      <li>
-        isovolumetric relaxation
-      </li>
-      <li>
-        rapid filling
-      </li>
-      <li>
-        reduced filling
-      </li>
-    </ol>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Phase 1: atrial systole" ID="ID_1884838028" CREATED="1456320878431" MODIFIED="1456324552148">
-<attribute_layout NAME_WIDTH="119" VALUE_WIDTH="119"/>
-<attribute NAME="EDV" VALUE="120 ml"/>
-<attribute NAME="EDP (left ventricle)" VALUE="8 mmHg"/>
-<attribute NAME="EDP (right ventricle)" VALUE="4 mmHg"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        P wave = depolarization of atria
-      </li>
-      <li>
-        atria contract in a directed fashion, creating a &quot;milking&quot; effect
-
-        <ul>
-          <li>
-            prevents reverse flow (along with venous return)
-          </li>
-        </ul>
-      </li>
-      <li>
-        pressure in atrial chamber rises
-      </li>
-      <li>
-        blood is pumped into ventricles
-      </li>
-      <li>
-        net rise of pressure increase in atria is low but measurable
-
-        <ul>
-          <li>
-            &quot;a wave&quot;
-          </li>
-        </ul>
-      </li>
-      <li>
-        atrial pressure falls =&gt; &quot;x descent&quot;
-      </li>
-      <li>
-        AV valves (tricuspid and mithral) float upward (preposition) and close
-      </li>
-      <li>
-        ventricles reach end-diastolic volume
-
-        <ul>
-          <li>
-            left ventricle: 120 ml at 8 mmHg
-          </li>
-          <li>
-            right ventricle: 120 ml at 4 mmHg
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="left ventricle" ID="ID_729577124" CREATED="1456321424802" MODIFIED="1456321656663"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        filling (from pulmonary veins) is mostly passive
-      </li>
-      <li>
-        only 10% form atrial contraction at rest
-      </li>
-      <li>
-        but may account for up to 40% at higher heart rates (less time for passive filling)
-      </li>
-      <li>
-        percentage also increases with force of&#160;contraction (&quot;atrial kick&quot; by sympathetic nerve activation)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="4th heart sound (S4)" ID="ID_1997699090" CREATED="1456322119782" MODIFIED="1456322188418"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        sometimes heard during atrial contraction
-      </li>
-      <li>
-        when ventricle compliance is reduced (&quot;stiff&quot; ventricles)
-      </li>
-      <li>
-        commonly present in older individuals
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="end-diastolic volume (EDV) of ventricles: 120 ml" STYLE_REF="number" ID="ID_92343465" CREATED="1456324425069" MODIFIED="1456324503615"/>
-<node TEXT="end-diastolic pressure in left ventricle: 8 mmHg" STYLE_REF="number" ID="ID_1913666446" CREATED="1456324453141" MODIFIED="1456324503629"/>
-<node TEXT="end-diastolic pressure in right ventricle: 4 mmHg" STYLE_REF="number" ID="ID_978267491" CREATED="1456324483173" MODIFIED="1456324503637"/>
-</node>
-<node TEXT="Phase 2: isovolumetric contraction" ID="ID_1398008675" CREATED="1456320895342" MODIFIED="1456323917427"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        ventricles contract (QRS)
-      </li>
-      <li>
-        pressure in ventricles rises
-      </li>
-      <li>
-        =&gt; AV valves close =&gt; all valves closed
-
-        <ul>
-          <li>
-            vibration in blood causes&#160;first heart sound (S1)
-          </li>
-        </ul>
-      </li>
-      <li>
-        pressure increases further, but volume stays the same =&gt; &quot;isovolumetric&quot;
-      </li>
-      <li>
-        atrial pressure increases transiently, because of venous return and bulging of AV valves back into atria
-
-        <ul>
-          <li>
-            &quot;c wave&quot;
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="1st heart sound (S1)" ID="ID_1755124091" CREATED="1456323469076" MODIFIED="1456323566464"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        caused by closing of AV valves (tricuspid and mitral)
-      </li>
-      <li>
-        normally split by 40 ms because mitral valve closes before tricuspid
-
-        <ul>
-          <li>
-            still perceived as single sound by stetoscope
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Phase 3: rapid ejection" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456742153233">
-<attribute_layout NAME_WIDTH="172" VALUE_WIDTH="172"/>
-<attribute NAME="maximal aortic pressure" VALUE="120 mmHg"/>
-<attribute NAME="maximal pulmonary pressure" VALUE="25 mmHg"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        aortic and pulmonic valves open as pressure in ventricles rises above pressure in arteries
-      </li>
-      <li>
-        ventricular pressure is only a few mmHg higher than aterial pressure
-      </li>
-      <li>
-        outflow is maximal early in this phase
-      </li>
-      <li>
-        maximal artery pressures are achieved
-      </li>
-      <li>
-        atria still fill with blood, but atrial pressure decreases
-
-        <ul>
-          <li>
-            base of atria is pulled down =&gt; atrial chambers expand
-          </li>
-          <li>
-            &quot;x' descent&quot;
-          </li>
-        </ul>
-      </li>
-      <li>
-        no sounds heart (healthy valve opening is silent)
-      </li>
-    </ul>
-  </body>
-</html>
-
-</richcontent>
-<node TEXT="maximal systolic aortic pressure: 120 mmHg" STYLE_REF="number" ID="ID_1748068349" CREATED="1456324625708" MODIFIED="1456324696171"/>
-<node TEXT="maximal systolic pulmonary pressure: 25 mmHg" STYLE_REF="number" ID="ID_1867800457" CREATED="1456324638412" MODIFIED="1456324696183"/>
-</node>
-<node TEXT="Phase 4: reduced ejection" ID="ID_245834116" CREATED="1456320913318" MODIFIED="1456325083949"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        ventricular repolarization (T wave) occurs approximately 150 to 200 ms after QRS
-      </li>
-      <li>
-        active tension of ventricles decreases (muscle relaxation)
-      </li>
-      <li>
-        rate of ejection falls
-      </li>
-      <li>
-        ventricular pressure falls slightly below outlfow pressure
-      </li>
-      <li>
-        outflow still occurs due to kinetic (inertial) energy of blood
-      </li>
-      <li>
-        atrial pressures rise due to continued venous return
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Phase 5: isovolumetric relaxation" ID="ID_1146825252" CREATED="1456320920518" MODIFIED="1456325816517"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        total energy (kinetic + pressure) of blood in ventricles falls below that of blood in arteries
-      </li>
-      <li>
-        =&gt; aortic and pulmonary valves close (abruptly)
-
-        <ul>
-          <li>
-            second heart sound (S2)
-          </li>
-        </ul>
-      </li>
-      <li>
-        valve closure leads to characteristic notch (incisura) in artery pressure tracings
-      </li>
-      <li>
-        decline in arterial pressure is not abrupt but slow
-
-        <ul>
-          <li>
-            potential energy stored in elastic walls is slowly released
-          </li>
-          <li>
-            systemic and pulmonary resistances prevent pressure from falling too fast
-          </li>
-        </ul>
-      </li>
-      <li>
-        all valves are closed =&gt; volume in ventricles stays constant
-      </li>
-      <li>
-        end-systolic volume (ESV) is reached
-
-        <ul>
-          <li>
-            left ventricle: 50 ml
-          </li>
-        </ul>
-      </li>
-      <li>
-        atrial volumes and pressures continue to increase (venous return)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="2nd heart sound (S2)" ID="ID_541558095" CREATED="1456325884835" MODIFIED="1456326001071"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        caused by abrupt closing of aortic and pulmonary valve
-      </li>
-      <li>
-        physiologically and audibly split
-
-        <ul>
-          <li>
-            aortic valve closes before pulmonary valve
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="ejection fraction (EF)" ID="ID_1809823979" CREATED="1456325896211" MODIFIED="1456326332226">
-<attribute NAME="EF" VALUE="55%"/>
-<hook EQUATION="\frac{SV}{EDV}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        fraction of blood in the ventricle that is ejected during systole
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="normal ejection fraction: &gt; 55%" STYLE_REF="number" ID="ID_1114818643" CREATED="1456326206784" MODIFIED="1456326304838"/>
-</node>
-<node TEXT="stroke volume (SV)" ID="ID_931664411" CREATED="1456326089171" MODIFIED="1456326337557">
-<attribute_layout NAME_WIDTH="73" VALUE_WIDTH="73"/>
-<attribute NAME="SV" VALUE="70 ml"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        amount of blood pumped out of ventricle durng systole
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook EQUATION="EDV - ESV" NAME="plugins/latex/LatexNodeHook.properties"/>
-<node TEXT="normal stroke volume: 70 ml" STYLE_REF="number" ID="ID_479298696" CREATED="1456326227481" MODIFIED="1456326304826"/>
-</node>
-</node>
-<node TEXT="Phase 6: rapid filling" ID="ID_1226825666" CREATED="1456320932862" MODIFIED="1456326989984"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        ventricular pressure falls below atrial pressure
-      </li>
-      <li>
-        AV valves open =&gt; ventricular filling begins
-      </li>
-      <li>
-        pressure in ventricles still falls because ventricles are still relaxing
-
-        <ul>
-          <li>
-            begins to rise when relaxation is complete
-          </li>
-        </ul>
-      </li>
-      <li>
-        atrial pressure falls rapidly
-
-        <ul>
-          <li>
-            from rising &quot;v wave&quot; to falling &quot;y descent&quot;
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="3rd heart sound" ID="ID_388578123" CREATED="1456327002707" MODIFIED="1456327092723"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        results from tensing of chordae tendineae and AV ring
-      </li>
-      <li>
-        normal in children, but pathological in adults (associated with dilation)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="AV ring" ID="ID_164190322" CREATED="1456327094442" MODIFIED="1456327140687"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        connective tissue support for valve leaflets
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="chordae tendineae" ID="ID_666687590" CREATED="1456327097826" MODIFIED="1456327181418"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        fibrous strands connecting AV valves to papillary muscles
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="Phase 7: reduced filling" ID="ID_327444482" CREATED="1456320938741" MODIFIED="1456327670147"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        fluid transition between rapid and reduced filling
-      </li>
-      <li>
-        passive ventricular filling nears completion
-      </li>
-      <li>
-        sometimes called &quot;ventricular diastasis&quot;
-      </li>
-      <li>
-        ventricles become less compliant (&quot;stiffer&quot;)
-
-        <ul>
-          <li>
-            =&gt; intraventricular pressure rises
-          </li>
-        </ul>
-      </li>
-      <li>
-        atrial pressure still rises
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="pressure-volume loop" ID="ID_1425546802" CREATED="1456328621863" MODIFIED="1456329144220"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        plot left ventricular pressure against left ventricular volume
-      </li>
-      <li>
-        can help to analyze cardiac cycle
-      </li>
-    </ul>
-    <img src="images/PV loop animation.gif"/>
-  </body>
-</html>
-</richcontent>
-<node TEXT="end-diastolic pressure-volume relationship (EDPVR)" ID="ID_930320203" CREATED="1456328838478" MODIFIED="1456395996594"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        end-diastolic point in pressure-volume loop for different loads(?)
-      </li>
-      <li>
-        points connected as curve
-      </li>
-      <li>
-        =&gt; end-diastolic pressure-volume relationship
-
-        <ul>
-          <li>
-            how does pressure and volume relate when ventricle is fully relaxed
-          </li>
-          <li>
-            tells about elastance properties (pressure/volume)
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="end-systolic pressure-volume relationship (ESPVR)" ID="ID_1038978245" CREATED="1456328856366" MODIFIED="1456396096085"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        maximal pressure developed by ventricle at any given left ventricular volume
-      </li>
-      <li>
-        obtained in the same way as EDPVR
-
-        <ul>
-          <li>
-            take multiple measurements of end-systolic value on pressure-volume loop
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="calculation of ESPVR and EDPVR" ID="ID_1825989270" CREATED="1456481671191" MODIFIED="1456481695347">
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/pvl_ESPVR_EDPVR.svg" SIZE="0.6904488" NAME="ExternalObject"/>
-</node>
-</node>
-</node>
-<node TEXT="cardiac output" ID="ID_492494540" CREATED="1456401210195" MODIFIED="1456404978328">
-<attribute_layout NAME_WIDTH="88" VALUE_WIDTH="88"/>
-<attribute NAME="cardiac output" VALUE="5 - 6 l/min"/>
-<hook EQUATION="CO = SV \cdot HR" NAME="plugins/latex/LatexNodeHook.properties"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        liter of blood per minute pumped into aorta
-      </li>
-      <li>
-        heart rate influence is more important than stroke volume
-
-        <ul>
-          <li>
-            heart rate more than doubles or triples during exercise
-          </li>
-          <li>
-            stroke volume can only increase by about 50%
-          </li>
-        </ul>
-      </li>
-      <li>
-        not every increase in heart rate also triggers increase in CO
-
-        <ul>
-          <li>
-            by itself, faster heart rate leads to reduced SV (less time for ventricular filling)
-          </li>
-          <li>
-            physiological mechanisms during exercise can actually <u>increase</u>&#160; SV
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="cardiac index" ID="ID_1363099281" CREATED="1456402482625" MODIFIED="1456403063659">
-<attribute_layout NAME_WIDTH="83" VALUE_WIDTH="103"/>
-<attribute NAME="cardiac index" VALUE="2.6 - 4.2 l/min/m&#xb2;"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        cardiac output divided by estimated body surface area (BSA)
-      </li>
-      <li>
-        normalizes CO to individuals of different size
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="estimated body surface area (BSA) - Mosteller formula" ID="ID_1233602478" CREATED="1456402850606" MODIFIED="1456403008109">
-<hook EQUATION="BSA[m^2] = \sqrt{\frac{height[cm] * weight[kg]}{3600}}" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="cardiac index: 2.6 - 4.2 l/min/m&#xb2;" STYLE_REF="number" ID="ID_1844643997" CREATED="1456403221668" MODIFIED="1456403242495"/>
-</node>
-<node TEXT="cardiac output: 5 - 6 l/min" STYLE_REF="number" ID="ID_231866958" CREATED="1456403113164" MODIFIED="1456403242517"/>
-<node TEXT="measurement" ID="ID_661827643" CREATED="1456403371147" MODIFIED="1456403739343"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        direct measurement is too invasive to be used in humans
-      </li>
-      <li>
-        =&gt; indirect measurement with catheter
-      </li>
-      <li>
-        echocardiography can also be used to estimate SV
-      </li>
-      <li>
-        Fick method permits measurement of CO by oxygen concentrations
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Fick Principle" ID="ID_1094810368" CREATED="1456403780391" MODIFIED="1456403928222">
-<hook EQUATION="CO = \frac{\dot{V}O_2}{CaO_2 - CvO_2}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<node TEXT="aterial blood oxygen content" ID="ID_1025514512" CREATED="1456403943470" MODIFIED="1456404434689">
-<hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="venous blood oxygen content [ml O2 / ml blood]" ID="ID_263820649" CREATED="1456404047238" MODIFIED="1456404403298">
-<hook EQUATION="CvO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="whole body oxygen consumption [ml O2/min]" ID="ID_661055206" CREATED="1456404072261" MODIFIED="1456404497710">
-<hook EQUATION="\dot{V}O_2 \left[\frac{ml \; O_2}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="preload" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456482025905"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        initial stretching of cardiac myocytes prior to contraction (sarcomere length at end of diastole)
-      </li>
-      <li>
-        sarcomere length cannot be determined in living heart
-      </li>
-      <li>
-        =&gt; EDV or end-diastolic pressure used as estimates
-
-        <ul>
-          <li>
-            do not correspond directly with sarcomere length, but actute changes are visible
-          </li>
-          <li>
-            elevated EDV may actually be associated with increased, decreased or unchanged sarcomere lengths
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-preload.png" SIZE="0.63357973" NAME="ExternalObject"/>
-<node TEXT="ventricle compliance" ID="ID_1281588900" CREATED="1456406620883" MODIFIED="1456407637868"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        change in volume divided by resulting change in pressure
-      </li>
-      <li>
-        opposite of &quot;stiffness&quot;
-      </li>
-      <li>
-        relationship is nonlinear in ventricle
-
-        <ul>
-          <li>
-            decreases with increasing pressure or volume
-          </li>
-        </ul>
-      </li>
-      <li>
-        determined by relaxation and physical properties of ventricular wall tissues
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook EQUATION="\frac{\Delta V}{\Delta p}" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="length-tension relationship" ID="ID_1326645876" CREATED="1456408076337" MODIFIED="1456408767557">
-<attribute_layout NAME_WIDTH="216" VALUE_WIDTH="216"/>
-<attribute NAME="sarcomere length of max. act. tension" VALUE="2.2 &#xb5;m"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        how do changes in preload affect ability of muscle to develop force (tension)
-      </li>
-      <li>
-        experimental setup:
-
-        <ul>
-          <li>
-            piece of cardiac muscle attached to fixed support rod at one side and force transducer on other side
-          </li>
-          <li>
-            length is not allowed to change (isometric contraction)
-          </li>
-          <li>
-            resulting force can be measured at different sarcomere lengths
-          </li>
-        </ul>
-      </li>
-      <li>
-        increases in preload lead to increase in tension
-
-        <ul>
-          <li>
-            only amplitude changes, not duration of contraction or time-to-peak tension
-          </li>
-        </ul>
-      </li>
-      <li>
-        can be plotted on length-tension diagram
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="sarcomere length where maximal active tension is reached: 2.2 &#xb5;m" STYLE_REF="number" ID="ID_1615256065" CREATED="1456408772948" MODIFIED="1456408793935"/>
-</node>
-<node TEXT="pressure-volume relationship" ID="ID_179505238" CREATED="1456409116763" MODIFIED="1456409292893"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        at level of the whole ventricle, length-tension relationship becomes pressure-volume relationship
-
-        <ul>
-          <li>
-            tension and pressure are related
-          </li>
-          <li>
-            length and volume are also related
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="length-dependent activation" ID="ID_943947086" CREATED="1456409295289" MODIFIED="1456410099541"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased sarcomere length increases sensibility of TP-C to calcium
-      </li>
-      <li>
-        fiber stretching&#160;&#160;may alter calcium homeostasis =&gt; increased calcium available
-      </li>
-      <li>
-        when length increases, diameter reduces =&gt; actin and myosin are closer together
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Frank-Starling Mechanism" ID="ID_1397295139" CREATED="1456410320146" MODIFIED="1456412680635"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased venous return and preload =&gt; increased SV
-      </li>
-      <li>
-        balances output of ventricles
-
-        <ul>
-          <li>
-            increased return to right atrium
-          </li>
-          <li>
-            =FS=&gt; increased output of right ventricle
-          </li>
-          <li>
-            =&gt; increased return to left atrium
-          </li>
-          <li>
-            =FS=&gt; increased output of left ventricle
-          </li>
-        </ul>
-      </li>
-      <li>
-        EDV and ESV are also affected by venous return
-
-        <ul>
-          <li>
-            EDV increases with increased venous return
-          </li>
-          <li>
-            ventricle empties to same ESV
-          </li>
-          <li>
-            =&gt; increased SV
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF003%20single%20Frank-Starling.png" SIZE="0.48192772" NAME="ExternalObject"/>
-</node>
-<node TEXT="factors determining preload" ID="ID_1432503089" CREATED="1456412758200" MODIFIED="1456413686643"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        venous pressure
-
-        <ul>
-          <li>
-            determined by venous blood volume and compliance (smooth muscle contraction)
-          </li>
-        </ul>
-      </li>
-      <li>
-        ventricular compliance
-
-        <ul>
-          <li>
-            determines EDV
-          </li>
-          <li>
-            greater compliance =&gt; greater ventricular filling
-          </li>
-        </ul>
-      </li>
-      <li>
-        heart rate
-
-        <ul>
-          <li>
-            higher heart rate =&gt; less filling time =&gt; less EDV
-          </li>
-        </ul>
-      </li>
-      <li>
-        atrial contraction
-
-        <ul>
-          <li>
-            sympathetic activation increases force of atrial contraction
-          </li>
-          <li>
-            =&gt; significantly enhances ventricular filling
-          </li>
-          <li>
-            =&gt; maintains preload at higher heart rates
-          </li>
-        </ul>
-      </li>
-      <li>
-        inflow resistance
-
-        <ul>
-          <li>
-            e.g. tricuspid valve stenosis
-          </li>
-          <li>
-            reduced rate of ventricular filling =&gt; reduced preload
-          </li>
-        </ul>
-      </li>
-      <li>
-        outflow resistance
-
-        <ul>
-          <li>
-            e.g. pulmonary valve stenosis
-          </li>
-          <li>
-            impairs ability of right ventricle to empty
-          </li>
-          <li>
-            =&gt; increased preload
-          </li>
-        </ul>
-      </li>
-      <li>
-        ventricular inotropy
-
-        <ul>
-          <li>
-            diminished inotropy =&gt; ventricle cannot eject as much blood =&gt; increased preload
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="afterload" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456482035249"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        load against which heart must contract to eject blood
-      </li>
-      <li>
-        main factors
-
-        <ul>
-          <li>
-            left ventricle: aortic pressure
-          </li>
-          <li>
-            right ventricle: pulmonary pressure
-          </li>
-        </ul>
-      </li>
-      <li>
-        can be estimated by ventricular wall stress
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-afterload.png" SIZE="0.63357973" NAME="ExternalObject"/>
-<node TEXT="ventricular wall stress" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
-<hook EQUATION="\sigma \propto \frac{P \cdot r}{h}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        formula assumes that ventricle is a sphere
-
-        <ul>
-          <li>
-            for determination of actual wall stress the correct geometry and orientation of fibers would have to be taken into account
-          </li>
-        </ul>
-      </li>
-      <li>
-        average tension needed for muscle fibers to shorten against intraventricular pressure
-      </li>
-      <li>
-        ventricular dilation increases radius =&gt; increases wall stress
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="intraventricular pressure" ID="ID_43777106" CREATED="1456415003000" MODIFIED="1456415074321">
-<hook EQUATION="P" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="ventricular radius" ID="ID_659503498" CREATED="1456415010328" MODIFIED="1456415085365">
-<hook EQUATION="r" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="wall thickness" ID="ID_669988149" CREATED="1456415024233" MODIFIED="1456415108298">
-<hook EQUATION="h" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-</node>
-<node TEXT="force-velocity relationship" ID="ID_14741042" CREATED="1456416733140" MODIFIED="1456417790090"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        with increased afterload, velocity of fiber shortening is decreased
-      </li>
-      <li>
-        experimental setup
-
-        <ul>
-          <li>
-            muscle placed in in vitro bath at fixed initial length (preload)
-          </li>
-          <li>
-            load attached to one end
-          </li>
-          <li>
-            upon stimulation, contraction is first isometrically (no change in length)
-          </li>
-          <li>
-            when tension of muscle exceeds force of load attached muscle begins to shorten
-          </li>
-          <li>
-            continues until muscle begins to relax
-          </li>
-          <li>
-            resumes initial &quot;resting&quot; state
-          </li>
-          <li>
-            increased load =&gt;&#160;&#160;decrease in maximal shortening velocity and degree
-          </li>
-        </ul>
-      </li>
-      <li>
-        continuation of experiment at different afterloads leads to force-velocity curves
-
-        <ul>
-          <li>
-            x-axis: afterload (force), y-axis: shortening velocity
-          </li>
-          <li>
-            x-axis intercept: maximal isometric force
-          </li>
-          <li>
-            y-axis intercept: maximal velocity (V_max)
-
-            <ul>
-              <li>
-                has to be interpolated, because muscles do not contract without any load
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="influence of preload on force-velocity relationship" ID="ID_162368908" CREATED="1456417613574" MODIFIED="1456417838207"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased preload increases shortening velocity
-      </li>
-      <li>
-        increases maximal isometric force, but not V_max
-      </li>
-      <li>
-        =&gt; increase in preload helps to counteract reduced velocity from increased afterload
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="effect on Frank-Starling curves" ID="ID_1297760053" CREATED="1456417859612" MODIFIED="1456418083573"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased afterload =&gt; decreased velocity and degree of shortening =&gt; decreased SV
-      </li>
-      <li>
-        visible in FS-curve (less steep for increased afterload)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="effect on pressure-volume loops" ID="ID_632400668" CREATED="1456418107834" MODIFIED="1456418305208"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased afterload =&gt; decrease in SV and increase in ESV
-      </li>
-      <li>
-        =&gt; pressure-volume loop becomes thinner and higher
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="effects of inotropy on SV" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456482045260"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased inotropy =&gt; increased force of contraction (independent of pre-/afterload)
-      </li>
-      <li>
-        changes in inotropy can lead to changes in afterload and preload
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
-<node TEXT="force-velocity relationship" ID="ID_1379649419" CREATED="1456418701302" MODIFIED="1456418826438"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased inotropy increases both x-intercept and y-intercept
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="effect on Frank-Starling curve" ID="ID_1979195273" CREATED="1456418830333" MODIFIED="1456418919021"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased inotropy =&gt; increased SV =&gt; shifts FS-curve upwards
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="effect on pressure-volume loop" ID="ID_766285375" CREATED="1456418988036" MODIFIED="1456419278581"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased inotropy =&gt; increased fiber shortening velocity
-      </li>
-      <li>
-        =&gt; increased rate of pressure development
-      </li>
-      <li>
-        =&gt; increased ejection velocity and SV and reduced ESV
-      </li>
-      <li>
-        ESPVR shifted to the left and becomes steeper
-
-        <ul>
-          <li>
-            ESPVR sometimes used to determine inotropic state of ventricle
-          </li>
-        </ul>
-      </li>
-      <li>
-        increased&#160;inotropy also increases ejection fraction
-
-        <ul>
-          <li>
-            EF often used as clinical index for inotropy
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="factors for inotropy" ID="ID_950781242" CREATED="1456419419561" MODIFIED="1456419621555"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        see: cellular structure of cardiac myocytes
-      </li>
-      <li>
-        increase of inotropy by sympathetic activation important to counteract negative influence of heart rate on SV
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Anrep effect" ID="ID_1340476506" CREATED="1456419473465" MODIFIED="1456419510952"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        abrupt increase in afterload can increase inotropy
-      </li>
-      <li>
-        mechanism not fully understood
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Bowditch effect" ID="ID_528167500" CREATED="1456419477096" MODIFIED="1456419575761"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increase in heart rate can cause positive inotropy
-      </li>
-      <li>
-        probably because Na+/K+-ATPase cannot keep up and Natrium accumulates leading to accumulation of Calcium via NCX
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="interdependence of preload, afterload and inotropy" ID="ID_1652717392" CREATED="1456483547562" MODIFIED="1456483739640"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        changes in preload =&gt; changes in afterload
-      </li>
-      <li>
-        changes in afterload =&gt; changes in preload
-      </li>
-      <li>
-        change in inotropy =&gt; change in preload and afterload
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="increase in preload" ID="ID_860333765" CREATED="1456483765480" MODIFIED="1456484250761">
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loop%20preload%20interactions%202015.png" SIZE="0.61349696" NAME="ExternalObject"/>
-<node TEXT="increase in SV" ID="ID_1483068211" CREATED="1456484016575" MODIFIED="1456484049597"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        =&gt; increase in CO
-      </li>
-      <li>
-        =&gt; increase in arterial pressure
-      </li>
-      <li>
-        =&gt; increase in afterload
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="diminished by increased afterload" ID="ID_1272989917" CREATED="1456484159366" MODIFIED="1456484216243"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increased preload still least to increase in SV, but only small
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="increased ventricular wall stress" ID="ID_1390215230" CREATED="1456484053526" MODIFIED="1456484074516"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      =&gt; increased afterload
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="increase in afterload" ID="ID_1947759176" CREATED="1456483774008" MODIFIED="1456484328954">
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loops%20afterload%20interactions%202015.png" SIZE="0.6" NAME="ExternalObject"/>
-<node TEXT="decrease in SV" ID="ID_1207589414" CREATED="1456484500035" MODIFIED="1456484504629">
-<node TEXT="partially compensated by increased preload" ID="ID_1274745659" CREATED="1456487057906" MODIFIED="1456487075963"/>
-</node>
-<node TEXT="increase in ESV" ID="ID_961282743" CREATED="1456484608122" MODIFIED="1456486930368"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        =&gt; increase in EDV
-      </li>
-      <li>
-        =&gt; increase in preload
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="increase in inotropy" ID="ID_1240973964" CREATED="1456483779048" MODIFIED="1456484339192">
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
-<node TEXT="increase in SV" ID="ID_1030562033" CREATED="1456487141656" MODIFIED="1456487337967"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        =&gt; increased CO
-      </li>
-      <li>
-        =&gt; increased arterial pressure
-      </li>
-      <li>
-        =&gt; increased afterload
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="decrease in ESV" ID="ID_606444195" CREATED="1456487146113" MODIFIED="1456487392792">
-<node TEXT="decrease in EDV" ID="ID_1302034696" CREATED="1456487418918" MODIFIED="1456487424072">
-<node TEXT="partially offset by increased afterload" ID="ID_1197347120" CREATED="1456487425687" MODIFIED="1456487434736"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="oxygen consumption" ID="ID_1914975456" CREATED="1456488400191" MODIFIED="1456489513129">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="97"/>
-<attribute NAME="MVO2 at rest" VALUE="8 ml/min/100g"/>
-<attribute NAME="min MVO2" VALUE="2 ml/min/100g"/>
-<attribute NAME="max MVO2" VALUE="70 ml/min/100g"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        usually expressed per 100g of tissue weight
-      </li>
-      <li>
-        even if no contraction takes place, oxygen is required for normal cellular function
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="myocardial oxygen consumption (formula)" ID="ID_920300481" CREATED="1456488441000" MODIFIED="1456489176434">
-<attribute_layout NAME_WIDTH="80" VALUE_WIDTH="90"/>
-<hook EQUATION="M\dot{V}O_2 = CBF \cdot (CaO_2 - CvO_2)" NAME="plugins/latex/LatexNodeHook.properties"/>
-<node TEXT="coronary blood flow" ID="ID_764206315" CREATED="1456488497807" MODIFIED="1456488692716">
-<hook EQUATION="CBF \; \left[ \frac{ml}{min} \right]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="aterial blood oxygen content" ID="ID_363714827" CREATED="1456403943470" MODIFIED="1456404434689">
-<hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="venous blood oxygen content" ID="ID_715148870" CREATED="1456404047238" MODIFIED="1456488605495">
-<hook EQUATION="CvO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-</node>
-<node TEXT="MVO2 at rest: 8 ml/min/100g" STYLE_REF="number" ID="ID_1607661607" CREATED="1456489282122" MODIFIED="1456489347877"/>
-<node TEXT="min MVO2: 2 ml/min/100g" STYLE_REF="number" ID="ID_1189549088" CREATED="1456489295604" MODIFIED="1456489347872"/>
-<node TEXT="nax MVO2: 70 ml/min/100g" STYLE_REF="number" ID="ID_794213578" CREATED="1456489313034" MODIFIED="1456489347861"/>
-<node TEXT="sometimes estimated by pressure-rate product" ID="ID_384224728" CREATED="1456488747733" MODIFIED="1456489912161">
-<hook EQUATION="\text{heart rate} \cdot \text{systolic arterial pressure}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        CBF and CvO2 must be measured invasively
-      </li>
-      <li>
-        =&gt; not always possible
-      </li>
-      <li>
-        =&gt; use estimates (usually only valid for narrow range of conditions)
-      </li>
-      <li>
-        experiments have shown that reasonable correlation exists between MVO2 and pressure-rate product
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="factors that influence oxygen consumption" ID="ID_1486255816" CREATED="1456489992932" MODIFIED="1456490541746">
-<node TEXT="heart rate" ID="ID_722884791" CREATED="1456490613384" MODIFIED="1456490643335"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        doubled heart rate =&gt; doubled oxygen consumption (contraction occurs twice as often)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="increased inotropy" ID="ID_1258269374" CREATED="1456490645592" MODIFIED="1456490768537"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        higher rate of tension development
-      </li>
-      <li>
-        higher maximum tension
-      </li>
-      <li>
-        =&gt; increased oxygen consumption
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="increased afterload" ID="ID_1328590857" CREATED="1456490678912" MODIFIED="1456490807808"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increases tension required to pump blood
-      </li>
-      <li>
-        =&gt; increased oxygen consumption
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="increased preload" ID="ID_1721458889" CREATED="1456490683711" MODIFIED="1456491446143"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increases SV
-      </li>
-      <li>
-        =&gt; increases oxygen consumption
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="less impact than afterload" ID="ID_959210222" CREATED="1456491320715" MODIFIED="1456491434708"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        wall stress related to tension required to generate pressure
-      </li>
-      <li>
-        wall stress depends on radius, but radius only increases with cubic root of volume
-      </li>
-      <li>
-        =&gt; 50% increase in volume =&gt; 14% increase in wall stress
-      </li>
-      <li>
-        however, wall stress is not a good estimate of oxygen consumption
-
-        <ul>
-          <li>
-            hypertrophied ventricle
-          </li>
-          <li>
-            =&gt; thicker heart
-          </li>
-          <li>
-            =&gt; less wall stress but more cells
-          </li>
-          <li>
-            =&gt; oxygen consumtpion is not reduced!
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="lymphatic system" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1456317089252" HGAP="51" VSHIFT="-6">
+<node TEXT="lymphatic system" FOLDED="true" POSITION="right" ID="ID_1824634338" CREATED="1453900637638" MODIFIED="1457011935698" HGAP="62" VSHIFT="-28">
 <edge COLOR="#ffff00"/>
 <node TEXT="lymphatic vessels return fluid from the tissue interstitium to the subclavian veins above the right atrium" ID="ID_75385356" CREATED="1453900637638" MODIFIED="1453900659777"/>
 </node>
-<node TEXT="cellular structure" FOLDED="true" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1456317117962" HGAP="226" VSHIFT="438">
-<edge COLOR="#007c00"/>
-<node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
-<attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
-<attribute NAME="diameter of ventricular myocyte" VALUE="25 &#x3bc;m"/>
-<attribute NAME="length of ventricular myocyte" VALUE="100 &#x3bc;m"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        single nucleus
-      </li>
-      <li>
-        not as long as skeletal muscle cells
-      </li>
-      <li>
-        atrial myocytes are smaller than ventricular myocytes
-      </li>
-      <li>
-        composed of myofibrills
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/2017abc_Cardiac_Muscle.jpg" SIZE="0.30257186" NAME="ExternalObject"/>
-<node TEXT="striated muscle" ID="ID_1906942734" CREATED="1456151895850" MODIFIED="1456151952203"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      crossbands / cross strations in microscopic structure
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="diameter of a ventricular myocyte: 25 &#x3bc;m" STYLE_REF="number" ID="ID_470646513" CREATED="1456152213768" MODIFIED="1456152529623">
-<attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
-</node>
-<node TEXT="length of a ventricular myocyte: 100 &#x3bc;m" STYLE_REF="number" ID="ID_105532277" CREATED="1456152331646" MODIFIED="1456152529638">
-<attribute_layout NAME_WIDTH="164" VALUE_WIDTH="164"/>
-</node>
-<node TEXT="functional syncytium" ID="ID_1961658947" CREATED="1456152581310" MODIFIED="1456152815376"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        branching network of myocytes resulting from cell fusion
-      </li>
-      <li>
-        myocytes connect to each other by specialized cell membranes (intercalated disks)
-      </li>
-      <li>
-        electrical signals can pass from one cell to the other via gap junctions
-      </li>
-      <li>
-        allows the heart to contract as a unit (synctium)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="intercalated disk" ID="ID_1698750386" CREATED="1456152708284" MODIFIED="1456153126373"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      membrane that connects two myocytes
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="gap junction" ID="ID_1314024833" CREATED="1456152715740" MODIFIED="1456152885066"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        low-resistance pathway between cells
-      </li>
-      <li>
-        permits conduction of ionic currents
-      </li>
-      <li>
-        only present in heart muscle cells and not e.g. skeletal muscles
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="myofibrill" ID="ID_1788258358" CREATED="1456152914107" MODIFIED="1456153204700"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      bundles of myofilaments that make up myocytes
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456228432602">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1927763304" STARTINCLINATION="404;-42;" ENDINCLINATION="144;-75;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-</node>
-<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
-<attribute NAME="length" VALUE="1.6 - 2.2 &#x3bc;m"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        basic contractile unit of myocyte
-      </li>
-      <li>
-        one myocyte has many sarcomeres
-      </li>
-      <li>
-        region between two &quot;Z-Lines&quot;
-      </li>
-      <li>
-        length determines contractile force
-      </li>
-      <li>
-        contains think (actin) and thin filaments (myosin)&#160;(50% of cell volume)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Sarcomere.jpg" SIZE="0.75" NAME="ExternalObject"/>
-<node TEXT="sarcomere length: 1.6 - 2.2 &#x3bc;m" STYLE_REF="number" ID="ID_681801520" CREATED="1456153349448" MODIFIED="1456153367446"/>
-<node TEXT="thick filaments" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456229219449"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        consist of myosin (300 molecules per filament)
-      </li>
-      <li>
-        surrounded by hexagonal arrangement of 6 thin filaments
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="myosin" ID="ID_970177230" CREATED="1456228350299" MODIFIED="1456229173566"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        large molecule
-      </li>
-      <li>
-        two heads as site for myosin adenosine triphosphatase (myosin ATPase)
-
-        <ul>
-          <li>
-            interact with binding site on actin
-          </li>
-          <li>
-            have regulatory subunits (light chains) that can be phosphorylated
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="thin filaments" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456229292123"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      consist of actin, tropomyosin and troponin
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="actin" ID="ID_985146609" CREATED="1456228357139" MODIFIED="1456229354370"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        two helical strands of repeating globular units
-      </li>
-      <li>
-        tropomyosin between the two strands
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="tropomyosin" ID="ID_860526219" CREATED="1456229356244" MODIFIED="1456229490634"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        rod-shaped
-      </li>
-      <li>
-        carries troponin regulatory complex at regular intervals
-      </li>
-      <li>
-        one tropomyosin per 7 actin
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="troponin" ID="ID_254937729" CREATED="1456229494419" MODIFIED="1456229830010"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        holds tropomyosin in place =&gt; prevents myosin heads from binding to actin
-      </li>
-      <li>
-        when Ca++ binds to TN-C, conformation changes =&gt; binding site of actin exposed
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="troponin-T (TN-T)" ID="ID_1558312705" CREATED="1456229507628" MODIFIED="1456229569908"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      attaches to tropomyosin
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="troponin-C (TN-C)" ID="ID_579563864" CREATED="1456229524732" MODIFIED="1456229585097"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      binding site for Ca++
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="troponin-I (TN-I)" ID="ID_1110954762" CREATED="1456229534563" MODIFIED="1456229635976"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      inhibits myosin binding to actin
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="titin" ID="ID_329023521" CREATED="1456225901069" MODIFIED="1456228135883"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        elastic protein that connects myosin filaments to Z-Lines
-      </li>
-      <li>
-        helpts to keep actin filaments centered
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="sarcolemma" ID="ID_1784805838" CREATED="1456230151758" MODIFIED="1456230524853"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        surrounds bundle of myofibrills (outer cell membrane)
-      </li>
-      <li>
-        has deep invaginations (transverse tubules)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="transverse tubules (T tubules)" ID="ID_466969632" CREATED="1456230269318" MODIFIED="1456230417869"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        invaginations in sarcolemma
-      </li>
-      <li>
-        open to external cell environment
-
-        <ul>
-          <li>
-            =&gt; ions can freely enter and ion exchange can happen deep inside the myocyte
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="sarcoplasmic reticulum" ID="ID_1351979255" CREATED="1456230421893" MODIFIED="1456230951015"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        branching tubular network surrounding myofilaments
-      </li>
-      <li>
-        regulates intracellular calcium concentrations
-      </li>
-      <li>
-        close to T tubules
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="terminal cisternae" ID="ID_329433892" CREATED="1456230952857" MODIFIED="1456232029239"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        end pouches of SR adjacent to T tubules
-      </li>
-      <li>
-        contain calcium-release channels (ryanodine-sensitive)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&quot;feet&quot;" ID="ID_959858230" CREATED="1456230957913" MODIFIED="1456231071333"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        electron-dense regions between terminal cisternae and T tubules
-      </li>
-      <li>
-        believed to sense calcium from L-type calcium channels
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="excitation-contraction coupling" ID="ID_278191118" CREATED="1456229885601" MODIFIED="1456230144432" MOVED="1456231511062"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        coupling between myocite action potential and contraction
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456237725062" LINK="https://www.youtube.com/watch?v=CbfK1Gi-aCk"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ol>
-      <li>
-        Calcium Ions enter the cell (at T tubules) through L-type calcium channe
-
-        <ul>
-          <li>
-            does not significantly change intracellular calcium concentration
-          </li>
-        </ul>
-      </li>
-      <li>
-        Calcium is sensed by &quot;feet&quot; of calcium-release channels in SR.
-      </li>
-      <li>
-        Calcium release channels in terminal cisternae release large amounts of calcium.
-
-        <ul>
-          <li>
-            increases intracellular calcium concentration 100-fold
-          </li>
-        </ul>
-      </li>
-      <li>
-        Free calcium binds to TN-C.
-      </li>
-      <li>
-        Myosin-binding site on actin molecules becomes exposed.
-      </li>
-      <li>
-        ATP hydrolysis during binding yields energy for conformational change.
-
-        <ul>
-          <li>
-            head is cocked =&gt; actin is moved towards Z-line where myosin is attached
-          </li>
-        </ul>
-      </li>
-      <li>
-        Actin and myosin fragments slide past each other (&quot;ratcheting&quot;)
-      </li>
-      <li>
-        Calcium entry into cell dminishes.
-      </li>
-      <li>
-        Sarcoendoplasmic reticulum calcium ATPAse (SERCA) pumps calcium back into SR
-      </li>
-      <li>
-        Calcium dissociates from TN-C.
-      </li>
-      <li>
-        Normal length of sarcomere is restored
-      </li>
-      <li>
-        new ATP binds to myosin head, displacing ADP
-      </li>
-    </ol>
-  </body>
-</html>
-</richcontent>
-<node TEXT="contraction" ID="ID_329463012" CREATED="1456238643251" MODIFIED="1456238664032">
-<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/1008_Skeletal_Muscle_Contraction.jpg" SIZE="0.7398274" NAME="ExternalObject"/>
-</node>
-</node>
-</node>
-<node TEXT="contraction regulation (inotropy)" ID="ID_646170614" CREATED="1456233482135" MODIFIED="1456233495610">
-<node TEXT="calcium entry through L-Type channels" ID="ID_885294699" CREATED="1456233725726" MODIFIED="1456233739903">
-<node TEXT="changes in cAMP concentration" ID="ID_1935072646" CREATED="1456233742255" MODIFIED="1456233769022">
-<node TEXT="norepinephrine / epinephrine (positive inotropy)" ID="ID_892820798" CREATED="1456233770213" MODIFIED="1456233782503"/>
-<node TEXT="acetylcholine (negative inotropy)" ID="ID_919714122" CREATED="1456233783933" MODIFIED="1456233790831"/>
-<node TEXT="adenosine (negative inotropy)" ID="ID_1320282494" CREATED="1456233814813" MODIFIED="1456233856803"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        adenosine-receptors are coupled to same G-Protein as muscarinic acetylcholine-receptors
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="calcium release by SR" ID="ID_391481305" CREATED="1456233864669" MODIFIED="1456233871606">
-<node TEXT="PKA phosphorylates parts of SR (positive inotropy)" ID="ID_1705948507" CREATED="1456233921764" MODIFIED="1456233976134"/>
-<node TEXT="&#x3b1;1-adrenoreceptors coupled to Gq-proteins (positive inotropy)" ID="ID_1510286610" CREATED="1456234033459" MODIFIED="1456234118795"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        less important than cAMP/PKA
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="calcium binding to TN-C" ID="ID_784967699" CREATED="1456234128083" MODIFIED="1456234197956">
-<node TEXT="acidosis during mytochondrial hypoxia (negative inotropy)" ID="ID_57663687" CREATED="1456234199906" MODIFIED="1456234245479"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        acidosis decreases TN-C affinity for calcium
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="preload (positive inotropy)" ID="ID_238821387" CREATED="1456234287978" MODIFIED="1456234333376"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        more force generated when sacromere length is increased
-      </li>
-      <li>
-        mechanisms unknown
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="myosin ATPase activity" ID="ID_988346722" CREATED="1456234361833" MODIFIED="1456234369874">
-<node TEXT="myosin light chain kinase (positive inotropy?)" ID="ID_1326356298" CREATED="1456234413720" MODIFIED="1456234456652"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        phosphorylates light chains of myosin
-      </li>
-      <li>
-        physiological significance unknown
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="calcium uptake by SR" ID="ID_436280101" CREATED="1456234460544" MODIFIED="1456234634069"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        the more calcium is pumped into SR, the more calcium can be released at the next contraction
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="PKA phosphorylation of phospholamban (positive inotropy)" ID="ID_1670909193" CREATED="1456234473952" MODIFIED="1456234663843"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        decreases inhibitory effect of phospholamban on SERCA
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="hypoxia (negative inotropy)" ID="ID_298988516" CREATED="1456234668703" MODIFIED="1456234689233"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        less ATP leads to less SERCA activity
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="regulation of calcium efflux" ID="ID_1183164802" CREATED="1456234699359" MODIFIED="1456234708368">
-<node TEXT="inhibiting sodium-calcium exchanger in sarcolemma (positive inotropy)" ID="ID_1644994867" CREATED="1456234720471" MODIFIED="1456234875560"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        inhtibiting NCX leads to increased intracellular calcium concentration because SR uptake is increased
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="inhibiting Na+/K+-ATPase" ID="ID_360275202" CREATED="1456234865469" MODIFIED="1456235043794"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increases [Na+]_i
-      </li>
-      <li>
-        =&gt; I_NCX reverses =&gt; increased [Ca++]_i
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="hypoxia (no inotropy)" ID="ID_411742730" CREATED="1456235084044" MODIFIED="1456235137085"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        reduces activity of Na+/K+-ATPase and Ca++-ATPase
-      </li>
-      <li>
-        but does not have inotropic effect because of lack of ATP
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="relaxation regulation (lusitropy)" ID="ID_1700102051" CREATED="1456235155476" MODIFIED="1456235395816"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        for relaxation to occur, [Ca++]_i must be reduced
-      </li>
-      <li>
-        =&gt; calcium accumulation inside the cell impairs relaxation
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="&quot;calcium overload&quot; during ischemia (negative lusitropy)" ID="ID_385146092" CREATED="1456235248971" MODIFIED="1456235283684"/>
-<node TEXT="inhibition of sodium-calcium exchanger (negative lusitropy)" ID="ID_1724093019" CREATED="1456235285514" MODIFIED="1456235341093"/>
-<node TEXT="increased SERCA activity (positive lusitropy)" ID="ID_679576839" CREATED="1456235418786" MODIFIED="1456235428403">
-<node TEXT="phosphorylation of phospholamban" ID="ID_509028263" CREATED="1456235440977" MODIFIED="1456235456171"/>
-</node>
-<node TEXT="decreased SERCA activity (negative lusitropy)" ID="ID_1695735040" CREATED="1456235481481" MODIFIED="1456235491131">
-<node TEXT="some forms of heart failure" ID="ID_1608718575" CREATED="1456235495865" MODIFIED="1456235504603"/>
-</node>
-<node TEXT="PKA phosphorylation of TN-I (positive lusitropy)" ID="ID_1793761286" CREATED="1456235510929" MODIFIED="1456235666848"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increases calcium dissociation from TN-C
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="metabolsim" ID="ID_375475922" CREATED="1456235798383" MODIFIED="1456236194156"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      cardiac myocytes have exceptionally high metabolic rate
-    </p>
-    <p>
-      repetitive contractions require enormous amount of ATP
-    </p>
-    <p>
-      =&gt; large number of mitochondria
-    </p>
-    <p>
-      only limites anaerobic capacity for meeting ATP requirements
-    </p>
-    <p>
-      =&gt; in the absence of oxgygen: contraction capabilities only last for a minute
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="ATP requirements" ID="ID_1656552790" CREATED="1456236195828" MODIFIED="1456236358531"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        cardiac myocytes have exceptionally high metabolic rate
-      </li>
-      <li>
-        repetitive contractions require enormous amount of ATP
-      </li>
-      <li>
-        =&gt; large number of mitochondria
-      </li>
-      <li>
-        only limited anaerobic capacity for meeting ATP requirements
-      </li>
-      <li>
-        =&gt; in the absence of oxgygen: contraction capabilities only last for a minute
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="ATP regeneration" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
-<node TEXT="energy sources (oxidative)" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456304952208"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        at rest: 60% fatty acids, 40% carbohydrates
-      </li>
-      <li>
-        can adapt to only use carbohydrates
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="fatty acids" ID="ID_1928194588" CREATED="1456236381603" MODIFIED="1456236384724"/>
-<node TEXT="carbohydrates" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
-<node TEXT="lactate" ID="ID_1018061171" CREATED="1456236419219" MODIFIED="1456304977475"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        can be used in place of glucose
-      </li>
-      <li>
-        becomes especially important during exercise
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="glucose" ID="ID_1750870789" CREATED="1456236422554" MODIFIED="1456236425844"/>
-</node>
-<node TEXT="aminoacids" ID="ID_1487530918" CREATED="1456236427762" MODIFIED="1456305003468">
-<hook NAME="FirstGroupNode"/>
-</node>
-<node TEXT="ketones" ID="ID_1803975911" CREATED="1456236436107" MODIFIED="1456236457603"/>
-<node TEXT="replacement for fatty acids" ID="ID_1654056463" CREATED="1456305003461" MODIFIED="1456305023753">
-<hook NAME="SummaryNode"/>
-</node>
-</node>
-</node>
-<node TEXT="reaction to increased activity" ID="ID_1704337692" CREATED="1456236224724" MODIFIED="1456236563570"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        increase in heart rate and force of contraction dramatically increase energy requirements
-      </li>
-      <li>
-        =&gt; increased oxygen consumption
-      </li>
-      <li>
-        biochemical signals from myocytes dilate coronary blood vessels
-      </li>
-      <li>
-        =&gt; additional blood flow and oxygen
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="vascular structure" ID="ID_1480579208" CREATED="1456305411724" MODIFIED="1456307730813"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        three layers (from inside to outside, *: separating membranes)
-
-        <ul>
-          <li>
-            intima
-          </li>
-          <li>
-            *basement membrane
-          </li>
-          <li>
-            media
-          </li>
-          <li>
-            *external elastic lamina
-          </li>
-          <li>
-            adventitia
-          </li>
-        </ul>
-      </li>
-      <li>
-        capillaries only have endothelial cells and basal lamina (no smooth muscles)
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="intima" ID="ID_936287537" CREATED="1456306007967" MODIFIED="1456306066091"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        single layer of endothelial cells
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="vascular endothelial cells" ID="ID_1709203739" CREATED="1456310974364" MODIFIED="1456315326154">
-<attribute NAME="diameter" VALUE="0.2 - 2.0 &#xb5;m"/>
-<attribute NAME="length" VALUE="1 - 20 &#xb5;m"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        line all blood vessels
-      </li>
-      <li>
-        flat, single-nucleated, elongated
-      </li>
-      <li>
-        types of intracellular junctions vary with tissue type
-
-        <ul>
-          <li>
-            arteries and skeletal muscle capillaries have tight connections
-          </li>
-          <li>
-            capillaries in spleen and bone marrows have gaps
-
-            <ul>
-              <li>
-                allow blood to easily move in and out of capillary
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        functions
-
-        <ul>
-          <li>
-            barrier for exchange of fluid, electrolytes, macromolecules and cells
-          </li>
-          <li>
-            regulating smooth muscle function
-          </li>
-          <li>
-            modulating platelet aggregation (blood clot)
-          </li>
-          <li>
-            modulating leukocyte adhesion and transendothelial migration
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="production of nitrous oxide (NO)" ID="ID_1836146580" CREATED="1456313781137" MODIFIED="1456315897834"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        enhanced by
-
-        <ul>
-          <li>
-            agonists binding to specific receptors
-
-            <ul>
-              <li>
-                acetylcholine
-              </li>
-              <li>
-                bradykinin
-              </li>
-            </ul>
-          </li>
-          <li>
-            shearing forces on endothelial surface (increased blood flow)
-          </li>
-          <li>
-            cytokines released by leukocytes during inflammation and infection
-          </li>
-        </ul>
-      </li>
-      <li>
-        functions of NO
-
-        <ul>
-          <li>
-            smooth muscle relaxation
-          </li>
-          <li>
-            inhibits platelet aggregation
-          </li>
-          <li>
-            inhibits inflammatory responses
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="endothelin-1 (ET-1) synthesis" ID="ID_683174065" CREATED="1456314298284" MODIFIED="1456314512913"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        ET-1 is powerful vasoconstrictor
-      </li>
-      <li>
-        stimulated by
-
-        <ul>
-          <li>
-            angiotensin II
-          </li>
-          <li>
-            vasopressin
-          </li>
-          <li>
-            thrombin
-          </li>
-          <li>
-            cytokines
-          </li>
-          <li>
-            shearing forces
-          </li>
-        </ul>
-      </li>
-      <li>
-        inhibitted by
-
-        <ul>
-          <li>
-            NO
-          </li>
-          <li>
-            PGI_2
-          </li>
-        </ul>
-      </li>
-      <li>
-        ET-1 binds to receptors on vascular smooth muscles causing activation of IP_3 pathway
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="synthesis of PGI_2" ID="ID_1511849637" CREATED="1456314516371" MODIFIED="1456314976583"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        functions
-
-        <ul>
-          <li>
-            smooth muscle relaxation
-          </li>
-          <li>
-            inhibition of platelet aggregation
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="dysfunction" ID="ID_910538838" CREATED="1456314993592" MODIFIED="1456315154110"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        less NO and PGI_2
-
-        <ul>
-          <li>
-            vasoconstriction
-          </li>
-          <li>
-            loss of vasodilatory capacity
-          </li>
-          <li>
-            thrombosis
-          </li>
-          <li>
-            vascular inflammation
-          </li>
-        </ul>
-      </li>
-      <li>
-        enhanced ET-1 contributes to hypertension
-      </li>
-      <li>
-        damage at capillary level can cause tissue edema
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="media" ID="ID_1576907133" CREATED="1456306013975" MODIFIED="1456306497712"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        contains smooth muscle cells (embedded in collagen, elastin and glycoproteins)
-      </li>
-      <li>
-        may be arranged in several layers
-
-        <ul>
-          <li>
-            either circumferentially (around the vessel)
-          </li>
-          <li>
-            or helically along the vessel
-          </li>
-        </ul>
-      </li>
-      <li>
-        function: constrict the vessel (reduce diameter)
-      </li>
-      <li>
-        ratio between collagen, elastin and muscle cells determine elastic properties
-
-        <ul>
-          <li>
-            example: aorta has large amount of elastin =&gt; dampens blood pressure
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="vascular smooth muscle cells" ID="ID_1618826955" CREATED="1456306787658" MODIFIED="1456308561085">
-<attribute NAME="diameter" VALUE="5 - 10 &#xb5;m"/>
-<attribute NAME="length" VALUE="50 - 300 &#xb5;m"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        many small invaginations (caveolae) =&gt; increased surface area
-      </li>
-      <li>
-        SR is poorly developed compared to cardiac myocytes
-      </li>
-      <li>
-        actin/myosin-filaments are joined by dense bodies (cell interior) and dense bands (cell membrane)
-
-        <ul>
-          <li>
-            no distinct bands as in cardiac myocytes
-          </li>
-          <li>
-            dense bands/bodies function like Z-lines
-          </li>
-        </ul>
-      </li>
-      <li>
-        gap junctions between cells
-
-        <ul>
-          <li>
-            =&gt; cell-to-cell conduction of depolarization currents is possible
-          </li>
-        </ul>
-      </li>
-      <li>
-        slow and sustained contractions instead of fast and short as in cardiac myocytes
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="contraction" ID="ID_1481917345" CREATED="1456308507845" MODIFIED="1456309247969"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        normally smooth muscles are in partially contracted state
-      </li>
-      <li>
-        determined by stimulatory and inhibitory influences
-
-        <ul>
-          <li>
-            sympathetic adrenergic nerves
-          </li>
-          <li>
-            circulating hormones (norepinephrine, angiotensin II)
-          </li>
-          <li>
-            substances released by endothelium
-          </li>
-          <li>
-            vasoactive substances relased by tissue surrounding the blood vessel
-          </li>
-        </ul>
-      </li>
-      <li>
-        can be initiated by different stimuli
-
-        <ul>
-          <li>
-            electrical via L-type calcium channels
-          </li>
-          <li>
-            chemical by changes in ion concentrations (extracellular or via receptor-coupled opening of channels)
-
-            <ul>
-              <li>
-                stimuli: norepinephrine, epinephrine, angiotensin II, vasopressin, ...
-              </li>
-              <li>
-                all lead to increased&#160;&#160;intracellular calcium
-              </li>
-            </ul>
-          </li>
-          <li>
-            mechanical by passive stretching from muscle itself (myogenic response)
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="contraction by increased calcium concentrations" ID="ID_607753203" CREATED="1456308814148" MODIFIED="1456309518107"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ol>
-      <li>
-        calcium binds to calmodulin
-      </li>
-      <li>
-        calcium-calmodulin activates myosin light chain kinase (requires ATP)
-      </li>
-      <li>
-        myosin light chain phosphorylation leads to cross-bridge binding between myosin head and actin filaments
-      </li>
-      <li>
-        myosin head moves =&gt; cell contracts
-      </li>
-    </ol>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="calcium concentration regulation" ID="ID_607303477" CREATED="1456309602670" MODIFIED="1456309692020"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        calcium can enter the cell through L-type calcium channels
-      </li>
-      <li>
-        sodium-calcium exchanger and Ca++-ATPase pump calcium out of cell
-      </li>
-      <li>
-        SR can release calcium
-      </li>
-      <li>
-        pump similar to cardiac SERCA pumps calcium into SR
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="three major pahtways" ID="ID_936193630" CREATED="1456309721452" MODIFIED="1456309728279">
-<node TEXT="Gq-protein activation of phospholipase C" ID="ID_1033643062" CREATED="1456309729069" MODIFIED="1456310246335">
-<hook EQUATION="IP_3" NAME="plugins/latex/LatexNodeHook.properties"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        similar to IP_3 in heart
-      </li>
-      <li>
-        activation of&#160;&#160;phospholipase C by
-
-        <ul>
-          <li>
-            norepinephrine
-          </li>
-          <li>
-            epinephrine
-          </li>
-          <li>
-            angiotensin II
-          </li>
-          <li>
-            endothelin-I
-          </li>
-          <li>
-            vasopressin
-          </li>
-          <li>
-            acetylcholine
-          </li>
-        </ul>
-      </li>
-      <li>
-        formation of IP_3 from PIP_2 (IP_3 = PIP_2 + DAG)
-      </li>
-      <li>
-        IP_3 stimulates SR to release calcium
-      </li>
-      <li>
-        additional indirect effect
-
-        <ul>
-          <li>
-            diacylglycerol (DAG) also activates protein kinase C (PKC)
-          </li>
-          <li>
-            PKC can modulate contraction via protein phosphorylation
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="cAMP via Gs-protein actiavtion of adenylyl cyclase" ID="ID_1539287048" CREATED="1456309800468" MODIFIED="1456310483129"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        release mechanism is the same as in the heart
-
-        <ul>
-          <li>
-            but is also triggered by adenosine and prostacyclin
-          </li>
-        </ul>
-      </li>
-      <li>
-        but increase in cAMP causes relaxation
-      </li>
-      <li>
-        cAMP inhibits protein light chain kinase
-      </li>
-      <li>
-        decreases myosin light chain phosphorylation
-      </li>
-      <li>
-        inhibits interactions between actin and myosin
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="cyclic guanosine monophosphate (cGMP) via nitric oxide (NO) activation of guanylyl cyclase" ID="ID_494429609" CREATED="1456309836452" MODIFIED="1456310691422"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        vasodilator substances activate&#160;&#160;NO synthase
-      </li>
-      <li>
-        NO activates guanylyl cyclase
-      </li>
-      <li>
-        causes smooth muscle relaxation
-      </li>
-      <li>
-        exact mechanisms unknown
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="adventitia" ID="ID_415551913" CREATED="1456306017679" MODIFIED="1456306685977"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        contains
-
-        <ul>
-          <li>
-            collagen
-          </li>
-          <li>
-            fibroblasts
-          </li>
-          <li>
-            blood vessels (vasa vasorum in large vessels)
-          </li>
-          <li>
-            lymphatics
-          </li>
-          <li>
-            autonomic nerves (primary sympathetic adrenergic)
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="anatomy" POSITION="left" ID="ID_336751138" CREATED="1456316958802" MODIFIED="1456317636466" HGAP="141" VSHIFT="-590" MOVED="1456317010631">
+<node TEXT="anatomy" FOLDED="true" POSITION="left" ID="ID_336751138" CREATED="1456316958802" MODIFIED="1457011946410" HGAP="68" VSHIFT="-70" MOVED="1456317010631">
 <edge COLOR="#007c7c"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Diagram_of_the_human_heart_(cropped).svg" SIZE="0.9230769" NAME="ExternalObject"/>
 <node TEXT="innervation" ID="ID_1568451710" CREATED="1456319759198" MODIFIED="1456319821840">
@@ -7463,8 +7359,110 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="blood flow" FOLDED="true" ID="ID_1435634311" CREATED="1453897707582" MODIFIED="1457011848784" HGAP="19" VSHIFT="-10"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        right ventricle -&gt; lung -&gt; left ventricle -&gt; systemic circulation -&gt; right ventricle
+
+        <ol>
+          <li>
+            right atrium receives blood at nearly 0 mmHg
+          </li>
+          <li>
+            maximum systolic pressure in pulmonary artery: 20 - 30 mmHg
+          </li>
+          <li>
+            left atrium received blood at about 10 mmHg
+          </li>
+          <li>
+            maximum systolic pressure in aorta: 100 - 140 mmHg
+          </li>
+        </ol>
+      </li>
+      <li>
+        blood flow through organs (systemic circulation) is in parallel
+
+        <ul>
+          <li>
+            <p>
+              &#160;=&gt; change of blood flow in one organ does not have a large effect on the blood flow in other organs
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        right ventricle is low pressure pump
+      </li>
+      <li>
+        left ventricle is high pressure pump
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="organ blood flow" ID="ID_574775850" CREATED="1453897707582" MODIFIED="1453898980825">
+<hook EQUATION="\text{organ blood flow} = \frac{\text{arterial pressure} - \text{venous pressure}}{\text{vascular resistance of organ}}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="vascular system" POSITION="right" ID="ID_1552739746" CREATED="1456494773978" MODIFIED="1456494779150">
+<node TEXT="stroke volume" ID="ID_1601293965" CREATED="1453897707582" MODIFIED="1453899405199"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      blood ejected after each contraction
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="cardiac output" ID="ID_1589414900" CREATED="1453897707582" MODIFIED="1453899321263">
+<hook EQUATION="\text{cardiac output} = \text{stroke volume} * \text{heart rate} \;\; [l/s]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="blood vessels" FOLDED="true" ID="ID_1182798777" CREATED="1453899113816" MODIFIED="1453899116739">
+<node TEXT="aorta" ID="ID_1132724571" CREATED="1453897707582" MODIFIED="1453899158550"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      artery connected to left ventricle
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="superior and inferior vena cava" ID="ID_983124141" CREATED="1453897707582" MODIFIED="1453899177253"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      veins returning blood from systemic circulation to the right ventricle
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="right atrium input pressure: 0 mmHg" STYLE_REF="number" ID="ID_917536014" CREATED="1453901412519" MODIFIED="1453901521769"/>
+<node TEXT="max. systolic pressure in pulmonary artery: 20 - 30 mmHg" STYLE_REF="number" ID="ID_109083537" CREATED="1453901433071" MODIFIED="1453901521776"/>
+<node TEXT="left atrium input pressure: 10 mmHg" STYLE_REF="number" ID="ID_1775291724" CREATED="1453901470799" MODIFIED="1453901521782"/>
+<node TEXT="max. systolic pressure in aorta: 100 - 140 mmHg" STYLE_REF="number" ID="ID_138053166" CREATED="1453901494929" MODIFIED="1453901521787"/>
+</node>
+</node>
+<node TEXT="vascular system" FOLDED="true" POSITION="right" ID="ID_1552739746" CREATED="1456494773978" MODIFIED="1457011940590" HGAP="75" VSHIFT="77">
 <edge COLOR="#7c7c00"/>
 <node TEXT="anatomy" ID="ID_300980368" CREATED="1456494786835" MODIFIED="1456494793051">
 <node TEXT="vessel types" ID="ID_1736677533" CREATED="1456495103264" MODIFIED="1456495106241">
