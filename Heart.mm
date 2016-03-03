@@ -1,8 +1,8 @@
 <map version="docear 1.1" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
-<node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1453898344654">
+<node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
 <hook NAME="AutomaticEdgeColor" COUNTER="12"/>
-<hook NAME="MapStyle" zoom="0.952">
+<hook NAME="MapStyle" zoom="0.908">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -5789,7 +5789,7 @@
 <edge COLOR="#ffff00"/>
 <node TEXT="lymphatic vessels return fluid from the tissue interstitium to the subclavian veins above the right atrium" ID="ID_75385356" CREATED="1453900637638" MODIFIED="1453900659777"/>
 </node>
-<node TEXT="cellular structure" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1456317117962" HGAP="226" VSHIFT="438">
+<node TEXT="cellular structure" FOLDED="true" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1456317117962" HGAP="226" VSHIFT="438">
 <edge COLOR="#007c00"/>
 <node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
 <attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
@@ -7778,6 +7778,26 @@
 </node>
 </node>
 </node>
+<node TEXT="one-way valves in veins" ID="ID_737350063" CREATED="1456927161430" MODIFIED="1456927225208"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        permit blood flow towards heart
+      </li>
+      <li>
+        prevent retrograde flow
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="arterial blood pressure" ID="ID_741683316" CREATED="1456825766349" MODIFIED="1456825770951">
 <node TEXT="pulse pressure" ID="ID_1120102885" CREATED="1456825807115" MODIFIED="1456825987918"><richcontent TYPE="DETAILS">
@@ -8291,6 +8311,7 @@
 </node>
 <node TEXT="systemic vascular resistance" ID="ID_655044367" CREATED="1456922589854" MODIFIED="1456922639691">
 <hook EQUATION="SVR  \; \left[\frac{mmHg \cdot min}{ml}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="unit is also called peripheral resistance unit (PRU)" ID="ID_1007167822" CREATED="1457011282573" MODIFIED="1457011298685"/>
 </node>
 </node>
 <node TEXT="factors" ID="ID_1641856924" CREATED="1456922681757" MODIFIED="1456922729685"><richcontent TYPE="DETAILS">
@@ -8420,6 +8441,482 @@
 
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="venous blood pressure" ID="ID_1353347132" CREATED="1456924077795" MODIFIED="1456924431310"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        venous blood pressure = average pressure in venous compartment
+      </li>
+      <li>
+        central venous pressure (CVP) = blood pressure in thoracic vena cava near right artrium
+
+        <ul>
+          <li>
+            determines filling pressure of right ventricle
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="nonlinear dependence on volume and compliance" ID="ID_964713468" CREATED="1456924856207" MODIFIED="1456925374165"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        at low pressures, large veins collapse (shape becomes more cylindrical)
+
+        <ul>
+          <li>
+            high increase in volume only leads to low increase in pressure
+          </li>
+        </ul>
+      </li>
+      <li>
+        higher pressure =&gt; vein must be stretched to increase volume
+
+        <ul>
+          <li>
+            =&gt; low increase in volume leads to high increase in pressure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="mechanical factors" ID="ID_829892190" CREATED="1456926758162" MODIFIED="1456926762066">
+<node TEXT="gravity" ID="ID_1408399167" CREATED="1456926765209" MODIFIED="1456926968996"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        in reclining (lying) position blood volume is uniformely distributed between head, thorax, abdomen and legs
+      </li>
+      <li>
+        gravity pulls blood towards legs when standing
+
+        <ul>
+          <li>
+            =&gt; higher blood volume in the legs
+          </li>
+          <li>
+            =&gt; lower blood pressure at the heart (CVP)
+          </li>
+          <li>
+            =&gt; reduced troke volume
+          </li>
+          <li>
+            =&gt; reduced arterial pressure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="orthostatic/postural hypotension" ID="ID_1521120323" CREATED="1456926970615" MODIFIED="1456927039579"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        aterial blood pressure decrease of more than 20 mmHg after standing up
+      </li>
+      <li>
+        may cause &quot;light headedness&quot; when cerebral perfusion is reduced
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="baroreflex normally compensates this effect" ID="ID_106648943" CREATED="1456927066286" MODIFIED="1456927136182"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        constricts peripheral vessels
+      </li>
+      <li>
+        increases heart rate and inotropy
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="skeletal muscle pump" ID="ID_1897916437" CREATED="1456927145966" MODIFIED="1456927483667"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        veins in lower limbs are surrounded by muscles
+
+        <ul>
+          <li>
+            =&gt; muscle contraction also contracts veins
+          </li>
+          <li>
+            =&gt; downstream venous valves open, upstream valves close
+          </li>
+          <li>
+            =&gt; rhythmical contraction (e.g. walking) pumps blood towards heart
+          </li>
+        </ul>
+      </li>
+      <li>
+        pressure in ankle of up to 90 mmHg when standing
+
+        <ul>
+          <li>
+            may be reduced to 30-40 mmHg after a few steps
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="respiratory activity" ID="ID_195598453" CREATED="1456928326174" MODIFIED="1456928330719">
+<node TEXT="inspiration" ID="ID_828662153" CREATED="1456928981705" MODIFIED="1457000501877"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        chest wall expands, diaphragm descends =&gt; intrapleural pressure falls
+      </li>
+      <li>
+        =&gt; lungs expand
+      </li>
+      <li>
+        but also atria, ventricles and the vena cava
+      </li>
+      <li>
+        =&gt; decreased pressure in vessels and cardiac chambers
+      </li>
+      <li>
+        =&gt; pressure gradient for venous return increases
+
+        <ul>
+          <li>
+            only for right ventricle, because at the same time pulmonary vasculature expands
+          </li>
+          <li>
+            =&gt; acts as capacitance reservoir
+          </li>
+          <li>
+            =&gt; no enhanced left ventricular filling
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="expiration" ID="ID_1359535933" CREATED="1456928986313" MODIFIED="1457000696615"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        opposite effect of inspiration on (right) ventricular filling
+      </li>
+      <li>
+        but constriction of pulmonary vasculature increases left ventricular filling and SV
+      </li>
+      <li>
+        =&gt; corresponding increase in left ventricular filling
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="net effect: increase in venous return and CO" ID="ID_106639383" CREATED="1457000501870" MODIFIED="1457000574901">
+<hook NAME="SummaryNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        inspiration increases venous return
+      </li>
+      <li>
+        expiration increases cardiac output
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="intrapleural pressure" ID="ID_1030360498" CREATED="1456933832895" MODIFIED="1456933943385"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        pressure in space between thoracic wall and lungs
+      </li>
+      <li>
+        generally negative
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="transmural pressure" ID="ID_1053543276" CREATED="1456934324227" MODIFIED="1456934606945">
+<hook EQUATION="\text{pressure inside} - \text{pressure outside}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="venous return and cardiac output" ID="ID_1423291870" CREATED="1457001642548" MODIFIED="1457001757362"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        cardiovascular system can be viewed as closed system
+
+        <ul>
+          <li>
+            fluid is lost and added, but always in a balance
+          </li>
+        </ul>
+      </li>
+      <li>
+        =&gt; averaged over time: VR = CO
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="effect of CO on MAP and right atrial pressure" ID="ID_1586180522" CREATED="1457002947873" MODIFIED="1457005725161"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increasing CO increases MAP and decreases right atrial pressure
+
+        <ul>
+          <li>
+            with increased CO, more blood is in the arterial vasculature and less in the venous vasculature<br/>
+          </li>
+          <li>
+            =&gt; less pressure in vena cava =&gt; less pressure in right atrium
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="mean circulatory filling pressure" ID="ID_271111254" CREATED="1457005741815" MODIFIED="1457005876397">
+<attribute_layout NAME_WIDTH="155" VALUE_WIDTH="155"/>
+<attribute NAME="MCFP (w/o Baroreceptors)" VALUE="7 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        equilibrium between arterial and venous pressure when CO falls to zero
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="increase of CO above 5 l/min" ID="ID_1940965757" CREATED="1457005961393" MODIFIED="1457006105097"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        right atrial pressure falls below zero
+      </li>
+      <li>
+        vena cava collapses
+      </li>
+      <li>
+        significantly reduces venous return =&gt; reduces CO
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="systemic vascular function curve" ID="ID_1879682762" CREATED="1457006801867" MODIFIED="1457010503496"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        plots CO versus right atrial pressure (P_RA)
+      </li>
+      <li>
+        CO is changed and P_RA is observed
+
+        <ul>
+          <li>
+            Question: What happens in the systemic circulation?
+          </li>
+        </ul>
+      </li>
+      <li>
+        effect of CO on P_RA
+      </li>
+      <li>
+        or effect of P_RA on venous return
+
+        <ul>
+          <li>
+            sometimes called venous return curve
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF027%20sys%20funct%20curves.gif" SIZE="1.0" NAME="ExternalObject"/>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="cardiac function curve" ID="ID_1516874461" CREATED="1457009500393" MODIFIED="1457010369522"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        same coordinate system as systemic vascular function curve
+      </li>
+      <li>
+        but now P_RA is changed and changes in CO are observed
+
+        <ul>
+          <li>
+            =&gt; Question: What happens in the heart?
+          </li>
+        </ul>
+      </li>
+      <li>
+        similar to Frank-Starling curves
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF027%20cardiac%20funct%20curves.png" SIZE="0.6749156" NAME="ExternalObject"/>
+</node>
+<node TEXT="combined cardiac and systemic function curve" ID="ID_1740514449" CREATED="1457010503491" MODIFIED="1457010629651">
+<hook NAME="SummaryNode"/>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF027%20combined%20card-sys%20funct%20curves.png" SIZE="0.62761503" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        both curves only tell half of the story
+      </li>
+      <li>
+        superimposed curves show unique intersection point
+      </li>
+      <li>
+        this intersection is the equilibrium that will be achieved until one of the curves is altered
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
