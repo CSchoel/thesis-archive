@@ -1780,7 +1780,7 @@
 </node>
 </node>
 </node>
-<node TEXT="cellular structure" FOLDED="true" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1457011950839" HGAP="340" VSHIFT="-61" MOVED="1457011744726">
+<node TEXT="cellular structure" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1457011950839" HGAP="340" VSHIFT="-61" MOVED="1457011744726">
 <edge COLOR="#007c00"/>
 <node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
 <attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
@@ -3320,7 +3320,7 @@
 </node>
 </node>
 </node>
-<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1457011937839" HGAP="29" VSHIFT="-108">
+<node TEXT="electrical activity" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1457011937839" HGAP="29" VSHIFT="-108">
 <edge COLOR="#ff0000"/>
 <node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
@@ -9463,6 +9463,213 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+<node TEXT="autonomic receptors" ID="ID_698585353" CREATED="1457083426784" MODIFIED="1457091924311">
+<node TEXT="types" ID="ID_684729971" CREATED="1457083725598" MODIFIED="1457083727775">
+<node TEXT="norepinephrine receptor" ID="ID_848981152" CREATED="1457088541187" MODIFIED="1457088553301">
+<node TEXT="&#x3b1;1-adrenoreceptors" ID="ID_809733980" CREATED="1457083744141" MODIFIED="1457084379714">
+<hook NAME="FirstGroupNode"/>
+<node TEXT="Gq-protein/IP3-pathway" ID="ID_1253118986" CREATED="1457084385825" MODIFIED="1457086319180" LINK="#ID_1033643062"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        stimulates SR to release calcium
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x3b1;2-adrenoreceptors" ID="ID_607455356" CREATED="1457083795205" MODIFIED="1457083799814">
+<node TEXT="inhibit norepinephrine release (negative feedback)" ID="ID_1135954782" CREATED="1457084661479" MODIFIED="1457084692160"/>
+</node>
+<node TEXT="&#x3b2;1-adrenoreceptors" ID="ID_987098829" CREATED="1457084218962" MODIFIED="1457088655995" MOVED="1457084227273">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="&#x3b2;2-adrenoreceptors" ID="ID_1970931526" CREATED="1457083801013" MODIFIED="1457084155301"/>
+<node TEXT="Gs-protein/cAMP-pathway" ID="ID_288802745" CREATED="1457084298019" MODIFIED="1457088723038" LINK="#ID_432937196" MOVED="1457088718916"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        phosphorylation of L-type calcium channels
+      </li>
+      <li>
+        locks HCN channels in open state
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<hook NAME="SummaryNode"/>
+</node>
+</node>
+<node TEXT="acetylcholine receptor" ID="ID_319057091" CREATED="1457088554675" MODIFIED="1457088560284">
+<node TEXT="muscarinic (M2) receptors" ID="ID_1872124029" CREATED="1457084156586" MODIFIED="1457084203564">
+<node TEXT="Gi-protein/cAMP-pathway" ID="ID_1402164709" CREATED="1457084710734" MODIFIED="1457086680555" LINK="#ID_1067165032">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_288802745" STARTINCLINATION="81;0;" ENDINCLINATION="81;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        opposite effect of Gs-protein/cAMP-pathway
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="function at different locations" ID="ID_88926310" CREATED="1457083736909" MODIFIED="1457083743039">
+<node TEXT="heart" ID="ID_1848214743" CREATED="1457087834417" MODIFIED="1457091678698"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        stimulating
+
+        <ul>
+          <li>
+            post-junctional &#946;1 receptors
+          </li>
+          <li>
+            post-junctional &#946;2 receptors (less abundant than &#946;1)
+          </li>
+          <li>
+            post-junctional <font face="SansSerif">&#945;1 receptors</font>
+          </li>
+        </ul>
+      </li>
+      <li>
+        inhibiting
+
+        <ul>
+          <li>
+            post-junctional M2 receptor (principally in SAN, AVN and atria)
+          </li>
+          <li>
+            pre-junctional M2 receptor (inhibits norepinephrine release)
+          </li>
+          <li>
+            pre-junctional <font face="SansSerif">&#945;2 receptor (inhibits norepinephrine release)</font>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="blood vessels" ID="ID_1428062778" CREATED="1457088886593" MODIFIED="1457091869513"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        vasoconstriction
+
+        <ul>
+          <li>
+            post-junctional &#945;1 receptors (primary binding site for norepinephrine)
+          </li>
+          <li>
+            post-junctional &#945;2 receptors (primarily in arteries and arterioles)
+          </li>
+        </ul>
+      </li>
+      <li>
+        vasodilation
+
+        <ul>
+          <li>
+            pre-junctional &#945;2 receptors (inhibit norepinephrine release)
+          </li>
+          <li>
+            post-junctional &#946;2 receptors
+
+            <ul>
+              <li>
+                mostly activated by circulating epinephrine
+              </li>
+              <li>
+                but also by norepinephrine
+              </li>
+              <li>
+                normally overwhelmed by vasoconstricor effect
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="coronary arteries" ID="ID_535749121" CREATED="1457091042818" MODIFIED="1457091071313"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        M2 receptors (vasodilation)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="pre- vs. post-junctional" ID="ID_1427705916" CREATED="1457091181377" MODIFIED="1457091270721"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        pre-junctional: receptor is located on the axon (nerve fiber)
+      </li>
+      <li>
+        post-junctional: receptor is located on the muscle
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
