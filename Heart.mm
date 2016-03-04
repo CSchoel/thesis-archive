@@ -9381,6 +9381,90 @@
 </node>
 </node>
 </node>
+<node TEXT="interaction between sympathetic and parasympathetic innervation" ID="ID_840370950" CREATED="1457081892011" MODIFIED="1457082069060"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sympathetic and parasympathetic system are activated reciprocally
+      </li>
+      <li>
+        parasympathetic influences on heart are dominant over sympathetic influences
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="modulation by hypothalamus" ID="ID_841581940" CREATED="1457082074041" MODIFIED="1457082222577"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        exercise
+      </li>
+      <li>
+        fight-or-flight response
+      </li>
+      <li>
+        achieved by stimulating RVLM and inhibiting vagal nuclei
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="modulation by higher cortical regions" ID="ID_1104582075" CREATED="1457082109105" MODIFIED="1457082411325"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sudden fear or emotion
+
+        <ul>
+          <li>
+            vagal activation =&gt; fainting
+          </li>
+        </ul>
+      </li>
+      <li>
+        fear and anxiety
+
+        <ul>
+          <li>
+            sympathetic activation
+          </li>
+        </ul>
+      </li>
+      <li>
+        long-term emotional stress
+
+        <ul>
+          <li>
+            =&gt; chronic sympathetic activation =&gt; hypertension, hypertrophy and arrhythmias
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
