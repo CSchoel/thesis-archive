@@ -9672,6 +9672,430 @@
 </node>
 </node>
 </node>
+<node TEXT="baroreceptor feedback" ID="ID_116705258" CREATED="1457092087779" MODIFIED="1457092093826">
+<node TEXT="arterial baroreceptors" ID="ID_1838606522" CREATED="1457093763143" MODIFIED="1457097217687">
+<attribute_layout NAME_WIDTH="123" VALUE_WIDTH="123"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        tonically active
+      </li>
+      <li>
+        increase/decrease blood pressure towards set point
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="location" ID="ID_196830677" CREATED="1457093771854" MODIFIED="1457096572898">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/bp012%20baroreceptor%20anat.gif" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="stimulation" ID="ID_519484221" CREATED="1457094049892" MODIFIED="1457096627857"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        respond to streching of vessel walls
+
+        <ul>
+          <li>
+            increased pressure =&gt; increased firing rate
+          </li>
+        </ul>
+      </li>
+      <li>
+        each receptor has its own sensitivity range
+
+        <ul>
+          <li>
+            more sensitive receptors reach maximal firing rate at lower pressures
+          </li>
+          <li>
+            =&gt; at higher pressures additional receptors start firing
+          </li>
+        </ul>
+      </li>
+      <li>
+        normal overall sensitivity range (carotid sinus): 60 to 180 mmHg
+
+        <ul>
+          <li>
+            maximal sensitivity at &quot;set point&quot; of normal MAP (~95 mmHg)
+          </li>
+        </ul>
+      </li>
+      <li>
+        baroreceptors are sensitive to rate of change and to mean pressure
+
+        <ul>
+          <li>
+            reduced arterial pulse pressure reduces baroreceptor firing
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/BP012%20receptor%20firing.png" SIZE="0.5145798" NAME="ExternalObject"/>
+</node>
+<node TEXT="carotid sinus baroreceptors" ID="ID_18725671" CREATED="1457096247174" MODIFIED="1457097224979">
+<attribute_layout NAME_WIDTH="136" VALUE_WIDTH="136"/>
+<attribute NAME="sensitivity range" VALUE="60 - 180 mmHg"/>
+<attribute NAME="set point" VALUE="95 mmHg"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        location: carotid sinus
+      </li>
+      <li>
+        neural pathway
+
+        <ol>
+          <li>
+            sinus nerve
+          </li>
+          <li>
+            glosspharyngeal nerve
+          </li>
+          <li>
+            NTS
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="activation by carotid sinus massage" ID="ID_1850908917" CREATED="1457097524500" MODIFIED="1457097621848"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        rub neck over carotid sinus
+      </li>
+      <li>
+        can abort certain types of arrhythmias by activating vagus nerve
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="aortic baroreceptors" ID="ID_408198833" CREATED="1457096257398" MODIFIED="1457096500741"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        location: aortic arch
+      </li>
+      <li>
+        higher threshold pressure and less sensitvity than carotid baroreceptors
+
+        <ul>
+          <li>
+            =&gt; serve as secondary baroreceptors
+          </li>
+        </ul>
+      </li>
+      <li>
+        neural pathway
+
+        <ol>
+          <li>
+            aortic nerve
+          </li>
+          <li>
+            vagus nerve
+          </li>
+          <li>
+            cranial nerve X
+          </li>
+          <li>
+            NTS
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="reset" ID="ID_1089558399" CREATED="1457097254071" MODIFIED="1457097501097"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        shifts activation curve of baroreceptors to left or right
+
+        <ul>
+          <li>
+            in response to long-lasting pressure changes
+          </li>
+        </ul>
+      </li>
+      <li>
+        changes set point
+      </li>
+      <li>
+        can occur in baroreceptors themselves
+      </li>
+      <li>
+        or in brainstem
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Valsalva maneuver" ID="ID_1698920223" CREATED="1457097657300" MODIFIED="1457098434161"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        assess operation of baroreceptor reflex
+      </li>
+      <li>
+        conduct maximal forceful expiration against closed glottis
+      </li>
+      <li>
+        maintain for 10s
+      </li>
+      <li>
+        Phase I
+
+        <ul>
+          <li>
+            =&gt; increase in intrapleural pressure
+          </li>
+          <li>
+            =&gt; aortic compression
+          </li>
+          <li>
+            =&gt; rise in aortic pressure
+          </li>
+          <li>
+            =&gt; baroreceptor activation
+          </li>
+          <li>
+            =&gt; reduced heart rate
+          </li>
+        </ul>
+      </li>
+      <li>
+        Phase II
+
+        <ul>
+          <li>
+            vena cava is also compressed
+          </li>
+          <li>
+            =&gt; venous return reduced
+          </li>
+          <li>
+            =&gt; CO and aortic pressure fall
+          </li>
+          <li>
+            baroreceptor reflex increases heart rate
+          </li>
+          <li>
+            =&gt; reduced arterial pressure, increased heart rate
+          </li>
+        </ul>
+      </li>
+      <li>
+        Phase III
+
+        <ul>
+          <li>
+            start breathing again
+          </li>
+          <li>
+            =&gt; loss of compression in aorta
+          </li>
+          <li>
+            =&gt; small dip in aortic pressure
+          </li>
+          <li>
+            =&gt; further baroreceptor activation
+          </li>
+          <li>
+            =&gt; further increase in heart rate
+          </li>
+        </ul>
+      </li>
+      <li>
+        Phase IV
+
+        <ul>
+          <li>
+            compression of vena cava removed
+          </li>
+          <li>
+            =&gt; venous return increases
+          </li>
+          <li>
+            =&gt; rise in cardiac output
+          </li>
+          <li>
+            =&gt; rise in arterial pressure
+          </li>
+          <li>
+            =&gt; heart rate decreases again
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="cardiopulmonary receptors" ID="ID_1065426846" CREATED="1457098522869" MODIFIED="1457099051427"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        location: venoatrial junctions of heart
+      </li>
+      <li>
+        respond to atrial filling and contraction
+      </li>
+      <li>
+        tonically active
+      </li>
+      <li>
+        innervated by myelinated vagal afferents
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="heart-rate-regulating (Brainbridge)" ID="ID_630387195" CREATED="1457098971170" MODIFIED="1457099077299"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased stretch can increase heart rate (Brainbridge effect)
+      </li>
+      <li>
+        increases heart rate when initial heart rate is low
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="ADH-regulating" ID="ID_1171885368" CREATED="1457098979873" MODIFIED="1457099204222"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        stimulated by increase in blood volume and venous pressure
+      </li>
+      <li>
+        decrease antidiuretic hormone (ADH)
+
+        <ul>
+          <li>
+            =&gt; diuresis =&gt; fall in blood volume and venous pressure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="AV receptors" ID="ID_725635779" CREATED="1457099234248" MODIFIED="1457099579786"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        location: atria and ventricles
+      </li>
+      <li>
+        innervated by unmyelinated vagal afferents
+      </li>
+      <li>
+        firing rate enhanced with increased atrial and ventricular pressures
+      </li>
+      <li>
+        may oppose effect of arterial baroreceptors when AV pressure is increased but arterial pressure decreased
+
+        <ul>
+          <li>
+            e.g. heart failure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
