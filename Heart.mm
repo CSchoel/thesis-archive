@@ -1,8 +1,8 @@
 <map version="docear 1.1" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
-<hook NAME="AutomaticEdgeColor" COUNTER="12"/>
-<hook NAME="MapStyle" zoom="0.908">
+<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
+<hook NAME="MapStyle" zoom="1.209">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -8915,6 +8915,471 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+</node>
+<node TEXT="neurohumoral control" POSITION="right" ID="ID_1061200333" CREATED="1457012845265" MODIFIED="1457012858547" HGAP="64" VSHIFT="55">
+<edge COLOR="#ff0000"/>
+<node TEXT="types of sensors" ID="ID_1669408592" CREATED="1457013068144" MODIFIED="1457013072776">
+<node TEXT="baroreceptors (blood pressure)" ID="ID_1131210975" CREATED="1457013073807" MODIFIED="1457013082594"/>
+<node TEXT="volume receptors (blood volume)" ID="ID_1748283390" CREATED="1457013084183" MODIFIED="1457013098184"/>
+<node TEXT="chemoreceptors (blood chemistry)" ID="ID_1472417907" CREATED="1457013099383" MODIFIED="1457013108496"/>
+<node TEXT="osmoreceptors (plasma osmolarity)" ID="ID_272853966" CREATED="1457013118607" MODIFIED="1457013136113"/>
+</node>
+<node TEXT="autonomic neural control" ID="ID_233356719" CREATED="1457016112378" MODIFIED="1457016120307">
+<node TEXT="brain regions" ID="ID_344980848" CREATED="1457016455727" MODIFIED="1457017150645">
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Brain_bulbar_region.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="medulla oblongata" ID="ID_1635911688" CREATED="1457017168538" MODIFIED="1457017313770"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        contains parasympathetic (vagal) and sympathetic efferent nerves
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="nucleus tractus solitarius (NTS)" ID="ID_757328598" CREATED="1457017535992" MODIFIED="1457019895218"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        receives signal from
+
+        <ul>
+          <li>
+            baroreceptors
+          </li>
+          <li>
+            chemoreceptors
+          </li>
+          <li>
+            respiratory stretch receptors
+          </li>
+        </ul>
+      </li>
+      <li>
+        inhibits sympathetic activity
+      </li>
+      <li>
+        enhances vagal activity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="dorsal vagal nucleus (DVN)" ID="ID_1304780259" CREATED="1457020816881" MODIFIED="1457020864640">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="nucleus ambiguus (NA)" ID="ID_1105736188" CREATED="1457020846361" MODIFIED="1457020858641"/>
+<node TEXT="contain parasympathetic nerves innervating the heart" ID="ID_1066449052" CREATED="1457020864634" MODIFIED="1457020885746">
+<hook NAME="SummaryNode"/>
+</node>
+<node TEXT="rostral ventrolateral medulla (RVLM)" ID="ID_417982335" CREATED="1457021897289" MODIFIED="1457022030319"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        main area for sympathetic control of the heart
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="hypothalamus" ID="ID_114944039" CREATED="1457017179306" MODIFIED="1457017509561"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        modulates activity of the medulla
+
+        <ul>
+          <li>
+            during exercise
+          </li>
+          <li>
+            to regulate body temperature
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+      </li>
+      <li>
+        in particular:
+
+        <ul>
+          <li>
+            paraventricular nucleus
+          </li>
+          <li>
+            dorsal medial nucleus
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1635911688" STARTINCLINATION="230;0;" ENDINCLINATION="230;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="cerebral cortex" ID="ID_810864816" CREATED="1457017186290" MODIFIED="1457017507932"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        connected to hypothalamus
+      </li>
+      <li>
+        can alter cardiovascular function due to emotional stress
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_114944039" STARTINCLINATION="194;0;" ENDINCLINATION="194;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="parasympathetic innervation" ID="ID_1073172536" CREATED="1457019955839" MODIFIED="1457021138360"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        vagal nerves in DVN and NA
+
+        <ul>
+          <li>
+            reduce SA nodal firing (negative chronotropy)
+          </li>
+          <li>
+            slow AV nodal firing (negative dromotropy)
+          </li>
+        </ul>
+      </li>
+      <li>
+        tonically active (at rest) =&gt; vagal tone
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="input" ID="ID_713791104" CREATED="1457021143039" MODIFIED="1457021150863">
+<node TEXT="NTS" ID="ID_1159980101" CREATED="1457021212862" MODIFIED="1457021223375">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_757328598" STARTINCLINATION="742;0;" ENDINCLINATION="742;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="output" ID="ID_831924293" CREATED="1457021152214" MODIFIED="1457021445134"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        preganglionic fibers
+
+        <ul>
+          <li>
+            form left and right vagus nerve
+          </li>
+        </ul>
+      </li>
+      <li>
+        synapse within target tissue in small ganglia
+      </li>
+      <li>
+        postganglionic fibers innervate specific tissue sites
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="left vagus nerve" ID="ID_1662629999" CREATED="1457021453964" MODIFIED="1457021479154"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        primarily innervates AV node
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="right vagus nerve" ID="ID_202907368" CREATED="1457021460852" MODIFIED="1457021492459"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      primarily innervates SA node
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="vasodilator effects" ID="ID_390744977" CREATED="1457021553260" MODIFIED="1457080913083"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        no significant role in regulation of SVR
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="direct" ID="ID_1387771767" CREATED="1457021572603" MODIFIED="1457021669170"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        release of ACh to muscarinic receptors in endothelium
+      </li>
+      <li>
+        =&gt; generate NO =&gt; vessel becomes more compliant
+      </li>
+      <li>
+        e.g. genitalia erectile tissue
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="indirect" ID="ID_502573048" CREATED="1457021577139" MODIFIED="1457021738081"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        stimulates nonvascular tissue to produce vasodilator substances
+      </li>
+      <li>
+        e.g, gastrointernal circulation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="sympathetic innervation" ID="ID_1010662932" CREATED="1457021781834" MODIFIED="1457080869500"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sympathetic neurons in RVLM
+
+        <ul>
+          <li>
+            stimulate the heart (inotropy, chronotropy, dromotropy)
+          </li>
+          <li>
+            constrict the (venous) vasculature
+          </li>
+          <li>
+            have spontaneous AP activity
+
+            <ul>
+              <li>
+                =&gt; tonically active (less than vagal tone)
+              </li>
+              <li>
+                sympathetic tone is high in most organ circulations
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="input" ID="ID_1829268535" CREATED="1457080028096" MODIFIED="1457080030032">
+<node TEXT="NTS" ID="ID_1576454284" CREATED="1457080031055" MODIFIED="1457080069554" LINK="#ID_757328598"/>
+</node>
+<node TEXT="output" ID="ID_1898590797" CREATED="1457080103079" MODIFIED="1457080525056"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        spinal cord
+      </li>
+      <li>
+        synapse in intermediolateral cell column
+      </li>
+      <li>
+        preganglionic fibers (shorter than vagal fibers)
+      </li>
+      <li>
+        synapse in
+
+        <ul>
+          <li>
+            paravertebral ganglia on either side of spinal cord
+          </li>
+          <li>
+            or prevertebral ganglia in abdomen
+          </li>
+          <li>
+            or adrenal glands
+          </li>
+        </ul>
+      </li>
+      <li>
+        postganglionic fibers travel to target organs (longer than vagal fibers)
+
+        <ul>
+          <li>
+            innervate arteries and veins but not capillaries
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="varicosities" ID="ID_237612152" CREATED="1457080528428" MODIFIED="1457080620125"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        small enlargements along sympathetic nerve fibers
+      </li>
+      <li>
+        release site for neurotransmitters
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="vasoconstrictor effects" ID="ID_701624039" CREATED="1457080901161" MODIFIED="1457081039438"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        directly constrict both resistance and capacitance vessels
+
+        <ul>
+          <li>
+            increased SVR =&gt; increased arterial pressure
+          </li>
+          <li>
+            decreased&#160;venous capacitance =&gt; increased venous pressure
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="indirect vasodilator effects" ID="ID_1728980307" CREATED="1457081104520" MODIFIED="1457081173554"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        sympathetic activation leads to coronary vasodilation
+
+        <ul>
+          <li>
+            metabolic signals from increased cardiac activity override direct vasoconstrictor influence
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
