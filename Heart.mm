@@ -10096,6 +10096,417 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="chemoreceptors" ID="ID_791014404" CREATED="1457261154925" MODIFIED="1457261560758"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        regulate PO2 (partial pressure of O2), PCO2 and pH
+      </li>
+      <li>
+        affects cardiovascular function
+
+        <ul>
+          <li>
+            directly by influencing medullary cardiovascular centers
+          </li>
+          <li>
+            through altered pulmonary stretch receptor activity
+          </li>
+        </ul>
+      </li>
+      <li>
+        activation by
+
+        <ul>
+          <li>
+            impaired respiratory gas exchange
+          </li>
+          <li>
+            hypoxic environments
+          </li>
+          <li>
+            cerebral ischemia
+          </li>
+          <li>
+            circulatory shock
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="peripheral chemoreceptors" ID="ID_267473820" CREATED="1457261163970" MODIFIED="1457262707282">
+<attribute_layout NAME_WIDTH="99" VALUE_WIDTH="99"/>
+<attribute NAME="PO2 threshold" VALUE="80 mmHg"/>
+<attribute NAME="PCO2 threshold" VALUE="40 mmHg"/>
+<attribute NAME="pH threshold" VALUE="7.4" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.Double&amp;#x7c;7.4|date:date:dd.MM.yy HH:mm"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        location:
+
+        <ul>
+          <li>
+            carotid bodies in external carotid arteries
+
+            <ul>
+              <li>
+                =&gt; sinus nerve =&gt; glossopharyngeal nerve =&gt; NTS
+              </li>
+            </ul>
+          </li>
+          <li>
+            aortic bodies on aortic arch
+
+            <ul>
+              <li>
+                =&gt; vagus nerve =&gt; NTS
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        respond to
+
+        <ul>
+          <li>
+            fall in arterial PO2 (hypoxemia)
+          </li>
+          <li>
+            increase in arterial PCO2 (hypercapnia)
+          </li>
+          <li>
+            fall of pH (acidosis)
+          </li>
+          <li>
+            reduced carotid body perfusion (hypoxia)<br/>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="normal value for PO2: 95 mmHg" STYLE_REF="number" ID="ID_411085225" CREATED="1457262313633" MODIFIED="1457262355362">
+<attribute_layout NAME_WIDTH="35" VALUE_WIDTH="66"/>
+<attribute NAME="PO2" VALUE="95 mmHg"/>
+</node>
+<node TEXT="experiment" ID="ID_793558614" CREATED="1457262709935" MODIFIED="1457262760792"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        subject breathes gas with reduced oxygen concentration<br/>
+
+        <ul>
+          <li>
+            if breathing is allowed to change =&gt; tachycardia (indirect sympathetic activation)<br/>
+          </li>
+          <li>
+            if breathing is not allowed to change =&gt; bradycardia due to (direct) vagal activation<br/>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="central chemoreceptors" ID="ID_1425922161" CREATED="1457261325636" MODIFIED="1457262563259"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        location: medullary cardiovascular and respiratory regions
+      </li>
+      <li>
+        respond to
+
+        <ul>
+          <li>
+            hypercapnia
+
+            <ul>
+              <li>
+                not measured directly, but by H+ increase from bicarbonate buffer system
+              </li>
+            </ul>
+          </li>
+          <li>
+            acidosis
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="ischemic brain reflexes" ID="ID_168797473" CREATED="1457262825339" MODIFIED="1457266502970">
+<node TEXT="cerebral ischemia" ID="ID_866879628" CREATED="1457266482154" MODIFIED="1457266512734"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        intense reaction to reduced blood flow to the brain
+      </li>
+      <li>
+        &quot;last effort&quot; to maintain brain function
+      </li>
+      <li>
+        pressures can rise well above 200 mmHg
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Chushing reflex" ID="ID_1028630501" CREATED="1457266487478" MODIFIED="1457266583669"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        rise in intracranial pressure causes ischemia in brain stem
+      </li>
+      <li>
+        =&gt; strong sympathetic mediated response
+      </li>
+      <li>
+        along with parasympathetic-mediated bradycardia
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="pain reflexes" ID="ID_1882647523" CREATED="1457262843596" MODIFIED="1457266591797" MOVED="1457262845515">
+<node TEXT="myocardial ischemia" ID="ID_159308657" CREATED="1457266592989" MODIFIED="1457266643821"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        insufficient blood flow in coronary arteries
+      </li>
+      <li>
+        =&gt; chest pain
+      </li>
+      <li>
+        =&gt; sympathetic activation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pain-induced hypotension" ID="ID_488058105" CREATED="1457266647186" MODIFIED="1457266773038"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        deep pain (e.g. trauma) leads to hypotension
+      </li>
+      <li>
+        enhanced parasympathetic activity, diminished sympathetic activity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cold pressor response" ID="ID_576385454" CREATED="1457266775965" MODIFIED="1457266861988"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        hand or foot submerged in ice cold water
+      </li>
+      <li>
+        =&gt; sympathetic activation
+      </li>
+      <li>
+        used to evaluate autonomic function and vascular reactivity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Bezold-Jarisch reflex" ID="ID_1631655989" CREATED="1457262859880" MODIFIED="1457266995972" MOVED="1457262861133"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        stimulation of chemoreceptors within heartand coronary arteries
+      </li>
+      <li>
+        produces bradycardia and hypotension
+      </li>
+      <li>
+        stimuli
+
+        <ul>
+          <li>
+            dye or other chemicals injected into coronary arteries
+          </li>
+          <li>
+            ventricular ischemia
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pulmonary and muscle stretch receptors" ID="ID_1013616147" CREATED="1457262874022" MODIFIED="1457262890762" MOVED="1457262875383">
+<node TEXT="pulmonary stretch receptors" ID="ID_1416055238" CREATED="1457267063707" MODIFIED="1457267223825"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        located in airways and respiratory muscles
+      </li>
+      <li>
+        inhibit medullary sympathetic centers
+      </li>
+      <li>
+        contribute to RSA
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="muscle stretch receptors" ID="ID_1161503361" CREATED="1457267072776" MODIFIED="1457267124510"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        in limb muscles and tendons
+      </li>
+      <li>
+        enhance sympathetic activity during exercise
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="temperature reflex" ID="ID_1213504268" CREATED="1457262891912" MODIFIED="1457262901984" MOVED="1457262892656">
+<node TEXT="thermoreceptors in the skin" ID="ID_1060130992" CREATED="1457267312392" MODIFIED="1457267456287"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        react to environmental temperature
+      </li>
+      <li>
+        regulate cutaneous blood flow (blood flow through the skin)
+      </li>
+      <li>
+        cause sweating
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="thermoreceptors in hypothalamus" ID="ID_1949003532" CREATED="1457267318150" MODIFIED="1457267519880"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        changes sympathetic activity to skin circulation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
