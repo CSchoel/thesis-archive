@@ -10508,6 +10508,626 @@
 </node>
 </node>
 </node>
+<node TEXT="humoral control" ID="ID_1933834659" CREATED="1457267583592" MODIFIED="1457267587923">
+<node TEXT="circulating catecholamines" ID="ID_56115271" CREATED="1457342501614" MODIFIED="1457342508694">
+<node TEXT="release" ID="ID_1882357649" CREATED="1457342826054" MODIFIED="1457343137118">
+<node TEXT="adrenal medulla" ID="ID_1397623237" CREATED="1457343060466" MODIFIED="1457343114927"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        80% epinephrine, 20% norepinephrine
+      </li>
+      <li>
+        activated by high stress (pain, excitement, exercise, ...)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="sympathetic nerves at blood vessels" ID="ID_460720167" CREATED="1457343083482" MODIFIED="1457343103130"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        principally norepinephrine
+      </li>
+      <li>
+        most of norepinephrine is taken back up by nerves
+      </li>
+      <li>
+        but some can diffuse into the blood
+      </li>
+      <li>
+        significantly higher rates at at high levels of sympathetic activation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="epinephrine" ID="ID_987901908" CREATED="1457343159585" MODIFIED="1457343421695"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        binds to &#945;1-, &#945;2-, &#946;1-, and &#946;2-adrenoreceptors
+      </li>
+      <li>
+        affinitiy for &#946; &gt;&gt; affinitiy for &#945;
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="effect" ID="ID_441652541" CREATED="1457343423280" MODIFIED="1457343425440">
+<node TEXT="low concentrations" ID="ID_931844848" CREATED="1457343426351" MODIFIED="1457343735063"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        (&#946;1-adrenoreceptor mediated) chrono-, ino- and dromotropy
+      </li>
+      <li>
+        (&#946;2-adrenoreceptor mediated) vasodilation of small arteries and arterioles
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="high concentrations" ID="ID_564277550" CREATED="1457343736485" MODIFIED="1457344101601"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        epinephrine starts to bind to &#945;-adrenoreceptors
+      </li>
+      <li>
+        further cardiac stimulation
+      </li>
+      <li>
+        &#945;-adrenoreceptor mediated vasoconstriction (pressor response)
+
+        <ul>
+          <li>
+            attenuated by &#946;2-adrenoreceptor mediated vasodilation
+          </li>
+          <li>
+            =&gt; vasoconstriction exhibits saturation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="norepinephrine" ID="ID_1057436792" CREATED="1457344152699" MODIFIED="1457344471888"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        binds to &#945;1-, &#945;2-, &#946;1-, and &#946;2-adrenoreceptors
+      </li>
+      <li>
+        low affinity for &#945;2- and &#946;2-adrenoreceptors
+      </li>
+      <li>
+        high affinity for &#945;1- and &#946;1-adrenoreceptors
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="effect" ID="ID_384383847" CREATED="1457345001572" MODIFIED="1457345301894"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increases MAP (systemic vasoconstriction)
+      </li>
+      <li>
+        increases SV =&gt; increased pulse pressure
+      </li>
+      <li>
+        transient increase, then decrease of heart rate
+
+        <ul>
+          <li>
+            increase due to &#946;1-adrenoreceptor mediated chronotropy
+          </li>
+          <li>
+            decrease due to baroreceptor reflex (activated by pressure increase)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="renin-angiotensin-aldosterone system" ID="ID_751474194" CREATED="1457342509862" MODIFIED="1457342532478">
+<node TEXT="renin formation" ID="ID_852788775" CREATED="1457345867759" MODIFIED="1457346122229"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        other sites of renin formation found, but mainly in kidney
+      </li>
+      <li>
+        release of renin due to
+
+        <ul>
+          <li>
+            &#946;1-adrenoreceptor mediated stimulation of kidney
+          </li>
+          <li>
+            renal artery hypotension
+          </li>
+          <li>
+            decreased sodium delivery to distal tubules
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="juxtaglomerular apparatus" ID="ID_1458787690" CREATED="1457346123196" MODIFIED="1457346286941"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        e.g. in kidney
+      </li>
+      <li>
+        juxtaglomerular cells form and release renin
+      </li>
+      <li>
+        in afferent and efferent arterioles of renal glomeruli
+      </li>
+      <li>
+        adjacent to macula densa cells of distal tubule (sense sodium chloride)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="renin =&gt; angiotensin" ID="ID_473582563" CREATED="1457346301355" MODIFIED="1457346423082"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        renin acts upon angiotensinogen to form angiotensin I
+      </li>
+      <li>
+        angiosin-converting-enzyme (ACE) converts angiotensin I to angiotensin II
+
+        <ul>
+          <li>
+            primarily in the lungs
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="functions of angiotensin II" ID="ID_1750822627" CREATED="1457346425915" MODIFIED="1457346517044"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        mediated by angiotensin II receptors (AT_1)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="constriction of resistance vessels" ID="ID_24561207" CREATED="1457346519401" MODIFIED="1457346917686"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increased SVR and arterial pressure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="enhances sympathetic adrenergic activity" ID="ID_471721353" CREATED="1457346540136" MODIFIED="1457347026431"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        facilitates norepinephrine release from sympathetic nerve endings
+      </li>
+      <li>
+        inhibits norepinephrine reuptake by nerve endings
+      </li>
+      <li>
+        binds to AT1 receptors in RVLM
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="triggers release of aldosterone from adrenal cortex" ID="ID_190109931" CREATED="1457346573120" MODIFIED="1457347087247"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increased sodium and fluid retension by kidney
+      </li>
+      <li>
+        =&gt; increased blood volume
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="stimulates release of vasopressin from posterior pituitary" ID="ID_514586173" CREATED="1457346611272" MODIFIED="1457347117323"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; kidneys increase fluid retension and blood volume
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="stimulates thirst centers" ID="ID_1260614852" CREATED="1457346640408" MODIFIED="1457347133924"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        =&gt; increase in blood volume
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="stimulates cardiac and vascular hypertrophy" ID="ID_743679336" CREATED="1457346697123" MODIFIED="1457346707072"/>
+</node>
+</node>
+<node TEXT="atrial natriuretic peptide (ANP)" ID="ID_1704245636" CREATED="1457342533814" MODIFIED="1457348571459">
+<node TEXT="formation" ID="ID_104827428" CREATED="1457347725544" MODIFIED="1457347832362"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        synthesised, stored and released by atrial myocytes
+      </li>
+      <li>
+        stimuli
+
+        <ul>
+          <li>
+            atrial distension
+          </li>
+          <li>
+            angiotensin II stimulation
+          </li>
+          <li>
+            endothelin
+          </li>
+          <li>
+            sympathetic stimulation (&#946;-adrenoreceptors)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="functions" ID="ID_776472650" CREATED="1457348006134" MODIFIED="1457348547568"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        mostly counterregulatory system for renin-angiotensin-aldosterone system
+      </li>
+      <li>
+        reduces blood volume =&gt; fall in CVP, CO and arterial blood pressure
+
+        <ul>
+          <li>
+            decreases aldosterone release by adrenal cortex
+          </li>
+          <li>
+            increases glomerular filtration rate
+          </li>
+          <li>
+            produces natriuresis and diuresis (potassium sparing)
+          </li>
+          <li>
+            decreases renin release =&gt; decreased angiotensin II
+          </li>
+        </ul>
+      </li>
+      <li>
+        attenuates sympathetic vascular tone
+
+        <ul>
+          <li>
+            directly through ANS
+          </li>
+          <li>
+            by inhibiting norepinephrine release
+          </li>
+        </ul>
+      </li>
+      <li>
+        chronic elevation of ANP =&gt; systemic vasodilation
+
+        <ul>
+          <li>
+            may involve ANP receptor-mediated elevation in cGMP
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="brain-type natriuretic peptide (BNP)" ID="ID_1623243545" CREATED="1457348549587" MODIFIED="1457348638681"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        synthesised and released by ventricles
+      </li>
+      <li>
+        in response to pressure and volume overload
+      </li>
+      <li>
+        =&gt; sensitive biomarker for heart failure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="antidiuretic hormone (vasopressin)" ID="ID_235637930" CREATED="1457342547310" MODIFIED="1457348896118"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        names:
+
+        <ul>
+          <li>
+            antidiuretic hormone (ADH)
+          </li>
+          <li>
+            arginine vasopressin (AVP)
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="release" ID="ID_472523812" CREATED="1457348787153" MODIFIED="1457348828127"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        posterior pituitary
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="function" ID="ID_1292957581" CREATED="1457348914400" MODIFIED="1457348918280">
+<node TEXT="kidney" ID="ID_1150962164" CREATED="1457348919248" MODIFIED="1457349176328"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        binds to renal V2 receptors
+      </li>
+      <li>
+        increases water reabsorption
+      </li>
+      <li>
+        =&gt; increased blood volume and arterial pressure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="blood vessels" ID="ID_1689489269" CREATED="1457348921959" MODIFIED="1457349370135"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        binds to vascular V1 receptors
+      </li>
+      <li>
+        constricts arterial blood vessels
+      </li>
+      <li>
+        normal concentrations are below vasoactive range
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="other substances" ID="ID_1874954842" CREATED="1457342575469" MODIFIED="1457342652524"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        many other substances have direct or indirect effect on the heart
+      </li>
+      <li>
+        examples:
+
+        <ul>
+          <li>
+            thyroxin
+          </li>
+          <li>
+            estrogen
+          </li>
+          <li>
+            insulin
+          </li>
+          <li>
+            growth hormone
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
