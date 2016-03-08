@@ -1,4 +1,4 @@
-<map version="docear 1.1" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart">
+<map version="docear 1.1" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
 <hook NAME="AutomaticEdgeColor" COUNTER="2"/>
@@ -348,7 +348,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="maximal systolic aortic pressure: 120 mmHg" STYLE_REF="number" ID="ID_1748068349" CREATED="1456324625708" MODIFIED="1456324696171"/>
 <node TEXT="maximal systolic pulmonary pressure: 25 mmHg" STYLE_REF="number" ID="ID_1867800457" CREATED="1456324638412" MODIFIED="1456324696183"/>
@@ -1906,8 +1905,8 @@
 </html>
 </richcontent>
 <node TEXT="myofilament" ID="ID_993585403" CREATED="1456153206793" MODIFIED="1456228432602">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1927763304" STARTINCLINATION="404;-42;" ENDINCLINATION="144;-75;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
@@ -4700,7 +4699,7 @@
 </richcontent>
 <node TEXT="conduction velocity of myocytes (atrial and ventricular): 0.5 m/s" STYLE_REF="number" ID="ID_1493071851" CREATED="1453749801100" MODIFIED="1453751211875"/>
 </node>
-<node TEXT="atrioventricular node (AV node)" FOLDED="true" ID="ID_1379115310" CREATED="1453750385788" MODIFIED="1453750527648"><richcontent TYPE="DETAILS">
+<node TEXT="atrioventricular node (AV node)" ID="ID_1379115310" CREATED="1453750385788" MODIFIED="1453750527648"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4751,77 +4750,53 @@
     
   </head>
   <body>
-    <table border="0" style="width: 80%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0">
-      <tr>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            <b>increasing factors </b>
-          </p>
+    <table border="0" style="width: 100%">
+      <tr style="border-bottom: 1px solid black;">
+        <td valign="top">
+          <b>increasing factors </b>
         </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            <b>decreasing factors</b>
-          </p>
+        <td valign="top">
+          <b>decreasing factors</b>
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            sympathetic stimulation
-          </p>
+        <td valign="top">
+          sympathetic stimulation
         </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            parasympathetic stimulation
-          </p>
+        <td valign="top">
+          parasympathetic stimulation
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            M_2 antagonists
-          </p>
+        <td valign="top">
+          M_2 antagonists
         </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            M_2 agonists
-          </p>
+        <td valign="top">
+          M_2 agonists
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            beta-adrenoreceptor agonists
-          </p>
+        <td valign="top">
+          beta-adrenoreceptor agonists
         </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            beta-blocker
-          </p>
+        <td valign="top">
+          beta-blocker
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            circulating catecholamines
-          </p>
+        <td valign="top">
+          circulating catecholamines
         </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            ischemia/hypoxia
-          </p>
+        <td valign="top">
+          ischemia/hypoxia
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            hyperthyroidism
-          </p>
+        <td valign="top">
+          hyperthyroidism
         </td>
-        <td valign="top" style="width: 50%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            sodium and calcium channel blockers
-          </p>
+        <td valign="top">
+          sodium and calcium channel blockers
         </td>
       </tr>
     </table>
@@ -7475,7 +7450,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Blausen_0260_CoronaryVessels_Anterior.jpg" SIZE="0.27272728" NAME="ExternalObject"/>
 <node TEXT="arteries" ID="ID_1066703031" CREATED="1457360071689" MODIFIED="1457361438386"><richcontent TYPE="DETAILS">
@@ -7495,7 +7469,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="left main coronary artery" ID="ID_428625290" CREATED="1457360095145" MODIFIED="1457360861508"><richcontent TYPE="DETAILS">
 
@@ -7511,7 +7484,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="right main coronary artery" ID="ID_1945737412" CREATED="1457360101873" MODIFIED="1457360108218"/>
@@ -7536,7 +7508,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7872,7 +7843,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8373,7 +8343,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook EQUATION="SVR = \frac{MAP - CVP}{CO}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1733714193" STARTINCLINATION="1731;0;" ENDINCLINATION="1731;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -8414,7 +8383,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="vascular tone" ID="ID_904768414" CREATED="1456923191042" MODIFIED="1456923930265"><richcontent TYPE="DETAILS">
@@ -8452,7 +8420,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="extrinsic factors" ID="ID_1105029768" CREATED="1456923583471" MODIFIED="1456923660708"><richcontent TYPE="DETAILS">
 
@@ -8471,7 +8438,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="intrinsic factors" ID="ID_653470071" CREATED="1456923589759" MODIFIED="1456923855109"><richcontent TYPE="DETAILS">
@@ -8515,7 +8481,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8543,7 +8508,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="nonlinear dependence on volume and compliance" ID="ID_964713468" CREATED="1456924856207" MODIFIED="1456925374165"><richcontent TYPE="DETAILS">
 
@@ -8574,7 +8538,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="mechanical factors" ID="ID_829892190" CREATED="1456926758162" MODIFIED="1456926762066">
@@ -8610,7 +8573,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="orthostatic/postural hypotension" ID="ID_1521120323" CREATED="1456926970615" MODIFIED="1456927039579"><richcontent TYPE="DETAILS">
 
@@ -8629,7 +8591,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="baroreflex normally compensates this effect" ID="ID_106648943" CREATED="1456927066286" MODIFIED="1456927136182"><richcontent TYPE="DETAILS">
@@ -8649,7 +8610,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8688,7 +8648,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="respiratory activity" ID="ID_195598453" CREATED="1456928326174" MODIFIED="1456928330719">
@@ -8730,7 +8689,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -8754,7 +8712,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="net effect: increase in venous return and CO" ID="ID_106639383" CREATED="1457000501870" MODIFIED="1457000574901">
@@ -8776,7 +8733,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="intrapleural pressure" ID="ID_1030360498" CREATED="1456933832895" MODIFIED="1456933943385"><richcontent TYPE="DETAILS">
@@ -8796,7 +8752,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="transmural pressure" ID="ID_1053543276" CREATED="1456934324227" MODIFIED="1456934606945">
@@ -8828,7 +8783,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="effect of CO on MAP and right atrial pressure" ID="ID_1586180522" CREATED="1457002947873" MODIFIED="1457005725161"><richcontent TYPE="DETAILS">
 
@@ -8853,7 +8807,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mean circulatory filling pressure" ID="ID_271111254" CREATED="1457005741815" MODIFIED="1457005876397">
 <attribute_layout NAME_WIDTH="155" VALUE_WIDTH="155"/>
@@ -8872,7 +8825,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="increase of CO above 5 l/min" ID="ID_1940965757" CREATED="1457005961393" MODIFIED="1457006105097"><richcontent TYPE="DETAILS">
@@ -8895,7 +8847,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -8934,7 +8885,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF027%20sys%20funct%20curves.gif" SIZE="1.0" NAME="ExternalObject"/>
 <hook NAME="FirstGroupNode"/>
@@ -8965,7 +8915,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF027%20cardiac%20funct%20curves.png" SIZE="0.6749156" NAME="ExternalObject"/>
 </node>
@@ -8992,7 +8941,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9006,187 +8954,122 @@
     
   </head>
   <body>
-    <table border="0" style="width: 80%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0">
-      <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            increased
-          </p>
+    <table border="0" style="width: 100%">
+      <tr style="border-bottom: 1px solid black;">
+        <td valign="top">
+          increased
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            blood volume
-          </p>
+        <td valign="top">
+          blood volume
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            cardiac output
-          </p>
+        <td valign="top">
+          cardiac output
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            arterial pressure
-          </p>
+        <td valign="top">
+          arterial pressure
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            sympathetic activity
-          </p>
+        <td valign="top">
+          sympathetic activity
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            vagal activity
-          </p>
+        <td valign="top">
+          vagal activity
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            -
-          </p>
+        <td valign="top">
+          -
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            -
-          </p>
+        <td valign="top">
+          -
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            -
-          </p>
+        <td valign="top">
+          -
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            circulating epinephrine
-          </p>
+        <td valign="top">
+          circulating epinephrine
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +-
-          </p>
+        <td valign="top">
+          +-
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            angiotensin II
-          </p>
+        <td valign="top">
+          angiotensin II
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            aldosterone
-          </p>
+        <td valign="top">
+          aldosterone
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            ANP
-          </p>
+        <td valign="top">
+          ANP
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            -
-          </p>
+        <td valign="top">
+          -
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            -
-          </p>
+        <td valign="top">
+          -
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            -
-          </p>
+        <td valign="top">
+          -
         </td>
       </tr>
       <tr>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            AVP
-          </p>
+        <td valign="top">
+          AVP
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
-        <td valign="top" style="width: 25%; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 1; border-right-width: 1; border-bottom-width: 1; border-left-width: 1">
-          <p style="margin-top: 1; margin-right: 1; margin-bottom: 1; margin-left: 1">
-            +
-          </p>
+        <td valign="top">
+          +
         </td>
       </tr>
     </table>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="types of sensors" ID="ID_1669408592" CREATED="1457013068144" MODIFIED="1457013072776">
 <node TEXT="baroreceptors (blood pressure)" ID="ID_1131210975" CREATED="1457013073807" MODIFIED="1457013082594"/>
@@ -9211,7 +9094,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="nucleus tractus solitarius (NTS)" ID="ID_757328598" CREATED="1457017535992" MODIFIED="1457019895218"><richcontent TYPE="DETAILS">
 
@@ -9245,7 +9127,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="dorsal vagal nucleus (DVN)" ID="ID_1304780259" CREATED="1457020816881" MODIFIED="1457020864640">
@@ -9269,7 +9150,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9311,7 +9191,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1635911688" STARTINCLINATION="230;0;" ENDINCLINATION="230;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -9332,7 +9211,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_114944039" STARTINCLINATION="194;0;" ENDINCLINATION="194;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -9363,7 +9241,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="input" ID="ID_713791104" CREATED="1457021143039" MODIFIED="1457021150863">
 <node TEXT="NTS" ID="ID_1159980101" CREATED="1457021212862" MODIFIED="1457021223375">
@@ -9396,7 +9273,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="left vagus nerve" ID="ID_1662629999" CREATED="1457021453964" MODIFIED="1457021479154"><richcontent TYPE="DETAILS">
 
@@ -9412,7 +9288,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="right vagus nerve" ID="ID_202907368" CREATED="1457021460852" MODIFIED="1457021492459"><richcontent TYPE="DETAILS">
@@ -9427,7 +9302,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="vasodilator effects" ID="ID_390744977" CREATED="1457021553260" MODIFIED="1457080913083"><richcontent TYPE="DETAILS">
@@ -9444,7 +9318,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="direct" ID="ID_1387771767" CREATED="1457021572603" MODIFIED="1457021669170"><richcontent TYPE="DETAILS">
 
@@ -9466,7 +9339,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="coronary vessels" ID="ID_623796369" CREATED="1457365765898" MODIFIED="1457365859883"><richcontent TYPE="DETAILS">
 
@@ -9482,7 +9354,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9503,7 +9374,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9544,7 +9414,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="input" ID="ID_1829268535" CREATED="1457080028096" MODIFIED="1457080030032">
 <node TEXT="NTS" ID="ID_1576454284" CREATED="1457080031055" MODIFIED="1457080069554" LINK="#ID_757328598"/>
@@ -9593,7 +9462,6 @@
     </ol>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="varicosities" ID="ID_237612152" CREATED="1457080528428" MODIFIED="1457080620125"><richcontent TYPE="DETAILS">
 
@@ -9612,7 +9480,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="vasoconstrictor effects" ID="ID_701624039" CREATED="1457080901161" MODIFIED="1457081039438"><richcontent TYPE="DETAILS">
@@ -9638,7 +9505,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="indirect vasodilator effects" ID="ID_1728980307" CREATED="1457081104520" MODIFIED="1457365664532"><richcontent TYPE="DETAILS">
@@ -9664,7 +9530,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9686,7 +9551,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="modulation by hypothalamus" ID="ID_841581940" CREATED="1457082074041" MODIFIED="1457082222577"><richcontent TYPE="DETAILS">
 
@@ -9708,7 +9572,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="modulation by higher cortical regions" ID="ID_1104582075" CREATED="1457082109105" MODIFIED="1457082411325"><richcontent TYPE="DETAILS">
@@ -9749,7 +9612,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9868,7 +9730,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="blood vessels" ID="ID_1428062778" CREATED="1457088886593" MODIFIED="1457091869513"><richcontent TYPE="DETAILS">
@@ -9918,7 +9779,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="coronary arteries" ID="ID_535749121" CREATED="1457091042818" MODIFIED="1457091071313"><richcontent TYPE="DETAILS">
 
@@ -9934,7 +9794,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9955,7 +9814,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -9980,7 +9838,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="location" ID="ID_196830677" CREATED="1457093771854" MODIFIED="1457096572898">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/bp012%20baroreceptor%20anat.gif" SIZE="1.0" NAME="ExternalObject"/>
@@ -10035,7 +9892,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/BP012%20receptor%20firing.png" SIZE="0.5145798" NAME="ExternalObject"/>
 </node>
@@ -10072,7 +9928,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="activation by carotid sinus massage" ID="ID_1850908917" CREATED="1457097524500" MODIFIED="1457097621848"><richcontent TYPE="DETAILS">
 
@@ -10091,7 +9946,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10136,7 +9990,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="reset" ID="ID_1089558399" CREATED="1457097254071" MODIFIED="1457097501097"><richcontent TYPE="DETAILS">
@@ -10168,7 +10021,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Valsalva maneuver" ID="ID_1698920223" CREATED="1457097657300" MODIFIED="1457098434161"><richcontent TYPE="DETAILS">
@@ -10275,7 +10127,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10302,7 +10153,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="heart-rate-regulating (Brainbridge)" ID="ID_630387195" CREATED="1457098971170" MODIFIED="1457099077299"><richcontent TYPE="DETAILS">
 
@@ -10321,7 +10171,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ADH-regulating" ID="ID_1171885368" CREATED="1457098979873" MODIFIED="1457099204222"><richcontent TYPE="DETAILS">
@@ -10347,7 +10196,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10380,7 +10228,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10431,7 +10278,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="peripheral chemoreceptors" ID="ID_267473820" CREATED="1457261163970" MODIFIED="1457262707282">
 <attribute_layout NAME_WIDTH="99" VALUE_WIDTH="99"/>
@@ -10491,7 +10337,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="normal value for PO2: 95 mmHg" STYLE_REF="number" ID="ID_411085225" CREATED="1457262313633" MODIFIED="1457262355362">
 <attribute_layout NAME_WIDTH="35" VALUE_WIDTH="66"/>
@@ -10520,7 +10365,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10556,7 +10400,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10581,7 +10424,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Chushing reflex" ID="ID_1028630501" CREATED="1457266487478" MODIFIED="1457266583669"><richcontent TYPE="DETAILS">
@@ -10604,7 +10446,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10629,7 +10470,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pain-induced hypotension" ID="ID_488058105" CREATED="1457266647186" MODIFIED="1457266773038"><richcontent TYPE="DETAILS">
@@ -10649,7 +10489,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cold pressor response" ID="ID_576385454" CREATED="1457266775965" MODIFIED="1457266861988"><richcontent TYPE="DETAILS">
@@ -10672,7 +10511,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10705,7 +10543,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="pulmonary and muscle stretch receptors" ID="ID_1013616147" CREATED="1457262874022" MODIFIED="1457262890762" MOVED="1457262875383">
@@ -10729,7 +10566,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="muscle stretch receptors" ID="ID_1161503361" CREATED="1457267072776" MODIFIED="1457267124510"><richcontent TYPE="DETAILS">
@@ -10749,7 +10585,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10774,7 +10609,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="thermoreceptors in hypothalamus" ID="ID_1949003532" CREATED="1457267318150" MODIFIED="1457267519880"><richcontent TYPE="DETAILS">
@@ -10791,7 +10625,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10816,7 +10649,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="sympathetic nerves at blood vessels" ID="ID_460720167" CREATED="1457343083482" MODIFIED="1457343103130"><richcontent TYPE="DETAILS">
@@ -10842,7 +10674,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10863,7 +10694,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="effect" ID="ID_441652541" CREATED="1457343423280" MODIFIED="1457343425440">
 <node TEXT="low concentrations" ID="ID_931844848" CREATED="1457343426351" MODIFIED="1457343735063"><richcontent TYPE="DETAILS">
@@ -10883,7 +10713,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="high concentrations" ID="ID_564277550" CREATED="1457343736485" MODIFIED="1457344101601"><richcontent TYPE="DETAILS">
@@ -10915,7 +10744,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -10940,7 +10768,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="effect" ID="ID_384383847" CREATED="1457345001572" MODIFIED="1457345301894"><richcontent TYPE="DETAILS">
 
@@ -10971,7 +10798,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -11006,7 +10832,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="juxtaglomerular apparatus" ID="ID_1458787690" CREATED="1457346123196" MODIFIED="1457346286941"><richcontent TYPE="DETAILS">
 
@@ -11031,7 +10856,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -11058,7 +10882,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="functions of angiotensin II" ID="ID_1750822627" CREATED="1457346425915" MODIFIED="1457346517044"><richcontent TYPE="DETAILS">
@@ -11075,7 +10898,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="constriction of resistance vessels" ID="ID_24561207" CREATED="1457346519401" MODIFIED="1457346917686"><richcontent TYPE="DETAILS">
 
@@ -11091,7 +10913,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="enhances sympathetic adrenergic activity" ID="ID_471721353" CREATED="1457346540136" MODIFIED="1457347026431"><richcontent TYPE="DETAILS">
@@ -11114,7 +10935,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="triggers release of aldosterone from adrenal cortex" ID="ID_190109931" CREATED="1457346573120" MODIFIED="1457347087247"><richcontent TYPE="DETAILS">
@@ -11134,7 +10954,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="stimulates release of vasopressin from posterior pituitary" ID="ID_514586173" CREATED="1457346611272" MODIFIED="1457347117323"><richcontent TYPE="DETAILS">
@@ -11151,7 +10970,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="stimulates thirst centers" ID="ID_1260614852" CREATED="1457346640408" MODIFIED="1457347133924"><richcontent TYPE="DETAILS">
@@ -11168,7 +10986,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="stimulates cardiac and vascular hypertrophy" ID="ID_743679336" CREATED="1457346697123" MODIFIED="1457346707072"/>
@@ -11207,7 +11024,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="functions" ID="ID_776472650" CREATED="1457348006134" MODIFIED="1457348547568"><richcontent TYPE="DETAILS">
@@ -11263,7 +11079,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="brain-type natriuretic peptide (BNP)" ID="ID_1623243545" CREATED="1457348549587" MODIFIED="1457348638681"><richcontent TYPE="DETAILS">
@@ -11286,7 +11101,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -11313,7 +11127,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="release" ID="ID_472523812" CREATED="1457348787153" MODIFIED="1457348828127"><richcontent TYPE="DETAILS">
 
@@ -11352,7 +11165,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="blood vessels" ID="ID_1689489269" CREATED="1457348921959" MODIFIED="1457349370135"><richcontent TYPE="DETAILS">
@@ -11375,7 +11187,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -11412,7 +11223,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -11451,11 +11261,10 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="organ blood flow" POSITION="right" ID="ID_927948011" CREATED="1457357303509" MODIFIED="1457357550325">
+<node TEXT="organ blood flow" FOLDED="true" POSITION="right" ID="ID_927948011" CREATED="1457357303509" MODIFIED="1457357550325">
 <edge COLOR="#0000ff"/>
 <node TEXT="local regulation of blood flow" ID="ID_1020474871" CREATED="1457357553243" MODIFIED="1457438952842"><richcontent TYPE="DETAILS">
 
@@ -11644,7 +11453,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="tissue factors" ID="ID_592864659" CREATED="1457357619243" MODIFIED="1457440574137"><richcontent TYPE="DETAILS">
 
@@ -11678,7 +11486,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="paracrine hormones" ID="ID_1479839880" CREATED="1457439318039" MODIFIED="1457440656721" MOVED="1457439326456"><richcontent TYPE="DETAILS">
@@ -11701,7 +11508,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="endothelial factors" ID="ID_340809809" CREATED="1457357630074" MODIFIED="1457440688497"><richcontent TYPE="DETAILS">
@@ -11727,7 +11533,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="myogenic mechanisms" ID="ID_162399797" CREATED="1457358108968" MODIFIED="1457358152637"><richcontent TYPE="DETAILS">
@@ -11747,7 +11552,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="extravascular compression" ID="ID_1880117849" CREATED="1457358829282" MODIFIED="1457440767736"><richcontent TYPE="DETAILS">
@@ -11767,7 +11571,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="autoregulation" ID="ID_1186916837" CREATED="1457358837338" MODIFIED="1457440806978"><richcontent TYPE="DETAILS">
@@ -11802,7 +11605,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="hyperemia" ID="ID_603089473" CREATED="1457365374884" MODIFIED="1457365377581">
@@ -11820,7 +11622,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="active" ID="ID_1999507982" CREATED="1457365389355" MODIFIED="1457365459798"><richcontent TYPE="DETAILS">
@@ -11837,7 +11638,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
