@@ -1,7 +1,7 @@
 <map version="docear 1.1" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
-<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2"/>
 <hook NAME="MapStyle" zoom="1.209">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
@@ -1780,7 +1780,7 @@
 </node>
 </node>
 </node>
-<node TEXT="cellular structure" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1457011950839" HGAP="340" VSHIFT="-61" MOVED="1457011744726">
+<node TEXT="cellular structure" FOLDED="true" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1457011950839" HGAP="340" VSHIFT="-61" MOVED="1457011744726">
 <edge COLOR="#007c00"/>
 <node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
 <attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
@@ -3320,7 +3320,7 @@
 </node>
 </node>
 </node>
-<node TEXT="electrical activity" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1457011937839" HGAP="29" VSHIFT="-108">
+<node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1457011937839" HGAP="29" VSHIFT="-108">
 <edge COLOR="#ff0000"/>
 <node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
@@ -7461,6 +7461,85 @@
 <node TEXT="left atrium input pressure: 10 mmHg" STYLE_REF="number" ID="ID_1775291724" CREATED="1453901470799" MODIFIED="1453901521782"/>
 <node TEXT="max. systolic pressure in aorta: 100 - 140 mmHg" STYLE_REF="number" ID="ID_138053166" CREATED="1453901494929" MODIFIED="1453901521787"/>
 </node>
+<node TEXT="coronary circulation" ID="ID_1168035521" CREATED="1457359974154" MODIFIED="1457360879899"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        supplies the heart itself with oxygenated blood
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Blausen_0260_CoronaryVessels_Anterior.jpg" SIZE="0.27272728" NAME="ExternalObject"/>
+<node TEXT="arteries" ID="ID_1066703031" CREATED="1457360071689" MODIFIED="1457361438386"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        arise from coronary ostia
+      </li>
+      <li>
+        small openings in aorta just distal to aortic valve
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="left main coronary artery" ID="ID_428625290" CREATED="1457360095145" MODIFIED="1457360861508"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        branches after 1cm into left anterior descending and circumflex artery
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="right main coronary artery" ID="ID_1945737412" CREATED="1457360101873" MODIFIED="1457360108218"/>
+</node>
+<node TEXT="veins" ID="ID_1768896749" CREATED="1457360864787" MODIFIED="1457361321330"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        adjacent to coronary arteries
+      </li>
+      <li>
+        drain into coronary sinus on posterior side of the heart
+      </li>
+      <li>
+        then empty into right atrium
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="vascular system" FOLDED="true" POSITION="right" ID="ID_1552739746" CREATED="1456494773978" MODIFIED="1457011940590" HGAP="75" VSHIFT="77">
 <edge COLOR="#7c7c00"/>
@@ -8918,7 +8997,7 @@
 </node>
 </node>
 </node>
-<node TEXT="neurohumoral control" POSITION="right" ID="ID_1061200333" CREATED="1457012845265" MODIFIED="1457353542097" HGAP="64" VSHIFT="55">
+<node TEXT="neurohumoral control" FOLDED="true" POSITION="right" ID="ID_1061200333" CREATED="1457012845265" MODIFIED="1457357283088" HGAP="64" VSHIFT="55">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS">
 
@@ -9389,6 +9468,23 @@
 </html>
 
 </richcontent>
+<node TEXT="coronary vessels" ID="ID_623796369" CREATED="1457365765898" MODIFIED="1457365859883"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        vasodilator effect is overridden by metabolic&#160;vasoconstriction due to reduced oxygen demand
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="indirect" ID="ID_502573048" CREATED="1457021577139" MODIFIED="1457021738081"><richcontent TYPE="DETAILS">
 
@@ -9545,7 +9641,7 @@
 
 </richcontent>
 </node>
-<node TEXT="indirect vasodilator effects" ID="ID_1728980307" CREATED="1457081104520" MODIFIED="1457081173554"><richcontent TYPE="DETAILS">
+<node TEXT="indirect vasodilator effects" ID="ID_1728980307" CREATED="1457081104520" MODIFIED="1457365664532"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9554,9 +9650,12 @@
   <body>
     <ul>
       <li>
-        sympathetic activation leads to coronary vasodilation
+        functional sympatholysis
 
         <ul>
+          <li>
+            sympathetic activation leads to coronary vasodilation
+          </li>
           <li>
             metabolic signals from increased cardiac activity override direct vasoconstrictor influence
           </li>
@@ -11354,6 +11453,394 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+<node TEXT="organ blood flow" POSITION="right" ID="ID_927948011" CREATED="1457357303509" MODIFIED="1457357550325">
+<edge COLOR="#0000ff"/>
+<node TEXT="local regulation of blood flow" ID="ID_1020474871" CREATED="1457357553243" MODIFIED="1457438952842"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        organs/tissue can regulate own blood flow
+      </li>
+      <li>
+        =&gt; percentage of blood flowing through a organ can change considerably depending on several factors
+      </li>
+    </ul>
+    <table border="0" style="width: 100%">
+      <tr style="border-bottom-color: black; border-bottom-style: solid; border-bottom-width: 1px">
+        <td valign="top">
+          circulatory bed
+        </td>
+        <td valign="top">
+          sympathetic control
+        </td>
+        <td valign="top">
+          metabolic control
+        </td>
+        <td valign="top">
+          autoregulation
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            coronary
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            cerebral
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            skeletal muscle
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            ++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            ++
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            cutaneous
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            intestinal
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            ++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            ++
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            renal
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            ++
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +++
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+            pulmonary
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            +
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+            NA
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="tissue factors" ID="ID_592864659" CREATED="1457357619243" MODIFIED="1457440574137"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        adenosine (vasodilation)
+      </li>
+      <li>
+        hydrogen ions (vasodilation
+      </li>
+      <li>
+        potassium ions (vasodilation)
+      </li>
+      <li>
+        carbon dioxide (vasodilation)
+      </li>
+      <li>
+        inorganic phosphate
+      </li>
+      <li>
+        oxygen
+      </li>
+      <li>
+        osmolarity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="paracrine hormones" ID="ID_1479839880" CREATED="1457439318039" MODIFIED="1457440656721" MOVED="1457439326456"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        histamine (vasodilation)
+      </li>
+      <li>
+        bradykinin (vasodilation)
+      </li>
+      <li>
+        prostaglandin (PGE_2, vasodilation)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="endothelial factors" ID="ID_340809809" CREATED="1457357630074" MODIFIED="1457440688497"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        nitric oxide (vasodilation)
+      </li>
+      <li>
+        endothelial-derived hyperpolarizing factor (EDHF)
+      </li>
+      <li>
+        prostacyclin (PGI_2, vasodilation)
+      </li>
+      <li>
+        endothelin-I (vasoconstriction)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="myogenic mechanisms" ID="ID_162399797" CREATED="1457358108968" MODIFIED="1457358152637"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        smooth muscles depolarize when stretched
+      </li>
+      <li>
+        usually overridden by metabolic factors
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="extravascular compression" ID="ID_1880117849" CREATED="1457358829282" MODIFIED="1457440767736"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        mechanical compression of blood vessels
+      </li>
+      <li>
+        influences blood flow especially in coronary circulation and skeletal muscles
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="autoregulation" ID="ID_1186916837" CREATED="1457358837338" MODIFIED="1457440806978"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        organs are able to regulate their blood flow
+      </li>
+      <li>
+        if perfusion pressure falls, flow is restored by vasodilation
+      </li>
+      <li>
+        may involve metabolic and myogenic mechanisms
+      </li>
+      <li>
+        fails to work at very low perfusion pressures (&lt; 70 mmHg)
+
+        <ul>
+          <li>
+            vessels already maximally dilated
+          </li>
+        </ul>
+      </li>
+      <li>
+        most important for heart, brain and kidneys
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="hyperemia" ID="ID_603089473" CREATED="1457365374884" MODIFIED="1457365377581">
+<node TEXT="reactive" ID="ID_242096669" CREATED="1457365385692" MODIFIED="1457365422377"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        transient increase in organ blood flow following brief period of ischemia
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="active" ID="ID_1999507982" CREATED="1457365389355" MODIFIED="1457365459798"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increase in organ blood flow associated with increased metabolic activity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
