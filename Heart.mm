@@ -1,7 +1,7 @@
 <map version="docear 1.1" project="1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON" project_last_home="file:/D:/Dokumente/Promotion/Notizen/Heart" dcr_id="1453749169214_2hlok2xmmurfp24fpsyjr2afd">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
-<hook NAME="AutomaticEdgeColor" COUNTER="2"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
 <hook NAME="MapStyle" zoom="1.209">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
@@ -58,9 +58,9 @@
 </hook>
 <node TEXT="function" FOLDED="true" POSITION="left" ID="ID_1612755434" CREATED="1453900587101" MODIFIED="1457011953377" HGAP="138" VSHIFT="330" MOVED="1457011888567">
 <edge COLOR="#00ffff"/>
-<node TEXT="complex organisms need circulation to connect cells to &quot;outside world&quot; (exchange substances)" ID="ID_785213564" CREATED="1453897707582" MODIFIED="1453910253787"/>
-<node TEXT="hormone production" FOLDED="true" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
-<node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1453897707582"/>
+<node TEXT="complex organisms need circulation to connect cells to &quot;outside world&quot; (exchange substances)" ID="ID_785213564" CREATED="1453897707582" MODIFIED="1457443079743" LINK="#ID_150786984"/>
+<node TEXT="hormone production" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
+<node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1457443009097" LINK="#ID_1704245636"/>
 </node>
 <node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456824305357" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/HyperHeart1.swf"><richcontent TYPE="DETAILS">
 
@@ -4699,7 +4699,7 @@
 </richcontent>
 <node TEXT="conduction velocity of myocytes (atrial and ventricular): 0.5 m/s" STYLE_REF="number" ID="ID_1493071851" CREATED="1453749801100" MODIFIED="1453751211875"/>
 </node>
-<node TEXT="atrioventricular node (AV node)" ID="ID_1379115310" CREATED="1453750385788" MODIFIED="1453750527648"><richcontent TYPE="DETAILS">
+<node TEXT="atrioventricular node (AV node)" FOLDED="true" ID="ID_1379115310" CREATED="1453750385788" MODIFIED="1453750527648"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7066,8 +7066,8 @@
 </node>
 <node TEXT="adaptation to environmental conditions" POSITION="left" ID="ID_159938327" CREATED="1453901798076" MODIFIED="1457011955559" HGAP="343" VSHIFT="-60" MOVED="1453901828309">
 <edge COLOR="#7c0000"/>
-<node TEXT="mechanisms" FOLDED="true" ID="ID_1224912627" CREATED="1453901892492" MODIFIED="1453901894845">
-<node TEXT="baroreceptors" ID="ID_1221612288" CREATED="1453897707583" MODIFIED="1453902189435"><richcontent TYPE="DETAILS">
+<node TEXT="mechanisms" ID="ID_1224912627" CREATED="1453901892492" MODIFIED="1453901894845">
+<node TEXT="neurohumoral control" ID="ID_1434460239" CREATED="1457515061974" MODIFIED="1457515301713" LINK="#ID_1061200333"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7076,50 +7076,73 @@
   <body>
     <ul>
       <li>
-        blood pressure sensors in veins and arteries
-      </li>
-      <li>
-        send signals to the autonomic system (afferent neural connection)
-      </li>
-      <li>
-        =&gt; rapid changes of autonomic nerve activity
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="vascular smooth muscles" ID="ID_91778180" CREATED="1453897707582" MODIFIED="1453902246306"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        can constrict blood vessels due to several signals
+        autonomic nervous system
 
         <ul>
           <li>
-            autonomic nerves
+            baroreceptors
           </li>
           <li>
-            metabolic and biochemical signals
+            chemoreceptors
           </li>
           <li>
-            vasoactive substances
+            ...
+          </li>
+        </ul>
+      </li>
+      <li>
+        circulating hormones
+
+        <ul>
+          <li>
+            epinephrine, norepinephrine
+          </li>
+          <li>
+            angiotensin II
+          </li>
+          <li>
+            aldosterone
+          </li>
+          <li>
+            ANP
+          </li>
+          <li>
+            AVP
+          </li>
+          <li>
+            ...
           </li>
         </ul>
       </li>
     </ul>
   </body>
 </html>
+
+</richcontent>
+</node>
+<node TEXT="local regulation of blood flow" ID="ID_1730802406" CREATED="1457515067981" MODIFIED="1457515343111" LINK="#ID_1020474871"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        metabolic regulation
+      </li>
+      <li>
+        autoregulation
+      </li>
+    </ul>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
-<node TEXT="conditions" FOLDED="true" ID="ID_855363213" CREATED="1453901897350" MODIFIED="1453901907812">
-<node TEXT="exercise" ID="ID_15152504" CREATED="1453897707582" MODIFIED="1453902270141"><richcontent TYPE="DETAILS">
+<node TEXT="conditions" ID="ID_855363213" CREATED="1453901897350" MODIFIED="1453901907812">
+<node TEXT="exercise" ID="ID_15152504" CREATED="1453897707582" MODIFIED="1457515666147"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7129,70 +7152,951 @@
     <ul>
       <li>
         increased cardiac output
-      </li>
-      <li>
-        dilate blood vessels in muscles
-      </li>
-      <li>
-        constrict blood vessels in other parts of the body
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="standing up" ID="ID_467748133" CREATED="1453897707583" MODIFIED="1453902291073"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        counteract gravity by constricting blood vessels and increasing heart rate
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="blood pressure fall" ID="ID_912182938" CREATED="1453897707583" MODIFIED="1453902412821"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        stimulates the release of hormones
 
         <ul>
           <li>
-            <p>
-              secretion of epinephrine
-            </p>
+            increased heart rate through ANS
           </li>
           <li>
-            <p>
-              release of renine (=&gt; angiotensine II, aldosterone)
-            </p>
-          </li>
-          <li>
-            <p>
-              release of antidiuretic hormone (vasopressin)
-            </p>
+            increased stroke volume
+
+            <ul>
+              <li>
+                increased CVP
+              </li>
+              <li>
+                increased inotropy
+              </li>
+              <li>
+                increased lusitropy
+              </li>
+            </ul>
           </li>
         </ul>
       </li>
       <li>
-        hours or days needed to take effect on blood volume
+        increased MAP and pulse pressure
+
+        <ul>
+          <li>
+            increase in CO greater than decrease in SVR
+          </li>
+          <li>
+            SV increases pulse pressure
+          </li>
+        </ul>
+      </li>
+      <li>
+        increased CVP
+
+        <ul>
+          <li>
+            venous constriction through sympathetic nerves
+          </li>
+          <li>
+            muscle pump activity
+          </li>
+          <li>
+            abdominothoracic pump
+          </li>
+        </ul>
+      </li>
+      <li>
+        decreased SVR
+
+        <ul>
+          <li>
+            metabolic vasodilation in muscles and heart
+          </li>
+          <li>
+            cutaneous vasodilation
+          </li>
+          <li>
+            vasoconstriction in splanchinic, nonactive muscle and renal circulation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="hypotension (reduced blood pressure)" ID="ID_912182938" CREATED="1453897707583" MODIFIED="1457518591311"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        systolic arterial blood pressure &lt; 90 mmHg
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="causes" ID="ID_46634964" CREATED="1457518559901" MODIFIED="1457518562566">
+<node TEXT="reduced systemic vascular resistance" ID="ID_770467591" CREATED="1457518595509" MODIFIED="1457518661800"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        cirulatory shock
+
+        <ul>
+          <li>
+            sepsis
+          </li>
+          <li>
+            anaphylaxis
+          </li>
+          <li>
+            neurogenic
+          </li>
+        </ul>
+      </li>
+      <li>
+        autonomic dysfunction
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="reduced cardiac output" ID="ID_396458213" CREATED="1457518608932" MODIFIED="1457518613686">
+<node TEXT="reduced stroke volume" ID="ID_1530777564" CREATED="1457518664940" MODIFIED="1457518669789">
+<node TEXT="reduced preload" ID="ID_219160515" CREATED="1457518679876" MODIFIED="1457518788767"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        hypovolemia
+
+        <ul>
+          <li>
+            hemorrhage
+          </li>
+          <li>
+            dehydration
+          </li>
+        </ul>
+      </li>
+      <li>
+        volume redistribution
+
+        <ul>
+          <li>
+            postural change
+          </li>
+          <li>
+            impaired venous return
+          </li>
+        </ul>
+      </li>
+      <li>
+        arrhythmias
+
+        <ul>
+          <li>
+            atrial fibrillation
+          </li>
+          <li>
+            tachycardia
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="reduced inotropy" ID="ID_959431478" CREATED="1457518684132" MODIFIED="1457518833566"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        heart failure
+      </li>
+      <li>
+        cardiogenic shock
+      </li>
+      <li>
+        autonomic dysfunction
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="reduced heart rate" ID="ID_1377492713" CREATED="1457518670885" MODIFIED="1457518718262"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        arrhythmias
+
+        <ul>
+          <li>
+            sinus bradycardia
+          </li>
+          <li>
+            AV nodal block
+          </li>
+          <li>
+            ventricular fibrillation
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="compensation" ID="ID_999777239" CREATED="1457519187705" MODIFIED="1457519287655"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        baroreceptor reflex
+      </li>
+      <li>
+        release of hormones
+
+        <ul>
+          <li>
+            epinephrine
+          </li>
+          <li>
+            norepinephrine
+          </li>
+          <li>
+            angiotensin II
+          </li>
+          <li>
+            vasopressin
+          </li>
+          <li>
+            aldosterone
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="decompensatory mechanisms" ID="ID_903067448" CREATED="1457519873148" MODIFIED="1457520230775"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        positive feedback loops due to severe blood loss
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="sympathetic escape" ID="ID_1539833716" CREATED="1457520232817" MODIFIED="1457520631325" HGAP="48" VSHIFT="-51">
+<node TEXT="decreased artertial pressure" ID="ID_25065683" CREATED="1457520430432" MODIFIED="1457520439505">
+<node TEXT="decreased organ blood flow" ID="ID_698672740" CREATED="1457520473776" MODIFIED="1457520480857">
+<node TEXT="tissue hypoxia" ID="ID_431182714" CREATED="1457520440448" MODIFIED="1457520445937">
+<node TEXT="vasodilation (sympathetic escape)" ID="ID_42282152" CREATED="1457520447055" MODIFIED="1457520637411"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        if vasodilating tissue metabolites &gt; sympathetic activity
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_25065683" STARTINCLINATION="-89;-73;" ENDINCLINATION="76;-62;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="cardiac depression" ID="ID_1033903162" CREATED="1457520245226" MODIFIED="1457520612975">
+<node TEXT="decreased CO" ID="ID_574948506" CREATED="1457520291840" MODIFIED="1457520295162">
+<node TEXT="decreased arterial pressure" ID="ID_440687361" CREATED="1457520306089" MODIFIED="1457520313825">
+<node TEXT="decreased coronary perfusion" ID="ID_694756498" CREATED="1457520318897" MODIFIED="1457520418468"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        if MAP &lt; 60 mmHg
+      </li>
+      <li>
+        =&gt; below autoregulatory range of coronary system
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="decreased inotropy" ID="ID_285698279" CREATED="1457520326064" MODIFIED="1457520620764">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_574948506" STARTINCLINATION="-130;-114;" ENDINCLINATION="14;-37;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="acidosis" ID="ID_1761046774" CREATED="1457520600830" MODIFIED="1457520763928" HGAP="29" VSHIFT="33">
+<node TEXT="decreased arterial pressure" ID="ID_364425592" CREATED="1457520729045" MODIFIED="1457521170549" HGAP="240" VSHIFT="18">
+<node TEXT="tissue hypoxia" ID="ID_1193164895" CREATED="1457520651086" MODIFIED="1457521084574" HGAP="-84" VSHIFT="69">
+<node TEXT="metabolic acidosis" ID="ID_1108730318" CREATED="1457520657318" MODIFIED="1457521090854" HGAP="-133" VSHIFT="94"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        if ATP has to be generated anaerobically
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="reduced cardiac and vascular contraction" ID="ID_1356714111" CREATED="1457520669606" MODIFIED="1457521098446" HGAP="-587" VSHIFT="-28">
+<node TEXT="decreased CO and SVR" ID="ID_749179210" CREATED="1457520692413" MODIFIED="1457521120110" HGAP="-198" VSHIFT="-57">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_364425592" STARTINCLINATION="18;-13;" ENDINCLINATION="-89;-8;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="sympathetic failure" ID="ID_1252248164" CREATED="1457520917196" MODIFIED="1457521177981" HGAP="64" VSHIFT="37">
+<node TEXT="decreased arterial pressure" ID="ID_1679002016" CREATED="1457520926204" MODIFIED="1457521030225" HGAP="-70" VSHIFT="52">
+<node TEXT="cerebral ischemia" ID="ID_1945298043" CREATED="1457520964292" MODIFIED="1457521034887" HGAP="-139" VSHIFT="62">
+<node TEXT="decreased autonomic output" ID="ID_1866066341" CREATED="1457520968420" MODIFIED="1457521063422" HGAP="-329" VSHIFT="-19">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1679002016" STARTINCLINATION="-19;-35;" ENDINCLINATION="-107;-6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="blood viscosity" ID="ID_757951491" CREATED="1457521181242" MODIFIED="1457521378548" HGAP="42" VSHIFT="49">
+<node TEXT="hypotension" ID="ID_1943879934" CREATED="1457521208434" MODIFIED="1457521238834">
+<node TEXT="reduced organ perfusion" ID="ID_1539601979" CREATED="1457521239753" MODIFIED="1457521280967">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="intense vasoconstriction" ID="ID_769965519" CREATED="1457521259794" MODIFIED="1457521267890"/>
+<node TEXT="increased blood viscosity" ID="ID_1515829868" CREATED="1457521280964" MODIFIED="1457521373556">
+<hook NAME="SummaryNode"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1539601979" STARTINCLINATION="-70;-78;" ENDINCLINATION="36;-39;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="hypertension" ID="ID_1064287839" CREATED="1457521575088" MODIFIED="1457522142425" MOVED="1457521580550"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        prehypertension
+
+        <ul>
+          <li>
+            80 mmHg &lt; diastolic pressure &lt; 89 mmHg
+          </li>
+          <li>
+            120 mmHg &lt; systolic pressure &lt; 139 mmHg
+          </li>
+        </ul>
+      </li>
+      <li>
+        hypertension
+
+        <ul>
+          <li>
+            diastolic pressure &gt;= 90 mmHg
+          </li>
+          <li>
+            systolic pressure &gt;= 140 mmHg
+          </li>
+        </ul>
+      </li>
+      <li>
+        for sustained hypertension, increased blood volume is required
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="essential hypertension" ID="ID_1327424699" CREATED="1457521622199" MODIFIED="1457522271795"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        90-95% of patients diagnosed with hypertension
+      </li>
+      <li>
+        diagnosis by exclusion
+
+        <ul>
+          <li>
+            if no known cause explains hypertension
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="causes" ID="ID_1545929977" CREATED="1457521641287" MODIFIED="1457521729852"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        unknown
+      </li>
+      <li>
+        involves
+
+        <ul>
+          <li>
+            increased blood volume
+          </li>
+          <li>
+            increased SVR
+          </li>
+        </ul>
+      </li>
+      <li>
+        associated with
+
+        <ul>
+          <li>
+            heredity
+          </li>
+          <li>
+            abnormal stress response
+          </li>
+          <li>
+            diabetes and obesity
+          </li>
+          <li>
+            age, race, socioeconomic status
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="secondary hypertension" ID="ID_1813505019" CREATED="1457521629239" MODIFIED="1457522196935"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        5-10% of patients diagnosed with hypertension
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="causes" ID="ID_1099940714" CREATED="1457521647271" MODIFIED="1457521841748"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        renal artery stenosis
+      </li>
+      <li>
+        renal disease
+      </li>
+      <li>
+        hyperaldosteronism
+      </li>
+      <li>
+        pheochromocytoma
+
+        <ul>
+          <li>
+            catecholamine-secreting tumor
+          </li>
+        </ul>
+      </li>
+      <li>
+        aortic coarctation
+      </li>
+      <li>
+        pregnancy
+      </li>
+      <li>
+        hyper-/hypothyroidism
+      </li>
+      <li>
+        cushing syndrome
+      </li>
+      <li>
+        sleep apnea
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="pregnancy" ID="ID_827323583" CREATED="1457518372390" MODIFIED="1457518467642"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        uterus and fetus require large amount of blood flow
+      </li>
+      <li>
+        CO increased up to 50%
+      </li>
+      <li>
+        elevated heart rate by up to 20 bpm
+      </li>
+      <li>
+        blood volume increased up to 50%
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="heart failure" ID="ID_1074063210" CREATED="1457528646342" MODIFIED="1457528652448">
+<node TEXT="causes" ID="ID_340073570" CREATED="1457528807525" MODIFIED="1457528811590">
+<node TEXT="coronary artery disease" ID="ID_1910120838" CREATED="1457528812661" MODIFIED="1457529044661"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        most common cause
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="myocardial infarction" ID="ID_1617639370" CREATED="1457528846389" MODIFIED="1457528855334"/>
+<node TEXT="other" ID="ID_1620623134" CREATED="1457528962444" MODIFIED="1457529026790"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        valve disease
+      </li>
+      <li>
+        congenital defects
+      </li>
+      <li>
+        cardiomyopathy
+      </li>
+      <li>
+        myocarditis
+      </li>
+      <li>
+        chronic arrhythmias
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="types" ID="ID_1388781941" CREATED="1457529126931" MODIFIED="1457529131276">
+<node TEXT="systolic" ID="ID_1843306800" CREATED="1457529132914" MODIFIED="1457529161525"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        failure to contract
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="diastolic" ID="ID_33748269" CREATED="1457529139618" MODIFIED="1457529181813"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        impaired filling
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="valve disease" ID="ID_398302182" CREATED="1457531505354" MODIFIED="1457531604091"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        normal valve function means
+
+        <ul>
+          <li>
+            low pressure gradient across valve when open
+          </li>
+          <li>
+            unidirectional flow
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="valve stenosis" ID="ID_970506198" CREATED="1457531635825" MODIFIED="1457531939851"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        narrowing of valve orifice
+      </li>
+      <li>
+        valve cannot open fully
+      </li>
+      <li>
+        higher pressure gradient
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="aortic" ID="ID_1185026963" CREATED="1457532345621" MODIFIED="1457533445006"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        large pressure gradient between aortic and ventricular pressure during systole
+      </li>
+      <li>
+        systolic murmur
+      </li>
+      <li>
+        reduced SV
+      </li>
+      <li>
+        ventricular hypertrophy
+      </li>
+      <li>
+        increased ventricular filling pressure
+      </li>
+      <li>
+        increased atrial and pulmonary vascular pressures
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="mitral" ID="ID_493256589" CREATED="1457532348772" MODIFIED="1457533440909"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        impairs ventricular filling
+      </li>
+      <li>
+        reduces SV
+      </li>
+      <li>
+        diastolic murmur
+      </li>
+      <li>
+        increased left atrial and pulmonary vascular pressure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pulmonary" ID="ID_1282076262" CREATED="1457533374381" MODIFIED="1457533415719"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        analog to aortic
       </li>
     </ul>
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="tricuspid" ID="ID_442037032" CREATED="1457533379996" MODIFIED="1457533430577"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        analog to mitral
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="valve regurgitation (insufficiency)" ID="ID_804496895" CREATED="1457531642320" MODIFIED="1457532773712"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        valve cannot close fully
+      </li>
+      <li>
+        =&gt; regurgitation (backwards flow of blood)
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="aortic" ID="ID_1206094105" CREATED="1457532775048" MODIFIED="1457533448926"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        increased aortic pulse pressure
+      </li>
+      <li>
+        diastolic murmur
+      </li>
+      <li>
+        increased SV
+      </li>
+      <li>
+        reduced net aortic flow
+      </li>
+      <li>
+        ventricular dilation
+      </li>
+      <li>
+        no true isovolumetric phases
+      </li>
+      <li>
+        increased left ventricular filling pressure
+      </li>
+      <li>
+        increased left atrial and pulmonary vascular pressures
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="mitral" ID="ID_920945290" CREATED="1457532780609" MODIFIED="1457533453061"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        tall v wave
+      </li>
+      <li>
+        systolic murmur
+      </li>
+      <li>
+        increased SV
+      </li>
+      <li>
+        reduced net ventricular outflow
+      </li>
+      <li>
+        ventricular dilation
+      </li>
+      <li>
+        no true isovolumetric phases
+      </li>
+      <li>
+        increased ventricular filling pressure
+      </li>
+      <li>
+        increased atrial and pulmonary vasculature pressures
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pulmonary" ID="ID_827719019" CREATED="1457533374381" MODIFIED="1457533415719"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        analog to aortic
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="tricuspid" ID="ID_1719295890" CREATED="1457533379996" MODIFIED="1457533430577"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        analog to mitral
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -11639,6 +12543,487 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="microcirculation" FOLDED="true" POSITION="left" ID="ID_150786984" CREATED="1457443057390" MODIFIED="1457443063288">
+<edge COLOR="#00ff00"/>
+<node TEXT="mechanisms" ID="ID_1616870023" CREATED="1457443100037" MODIFIED="1457443102647">
+<node TEXT="diffusion" ID="ID_194784635" CREATED="1457443103645" MODIFIED="1457443292939"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        movement of molecule from high concentration to low concentration
+      </li>
+      <li>
+        important for gases and other lipid-soluble substances
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Fick&apos;s first law of diffusion" ID="ID_869217210" CREATED="1457443295204" MODIFIED="1457443386327">
+<hook EQUATION="J_s = DA \frac{\Delta C}{\Delta X}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="diffusion constant" ID="ID_1764429307" CREATED="1457443388419" MODIFIED="1457443408968">
+<hook EQUATION="D" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="sufrace area" ID="ID_982894725" CREATED="1457443410802" MODIFIED="1457443424408">
+<hook EQUATION="A" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="concentration gradient" ID="ID_731160238" CREATED="1457443426403" MODIFIED="1457443461666">
+<hook EQUATION="\frac{\Delta C}{\Delta X}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="concentration difference across barrier" ID="ID_120430037" CREATED="1457443462850" MODIFIED="1457443502421">
+<hook EQUATION="\Delta C" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="diffusion distance" ID="ID_1382510600" CREATED="1457443473458" MODIFIED="1457443511919">
+<hook EQUATION="\Delta X" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="Flux" ID="ID_1927301524" CREATED="1457443613569" MODIFIED="1457443654171">
+<hook EQUATION="J_s \; \left[\frac{moles}{s}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="alternate form of Fick&apos;s first law" ID="ID_1142569380" CREATED="1457443799313" MODIFIED="1457443850594">
+<hook EQUATION="J_s = P\cdot S \cdot \Delta C" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="permeability coefficient" ID="ID_1565577805" CREATED="1457443853136" MODIFIED="1457443923781">
+<hook EQUATION="P = \frac{D}{\Delta X}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="surface area available for exchange" ID="ID_591649812" CREATED="1457443893791" MODIFIED="1457443918297">
+<hook EQUATION="S" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="PS product" ID="ID_1814669740" CREATED="1457443923771" MODIFIED="1457443957245">
+<hook NAME="SummaryNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        has been calculated for different substances in many organs and tissues
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="bulk flow" ID="ID_1260577450" CREATED="1457443108525" MODIFIED="1457444427788"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        important for small hydrophile (lipid-insoluble) substances
+      </li>
+      <li>
+        occurs through intercellular clefts between endothelial cells
+      </li>
+      <li>
+        follows Poiseuille's equation
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="continuous capillaries" ID="ID_1685817592" CREATED="1457444220190" MODIFIED="1457444383222"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        thightly packed, little bulk flow
+      </li>
+      <li>
+        skeletal muscle, skin, lung, brain
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fenestrated capillaries" ID="ID_478201816" CREATED="1457444231580" MODIFIED="1457444361009"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        have perforations (fenestrae), medium bulk flow
+      </li>
+      <li>
+        exocrine glands, renal glumeroli, intestinal mucosa
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="discontinuous capillaries" ID="ID_1969370071" CREATED="1457444238501" MODIFIED="1457444322825"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        large intercellular gaps, large bulk flow
+      </li>
+      <li>
+        liver, spleen, bone marrow
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Poiseuille&apos;s equation" ID="ID_1978200713" CREATED="1457444429140" MODIFIED="1457444498138" LINK="#ID_1091991907"/>
+</node>
+<node TEXT="vesicles" ID="ID_599805952" CREATED="1457443114805" MODIFIED="1457444639312"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        important for translocation of macromolecules
+      </li>
+      <li>
+        play relatively minor role
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="active transport" ID="ID_1956123495" CREATED="1457443119709" MODIFIED="1457444716540"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        ions, glucose, amino acids
+      </li>
+      <li>
+        mechanism for exchange between cell interior and exterior
+      </li>
+      <li>
+        not so much mechanism for exchange betwen plasmar and interstitium
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="O2" ID="ID_235414421" CREATED="1457445935521" MODIFIED="1457446141494"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        can only diffuse if not bound to hemoglobin
+      </li>
+      <li>
+        if partial pressure of oxygen (PO2) falls, more O2 dissociates from hemoglobin
+
+        <ul>
+          <li>
+            hemoglobin-oxygen dissociattion curve
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="delivery" ID="ID_4043222" CREATED="1457446142920" MODIFIED="1457446424581">
+<hook EQUATION="DO_2 = F \cdot CaO_2" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="oxygen delivery" ID="ID_1915265918" CREATED="1457446428118" MODIFIED="1457446675179">
+<hook EQUATION="DO_2 \; \left[\frac{\text{ml } O_2}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="arterial blood flow" ID="ID_1823276749" CREATED="1457446435221" MODIFIED="1457446496232">
+<hook EQUATION="F \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="oxygen content of arterial blood" ID="ID_403914559" CREATED="1457446449701" MODIFIED="1457446742295">
+<hook EQUATION="CaO_2 \; \left[\frac{\text{ml } O_2}{\text{100 ml blood}}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="extraction" ID="ID_839525291" CREATED="1457446151447" MODIFIED="1457446858130">
+<hook EQUATION="CaO_2 - CvO_2 = \frac{\dot{V}O_2}{F}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="oxygen content of arterial blood" ID="ID_1660951654" CREATED="1457446449701" MODIFIED="1457446742295">
+<hook EQUATION="CaO_2 \; \left[\frac{\text{ml } O_2}{\text{100 ml blood}}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="oxygen content of venous blood" ID="ID_1321419040" CREATED="1457446449701" MODIFIED="1457446903252">
+<hook EQUATION="CvO_2 \; \left[\frac{\text{ml } O_2}{\text{100 ml blood}}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="oxygen consumption" ID="ID_102073623" CREATED="1457446917498" MODIFIED="1457447008693">
+<hook EQUATION="\dot{V}O_2" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="arterial blood flow" ID="ID_1095883974" CREATED="1457446435221" MODIFIED="1457446496232">
+<hook EQUATION="F \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
+<node TEXT="CO2" ID="ID_1092217275" CREATED="1457447024281" MODIFIED="1457447240732"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        removal not diffusion-limited
+      </li>
+      <li>
+        depends primarily on blood flow
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fluid" ID="ID_1394913752" CREATED="1457447281312" MODIFIED="1457447283377">
+<node TEXT="mechanisms" ID="ID_1715095503" CREATED="1457447821924" MODIFIED="1457447824053">
+<node TEXT="filtration" ID="ID_75962993" CREATED="1457447737765" MODIFIED="1457448520779"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        fluid leaves blood vessels and enters tissue interstitium
+      </li>
+      <li>
+        ~ 1% of plasma is filtered
+      </li>
+      <li>
+        fluid is exchanged with&#160;fluid of extracellular compartment
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="reabsorption" ID="ID_1560724182" CREATED="1457447743084" MODIFIED="1457448120544"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        filtered fluid is returned to the blood vessels at venular end of capillaries
+      </li>
+      <li>
+        rate is less than filtration
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="lymph flow" ID="ID_1702377652" CREATED="1457447814627" MODIFIED="1457448503499"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        excess filtered fluid enters lymphatic vessel through terminal lymphatics
+      </li>
+      <li>
+        transported away from tissue by larger lymphatic vessels
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="lymphatic vessels" ID="ID_971645811" CREATED="1457448328080" MODIFIED="1457448372219"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        size ~ venule size
+      </li>
+      <li>
+        endothelium has intercellular gaps
+      </li>
+      <li>
+        have smooth muscles that are able to contract
+      </li>
+      <li>
+        highly permeable basement membrane
+      </li>
+      <li>
+        have valves that ensure flow direction
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="terminal lymphatics" ID="ID_1973179423" CREATED="1457448373431" MODIFIED="1457448452946"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        blind sacs in tissue
+      </li>
+      <li>
+        take up excess filtered fluid
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="normal: reabsorption + lymph flow = filtration" ID="ID_1528016380" CREATED="1457448520771" MODIFIED="1457448583944">
+<hook NAME="SummaryNode"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        otherwise tissue will swell causing edema
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="fluid flux" ID="ID_1027058329" CREATED="1457448807397" MODIFIED="1457448829503">
+<hook EQUATION="J = Lp \cdot NDF" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="fluid flux" ID="ID_663117884" CREATED="1457448832213" MODIFIED="1457448952215">
+<hook EQUATION="J \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="capillary hydraulic conductivity" ID="ID_664131291" CREATED="1457448839364" MODIFIED="1457449074703">
+<hook EQUATION="Lp = K_F \cdot A" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="filtration constant" ID="ID_384122101" CREATED="1457449076523" MODIFIED="1457449196105">
+<hook EQUATION="K_F" NAME="plugins/latex/LatexNodeHook.properties"/>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="surface area" ID="ID_971552483" CREATED="1457449086299" MODIFIED="1457449108021">
+<hook EQUATION="A" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="also called capillary filtration coefficient (CFC)" ID="ID_1963292888" CREATED="1457449196101" MODIFIED="1457449217460">
+<hook NAME="SummaryNode"/>
+</node>
+</node>
+<node TEXT="net driving force" ID="ID_665565905" CREATED="1457448842748" MODIFIED="1457449372392">
+<hook EQUATION="NDF = (P_c - P_i) - \sigma (\pi_c - \pi_i)" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        combination of hydrostatic and oncotic pressures
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="capillary hydrostatic pressure" ID="ID_1417318299" CREATED="1457449376225" MODIFIED="1457449455783">
+<hook EQUATION="P_c" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="more influenced by venous pressure than by arterial pressure" ID="ID_323214843" CREATED="1457450802967" MODIFIED="1457450815505"/>
+</node>
+<node TEXT="capillary oncotic pressure" ID="ID_98229701" CREATED="1457449393425" MODIFIED="1457449469835">
+<hook EQUATION="\pi_c" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="tissue interstitium hydrostatic pressure" ID="ID_1238243652" CREATED="1457449402944" MODIFIED="1457449477378">
+<hook EQUATION="P_i" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="tissue interstitium oncotic pressure" ID="ID_1786424925" CREATED="1457449431296" MODIFIED="1457449488546">
+<hook EQUATION="\pi_i" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="reflection coefficient" ID="ID_1379401786" CREATED="1457449497552" MODIFIED="1457449541594">
+<hook EQUATION="\sigma" NAME="plugins/latex/LatexNodeHook.properties"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        represents permeability of capillary to proteins responsible for oncotic pressure
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
