@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
 <hook NAME="AutomaticEdgeColor" COUNTER="3"/>
-<hook NAME="MapStyle" zoom="0.69">
+<hook NAME="MapStyle" zoom="1.111">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -12545,6 +12545,226 @@
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="distribution" ID="ID_897834472" CREATED="1457534647939" MODIFIED="1457534986298"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table border="0" style="width: 100%">
+      <tr style="border-bottom-color: black; border-bottom-style: solid; border-bottom-width: 1px">
+        <td valign="top" style="width: 20%">
+          organ
+        </td>
+        <td valign="top" style="width: 20%">
+          percent body weight
+        </td>
+        <td valign="top" style="width: 20%">
+          percent CO at rest
+        </td>
+        <td valign="top" style="width: 20%">
+          normal flow (ml/min/100g)
+        </td>
+        <td valign="top" style="width: 20%">
+          maximal flow (ml/min/100g)
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            heart
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            0.5
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            5
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            80
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            400
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            brain
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            2
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            14
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            55
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            150
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            skeletal muscle
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            40
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            18
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            3
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            60
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            skin
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            3
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            4
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            10
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            150
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            stomach, intestine, liver, spleen, pancreas
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            6
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            23
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            30
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            250
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            kidneys
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            0.5
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            20
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            400
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            600
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="width: 20%">
+          <p>
+            other
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            48
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            16
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            -
+          </p>
+        </td>
+        <td valign="top" style="width: 20%">
+          <p>
+            -
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="microcirculation" FOLDED="true" POSITION="left" ID="ID_150786984" CREATED="1457443057390" MODIFIED="1457443063288">
