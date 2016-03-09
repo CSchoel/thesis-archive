@@ -2,7 +2,7 @@
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="The Heart" FOLDED="false" ID="ID_990011075" CREATED="1453749169047" MODIFIED="1457010161981">
 <hook NAME="AutomaticEdgeColor" COUNTER="3"/>
-<hook NAME="MapStyle" zoom="1.209">
+<hook NAME="MapStyle" zoom="0.69">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -59,10 +59,10 @@
 <node TEXT="function" FOLDED="true" POSITION="left" ID="ID_1612755434" CREATED="1453900587101" MODIFIED="1457011953377" HGAP="138" VSHIFT="330" MOVED="1457011888567">
 <edge COLOR="#00ffff"/>
 <node TEXT="complex organisms need circulation to connect cells to &quot;outside world&quot; (exchange substances)" ID="ID_785213564" CREATED="1453897707582" MODIFIED="1457443079743" LINK="#ID_150786984"/>
-<node TEXT="hormone production" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
+<node TEXT="hormone production" FOLDED="true" ID="ID_1079747132" CREATED="1453897707582" MODIFIED="1453900852484">
 <node TEXT="atrial natriuretic peptide regulates water loss by kidneys" ID="ID_1707440984" CREATED="1453897707582" MODIFIED="1457443009097" LINK="#ID_1704245636"/>
 </node>
-<node TEXT="cardiac cycle" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456824305357" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/HyperHeart1.swf"><richcontent TYPE="DETAILS">
+<node TEXT="cardiac cycle" FOLDED="true" ID="ID_11429298" CREATED="1456320691336" MODIFIED="1456824305357" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/HyperHeart1.swf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -95,7 +95,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="phases" ID="ID_1345408208" CREATED="1456320770135" MODIFIED="1456320876295"><richcontent TYPE="DETAILS">
+<node TEXT="phases" FOLDED="true" ID="ID_1345408208" CREATED="1456320770135" MODIFIED="1456320876295"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -128,7 +128,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Phase 1: atrial systole" ID="ID_1884838028" CREATED="1456320878431" MODIFIED="1456324552148">
+<node TEXT="Phase 1: atrial systole" FOLDED="true" ID="ID_1884838028" CREATED="1456320878431" MODIFIED="1456324552148">
 <attribute_layout NAME_WIDTH="119" VALUE_WIDTH="119"/>
 <attribute NAME="EDV" VALUE="120 ml"/>
 <attribute NAME="EDP (left ventricle)" VALUE="8 mmHg"/>
@@ -241,7 +241,7 @@
 <node TEXT="end-diastolic pressure in left ventricle: 8 mmHg" STYLE_REF="number" ID="ID_1913666446" CREATED="1456324453141" MODIFIED="1456324503629"/>
 <node TEXT="end-diastolic pressure in right ventricle: 4 mmHg" STYLE_REF="number" ID="ID_978267491" CREATED="1456324483173" MODIFIED="1456324503637"/>
 </node>
-<node TEXT="Phase 2: isovolumetric contraction" ID="ID_1398008675" CREATED="1456320895342" MODIFIED="1456323917427"><richcontent TYPE="DETAILS">
+<node TEXT="Phase 2: isovolumetric contraction" FOLDED="true" ID="ID_1398008675" CREATED="1456320895342" MODIFIED="1456323917427"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -306,7 +306,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Phase 3: rapid ejection" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456742153233">
+<node TEXT="Phase 3: rapid ejection" FOLDED="true" ID="ID_187061338" CREATED="1456320903366" MODIFIED="1456742153233">
 <attribute_layout NAME_WIDTH="172" VALUE_WIDTH="172"/>
 <attribute NAME="maximal aortic pressure" VALUE="120 mmHg"/>
 <attribute NAME="maximal pulmonary pressure" VALUE="25 mmHg"/>
@@ -383,7 +383,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Phase 5: isovolumetric relaxation" ID="ID_1146825252" CREATED="1456320920518" MODIFIED="1456325816517"><richcontent TYPE="DETAILS">
+<node TEXT="Phase 5: isovolumetric relaxation" FOLDED="true" ID="ID_1146825252" CREATED="1456320920518" MODIFIED="1456325816517"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -462,7 +462,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ejection fraction (EF)" ID="ID_1809823979" CREATED="1456325896211" MODIFIED="1456326332226">
+<node TEXT="ejection fraction (EF)" FOLDED="true" ID="ID_1809823979" CREATED="1456325896211" MODIFIED="1456326332226">
 <attribute NAME="EF" VALUE="55%"/>
 <hook EQUATION="\frac{SV}{EDV}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
@@ -482,7 +482,7 @@
 </richcontent>
 <node TEXT="normal ejection fraction: &gt; 55%" STYLE_REF="number" ID="ID_1114818643" CREATED="1456326206784" MODIFIED="1456326304838"/>
 </node>
-<node TEXT="stroke volume (SV)" ID="ID_931664411" CREATED="1456326089171" MODIFIED="1456326337557">
+<node TEXT="stroke volume (SV)" FOLDED="true" ID="ID_931664411" CREATED="1456326089171" MODIFIED="1456326337557">
 <attribute_layout NAME_WIDTH="73" VALUE_WIDTH="73"/>
 <attribute NAME="SV" VALUE="70 ml"/>
 <richcontent TYPE="DETAILS">
@@ -504,7 +504,7 @@
 <node TEXT="normal stroke volume: 70 ml" STYLE_REF="number" ID="ID_479298696" CREATED="1456326227481" MODIFIED="1456326304826"/>
 </node>
 </node>
-<node TEXT="Phase 6: rapid filling" ID="ID_1226825666" CREATED="1456320932862" MODIFIED="1456326989984"><richcontent TYPE="DETAILS">
+<node TEXT="Phase 6: rapid filling" FOLDED="true" ID="ID_1226825666" CREATED="1456320932862" MODIFIED="1456326989984"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -540,7 +540,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="3rd heart sound" ID="ID_388578123" CREATED="1456327002707" MODIFIED="1456327092723"><richcontent TYPE="DETAILS">
+<node TEXT="3rd heart sound" FOLDED="true" ID="ID_388578123" CREATED="1456327002707" MODIFIED="1456327092723"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -627,7 +627,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="pressure-volume loop" ID="ID_1425546802" CREATED="1456328621863" MODIFIED="1456329144220"><richcontent TYPE="DETAILS">
+<node TEXT="pressure-volume loop" FOLDED="true" ID="ID_1425546802" CREATED="1456328621863" MODIFIED="1456329144220"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -707,7 +707,7 @@
 </node>
 </node>
 </node>
-<node TEXT="cardiac output" ID="ID_492494540" CREATED="1456401210195" MODIFIED="1456404978328">
+<node TEXT="cardiac output" FOLDED="true" ID="ID_492494540" CREATED="1456401210195" MODIFIED="1456404978328">
 <attribute_layout NAME_WIDTH="88" VALUE_WIDTH="88"/>
 <attribute NAME="cardiac output" VALUE="5 - 6 l/min"/>
 <hook EQUATION="CO = SV \cdot HR" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -750,7 +750,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="cardiac index" ID="ID_1363099281" CREATED="1456402482625" MODIFIED="1456403063659">
+<node TEXT="cardiac index" FOLDED="true" ID="ID_1363099281" CREATED="1456402482625" MODIFIED="1456403063659">
 <attribute_layout NAME_WIDTH="83" VALUE_WIDTH="103"/>
 <attribute NAME="cardiac index" VALUE="2.6 - 4.2 l/min/m&#xb2;"/>
 <richcontent TYPE="DETAILS">
@@ -777,7 +777,7 @@
 <node TEXT="cardiac index: 2.6 - 4.2 l/min/m&#xb2;" STYLE_REF="number" ID="ID_1844643997" CREATED="1456403221668" MODIFIED="1456403242495"/>
 </node>
 <node TEXT="cardiac output: 5 - 6 l/min" STYLE_REF="number" ID="ID_231866958" CREATED="1456403113164" MODIFIED="1456403242517"/>
-<node TEXT="measurement" ID="ID_661827643" CREATED="1456403371147" MODIFIED="1456403739343"><richcontent TYPE="DETAILS">
+<node TEXT="measurement" FOLDED="true" ID="ID_661827643" CREATED="1456403371147" MODIFIED="1456403739343"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -801,7 +801,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Fick Principle" ID="ID_1094810368" CREATED="1456403780391" MODIFIED="1456403928222">
+<node TEXT="Fick Principle" FOLDED="true" ID="ID_1094810368" CREATED="1456403780391" MODIFIED="1456403928222">
 <hook EQUATION="CO = \frac{\dot{V}O_2}{CaO_2 - CvO_2}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="aterial blood oxygen content" ID="ID_1025514512" CREATED="1456403943470" MODIFIED="1456404434689">
 <hook EQUATION="CaO_2 \left[\frac{ml \; O_2}{ml \; blood}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -815,7 +815,7 @@
 </node>
 </node>
 </node>
-<node TEXT="preload" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456482025905"><richcontent TYPE="DETAILS">
+<node TEXT="preload" FOLDED="true" ID="ID_702098756" CREATED="1456405007263" MODIFIED="1456482025905"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -878,7 +878,7 @@
 </richcontent>
 <hook EQUATION="\frac{\Delta V}{\Delta p}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="length-tension relationship" ID="ID_1326645876" CREATED="1456408076337" MODIFIED="1456408767557">
+<node TEXT="length-tension relationship" FOLDED="true" ID="ID_1326645876" CREATED="1456408076337" MODIFIED="1456408767557">
 <attribute_layout NAME_WIDTH="216" VALUE_WIDTH="216"/>
 <attribute NAME="sarcomere length of max. act. tension" VALUE="2.2 &#xb5;m"/>
 <richcontent TYPE="DETAILS">
@@ -1117,7 +1117,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="afterload" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456482035249"><richcontent TYPE="DETAILS">
+<node TEXT="afterload" FOLDED="true" ID="ID_711886066" CREATED="1456414147446" MODIFIED="1456482035249"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1148,7 +1148,7 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-afterload.png" SIZE="0.63357973" NAME="ExternalObject"/>
-<node TEXT="ventricular wall stress" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
+<node TEXT="ventricular wall stress" FOLDED="true" ID="ID_1194343545" CREATED="1456414846593" MODIFIED="1456415597628">
 <hook EQUATION="\sigma \propto \frac{P \cdot r}{h}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
 
@@ -1187,7 +1187,7 @@
 <hook EQUATION="h" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="force-velocity relationship" ID="ID_14741042" CREATED="1456416733140" MODIFIED="1456417790090"><richcontent TYPE="DETAILS">
+<node TEXT="force-velocity relationship" FOLDED="true" ID="ID_14741042" CREATED="1456416733140" MODIFIED="1456417790090"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1312,7 +1312,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="effects of inotropy on SV" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456482045260"><richcontent TYPE="DETAILS">
+<node TEXT="effects of inotropy on SV" FOLDED="true" ID="ID_779705179" CREATED="1456418431800" MODIFIED="1456482045260"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1403,7 +1403,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="factors for inotropy" ID="ID_950781242" CREATED="1456419419561" MODIFIED="1456419621555"><richcontent TYPE="DETAILS">
+<node TEXT="factors for inotropy" FOLDED="true" ID="ID_950781242" CREATED="1456419419561" MODIFIED="1456419621555"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1461,7 +1461,7 @@
 </node>
 </node>
 </node>
-<node TEXT="interdependence of preload, afterload and inotropy" ID="ID_1652717392" CREATED="1456483547562" MODIFIED="1456483739640"><richcontent TYPE="DETAILS">
+<node TEXT="interdependence of preload, afterload and inotropy" FOLDED="true" ID="ID_1652717392" CREATED="1456483547562" MODIFIED="1456483739640"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1482,9 +1482,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="increase in preload" ID="ID_860333765" CREATED="1456483765480" MODIFIED="1456484250761">
+<node TEXT="increase in preload" FOLDED="true" ID="ID_860333765" CREATED="1456483765480" MODIFIED="1456484250761">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loop%20preload%20interactions%202015.png" SIZE="0.61349696" NAME="ExternalObject"/>
-<node TEXT="increase in SV" ID="ID_1483068211" CREATED="1456484016575" MODIFIED="1456484049597"><richcontent TYPE="DETAILS">
+<node TEXT="increase in SV" FOLDED="true" ID="ID_1483068211" CREATED="1456484016575" MODIFIED="1456484049597"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1537,9 +1537,9 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="increase in afterload" ID="ID_1947759176" CREATED="1456483774008" MODIFIED="1456484328954">
+<node TEXT="increase in afterload" FOLDED="true" ID="ID_1947759176" CREATED="1456483774008" MODIFIED="1456484328954">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF026%20PV%20loops%20afterload%20interactions%202015.png" SIZE="0.6" NAME="ExternalObject"/>
-<node TEXT="decrease in SV" ID="ID_1207589414" CREATED="1456484500035" MODIFIED="1456484504629">
+<node TEXT="decrease in SV" FOLDED="true" ID="ID_1207589414" CREATED="1456484500035" MODIFIED="1456484504629">
 <node TEXT="partially compensated by increased preload" ID="ID_1274745659" CREATED="1456487057906" MODIFIED="1456487075963"/>
 </node>
 <node TEXT="increase in ESV" ID="ID_961282743" CREATED="1456484608122" MODIFIED="1456486930368"><richcontent TYPE="DETAILS">
@@ -1562,7 +1562,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="increase in inotropy" ID="ID_1240973964" CREATED="1456483779048" MODIFIED="1456484339192">
+<node TEXT="increase in inotropy" FOLDED="true" ID="ID_1240973964" CREATED="1456483779048" MODIFIED="1456484339192">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/CF025%20PV%20loop-inotropy.png" SIZE="0.63357973" NAME="ExternalObject"/>
 <node TEXT="increase in SV" ID="ID_1030562033" CREATED="1456487141656" MODIFIED="1456487337967"><richcontent TYPE="DETAILS">
 
@@ -1586,14 +1586,14 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="decrease in ESV" ID="ID_606444195" CREATED="1456487146113" MODIFIED="1456487392792">
-<node TEXT="decrease in EDV" ID="ID_1302034696" CREATED="1456487418918" MODIFIED="1456487424072">
+<node TEXT="decrease in ESV" FOLDED="true" ID="ID_606444195" CREATED="1456487146113" MODIFIED="1456487392792">
+<node TEXT="decrease in EDV" FOLDED="true" ID="ID_1302034696" CREATED="1456487418918" MODIFIED="1456487424072">
 <node TEXT="partially offset by increased afterload" ID="ID_1197347120" CREATED="1456487425687" MODIFIED="1456487434736"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="oxygen consumption" ID="ID_1914975456" CREATED="1456488400191" MODIFIED="1456489513129">
+<node TEXT="oxygen consumption" FOLDED="true" ID="ID_1914975456" CREATED="1456488400191" MODIFIED="1456489513129">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="97"/>
 <attribute NAME="MVO2 at rest" VALUE="8 ml/min/100g"/>
 <attribute NAME="min MVO2" VALUE="2 ml/min/100g"/>
@@ -1616,7 +1616,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="myocardial oxygen consumption (formula)" ID="ID_920300481" CREATED="1456488441000" MODIFIED="1456489176434">
+<node TEXT="myocardial oxygen consumption (formula)" FOLDED="true" ID="ID_920300481" CREATED="1456488441000" MODIFIED="1456489176434">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="90"/>
 <hook EQUATION="M\dot{V}O_2 = CBF \cdot (CaO_2 - CvO_2)" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="coronary blood flow" ID="ID_764206315" CREATED="1456488497807" MODIFIED="1456488692716">
@@ -1659,7 +1659,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="factors that influence oxygen consumption" ID="ID_1486255816" CREATED="1456489992932" MODIFIED="1456490541746">
+<node TEXT="factors that influence oxygen consumption" FOLDED="true" ID="ID_1486255816" CREATED="1456489992932" MODIFIED="1456490541746">
 <node TEXT="heart rate" ID="ID_722884791" CREATED="1456490613384" MODIFIED="1456490643335"><richcontent TYPE="DETAILS">
 
 <html>
@@ -1717,7 +1717,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="increased preload" ID="ID_1721458889" CREATED="1456490683711" MODIFIED="1456491446143"><richcontent TYPE="DETAILS">
+<node TEXT="increased preload" FOLDED="true" ID="ID_1721458889" CREATED="1456490683711" MODIFIED="1456491446143"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1781,7 +1781,7 @@
 </node>
 <node TEXT="cellular structure" FOLDED="true" POSITION="left" ID="ID_832176417" CREATED="1456151594607" MODIFIED="1457011950839" HGAP="340" VSHIFT="-61" MOVED="1457011744726">
 <edge COLOR="#007c00"/>
-<node TEXT="myocyte" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
+<node TEXT="myocyte" FOLDED="true" ID="ID_1218294307" CREATED="1456151865522" MODIFIED="1456154639075">
 <attribute_layout NAME_WIDTH="179" VALUE_WIDTH="179"/>
 <attribute NAME="diameter of ventricular myocyte" VALUE="25 &#x3bc;m"/>
 <attribute NAME="length of ventricular myocyte" VALUE="100 &#x3bc;m"/>
@@ -1830,7 +1830,7 @@
 <node TEXT="length of a ventricular myocyte: 100 &#x3bc;m" STYLE_REF="number" ID="ID_105532277" CREATED="1456152331646" MODIFIED="1456152529638">
 <attribute_layout NAME_WIDTH="164" VALUE_WIDTH="164"/>
 </node>
-<node TEXT="functional syncytium" ID="ID_1961658947" CREATED="1456152581310" MODIFIED="1456152815376"><richcontent TYPE="DETAILS">
+<node TEXT="functional syncytium" FOLDED="true" ID="ID_1961658947" CREATED="1456152581310" MODIFIED="1456152815376"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1891,7 +1891,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="myofibrill" ID="ID_1788258358" CREATED="1456152914107" MODIFIED="1456153204700"><richcontent TYPE="DETAILS">
+<node TEXT="myofibrill" FOLDED="true" ID="ID_1788258358" CREATED="1456152914107" MODIFIED="1456153204700"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1909,7 +1909,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_909734849" STARTINCLINATION="389;-29;" ENDINCLINATION="93;-65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="sarcomere" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
+<node TEXT="sarcomere" FOLDED="true" ID="ID_693506866" CREATED="1456153261273" MODIFIED="1456405135462">
 <attribute NAME="length" VALUE="1.6 - 2.2 &#x3bc;m"/>
 <richcontent TYPE="DETAILS">
 
@@ -1940,7 +1940,7 @@
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Sarcomere.jpg" SIZE="0.75" NAME="ExternalObject"/>
 <node TEXT="sarcomere length: 1.6 - 2.2 &#x3bc;m" STYLE_REF="number" ID="ID_681801520" CREATED="1456153349448" MODIFIED="1456153367446"/>
-<node TEXT="thick filaments" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456229219449"><richcontent TYPE="DETAILS">
+<node TEXT="thick filaments" FOLDED="true" ID="ID_1927763304" CREATED="1456154972933" MODIFIED="1456229219449"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1987,7 +1987,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="thin filaments" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456229292123"><richcontent TYPE="DETAILS">
+<node TEXT="thin filaments" FOLDED="true" ID="ID_909734849" CREATED="1456155045628" MODIFIED="1456229292123"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2041,7 +2041,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="troponin" ID="ID_254937729" CREATED="1456229494419" MODIFIED="1456229830010"><richcontent TYPE="DETAILS">
+<node TEXT="troponin" FOLDED="true" ID="ID_254937729" CREATED="1456229494419" MODIFIED="1456229830010"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2123,7 +2123,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="sarcolemma" ID="ID_1784805838" CREATED="1456230151758" MODIFIED="1456230524853"><richcontent TYPE="DETAILS">
+<node TEXT="sarcolemma" FOLDED="true" ID="ID_1784805838" CREATED="1456230151758" MODIFIED="1456230524853"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2167,7 +2167,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="sarcoplasmic reticulum" ID="ID_1351979255" CREATED="1456230421893" MODIFIED="1456230951015"><richcontent TYPE="DETAILS">
+<node TEXT="sarcoplasmic reticulum" FOLDED="true" ID="ID_1351979255" CREATED="1456230421893" MODIFIED="1456230951015"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2227,7 +2227,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="excitation-contraction coupling" ID="ID_278191118" CREATED="1456229885601" MODIFIED="1456230144432" MOVED="1456231511062"><richcontent TYPE="DETAILS">
+<node TEXT="excitation-contraction coupling" FOLDED="true" ID="ID_278191118" CREATED="1456229885601" MODIFIED="1456230144432" MOVED="1456231511062"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2242,7 +2242,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="mechanism" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456237725062" LINK="https://www.youtube.com/watch?v=CbfK1Gi-aCk"><richcontent TYPE="DETAILS">
+<node TEXT="mechanism" FOLDED="true" ID="ID_1012809517" CREATED="1456231866307" MODIFIED="1456237725062" LINK="https://www.youtube.com/watch?v=CbfK1Gi-aCk"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2313,9 +2313,9 @@
 </node>
 </node>
 </node>
-<node TEXT="contraction regulation (inotropy)" ID="ID_646170614" CREATED="1456233482135" MODIFIED="1456233495610">
-<node TEXT="calcium entry through L-Type channels" ID="ID_885294699" CREATED="1456233725726" MODIFIED="1456233739903">
-<node TEXT="changes in cAMP concentration" ID="ID_1935072646" CREATED="1456233742255" MODIFIED="1456233769022">
+<node TEXT="contraction regulation (inotropy)" FOLDED="true" ID="ID_646170614" CREATED="1456233482135" MODIFIED="1456233495610">
+<node TEXT="calcium entry through L-Type channels" FOLDED="true" ID="ID_885294699" CREATED="1456233725726" MODIFIED="1456233739903">
+<node TEXT="changes in cAMP concentration" FOLDED="true" ID="ID_1935072646" CREATED="1456233742255" MODIFIED="1456233769022">
 <node TEXT="norepinephrine / epinephrine (positive inotropy)" ID="ID_892820798" CREATED="1456233770213" MODIFIED="1456233782503"/>
 <node TEXT="acetylcholine (negative inotropy)" ID="ID_919714122" CREATED="1456233783933" MODIFIED="1456233790831"/>
 <node TEXT="adenosine (negative inotropy)" ID="ID_1320282494" CREATED="1456233814813" MODIFIED="1456233856803"><richcontent TYPE="DETAILS">
@@ -2336,7 +2336,7 @@
 </node>
 </node>
 </node>
-<node TEXT="calcium release by SR" ID="ID_391481305" CREATED="1456233864669" MODIFIED="1456233871606">
+<node TEXT="calcium release by SR" FOLDED="true" ID="ID_391481305" CREATED="1456233864669" MODIFIED="1456233871606">
 <node TEXT="PKA phosphorylates parts of SR (positive inotropy)" ID="ID_1705948507" CREATED="1456233921764" MODIFIED="1456233976134"/>
 <node TEXT="&#x3b1;1-adrenoreceptors coupled to Gq-proteins (positive inotropy)" ID="ID_1510286610" CREATED="1456234033459" MODIFIED="1456234118795"><richcontent TYPE="DETAILS">
 
@@ -2355,7 +2355,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="calcium binding to TN-C" ID="ID_784967699" CREATED="1456234128083" MODIFIED="1456234197956">
+<node TEXT="calcium binding to TN-C" FOLDED="true" ID="ID_784967699" CREATED="1456234128083" MODIFIED="1456234197956">
 <node TEXT="acidosis during mytochondrial hypoxia (negative inotropy)" ID="ID_57663687" CREATED="1456234199906" MODIFIED="1456234245479"><richcontent TYPE="DETAILS">
 
 <html>
@@ -2392,7 +2392,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="myosin ATPase activity" ID="ID_988346722" CREATED="1456234361833" MODIFIED="1456234369874">
+<node TEXT="myosin ATPase activity" FOLDED="true" ID="ID_988346722" CREATED="1456234361833" MODIFIED="1456234369874">
 <node TEXT="myosin light chain kinase (positive inotropy?)" ID="ID_1326356298" CREATED="1456234413720" MODIFIED="1456234456652"><richcontent TYPE="DETAILS">
 
 <html>
@@ -2413,7 +2413,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="calcium uptake by SR" ID="ID_436280101" CREATED="1456234460544" MODIFIED="1456234634069"><richcontent TYPE="DETAILS">
+<node TEXT="calcium uptake by SR" FOLDED="true" ID="ID_436280101" CREATED="1456234460544" MODIFIED="1456234634069"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2461,8 +2461,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="regulation of calcium efflux" ID="ID_1183164802" CREATED="1456234699359" MODIFIED="1456234708368">
-<node TEXT="inhibiting sodium-calcium exchanger in sarcolemma (positive inotropy)" ID="ID_1644994867" CREATED="1456234720471" MODIFIED="1456234875560"><richcontent TYPE="DETAILS">
+<node TEXT="regulation of calcium efflux" FOLDED="true" ID="ID_1183164802" CREATED="1456234699359" MODIFIED="1456234708368">
+<node TEXT="inhibiting sodium-calcium exchanger in sarcolemma (positive inotropy)" FOLDED="true" ID="ID_1644994867" CREATED="1456234720471" MODIFIED="1456234875560"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2518,7 +2518,7 @@
 </node>
 </node>
 </node>
-<node TEXT="relaxation regulation (lusitropy)" ID="ID_1700102051" CREATED="1456235155476" MODIFIED="1456235395816"><richcontent TYPE="DETAILS">
+<node TEXT="relaxation regulation (lusitropy)" FOLDED="true" ID="ID_1700102051" CREATED="1456235155476" MODIFIED="1456235395816"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2538,10 +2538,10 @@
 </richcontent>
 <node TEXT="&quot;calcium overload&quot; during ischemia (negative lusitropy)" ID="ID_385146092" CREATED="1456235248971" MODIFIED="1456235283684"/>
 <node TEXT="inhibition of sodium-calcium exchanger (negative lusitropy)" ID="ID_1724093019" CREATED="1456235285514" MODIFIED="1456235341093"/>
-<node TEXT="increased SERCA activity (positive lusitropy)" ID="ID_679576839" CREATED="1456235418786" MODIFIED="1456235428403">
+<node TEXT="increased SERCA activity (positive lusitropy)" FOLDED="true" ID="ID_679576839" CREATED="1456235418786" MODIFIED="1456235428403">
 <node TEXT="phosphorylation of phospholamban" ID="ID_509028263" CREATED="1456235440977" MODIFIED="1456235456171"/>
 </node>
-<node TEXT="decreased SERCA activity (negative lusitropy)" ID="ID_1695735040" CREATED="1456235481481" MODIFIED="1456235491131">
+<node TEXT="decreased SERCA activity (negative lusitropy)" FOLDED="true" ID="ID_1695735040" CREATED="1456235481481" MODIFIED="1456235491131">
 <node TEXT="some forms of heart failure" ID="ID_1608718575" CREATED="1456235495865" MODIFIED="1456235504603"/>
 </node>
 <node TEXT="PKA phosphorylation of TN-I (positive lusitropy)" ID="ID_1793761286" CREATED="1456235510929" MODIFIED="1456235666848"><richcontent TYPE="DETAILS">
@@ -2561,7 +2561,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="metabolsim" ID="ID_375475922" CREATED="1456235798383" MODIFIED="1456236194156"><richcontent TYPE="DETAILS">
+<node TEXT="metabolsim" FOLDED="true" ID="ID_375475922" CREATED="1456235798383" MODIFIED="1456236194156"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2614,8 +2614,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ATP regeneration" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
-<node TEXT="energy sources (oxidative)" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456304952208"><richcontent TYPE="DETAILS">
+<node TEXT="ATP regeneration" FOLDED="true" ID="ID_655304950" CREATED="1456236204332" MODIFIED="1456236213109">
+<node TEXT="energy sources (oxidative)" FOLDED="true" ID="ID_1852229343" CREATED="1456236365899" MODIFIED="1456304952208"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2634,7 +2634,7 @@
 </html>
 </richcontent>
 <node TEXT="fatty acids" ID="ID_1928194588" CREATED="1456236381603" MODIFIED="1456236384724"/>
-<node TEXT="carbohydrates" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
+<node TEXT="carbohydrates" FOLDED="true" ID="ID_677132985" CREATED="1456236386346" MODIFIED="1456236392875">
 <node TEXT="lactate" ID="ID_1018061171" CREATED="1456236419219" MODIFIED="1456304977475"><richcontent TYPE="DETAILS">
 
 <html>
@@ -2692,7 +2692,7 @@
 </node>
 </node>
 </node>
-<node TEXT="vascular structure" ID="ID_1480579208" CREATED="1456305411724" MODIFIED="1456307730813"><richcontent TYPE="DETAILS">
+<node TEXT="vascular structure" FOLDED="true" ID="ID_1480579208" CREATED="1456305411724" MODIFIED="1456307730813"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2728,7 +2728,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="intima" ID="ID_936287537" CREATED="1456306007967" MODIFIED="1456306066091"><richcontent TYPE="DETAILS">
+<node TEXT="intima" FOLDED="true" ID="ID_936287537" CREATED="1456306007967" MODIFIED="1456306066091"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2743,7 +2743,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="vascular endothelial cells" ID="ID_1709203739" CREATED="1456310974364" MODIFIED="1456315326154">
+<node TEXT="vascular endothelial cells" FOLDED="true" ID="ID_1709203739" CREATED="1456310974364" MODIFIED="1456315326154">
 <attribute NAME="diameter" VALUE="0.2 - 2.0 &#xb5;m"/>
 <attribute NAME="length" VALUE="1 - 20 &#xb5;m"/>
 <richcontent TYPE="DETAILS">
@@ -2968,7 +2968,7 @@
 </node>
 </node>
 </node>
-<node TEXT="media" ID="ID_1576907133" CREATED="1456306013975" MODIFIED="1456306497712"><richcontent TYPE="DETAILS">
+<node TEXT="media" FOLDED="true" ID="ID_1576907133" CREATED="1456306013975" MODIFIED="1456306497712"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3007,7 +3007,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="vascular smooth muscle cells" ID="ID_1618826955" CREATED="1456306787658" MODIFIED="1456308561085">
+<node TEXT="vascular smooth muscle cells" FOLDED="true" ID="ID_1618826955" CREATED="1456306787658" MODIFIED="1456308561085">
 <attribute NAME="diameter" VALUE="5 - 10 &#xb5;m"/>
 <attribute NAME="length" VALUE="50 - 300 &#xb5;m"/>
 <richcontent TYPE="DETAILS">
@@ -3052,7 +3052,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="contraction" ID="ID_1481917345" CREATED="1456308507845" MODIFIED="1456309247969"><richcontent TYPE="DETAILS">
+<node TEXT="contraction" FOLDED="true" ID="ID_1481917345" CREATED="1456308507845" MODIFIED="1456309247969"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3134,7 +3134,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="calcium concentration regulation" ID="ID_607303477" CREATED="1456309602670" MODIFIED="1456309692020"><richcontent TYPE="DETAILS">
+<node TEXT="calcium concentration regulation" FOLDED="true" ID="ID_607303477" CREATED="1456309602670" MODIFIED="1456309692020"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3158,7 +3158,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="three major pahtways" ID="ID_936193630" CREATED="1456309721452" MODIFIED="1456309728279">
+<node TEXT="three major pahtways" FOLDED="true" ID="ID_936193630" CREATED="1456309721452" MODIFIED="1456309728279">
 <node TEXT="Gq-protein activation of phospholipase C" ID="ID_1033643062" CREATED="1456309729069" MODIFIED="1456310246335">
 <hook EQUATION="IP_3" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
@@ -3321,7 +3321,7 @@
 </node>
 <node TEXT="electrical activity" FOLDED="true" POSITION="right" ID="ID_1983697933" CREATED="1453749208903" MODIFIED="1457011937839" HGAP="29" VSHIFT="-108">
 <edge COLOR="#ff0000"/>
-<node TEXT="membrane potential (Em)" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
+<node TEXT="membrane potential (Em)" FOLDED="true" ID="ID_1667510365" CREATED="1453902796142" MODIFIED="1453905160918" MOVED="1453902805095"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3351,7 +3351,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="resting membrane potential" ID="ID_1670602232" CREATED="1453897707583" MODIFIED="1453905688776"><richcontent TYPE="DETAILS">
+<node TEXT="resting membrane potential" FOLDED="true" ID="ID_1670602232" CREATED="1453897707583" MODIFIED="1453905688776"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3365,7 +3365,7 @@
 </html>
 </richcontent>
 <node TEXT="resting membrane potential (Em): -90 mV" STYLE_REF="number" ID="ID_456002838" CREATED="1453897707583" MODIFIED="1453902943140"/>
-<node TEXT="maintenance" ID="ID_772701165" CREATED="1453905694610" MODIFIED="1453905958032"><richcontent TYPE="DETAILS">
+<node TEXT="maintenance" FOLDED="true" ID="ID_772701165" CREATED="1453905694610" MODIFIED="1453905958032"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3395,7 +3395,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="primary active transport" ID="ID_1394586051" CREATED="1454768471792" MODIFIED="1454768625302" LINK="https://en.wikipedia.org/wiki/Active_transport"><richcontent TYPE="DETAILS">
+<node TEXT="primary active transport" FOLDED="true" ID="ID_1394586051" CREATED="1454768471792" MODIFIED="1454768625302" LINK="https://en.wikipedia.org/wiki/Active_transport"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3459,7 +3459,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="secondary active transport" ID="ID_777297784" CREATED="1454768544617" MODIFIED="1454768622180" LINK="https://en.wikipedia.org/wiki/Active_transport"><richcontent TYPE="DETAILS">
+<node TEXT="secondary active transport" FOLDED="true" ID="ID_777297784" CREATED="1454768544617" MODIFIED="1454768622180" LINK="https://en.wikipedia.org/wiki/Active_transport"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3474,7 +3474,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="antiport" ID="ID_1318802844" CREATED="1454768597350" MODIFIED="1454768693633"><richcontent TYPE="DETAILS">
+<node TEXT="antiport" FOLDED="true" ID="ID_1318802844" CREATED="1454768597350" MODIFIED="1454768693633"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3526,7 +3526,7 @@
 </node>
 </node>
 </node>
-<node TEXT="ion concentrations" ID="ID_872744373" CREATED="1453903184690" MODIFIED="1453904274831"><richcontent TYPE="DETAILS">
+<node TEXT="ion concentrations" FOLDED="true" ID="ID_872744373" CREATED="1453903184690" MODIFIED="1453904274831"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3556,7 +3556,7 @@
 <attribute NAME="nernst potential" VALUE="+134 mV"/>
 <attribute NAME="permeability" VALUE="low"/>
 </node>
-<node TEXT="Nernst potential" ID="ID_1028772442" CREATED="1453897707583" MODIFIED="1454501277960"><richcontent TYPE="DETAILS">
+<node TEXT="Nernst potential" FOLDED="true" ID="ID_1028772442" CREATED="1453897707583" MODIFIED="1454501277960"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3583,7 +3583,7 @@
 <node TEXT="ion concentration outside the cell" ID="ID_1202859714" CREATED="1453897707583" MODIFIED="1453903760256">
 <hook EQUATION="[x]_o" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="derivation of constant (-61)" ID="ID_450665695" CREATED="1453897707583" MODIFIED="1453904059709">
+<node TEXT="derivation of constant (-61)" FOLDED="true" ID="ID_450665695" CREATED="1453897707583" MODIFIED="1453904059709">
 <hook EQUATION="-61 = \frac{RT}{zF}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="gas constant" ID="ID_1452141075" CREATED="1453903927166" MODIFIED="1453903961340"><richcontent TYPE="DETAILS">
 
@@ -3670,7 +3670,7 @@
 <hook EQUATION="\text{ionic conductance} = \frac{\text{ionic current}}{net voltage}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_411091205" MIDDLE_LABEL="determines" STARTINCLINATION="483;0;" ENDINCLINATION="108;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="calculation" ID="ID_1216521552" CREATED="1453905140363" MODIFIED="1453905554567">
+<node TEXT="calculation" FOLDED="true" ID="ID_1216521552" CREATED="1453905140363" MODIFIED="1453905554567">
 <hook EQUATION="Em = g&apos;{}{K^{+}} \cdot E_k + g&apos;{}{Na^{+}} \cdot E_\text{Na} + g&apos;{}{Ca^{++}} * E_\text{Ca}&#xd;&#xa;" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
 
@@ -3700,10 +3700,10 @@
 <hook EQUATION="g&apos;{}X" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="ion channels" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
+<node TEXT="ion channels" FOLDED="true" ID="ID_468923954" CREATED="1453897707585" MODIFIED="1454077252379">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/heart_cell_channels_overview.svg" SIZE="0.7117438" NAME="ExternalObject"/>
-<node TEXT="Sodium" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
-<node TEXT="Fast Sodium (Na+) channels" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1455106449133"><richcontent TYPE="DETAILS">
+<node TEXT="Sodium" FOLDED="true" ID="ID_30032845" CREATED="1453997872810" MODIFIED="1453997878662">
+<node TEXT="Fast Sodium (Na+) channels" FOLDED="true" ID="ID_782019772" CREATED="1453897707585" MODIFIED="1455106449133"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3778,8 +3778,8 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_721757192" STARTINCLINATION="411;0;" ENDINCLINATION="411;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="Calcium" ID="ID_1054880499" CREATED="1453997881003" MODIFIED="1453997882549">
-<node TEXT="L-Type calcium channel" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1455106593364">
+<node TEXT="Calcium" FOLDED="true" ID="ID_1054880499" CREATED="1453997881003" MODIFIED="1453997882549">
+<node TEXT="L-Type calcium channel" FOLDED="true" ID="ID_619365878" CREATED="1453997848443" MODIFIED="1455106593364">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="inactivation" VALUE="N-type"/>
@@ -3864,7 +3864,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="T-Type calcium channel" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455207482613" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
+<node TEXT="T-Type calcium channel" FOLDED="true" ID="ID_1588508262" CREATED="1453997855914" MODIFIED="1455207482613" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2011-Catterall-VoltageGatedCalciumChannels.pdf">
 <attribute_layout NAME_WIDTH="106" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="inactivation" VALUE="N-type"/>
@@ -3934,8 +3934,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Potassium" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
-<node TEXT="Inward rectifier" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1455200122074">
+<node TEXT="Potassium" FOLDED="true" ID="ID_982230258" CREATED="1453997884618" MODIFIED="1453997887325">
+<node TEXT="Inward rectifier" FOLDED="true" ID="ID_532159181" CREATED="1453997915450" MODIFIED="1455200122074">
 <attribute_layout NAME_WIDTH="80" VALUE_WIDTH="85"/>
 <attribute NAME="gating" VALUE="rectifier"/>
 <attribute NAME="activation" VALUE="constitutive"/>
@@ -3989,7 +3989,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Transient outward" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1455208105319" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
+<node TEXT="Transient outward" FOLDED="true" ID="ID_928403937" CREATED="1453997923866" MODIFIED="1455208105319" LINK="https://en.wikipedia.org/wiki/Cardiac_transient_outward_potassium_current">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -4025,7 +4025,7 @@
 <node TEXT="current symbol" ID="ID_6289456" CREATED="1455200410166" MODIFIED="1455200531847">
 <hook EQUATION="I_{to}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="fast" ID="ID_251519933" CREATED="1455890690603" MODIFIED="1455890691652">
+<node TEXT="fast" FOLDED="true" ID="ID_251519933" CREATED="1455890690603" MODIFIED="1455890691652">
 <node TEXT="protein" ID="ID_1884248176" CREATED="1455890475915" MODIFIED="1456130683079">
 <hook EQUATION="KV \; 4.2/4.3" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
@@ -4044,7 +4044,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="slow" ID="ID_178498464" CREATED="1455890693794" MODIFIED="1455890697044">
+<node TEXT="slow" FOLDED="true" ID="ID_178498464" CREATED="1455890693794" MODIFIED="1455890697044">
 <node TEXT="protein" ID="ID_1746825918" CREATED="1455890566723" MODIFIED="1456130686335">
 <hook EQUATION="KV \; 1.4/1.7/3.4" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
@@ -4064,8 +4064,8 @@
 </node>
 </node>
 </node>
-<node TEXT="delayed rectifier" ID="ID_207321781" CREATED="1455291355052" MODIFIED="1455291360870" MOVED="1455291368487">
-<node TEXT="ultrarapid delayed rectifier" ID="ID_1178820359" CREATED="1455291451403" MODIFIED="1455292022008" MOVED="1455291459134" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1993-Wang-UltrarapidDelayedRectifier_annotated.pdf">
+<node TEXT="delayed rectifier" FOLDED="true" ID="ID_207321781" CREATED="1455291355052" MODIFIED="1455291360870" MOVED="1455291368487">
+<node TEXT="ultrarapid delayed rectifier" FOLDED="true" ID="ID_1178820359" CREATED="1455291451403" MODIFIED="1455292022008" MOVED="1455291459134" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1993-Wang-UltrarapidDelayedRectifier_annotated.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -4113,7 +4113,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="rapid delayed rectifier" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455291896610" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
+<node TEXT="rapid delayed rectifier" FOLDED="true" ID="ID_1457351583" CREATED="1453997937786" MODIFIED="1455291896610" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-Nattel-DelayedRectifierPotassium.pdf">
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="133"/>
 <attribute NAME="gating" VALUE="voltage-gated"/>
 <attribute NAME="activation" VALUE="voltage, depolarization"/>
@@ -4162,7 +4162,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="slow delayed rectifier" ID="ID_1676730848" CREATED="1455291439506" MODIFIED="1455291786113"><richcontent TYPE="DETAILS">
+<node TEXT="slow delayed rectifier" FOLDED="true" ID="ID_1676730848" CREATED="1455291439506" MODIFIED="1455291786113"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4182,7 +4182,7 @@
 </node>
 </node>
 </node>
-<node TEXT="ATP-sensitive" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1456131628400" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
+<node TEXT="ATP-sensitive" FOLDED="true" ID="ID_198518455" CREATED="1453997945554" MODIFIED="1456131628400" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/1983-Noma-ATPregulatedK+Channels.pdf">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <attribute NAME="gating" VALUE="ligand-gated"/>
 <attribute NAME="inhibition" VALUE="ATP"/>
@@ -4235,7 +4235,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Acetylcholine-activated" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1456131672116" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
+<node TEXT="Acetylcholine-activated" FOLDED="true" ID="ID_1951206801" CREATED="1453997959026" MODIFIED="1456131672116" LINK="https://www.youtube.com/watch?v=tTY1VNDYtdE">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <attribute NAME="gating" VALUE="ligand-gated"/>
 <attribute NAME="activation" VALUE="ACh"/>
@@ -4305,7 +4305,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Calcium-activated" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454499742314">
+<node TEXT="Calcium-activated" FOLDED="true" ID="ID_335241277" CREATED="1453997969994" MODIFIED="1454499742314">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <attribute NAME="gating" VALUE="ligand-gated"/>
 <attribute NAME="activation" VALUE="Ca++"/>
@@ -4316,7 +4316,7 @@
 <hook EQUATION="I_{K,Ca}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="leak channel" ID="ID_1239310100" CREATED="1454947050848" MODIFIED="1454947210120">
+<node TEXT="leak channel" FOLDED="true" ID="ID_1239310100" CREATED="1454947050848" MODIFIED="1454947210120">
 <attribute NAME="gating" VALUE="none"/>
 <attribute NAME="activation" VALUE="constitutive"/>
 <richcontent TYPE="DETAILS">
@@ -4377,8 +4377,8 @@
 </node>
 </node>
 </node>
-<node TEXT="nonselective" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
-<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1455117658929" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
+<node TEXT="nonselective" FOLDED="true" ID="ID_731958020" CREATED="1454066742602" MODIFIED="1454066748803">
+<node TEXT="Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel" FOLDED="true" ID="ID_721757192" CREATED="1453995944329" MODIFIED="1455117658929" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2008-WahlSchott-HCNChannels.pdf"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4422,7 +4422,7 @@
 <attribute NAME="activation speed" VALUE="fast"/>
 <attribute NAME="inactivation" VALUE="none"/>
 <attribute NAME="reversal potential" VALUE="-10 mV"/>
-<node TEXT="Resources" ID="ID_694435329" CREATED="1455197608959" MODIFIED="1455197617449">
+<node TEXT="Resources" FOLDED="true" ID="ID_694435329" CREATED="1455197608959" MODIFIED="1455197617449">
 <node TEXT="Altomare2001" ID="ID_93759872" CREATED="1455197623108" MODIFIED="1455197648191"/>
 <node TEXT="Accili2002" ID="ID_1303218028" CREATED="1455197651275" MODIFIED="1455197664422"/>
 <node TEXT="Verkerk2015" ID="ID_340235078" CREATED="1455197666299" MODIFIED="1455197690031"/>
@@ -4460,7 +4460,7 @@
 </node>
 </node>
 </node>
-<node TEXT="gating" ID="ID_856667665" CREATED="1454495010782" MODIFIED="1454495014059">
+<node TEXT="gating" FOLDED="true" ID="ID_856667665" CREATED="1454495010782" MODIFIED="1454495014059">
 <node TEXT="voltage-gated / voltage-operated channels" ID="ID_903394508" CREATED="1453897707585" MODIFIED="1454405066315"><richcontent TYPE="DETAILS">
 
 <html>
@@ -4490,7 +4490,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="inactivation" ID="ID_41551288" CREATED="1454495052781" MODIFIED="1454495782560"><richcontent TYPE="DETAILS">
+<node TEXT="inactivation" FOLDED="true" ID="ID_41551288" CREATED="1454495052781" MODIFIED="1454495782560"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -4511,13 +4511,13 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="inactivating channels" ID="ID_640615334" CREATED="1454495058964" MODIFIED="1454495063862">
-<node TEXT="slow inactivation" ID="ID_155624059" CREATED="1454406951928" MODIFIED="1454406955448">
+<node TEXT="inactivating channels" FOLDED="true" ID="ID_640615334" CREATED="1454495058964" MODIFIED="1454495063862">
+<node TEXT="slow inactivation" FOLDED="true" ID="ID_155624059" CREATED="1454406951928" MODIFIED="1454406955448">
 <node TEXT="changes in pore structure" ID="ID_704628365" CREATED="1454406967799" MODIFIED="1454406992701" LINK="http://www.ncbi.nlm.nih.gov/books/NBK6559/"/>
 </node>
-<node TEXT="fast inactivation" ID="ID_1378764134" CREATED="1454406956983" MODIFIED="1454406959873">
-<node TEXT="N-Type inactivation" ID="ID_823996145" CREATED="1454495795615" MODIFIED="1454495801292">
-<node TEXT="Ball and chain inactivation" ID="ID_532438451" CREATED="1454404266523" MODIFIED="1454496362266" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2003-Goldin-NaChannelInactivation.pdf">
+<node TEXT="fast inactivation" FOLDED="true" ID="ID_1378764134" CREATED="1454406956983" MODIFIED="1454406959873">
+<node TEXT="N-Type inactivation" FOLDED="true" ID="ID_823996145" CREATED="1454495795615" MODIFIED="1454495801292">
+<node TEXT="Ball and chain inactivation" FOLDED="true" ID="ID_532438451" CREATED="1454404266523" MODIFIED="1454496362266" LINK="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/../../../Paper/physiology/2003-Goldin-NaChannelInactivation.pdf">
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="2998BFAF639392E0A88AC9433B0F8DE92987A07D3422D29164B84B5CE339C9">
     <pdf_title>Mechanisms of sodium channel inactivation</pdf_title>
 </pdf_annotation>
@@ -4594,12 +4594,12 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="resources" ID="ID_1623928840" CREATED="1454500545741" MODIFIED="1454500548079">
-<node TEXT="Madame Curie Bioscience Database" ID="ID_67224945" CREATED="1454500619965" MODIFIED="1454500622940">
+<node TEXT="resources" FOLDED="true" ID="ID_1623928840" CREATED="1454500545741" MODIFIED="1454500548079">
+<node TEXT="Madame Curie Bioscience Database" FOLDED="true" ID="ID_67224945" CREATED="1454500619965" MODIFIED="1454500622940">
 <node TEXT="Voltage-Dependent Inactivation of Voltage Gated Calcium Channels&#xa;Mary T. An and Gerald. W. Zamponi." ID="ID_1173409767" CREATED="1454500677196" MODIFIED="1454501361581"/>
 </node>
 <node TEXT="Molecular Biology of the Cell. 4th edition&#xa;Alberts, Johnson, Lewis, et. al. 2002" ID="ID_330621464" CREATED="1454500842260" MODIFIED="1454500884718"/>
-<node TEXT="Spiking Neuron Models&#xa;Gerstner and Kistler 2002" ID="ID_1711852149" CREATED="1454500909871" MODIFIED="1454500926668">
+<node TEXT="Spiking Neuron Models&#xa;Gerstner and Kistler 2002" FOLDED="true" ID="ID_1711852149" CREATED="1454500909871" MODIFIED="1454500926668">
 <node TEXT="The Zoo of Ion Channels" ID="ID_692510091" CREATED="1454500312583" MODIFIED="1454500337126" LINK="http://icwww.epfl.ch/~gerstner/SPNM/node15.html"/>
 </node>
 <node TEXT="PhysiologyWeb" ID="ID_1475676630" CREATED="1454500957467" MODIFIED="1454501713113" LINK="http://www.physiologyweb.com/lecture_notes/neuronal_action_potential/neuronal_action_potential_important_features.html"><richcontent TYPE="DETAILS">
@@ -4618,17 +4618,17 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Molecular Cell Biology, 4th edition&#xa;Lodish, Berk, Zipursky, 2000" ID="ID_1191436814" CREATED="1454500995187" MODIFIED="1454501026419">
+<node TEXT="Molecular Cell Biology, 4th edition&#xa;Lodish, Berk, Zipursky, 2000" FOLDED="true" ID="ID_1191436814" CREATED="1454500995187" MODIFIED="1454501026419">
 <node TEXT="Molecular Properties of Voltage-Gated Ion Channels" ID="ID_852595266" CREATED="1454501032066" MODIFIED="1454501056507" LINK="http://www.ncbi.nlm.nih.gov/books/NBK21608/"/>
 </node>
-<node TEXT="Essentials of Anatomy and Physiology, 6th Edition&#xa;Seeley, Stephens, Tate" ID="ID_1061730452" CREATED="1454501170793" MODIFIED="1454501223089">
+<node TEXT="Essentials of Anatomy and Physiology, 6th Edition&#xa;Seeley, Stephens, Tate" FOLDED="true" ID="ID_1061730452" CREATED="1454501170793" MODIFIED="1454501223089">
 <node TEXT="Animation: Voltage-Gated Channels and the Action Potential" ID="ID_104314188" CREATED="1454501194568" MODIFIED="1454501208630" LINK="http://highered.mheducation.com/sites/0072943696/student_view0/chapter8/animation__voltage-gated_channels_and_the_action_potential__quiz_1_.html"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Action potential generation" ID="ID_781967274" CREATED="1453749244100" MODIFIED="1453749250174" MOVED="1453911691879">
-<node TEXT="electrical conductance within the heart" ID="ID_129286125" CREATED="1453749251469" MODIFIED="1454339261992"><richcontent TYPE="DETAILS">
+<node TEXT="Action potential generation" FOLDED="true" ID="ID_781967274" CREATED="1453749244100" MODIFIED="1453749250174" MOVED="1453911691879">
+<node TEXT="electrical conductance within the heart" FOLDED="true" ID="ID_129286125" CREATED="1453749251469" MODIFIED="1454339261992"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5258,7 +5258,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="refractory period" ID="ID_1321120109" CREATED="1453897707585" MODIFIED="1453907866443" MOVED="1453908161376">
+<node TEXT="refractory period" FOLDED="true" ID="ID_1321120109" CREATED="1453897707585" MODIFIED="1453907866443" MOVED="1453908161376">
 <node TEXT="effective refractory period (ERP)" ID="ID_573256968" CREATED="1453897707585" MODIFIED="1453908554357"><richcontent TYPE="DETAILS">
 
 <html>
@@ -5371,7 +5371,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="phases" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
+<node TEXT="phases" FOLDED="true" ID="ID_685964741" CREATED="1453897707586" MODIFIED="1453910031811">
 <node TEXT="phase 0: depolarization" FOLDED="true" ID="ID_292516788" CREATED="1453897707586" MODIFIED="1455886029689"><richcontent TYPE="DETAILS">
 
 <html>
@@ -5606,7 +5606,7 @@
 <attribute NAME="duration of AP" VALUE="200-400 ms"/>
 </node>
 </node>
-<node TEXT="regulation of SA-nodal pacemaker activity" ID="ID_235719046" CREATED="1453897707586" MODIFIED="1453910282184"><richcontent TYPE="DETAILS">
+<node TEXT="regulation of SA-nodal pacemaker activity" FOLDED="true" ID="ID_235719046" CREATED="1453897707586" MODIFIED="1453910282184"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5677,7 +5677,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="sympathetic activation" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1456141302041"><richcontent TYPE="DETAILS">
+<node TEXT="sympathetic activation" FOLDED="true" ID="ID_565621085" CREATED="1453897707587" MODIFIED="1456141302041"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5719,7 +5719,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="mechanism" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1456130960319"><richcontent TYPE="DETAILS">
+<node TEXT="mechanism" FOLDED="true" ID="ID_432937196" CREATED="1453897707587" MODIFIED="1456130960319"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5752,7 +5752,7 @@
 </node>
 </node>
 </node>
-<node TEXT="vagal stimulation:" ID="ID_1045581943" CREATED="1453897707587" MODIFIED="1453910899244"><richcontent TYPE="DETAILS">
+<node TEXT="vagal stimulation:" FOLDED="true" ID="ID_1045581943" CREATED="1453897707587" MODIFIED="1453910899244"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6035,7 +6035,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="P wave" ID="ID_368120032" CREATED="1453804283725" MODIFIED="1453809515931"><richcontent TYPE="DETAILS">
+<node TEXT="P wave" FOLDED="true" ID="ID_368120032" CREATED="1453804283725" MODIFIED="1453809515931"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6068,7 +6068,7 @@
 <node TEXT="duration of P wave: 0.08 to 0.1 s" STYLE_REF="number" ID="ID_1060722589" CREATED="1453804570418" MODIFIED="1453804604897"/>
 <node TEXT="PR-Interval: 0.12 to 0.2 s" STYLE_REF="number" ID="ID_1031893533" CREATED="1453804622747" MODIFIED="1453805265488"/>
 </node>
-<node TEXT="QRS complex" ID="ID_611770040" CREATED="1453804774105" MODIFIED="1453805389490"><richcontent TYPE="DETAILS">
+<node TEXT="QRS complex" FOLDED="true" ID="ID_611770040" CREATED="1453804774105" MODIFIED="1453805389490"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6147,7 +6147,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="QT interval" ID="ID_1527911318" CREATED="1453805801626" MODIFIED="1453806058447"><richcontent TYPE="DETAILS">
+<node TEXT="QT interval" FOLDED="true" ID="ID_1527911318" CREATED="1453805801626" MODIFIED="1453806058447"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6327,7 +6327,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="AV block" ID="ID_445886087" CREATED="1453811755703" MODIFIED="1453812957734"><richcontent TYPE="DETAILS">
+<node TEXT="AV block" FOLDED="true" ID="ID_445886087" CREATED="1453811755703" MODIFIED="1453812957734"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6538,8 +6538,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="principles and rules of interpretation" ID="ID_824768726" CREATED="1453817471092" MODIFIED="1453817529918">
-<node TEXT="electrical vectors" ID="ID_1294053332" CREATED="1453817531556" MODIFIED="1453818668643"><richcontent TYPE="DETAILS">
+<node TEXT="principles and rules of interpretation" FOLDED="true" ID="ID_824768726" CREATED="1453817471092" MODIFIED="1453817529918">
+<node TEXT="electrical vectors" FOLDED="true" ID="ID_1294053332" CREATED="1453817531556" MODIFIED="1453818668643"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6596,7 +6596,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="electrode placement" ID="ID_518904101" CREATED="1453819476175" MODIFIED="1453821647457"><richcontent TYPE="DETAILS">
+<node TEXT="electrode placement" FOLDED="true" ID="ID_518904101" CREATED="1453819476175" MODIFIED="1453821647457"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6686,7 +6686,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="ECG limb leads" ID="ID_1079329286" CREATED="1453819942171" MODIFIED="1453823157887"><richcontent TYPE="DETAILS">
+<node TEXT="ECG limb leads" FOLDED="true" ID="ID_1079329286" CREATED="1453819942171" MODIFIED="1453823157887"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6777,7 +6777,7 @@
 <hook NAME="SummaryNode"/>
 </node>
 </node>
-<node TEXT="augmented limb leads" ID="ID_876322401" CREATED="1453819973947" MODIFIED="1453822115688"><richcontent TYPE="DETAILS">
+<node TEXT="augmented limb leads" FOLDED="true" ID="ID_876322401" CREATED="1453819973947" MODIFIED="1453822115688"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -6807,7 +6807,7 @@
 <hook NAME="SummaryNode"/>
 </node>
 </node>
-<node TEXT="(hex)axial reference system" ID="ID_1966919014" CREATED="1453821707671" MODIFIED="1453821799884">
+<node TEXT="(hex)axial reference system" FOLDED="true" ID="ID_1966919014" CREATED="1453821707671" MODIFIED="1453821799884">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Hexaxial_reference_system.svg" SIZE="0.8344923" NAME="ExternalObject"/>
 <node TEXT="Cabrera-Circle" ID="ID_577318250" CREATED="1454587241495" MODIFIED="1454587249400"/>
 </node>
@@ -7066,7 +7066,7 @@
 </node>
 <node TEXT="adaptation and diseases" FOLDED="true" POSITION="left" ID="ID_159938327" CREATED="1453901798076" MODIFIED="1457533846527" HGAP="343" VSHIFT="-60" MOVED="1453901828309">
 <edge COLOR="#7c0000"/>
-<node TEXT="mechanisms" ID="ID_1224912627" CREATED="1453901892492" MODIFIED="1453901894845">
+<node TEXT="mechanisms" FOLDED="true" ID="ID_1224912627" CREATED="1453901892492" MODIFIED="1453901894845">
 <node TEXT="neurohumoral control" ID="ID_1434460239" CREATED="1457515061974" MODIFIED="1457515301713" LINK="#ID_1061200333"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7141,7 +7141,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="conditions" ID="ID_855363213" CREATED="1453901897350" MODIFIED="1453901907812">
+<node TEXT="conditions" FOLDED="true" ID="ID_855363213" CREATED="1453901897350" MODIFIED="1453901907812">
 <node TEXT="exercise" ID="ID_15152504" CREATED="1453897707582" MODIFIED="1457515666147"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7222,7 +7222,7 @@
 
 </richcontent>
 </node>
-<node TEXT="hypotension (reduced blood pressure)" ID="ID_912182938" CREATED="1453897707583" MODIFIED="1457518591311"><richcontent TYPE="DETAILS">
+<node TEXT="hypotension (reduced blood pressure)" FOLDED="true" ID="ID_912182938" CREATED="1453897707583" MODIFIED="1457518591311"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7238,7 +7238,7 @@
 </html>
 
 </richcontent>
-<node TEXT="causes" ID="ID_46634964" CREATED="1457518559901" MODIFIED="1457518562566">
+<node TEXT="causes" FOLDED="true" ID="ID_46634964" CREATED="1457518559901" MODIFIED="1457518562566">
 <node TEXT="reduced systemic vascular resistance" ID="ID_770467591" CREATED="1457518595509" MODIFIED="1457518661800"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7271,8 +7271,8 @@
 
 </richcontent>
 </node>
-<node TEXT="reduced cardiac output" ID="ID_396458213" CREATED="1457518608932" MODIFIED="1457518613686">
-<node TEXT="reduced stroke volume" ID="ID_1530777564" CREATED="1457518664940" MODIFIED="1457518669789">
+<node TEXT="reduced cardiac output" FOLDED="true" ID="ID_396458213" CREATED="1457518608932" MODIFIED="1457518613686">
+<node TEXT="reduced stroke volume" FOLDED="true" ID="ID_1530777564" CREATED="1457518664940" MODIFIED="1457518669789">
 <node TEXT="reduced preload" ID="ID_219160515" CREATED="1457518679876" MODIFIED="1457518788767"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7416,7 +7416,7 @@
 
 </richcontent>
 </node>
-<node TEXT="decompensatory mechanisms" ID="ID_903067448" CREATED="1457519873148" MODIFIED="1457520230775"><richcontent TYPE="DETAILS">
+<node TEXT="decompensatory mechanisms" FOLDED="true" ID="ID_903067448" CREATED="1457519873148" MODIFIED="1457520230775"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7432,10 +7432,10 @@
 </html>
 
 </richcontent>
-<node TEXT="sympathetic escape" ID="ID_1539833716" CREATED="1457520232817" MODIFIED="1457520631325" HGAP="48" VSHIFT="-51">
-<node TEXT="decreased artertial pressure" ID="ID_25065683" CREATED="1457520430432" MODIFIED="1457520439505">
-<node TEXT="decreased organ blood flow" ID="ID_698672740" CREATED="1457520473776" MODIFIED="1457520480857">
-<node TEXT="tissue hypoxia" ID="ID_431182714" CREATED="1457520440448" MODIFIED="1457520445937">
+<node TEXT="sympathetic escape" FOLDED="true" ID="ID_1539833716" CREATED="1457520232817" MODIFIED="1457520631325" HGAP="48" VSHIFT="-51">
+<node TEXT="decreased artertial pressure" FOLDED="true" ID="ID_25065683" CREATED="1457520430432" MODIFIED="1457520439505">
+<node TEXT="decreased organ blood flow" FOLDED="true" ID="ID_698672740" CREATED="1457520473776" MODIFIED="1457520480857">
+<node TEXT="tissue hypoxia" FOLDED="true" ID="ID_431182714" CREATED="1457520440448" MODIFIED="1457520445937">
 <node TEXT="vasodilation (sympathetic escape)" ID="ID_42282152" CREATED="1457520447055" MODIFIED="1457520637411"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7458,10 +7458,10 @@
 </node>
 </node>
 </node>
-<node TEXT="cardiac depression" ID="ID_1033903162" CREATED="1457520245226" MODIFIED="1457520612975">
-<node TEXT="decreased CO" ID="ID_574948506" CREATED="1457520291840" MODIFIED="1457520295162">
-<node TEXT="decreased arterial pressure" ID="ID_440687361" CREATED="1457520306089" MODIFIED="1457520313825">
-<node TEXT="decreased coronary perfusion" ID="ID_694756498" CREATED="1457520318897" MODIFIED="1457520418468"><richcontent TYPE="DETAILS">
+<node TEXT="cardiac depression" FOLDED="true" ID="ID_1033903162" CREATED="1457520245226" MODIFIED="1457520612975">
+<node TEXT="decreased CO" FOLDED="true" ID="ID_574948506" CREATED="1457520291840" MODIFIED="1457520295162">
+<node TEXT="decreased arterial pressure" FOLDED="true" ID="ID_440687361" CREATED="1457520306089" MODIFIED="1457520313825">
+<node TEXT="decreased coronary perfusion" FOLDED="true" ID="ID_694756498" CREATED="1457520318897" MODIFIED="1457520418468"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7487,10 +7487,10 @@
 </node>
 </node>
 </node>
-<node TEXT="acidosis" ID="ID_1761046774" CREATED="1457520600830" MODIFIED="1457520763928" HGAP="29" VSHIFT="33">
-<node TEXT="decreased arterial pressure" ID="ID_364425592" CREATED="1457520729045" MODIFIED="1457521170549" HGAP="240" VSHIFT="18">
-<node TEXT="tissue hypoxia" ID="ID_1193164895" CREATED="1457520651086" MODIFIED="1457521084574" HGAP="-84" VSHIFT="69">
-<node TEXT="metabolic acidosis" ID="ID_1108730318" CREATED="1457520657318" MODIFIED="1457521090854" HGAP="-133" VSHIFT="94"><richcontent TYPE="DETAILS">
+<node TEXT="acidosis" FOLDED="true" ID="ID_1761046774" CREATED="1457520600830" MODIFIED="1457520763928" HGAP="29" VSHIFT="33">
+<node TEXT="decreased arterial pressure" FOLDED="true" ID="ID_364425592" CREATED="1457520729045" MODIFIED="1457521170549" HGAP="240" VSHIFT="18">
+<node TEXT="tissue hypoxia" FOLDED="true" ID="ID_1193164895" CREATED="1457520651086" MODIFIED="1457521084574" HGAP="-84" VSHIFT="69">
+<node TEXT="metabolic acidosis" FOLDED="true" ID="ID_1108730318" CREATED="1457520657318" MODIFIED="1457521090854" HGAP="-133" VSHIFT="94"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7506,7 +7506,7 @@
 </html>
 
 </richcontent>
-<node TEXT="reduced cardiac and vascular contraction" ID="ID_1356714111" CREATED="1457520669606" MODIFIED="1457521098446" HGAP="-587" VSHIFT="-28">
+<node TEXT="reduced cardiac and vascular contraction" FOLDED="true" ID="ID_1356714111" CREATED="1457520669606" MODIFIED="1457521098446" HGAP="-587" VSHIFT="-28">
 <node TEXT="decreased CO and SVR" ID="ID_749179210" CREATED="1457520692413" MODIFIED="1457521120110" HGAP="-198" VSHIFT="-57">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_364425592" STARTINCLINATION="18;-13;" ENDINCLINATION="-89;-8;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -7515,17 +7515,17 @@
 </node>
 </node>
 </node>
-<node TEXT="sympathetic failure" ID="ID_1252248164" CREATED="1457520917196" MODIFIED="1457521177981" HGAP="64" VSHIFT="37">
-<node TEXT="decreased arterial pressure" ID="ID_1679002016" CREATED="1457520926204" MODIFIED="1457521030225" HGAP="-70" VSHIFT="52">
-<node TEXT="cerebral ischemia" ID="ID_1945298043" CREATED="1457520964292" MODIFIED="1457521034887" HGAP="-139" VSHIFT="62">
+<node TEXT="sympathetic failure" FOLDED="true" ID="ID_1252248164" CREATED="1457520917196" MODIFIED="1457521177981" HGAP="64" VSHIFT="37">
+<node TEXT="decreased arterial pressure" FOLDED="true" ID="ID_1679002016" CREATED="1457520926204" MODIFIED="1457521030225" HGAP="-70" VSHIFT="52">
+<node TEXT="cerebral ischemia" FOLDED="true" ID="ID_1945298043" CREATED="1457520964292" MODIFIED="1457521034887" HGAP="-139" VSHIFT="62">
 <node TEXT="decreased autonomic output" ID="ID_1866066341" CREATED="1457520968420" MODIFIED="1457521063422" HGAP="-329" VSHIFT="-19">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1679002016" STARTINCLINATION="-19;-35;" ENDINCLINATION="-107;-6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="blood viscosity" ID="ID_757951491" CREATED="1457521181242" MODIFIED="1457521378548" HGAP="42" VSHIFT="49">
-<node TEXT="hypotension" ID="ID_1943879934" CREATED="1457521208434" MODIFIED="1457521238834">
+<node TEXT="blood viscosity" FOLDED="true" ID="ID_757951491" CREATED="1457521181242" MODIFIED="1457521378548" HGAP="42" VSHIFT="49">
+<node TEXT="hypotension" FOLDED="true" ID="ID_1943879934" CREATED="1457521208434" MODIFIED="1457521238834">
 <node TEXT="reduced organ perfusion" ID="ID_1539601979" CREATED="1457521239753" MODIFIED="1457521280967">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -7538,7 +7538,7 @@
 </node>
 </node>
 </node>
-<node TEXT="hypertension" ID="ID_1064287839" CREATED="1457521575088" MODIFIED="1457522142425" MOVED="1457521580550"><richcontent TYPE="DETAILS">
+<node TEXT="hypertension" FOLDED="true" ID="ID_1064287839" CREATED="1457521575088" MODIFIED="1457522142425" MOVED="1457521580550"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7578,7 +7578,7 @@
 </html>
 
 </richcontent>
-<node TEXT="essential hypertension" ID="ID_1327424699" CREATED="1457521622199" MODIFIED="1457522271795"><richcontent TYPE="DETAILS">
+<node TEXT="essential hypertension" FOLDED="true" ID="ID_1327424699" CREATED="1457521622199" MODIFIED="1457522271795"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7651,7 +7651,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="secondary hypertension" ID="ID_1813505019" CREATED="1457521629239" MODIFIED="1457522196935"><richcontent TYPE="DETAILS">
+<node TEXT="secondary hypertension" FOLDED="true" ID="ID_1813505019" CREATED="1457521629239" MODIFIED="1457522196935"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7742,8 +7742,8 @@
 
 </richcontent>
 </node>
-<node TEXT="heart failure" ID="ID_1074063210" CREATED="1457528646342" MODIFIED="1457528652448">
-<node TEXT="causes" ID="ID_340073570" CREATED="1457528807525" MODIFIED="1457528811590">
+<node TEXT="heart failure" FOLDED="true" ID="ID_1074063210" CREATED="1457528646342" MODIFIED="1457528652448">
+<node TEXT="causes" FOLDED="true" ID="ID_340073570" CREATED="1457528807525" MODIFIED="1457528811590">
 <node TEXT="coronary artery disease" ID="ID_1910120838" CREATED="1457528812661" MODIFIED="1457529044661"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7792,7 +7792,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="types" ID="ID_1388781941" CREATED="1457529126931" MODIFIED="1457529131276">
+<node TEXT="types" FOLDED="true" ID="ID_1388781941" CREATED="1457529126931" MODIFIED="1457529131276">
 <node TEXT="systolic" ID="ID_1843306800" CREATED="1457529132914" MODIFIED="1457529161525"><richcontent TYPE="DETAILS">
 
 <html>
@@ -7829,7 +7829,7 @@
 </node>
 </node>
 </node>
-<node TEXT="valve disease" ID="ID_398302182" CREATED="1457531505354" MODIFIED="1457531604091"><richcontent TYPE="DETAILS">
+<node TEXT="valve disease" FOLDED="true" ID="ID_398302182" CREATED="1457531505354" MODIFIED="1457531604091"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7854,7 +7854,7 @@
 </html>
 
 </richcontent>
-<node TEXT="valve stenosis" ID="ID_970506198" CREATED="1457531635825" MODIFIED="1457531939851"><richcontent TYPE="DETAILS">
+<node TEXT="valve stenosis" FOLDED="true" ID="ID_970506198" CREATED="1457531635825" MODIFIED="1457531939851"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -7967,7 +7967,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="valve regurgitation (insufficiency)" ID="ID_804496895" CREATED="1457531642320" MODIFIED="1457532773712"><richcontent TYPE="DETAILS">
+<node TEXT="valve regurgitation (insufficiency)" FOLDED="true" ID="ID_804496895" CREATED="1457531642320" MODIFIED="1457532773712"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8107,8 +8107,8 @@
 <node TEXT="anatomy" FOLDED="true" POSITION="left" ID="ID_336751138" CREATED="1456316958802" MODIFIED="1457011946410" HGAP="68" VSHIFT="-70" MOVED="1456317010631">
 <edge COLOR="#007c7c"/>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Diagram_of_the_human_heart_(cropped).svg" SIZE="0.9230769" NAME="ExternalObject"/>
-<node TEXT="innervation" ID="ID_1568451710" CREATED="1456319759198" MODIFIED="1456319821840">
-<node TEXT="efferent (away from nerve)" ID="ID_1036052498" CREATED="1456320193011" MODIFIED="1456320295180">
+<node TEXT="innervation" FOLDED="true" ID="ID_1568451710" CREATED="1456319759198" MODIFIED="1456319821840">
+<node TEXT="efferent (away from nerve)" FOLDED="true" ID="ID_1036052498" CREATED="1456320193011" MODIFIED="1456320295180">
 <node TEXT="vagal (parasympathetic)" ID="ID_1786361815" CREATED="1456319901957" MODIFIED="1456320093804"><richcontent TYPE="DETAILS">
 
 <html>
@@ -8171,10 +8171,10 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="papillary muscles" ID="ID_732199407" CREATED="1456494410045" MODIFIED="1456494419522">
+<node TEXT="papillary muscles" FOLDED="true" ID="ID_732199407" CREATED="1456494410045" MODIFIED="1456494419522">
 <node TEXT="hold back AV valves through chordae tendinae" ID="ID_84240829" CREATED="1456494420693" MODIFIED="1456494436662"/>
 </node>
-<node TEXT="layers of the heart wall" ID="ID_1012696253" CREATED="1456494439877" MODIFIED="1456494510483"><richcontent TYPE="DETAILS">
+<node TEXT="layers of the heart wall" FOLDED="true" ID="ID_1012696253" CREATED="1456494439877" MODIFIED="1456494510483"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8340,7 +8340,7 @@
 <node TEXT="left atrium input pressure: 10 mmHg" STYLE_REF="number" ID="ID_1775291724" CREATED="1453901470799" MODIFIED="1453901521782"/>
 <node TEXT="max. systolic pressure in aorta: 100 - 140 mmHg" STYLE_REF="number" ID="ID_138053166" CREATED="1453901494929" MODIFIED="1453901521787"/>
 </node>
-<node TEXT="coronary circulation" ID="ID_1168035521" CREATED="1457359974154" MODIFIED="1457360879899"><richcontent TYPE="DETAILS">
+<node TEXT="coronary circulation" FOLDED="true" ID="ID_1168035521" CREATED="1457359974154" MODIFIED="1457360879899"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8356,7 +8356,7 @@
 </html>
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Blausen_0260_CoronaryVessels_Anterior.jpg" SIZE="0.27272728" NAME="ExternalObject"/>
-<node TEXT="arteries" ID="ID_1066703031" CREATED="1457360071689" MODIFIED="1457361438386"><richcontent TYPE="DETAILS">
+<node TEXT="arteries" FOLDED="true" ID="ID_1066703031" CREATED="1457360071689" MODIFIED="1457361438386"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8418,8 +8418,8 @@
 </node>
 <node TEXT="vascular system" FOLDED="true" POSITION="right" ID="ID_1552739746" CREATED="1456494773978" MODIFIED="1457011940590" HGAP="75" VSHIFT="77">
 <edge COLOR="#7c7c00"/>
-<node TEXT="anatomy" ID="ID_300980368" CREATED="1456494786835" MODIFIED="1456494793051">
-<node TEXT="vessel types" ID="ID_1736677533" CREATED="1456495103264" MODIFIED="1456495106241">
+<node TEXT="anatomy" FOLDED="true" ID="ID_300980368" CREATED="1456494786835" MODIFIED="1456494793051">
+<node TEXT="vessel types" FOLDED="true" ID="ID_1736677533" CREATED="1456495103264" MODIFIED="1456495106241">
 <node TEXT="aorta" ID="ID_1340493591" CREATED="1456495108936" MODIFIED="1456498551662">
 <attribute_layout NAME_WIDTH="95" VALUE_WIDTH="95"/>
 <attribute NAME="diameter" VALUE="25 mm"/>
@@ -8541,7 +8541,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Capillaries" ID="ID_1326574262" CREATED="1456495128615" MODIFIED="1456498571605">
+<node TEXT="Capillaries" FOLDED="true" ID="ID_1326574262" CREATED="1456495128615" MODIFIED="1456498571605">
 <attribute_layout NAME_WIDTH="95" VALUE_WIDTH="101"/>
 <attribute NAME="diameter" VALUE="0.006 - 0.01 mm"/>
 <attribute NAME="blood pressure" VALUE="25 - 30 mmHg"/>
@@ -8591,9 +8591,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="blood flow (formula)" ID="ID_1510033643" CREATED="1456496984954" MODIFIED="1456497016915">
+<node TEXT="blood flow (formula)" FOLDED="true" ID="ID_1510033643" CREATED="1456496984954" MODIFIED="1456497016915">
 <hook EQUATION="F = V \cdot A" NAME="plugins/latex/LatexNodeHook.properties"/>
-<node TEXT="mean velocity" ID="ID_1995876659" CREATED="1456497079410" MODIFIED="1456497377621">
+<node TEXT="mean velocity" FOLDED="true" ID="ID_1995876659" CREATED="1456497079410" MODIFIED="1456497377621">
 <attribute_layout NAME_WIDTH="81" VALUE_WIDTH="81"/>
 <attribute NAME="in capillaries" VALUE="0.05 cm/s"/>
 <attribute NAME="in aorta" VALUE="50 cm/s"/>
@@ -8677,7 +8677,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="pressure and volume distribution" ID="ID_1224881602" CREATED="1456497969540" MODIFIED="1456498492301"><richcontent TYPE="DETAILS">
+<node TEXT="pressure and volume distribution" FOLDED="true" ID="ID_1224881602" CREATED="1456497969540" MODIFIED="1456498492301"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8704,7 +8704,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="pressure loss (formula)" ID="ID_807708087" CREATED="1456498117602" MODIFIED="1456498182508">
+<node TEXT="pressure loss (formula)" FOLDED="true" ID="ID_807708087" CREATED="1456498117602" MODIFIED="1456498182508">
 <hook EQUATION="\Delta P = F \cdot R" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
 
@@ -8750,8 +8750,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="arterial blood pressure" ID="ID_741683316" CREATED="1456825766349" MODIFIED="1456825770951">
-<node TEXT="pulse pressure" ID="ID_1120102885" CREATED="1456825807115" MODIFIED="1456825987918"><richcontent TYPE="DETAILS">
+<node TEXT="arterial blood pressure" FOLDED="true" ID="ID_741683316" CREATED="1456825766349" MODIFIED="1456825770951">
+<node TEXT="pulse pressure" FOLDED="true" ID="ID_1120102885" CREATED="1456825807115" MODIFIED="1456825987918"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8800,7 +8800,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="mean arterial pressure (MAP)" ID="ID_1177497672" CREATED="1456826059746" MODIFIED="1456826887214"><richcontent TYPE="DETAILS">
+<node TEXT="mean arterial pressure (MAP)" FOLDED="true" ID="ID_1177497672" CREATED="1456826059746" MODIFIED="1456826887214"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8821,7 +8821,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="estimation" ID="ID_908481748" CREATED="1456827264298" MODIFIED="1456827267675">
+<node TEXT="estimation" FOLDED="true" ID="ID_908481748" CREATED="1456827264298" MODIFIED="1456827267675">
 <node TEXT="at high heart rates" ID="ID_484819936" CREATED="1456827269657" MODIFIED="1456827357157"><richcontent TYPE="DETAILS">
 
 <html>
@@ -8841,7 +8841,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="at resting heart rate" ID="ID_27761701" CREATED="1456826880205" MODIFIED="1456827308210">
+<node TEXT="at resting heart rate" FOLDED="true" ID="ID_27761701" CREATED="1456826880205" MODIFIED="1456827308210">
 <hook EQUATION="MAP \approx P_{dia} + \frac{1}{3} (P_{sys} - P_{dia})" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="systolic pressure" ID="ID_1960730617" CREATED="1456826963420" MODIFIED="1456826991420">
 <hook EQUATION="P_{sys}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -8851,7 +8851,7 @@
 </node>
 </node>
 </node>
-<node TEXT="physiological factors" ID="ID_1733714193" CREATED="1456827492009" MODIFIED="1456827530835">
+<node TEXT="physiological factors" FOLDED="true" ID="ID_1733714193" CREATED="1456827492009" MODIFIED="1456827530835">
 <hook EQUATION="MAP = (CO \cdot SVR) + CVP" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="systemic vascular resistance" ID="ID_591879350" CREATED="1456827545288" MODIFIED="1456827747968">
 <hook EQUATION="SVR" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -8887,7 +8887,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="aortic pulse pressure" ID="ID_689912385" CREATED="1456827883453" MODIFIED="1456834075823">
+<node TEXT="aortic pulse pressure" FOLDED="true" ID="ID_689912385" CREATED="1456827883453" MODIFIED="1456834075823">
 <attribute_layout NAME_WIDTH="202" VALUE_WIDTH="202"/>
 <attribute NAME="aortic pulse pressure (young adult)" VALUE="40 - 45 mmHg"/>
 <attribute NAME="aortic pulse pressure (elderly)" VALUE="60 mmHg"/>
@@ -8918,9 +8918,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="determining factors" ID="ID_800182818" CREATED="1456829931742" MODIFIED="1456829947360">
+<node TEXT="determining factors" FOLDED="true" ID="ID_800182818" CREATED="1456829931742" MODIFIED="1456829947360">
 <node TEXT="stroke volume (SV)" ID="ID_728725392" CREATED="1456829948366" MODIFIED="1456829961080"/>
-<node TEXT="compliance (C)" ID="ID_784606733" CREATED="1456829962398" MODIFIED="1456834310336">
+<node TEXT="compliance (C)" FOLDED="true" ID="ID_784606733" CREATED="1456829962398" MODIFIED="1456834310336">
 <hook EQUATION="C = \frac{\Delta V}{\Delta P}  \; \left[\frac{m^3}{mmHg}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
 
@@ -8978,7 +8978,7 @@
 </node>
 </node>
 </node>
-<node TEXT="hemodynamics" ID="ID_252755750" CREATED="1456834604878" MODIFIED="1456836578207"><richcontent TYPE="DETAILS">
+<node TEXT="hemodynamics" FOLDED="true" ID="ID_252755750" CREATED="1456834604878" MODIFIED="1456836578207"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -8993,7 +8993,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="blood flow (through an organ)" ID="ID_1434488928" CREATED="1456836579680" MODIFIED="1456837528227">
+<node TEXT="blood flow (through an organ)" FOLDED="true" ID="ID_1434488928" CREATED="1456836579680" MODIFIED="1456837528227">
 <hook EQUATION="F = \frac{\Delta P}{R}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <hook NAME="FirstGroupNode"/>
 <node TEXT="pressure gradient" ID="ID_243653897" CREATED="1456836616736" MODIFIED="1456836675318">
@@ -9006,12 +9006,12 @@
 <hook EQUATION="F \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="factors for vessel resistance" ID="ID_1385170857" CREATED="1456836951605" MODIFIED="1456837044294">
+<node TEXT="factors for vessel resistance" FOLDED="true" ID="ID_1385170857" CREATED="1456836951605" MODIFIED="1456837044294">
 <hook EQUATION="R \propto \frac{\eta L}{r^4}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="vessel length" ID="ID_956791480" CREATED="1456837016845" MODIFIED="1456837242626">
 <hook EQUATION="L \; [mm]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="blood viscosity" ID="ID_747214180" CREATED="1456837031917" MODIFIED="1456912438841">
+<node TEXT="blood viscosity" FOLDED="true" ID="ID_747214180" CREATED="1456837031917" MODIFIED="1456912438841">
 <hook EQUATION="\eta \; [mmHg \cdot min]" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="typical values" STYLE_REF="number" ID="ID_1672347068" CREATED="1456912486598" MODIFIED="1456913032388">
 <attribute_layout NAME_WIDTH="87" VALUE_WIDTH="119"/>
@@ -9067,7 +9067,7 @@
 <hook EQUATION="r \; [mm]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="Poiseuille&apos;s equation" ID="ID_1091991907" CREATED="1456837528218" MODIFIED="1456837635082">
+<node TEXT="Poiseuille&apos;s equation" FOLDED="true" ID="ID_1091991907" CREATED="1456837528218" MODIFIED="1456837635082">
 <hook NAME="SummaryNode"/>
 <hook NAME="FirstGroupNode"/>
 <hook EQUATION="F \approx \frac{\pi \cdot \Delta P \cdot r^4}{8 \cdot \eta \cdot L}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -9104,7 +9104,7 @@
 </node>
 <node TEXT="only valid for single vessel, not for network of vessels" ID="ID_1702441098" CREATED="1456915471040" MODIFIED="1456915487305"/>
 </node>
-<node TEXT="flow types" ID="ID_1775223534" CREATED="1456914440441" MODIFIED="1456914895648">
+<node TEXT="flow types" FOLDED="true" ID="ID_1775223534" CREATED="1456914440441" MODIFIED="1456914895648">
 <node TEXT="laminar" ID="ID_1959714742" CREATED="1456914896420" MODIFIED="1456915027738"><richcontent TYPE="DETAILS">
 
 <html>
@@ -9162,10 +9162,10 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="vessel arrangement" ID="ID_1156152706" CREATED="1456915449659" MODIFIED="1456915457210">
-<node TEXT="parallel" ID="ID_400609516" CREATED="1456916399058" MODIFIED="1456920551355">
+<node TEXT="vessel arrangement" FOLDED="true" ID="ID_1156152706" CREATED="1456915449659" MODIFIED="1456915457210">
+<node TEXT="parallel" FOLDED="true" ID="ID_400609516" CREATED="1456916399058" MODIFIED="1456920551355">
 <hook NAME="FirstGroupNode"/>
-<node TEXT="total resistance (parallel)" ID="ID_1761934014" CREATED="1456919762754" MODIFIED="1456919860344">
+<node TEXT="total resistance (parallel)" FOLDED="true" ID="ID_1761934014" CREATED="1456919762754" MODIFIED="1456919860344">
 <hook EQUATION="\frac{1}{R_T} = \sum\limits_{i=0}^n \frac{1}{R_i}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT=" =&gt; total resistance is smaller than smallest individual resistance" ID="ID_613906197" CREATED="1456919912185" MODIFIED="1456920136661">
 <hook EQUATION="\Rightarrow \frac{1}{R_T} \geq \frac{1}{\min \limits_i R_i} \Rightarrow R_T \leq \min \limits_i R_i" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -9188,8 +9188,8 @@
 </node>
 </node>
 </node>
-<node TEXT="in series" ID="ID_1697801681" CREATED="1456919745226" MODIFIED="1456919759171">
-<node TEXT="total resistance (series)" ID="ID_389861756" CREATED="1456919783066" MODIFIED="1456919890083">
+<node TEXT="in series" FOLDED="true" ID="ID_1697801681" CREATED="1456919745226" MODIFIED="1456919759171">
+<node TEXT="total resistance (series)" FOLDED="true" ID="ID_389861756" CREATED="1456919783066" MODIFIED="1456919890083">
 <hook EQUATION="R_T = \sum \limits_{i=0}^n R_i" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="effect of change in vessel resistance depends on absolute vessel resistance" ID="ID_932927144" CREATED="1456920579748" MODIFIED="1456921212851"><richcontent TYPE="DETAILS">
 
@@ -9232,8 +9232,8 @@
 </node>
 </node>
 </node>
-<node TEXT="regulation of systemic vascular resistance" ID="ID_635067114" CREATED="1456922005411" MODIFIED="1456922021084">
-<node TEXT="systemic vascular resistance (SVR)" ID="ID_1420643634" CREATED="1456922026554" MODIFIED="1456922388357"><richcontent TYPE="DETAILS">
+<node TEXT="regulation of systemic vascular resistance" FOLDED="true" ID="ID_635067114" CREATED="1456922005411" MODIFIED="1456922021084">
+<node TEXT="systemic vascular resistance (SVR)" FOLDED="true" ID="ID_1420643634" CREATED="1456922026554" MODIFIED="1456922388357"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9259,7 +9259,7 @@
 <node TEXT="central venous pressure" ID="ID_997600414" CREATED="1456922300248" MODIFIED="1456922564035">
 <hook EQUATION="CVP  \; [mmHg]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="systemic vascular resistance" ID="ID_655044367" CREATED="1456922589854" MODIFIED="1456922639691">
+<node TEXT="systemic vascular resistance" FOLDED="true" ID="ID_655044367" CREATED="1456922589854" MODIFIED="1456922639691">
 <hook EQUATION="SVR  \; \left[\frac{mmHg \cdot min}{ml}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="unit is also called peripheral resistance unit (PRU)" ID="ID_1007167822" CREATED="1457011282573" MODIFIED="1457011298685"/>
 </node>
@@ -9289,7 +9289,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="vascular tone" ID="ID_904768414" CREATED="1456923191042" MODIFIED="1456923930265"><richcontent TYPE="DETAILS">
+<node TEXT="vascular tone" FOLDED="true" ID="ID_904768414" CREATED="1456923191042" MODIFIED="1456923930265"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9389,7 +9389,7 @@
 </node>
 </node>
 </node>
-<node TEXT="venous blood pressure" ID="ID_1353347132" CREATED="1456924077795" MODIFIED="1456924431310"><richcontent TYPE="DETAILS">
+<node TEXT="venous blood pressure" FOLDED="true" ID="ID_1353347132" CREATED="1456924077795" MODIFIED="1456924431310"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9444,8 +9444,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="mechanical factors" ID="ID_829892190" CREATED="1456926758162" MODIFIED="1456926762066">
-<node TEXT="gravity" ID="ID_1408399167" CREATED="1456926765209" MODIFIED="1456926968996"><richcontent TYPE="DETAILS">
+<node TEXT="mechanical factors" FOLDED="true" ID="ID_829892190" CREATED="1456926758162" MODIFIED="1456926762066">
+<node TEXT="gravity" FOLDED="true" ID="ID_1408399167" CREATED="1456926765209" MODIFIED="1456926968996"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9554,7 +9554,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="respiratory activity" ID="ID_195598453" CREATED="1456928326174" MODIFIED="1456928330719">
+<node TEXT="respiratory activity" FOLDED="true" ID="ID_195598453" CREATED="1456928326174" MODIFIED="1456928330719">
 <node TEXT="inspiration" ID="ID_828662153" CREATED="1456928981705" MODIFIED="1457000501877"><richcontent TYPE="DETAILS">
 
 <html>
@@ -9664,7 +9664,7 @@
 </node>
 </node>
 </node>
-<node TEXT="venous return and cardiac output" ID="ID_1423291870" CREATED="1457001642548" MODIFIED="1457001757362"><richcontent TYPE="DETAILS">
+<node TEXT="venous return and cardiac output" FOLDED="true" ID="ID_1423291870" CREATED="1457001642548" MODIFIED="1457001757362"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9688,7 +9688,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="effect of CO on MAP and right atrial pressure" ID="ID_1586180522" CREATED="1457002947873" MODIFIED="1457005725161"><richcontent TYPE="DETAILS">
+<node TEXT="effect of CO on MAP and right atrial pressure" FOLDED="true" ID="ID_1586180522" CREATED="1457002947873" MODIFIED="1457005725161"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -9975,16 +9975,16 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="types of sensors" ID="ID_1669408592" CREATED="1457013068144" MODIFIED="1457013072776">
+<node TEXT="types of sensors" FOLDED="true" ID="ID_1669408592" CREATED="1457013068144" MODIFIED="1457013072776">
 <node TEXT="baroreceptors (blood pressure)" ID="ID_1131210975" CREATED="1457013073807" MODIFIED="1457013082594"/>
 <node TEXT="volume receptors (blood volume)" ID="ID_1748283390" CREATED="1457013084183" MODIFIED="1457013098184"/>
 <node TEXT="chemoreceptors (blood chemistry)" ID="ID_1472417907" CREATED="1457013099383" MODIFIED="1457013108496"/>
 <node TEXT="osmoreceptors (plasma osmolarity)" ID="ID_272853966" CREATED="1457013118607" MODIFIED="1457013136113"/>
 </node>
-<node TEXT="autonomic neural control" ID="ID_233356719" CREATED="1457016112378" MODIFIED="1457016120307">
-<node TEXT="brain regions" ID="ID_344980848" CREATED="1457016455727" MODIFIED="1457017150645">
+<node TEXT="autonomic neural control" FOLDED="true" ID="ID_233356719" CREATED="1457016112378" MODIFIED="1457016120307">
+<node TEXT="brain regions" FOLDED="true" ID="ID_344980848" CREATED="1457016455727" MODIFIED="1457017150645">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Brain_bulbar_region.svg" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="medulla oblongata" ID="ID_1635911688" CREATED="1457017168538" MODIFIED="1457017313770"><richcontent TYPE="DETAILS">
+<node TEXT="medulla oblongata" FOLDED="true" ID="ID_1635911688" CREATED="1457017168538" MODIFIED="1457017313770"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10119,7 +10119,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_114944039" STARTINCLINATION="194;0;" ENDINCLINATION="194;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="parasympathetic innervation" ID="ID_1073172536" CREATED="1457019955839" MODIFIED="1457021138360"><richcontent TYPE="DETAILS">
+<node TEXT="parasympathetic innervation" FOLDED="true" ID="ID_1073172536" CREATED="1457019955839" MODIFIED="1457021138360"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10146,12 +10146,12 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="input" ID="ID_713791104" CREATED="1457021143039" MODIFIED="1457021150863">
+<node TEXT="input" FOLDED="true" ID="ID_713791104" CREATED="1457021143039" MODIFIED="1457021150863">
 <node TEXT="NTS" ID="ID_1159980101" CREATED="1457021212862" MODIFIED="1457021223375">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_757328598" STARTINCLINATION="742;0;" ENDINCLINATION="742;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="output" ID="ID_831924293" CREATED="1457021152214" MODIFIED="1457021445134"><richcontent TYPE="DETAILS">
+<node TEXT="output" FOLDED="true" ID="ID_831924293" CREATED="1457021152214" MODIFIED="1457021445134"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10208,7 +10208,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="vasodilator effects" ID="ID_390744977" CREATED="1457021553260" MODIFIED="1457080913083"><richcontent TYPE="DETAILS">
+<node TEXT="vasodilator effects" FOLDED="true" ID="ID_390744977" CREATED="1457021553260" MODIFIED="1457080913083"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10223,7 +10223,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="direct" ID="ID_1387771767" CREATED="1457021572603" MODIFIED="1457021669170"><richcontent TYPE="DETAILS">
+<node TEXT="direct" FOLDED="true" ID="ID_1387771767" CREATED="1457021572603" MODIFIED="1457021669170"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10283,7 +10283,7 @@
 </node>
 </node>
 </node>
-<node TEXT="sympathetic innervation" ID="ID_1010662932" CREATED="1457021781834" MODIFIED="1457080869500"><richcontent TYPE="DETAILS">
+<node TEXT="sympathetic innervation" FOLDED="true" ID="ID_1010662932" CREATED="1457021781834" MODIFIED="1457080869500"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10319,10 +10319,10 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="input" ID="ID_1829268535" CREATED="1457080028096" MODIFIED="1457080030032">
+<node TEXT="input" FOLDED="true" ID="ID_1829268535" CREATED="1457080028096" MODIFIED="1457080030032">
 <node TEXT="NTS" ID="ID_1576454284" CREATED="1457080031055" MODIFIED="1457080069554" LINK="#ID_757328598"/>
 </node>
-<node TEXT="output" ID="ID_1898590797" CREATED="1457080103079" MODIFIED="1457080525056"><richcontent TYPE="DETAILS">
+<node TEXT="output" FOLDED="true" ID="ID_1898590797" CREATED="1457080103079" MODIFIED="1457080525056"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10438,7 +10438,7 @@
 </node>
 </node>
 </node>
-<node TEXT="interaction between sympathetic and parasympathetic innervation" ID="ID_840370950" CREATED="1457081892011" MODIFIED="1457082069060"><richcontent TYPE="DETAILS">
+<node TEXT="interaction between sympathetic and parasympathetic innervation" FOLDED="true" ID="ID_840370950" CREATED="1457081892011" MODIFIED="1457082069060"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10519,10 +10519,10 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="autonomic receptors" ID="ID_698585353" CREATED="1457083426784" MODIFIED="1457091924311">
-<node TEXT="types" ID="ID_684729971" CREATED="1457083725598" MODIFIED="1457083727775">
-<node TEXT="norepinephrine receptor" ID="ID_848981152" CREATED="1457088541187" MODIFIED="1457088553301">
-<node TEXT="&#x3b1;1-adrenoreceptors" ID="ID_809733980" CREATED="1457083744141" MODIFIED="1457084379714">
+<node TEXT="autonomic receptors" FOLDED="true" ID="ID_698585353" CREATED="1457083426784" MODIFIED="1457091924311">
+<node TEXT="types" FOLDED="true" ID="ID_684729971" CREATED="1457083725598" MODIFIED="1457083727775">
+<node TEXT="norepinephrine receptor" FOLDED="true" ID="ID_848981152" CREATED="1457088541187" MODIFIED="1457088553301">
+<node TEXT="&#x3b1;1-adrenoreceptors" FOLDED="true" ID="ID_809733980" CREATED="1457083744141" MODIFIED="1457084379714">
 <hook NAME="FirstGroupNode"/>
 <node TEXT="Gq-protein/IP3-pathway" ID="ID_1253118986" CREATED="1457084385825" MODIFIED="1457086319180" LINK="#ID_1033643062"><richcontent TYPE="DETAILS">
 
@@ -10541,7 +10541,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x3b1;2-adrenoreceptors" ID="ID_607455356" CREATED="1457083795205" MODIFIED="1457083799814">
+<node TEXT="&#x3b1;2-adrenoreceptors" FOLDED="true" ID="ID_607455356" CREATED="1457083795205" MODIFIED="1457083799814">
 <node TEXT="inhibit norepinephrine release (negative feedback)" ID="ID_1135954782" CREATED="1457084661479" MODIFIED="1457084692160"/>
 </node>
 <node TEXT="&#x3b2;1-adrenoreceptors" ID="ID_987098829" CREATED="1457084218962" MODIFIED="1457088655995" MOVED="1457084227273">
@@ -10569,8 +10569,8 @@
 <hook NAME="SummaryNode"/>
 </node>
 </node>
-<node TEXT="acetylcholine receptor" ID="ID_319057091" CREATED="1457088554675" MODIFIED="1457088560284">
-<node TEXT="muscarinic (M2) receptors" ID="ID_1872124029" CREATED="1457084156586" MODIFIED="1457084203564">
+<node TEXT="acetylcholine receptor" FOLDED="true" ID="ID_319057091" CREATED="1457088554675" MODIFIED="1457088560284">
+<node TEXT="muscarinic (M2) receptors" FOLDED="true" ID="ID_1872124029" CREATED="1457084156586" MODIFIED="1457084203564">
 <node TEXT="Gi-protein/cAMP-pathway" ID="ID_1402164709" CREATED="1457084710734" MODIFIED="1457086680555" LINK="#ID_1067165032">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_288802745" STARTINCLINATION="81;0;" ENDINCLINATION="81;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
@@ -10592,7 +10592,7 @@
 </node>
 </node>
 </node>
-<node TEXT="function at different locations" ID="ID_88926310" CREATED="1457083736909" MODIFIED="1457083743039">
+<node TEXT="function at different locations" FOLDED="true" ID="ID_88926310" CREATED="1457083736909" MODIFIED="1457083743039">
 <node TEXT="heart" ID="ID_1848214743" CREATED="1457087834417" MODIFIED="1457091678698"><richcontent TYPE="DETAILS">
 
 <html>
@@ -10636,7 +10636,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="blood vessels" ID="ID_1428062778" CREATED="1457088886593" MODIFIED="1457091869513"><richcontent TYPE="DETAILS">
+<node TEXT="blood vessels" FOLDED="true" ID="ID_1428062778" CREATED="1457088886593" MODIFIED="1457091869513"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -10722,8 +10722,8 @@
 </node>
 </node>
 </node>
-<node TEXT="baroreceptor feedback" ID="ID_116705258" CREATED="1457092087779" MODIFIED="1457092093826">
-<node TEXT="arterial baroreceptors" ID="ID_1838606522" CREATED="1457093763143" MODIFIED="1457097217687">
+<node TEXT="baroreceptor feedback" FOLDED="true" ID="ID_116705258" CREATED="1457092087779" MODIFIED="1457092093826">
+<node TEXT="arterial baroreceptors" FOLDED="true" ID="ID_1838606522" CREATED="1457093763143" MODIFIED="1457097217687">
 <attribute_layout NAME_WIDTH="123" VALUE_WIDTH="123"/>
 <richcontent TYPE="DETAILS">
 
@@ -10799,7 +10799,7 @@
 </richcontent>
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/BP012%20receptor%20firing.png" SIZE="0.5145798" NAME="ExternalObject"/>
 </node>
-<node TEXT="carotid sinus baroreceptors" ID="ID_18725671" CREATED="1457096247174" MODIFIED="1457097224979">
+<node TEXT="carotid sinus baroreceptors" FOLDED="true" ID="ID_18725671" CREATED="1457096247174" MODIFIED="1457097224979">
 <attribute_layout NAME_WIDTH="136" VALUE_WIDTH="136"/>
 <attribute NAME="sensitivity range" VALUE="60 - 180 mmHg"/>
 <attribute NAME="set point" VALUE="95 mmHg"/>
@@ -11034,7 +11034,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="cardiopulmonary receptors" ID="ID_1065426846" CREATED="1457098522869" MODIFIED="1457099051427"><richcontent TYPE="DETAILS">
+<node TEXT="cardiopulmonary receptors" FOLDED="true" ID="ID_1065426846" CREATED="1457098522869" MODIFIED="1457099051427"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -11135,7 +11135,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="chemoreceptors" ID="ID_791014404" CREATED="1457261154925" MODIFIED="1457261560758"><richcontent TYPE="DETAILS">
+<node TEXT="chemoreceptors" FOLDED="true" ID="ID_791014404" CREATED="1457261154925" MODIFIED="1457261560758"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -11183,7 +11183,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="peripheral chemoreceptors" ID="ID_267473820" CREATED="1457261163970" MODIFIED="1457262707282">
+<node TEXT="peripheral chemoreceptors" FOLDED="true" ID="ID_267473820" CREATED="1457261163970" MODIFIED="1457262707282">
 <attribute_layout NAME_WIDTH="99" VALUE_WIDTH="99"/>
 <attribute NAME="PO2 threshold" VALUE="80 mmHg"/>
 <attribute NAME="PCO2 threshold" VALUE="40 mmHg"/>
@@ -11307,7 +11307,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="ischemic brain reflexes" ID="ID_168797473" CREATED="1457262825339" MODIFIED="1457266502970">
+<node TEXT="ischemic brain reflexes" FOLDED="true" ID="ID_168797473" CREATED="1457262825339" MODIFIED="1457266502970">
 <node TEXT="cerebral ischemia" ID="ID_866879628" CREATED="1457266482154" MODIFIED="1457266512734"><richcontent TYPE="DETAILS">
 
 <html>
@@ -11353,7 +11353,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="pain reflexes" ID="ID_1882647523" CREATED="1457262843596" MODIFIED="1457266591797" MOVED="1457262845515">
+<node TEXT="pain reflexes" FOLDED="true" ID="ID_1882647523" CREATED="1457262843596" MODIFIED="1457266591797" MOVED="1457262845515">
 <node TEXT="myocardial ischemia" ID="ID_159308657" CREATED="1457266592989" MODIFIED="1457266643821"><richcontent TYPE="DETAILS">
 
 <html>
@@ -11449,7 +11449,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="pulmonary and muscle stretch receptors" ID="ID_1013616147" CREATED="1457262874022" MODIFIED="1457262890762" MOVED="1457262875383">
+<node TEXT="pulmonary and muscle stretch receptors" FOLDED="true" ID="ID_1013616147" CREATED="1457262874022" MODIFIED="1457262890762" MOVED="1457262875383">
 <node TEXT="pulmonary stretch receptors" ID="ID_1416055238" CREATED="1457267063707" MODIFIED="1457267223825"><richcontent TYPE="DETAILS">
 
 <html>
@@ -11492,7 +11492,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="temperature reflex" ID="ID_1213504268" CREATED="1457262891912" MODIFIED="1457262901984" MOVED="1457262892656">
+<node TEXT="temperature reflex" FOLDED="true" ID="ID_1213504268" CREATED="1457262891912" MODIFIED="1457262901984" MOVED="1457262892656">
 <node TEXT="thermoreceptors in the skin" ID="ID_1060130992" CREATED="1457267312392" MODIFIED="1457267456287"><richcontent TYPE="DETAILS">
 
 <html>
@@ -11533,9 +11533,9 @@
 </node>
 </node>
 </node>
-<node TEXT="humoral control" ID="ID_1933834659" CREATED="1457267583592" MODIFIED="1457267587923">
-<node TEXT="circulating catecholamines" ID="ID_56115271" CREATED="1457342501614" MODIFIED="1457342508694">
-<node TEXT="release" ID="ID_1882357649" CREATED="1457342826054" MODIFIED="1457343137118">
+<node TEXT="humoral control" FOLDED="true" ID="ID_1933834659" CREATED="1457267583592" MODIFIED="1457267587923">
+<node TEXT="circulating catecholamines" FOLDED="true" ID="ID_56115271" CREATED="1457342501614" MODIFIED="1457342508694">
+<node TEXT="release" FOLDED="true" ID="ID_1882357649" CREATED="1457342826054" MODIFIED="1457343137118">
 <node TEXT="adrenal medulla" ID="ID_1397623237" CREATED="1457343060466" MODIFIED="1457343114927"><richcontent TYPE="DETAILS">
 
 <html>
@@ -11581,7 +11581,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="epinephrine" ID="ID_987901908" CREATED="1457343159585" MODIFIED="1457343421695"><richcontent TYPE="DETAILS">
+<node TEXT="epinephrine" FOLDED="true" ID="ID_987901908" CREATED="1457343159585" MODIFIED="1457343421695"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -11599,7 +11599,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="effect" ID="ID_441652541" CREATED="1457343423280" MODIFIED="1457343425440">
+<node TEXT="effect" FOLDED="true" ID="ID_441652541" CREATED="1457343423280" MODIFIED="1457343425440">
 <node TEXT="low concentrations" ID="ID_931844848" CREATED="1457343426351" MODIFIED="1457343735063"><richcontent TYPE="DETAILS">
 
 <html>
@@ -11652,7 +11652,7 @@
 </node>
 </node>
 </node>
-<node TEXT="norepinephrine" ID="ID_1057436792" CREATED="1457344152699" MODIFIED="1457344471888"><richcontent TYPE="DETAILS">
+<node TEXT="norepinephrine" FOLDED="true" ID="ID_1057436792" CREATED="1457344152699" MODIFIED="1457344471888"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -11706,8 +11706,8 @@
 </node>
 </node>
 </node>
-<node TEXT="renin-angiotensin-aldosterone system" ID="ID_751474194" CREATED="1457342509862" MODIFIED="1457342532478">
-<node TEXT="renin formation" ID="ID_852788775" CREATED="1457345867759" MODIFIED="1457346122229"><richcontent TYPE="DETAILS">
+<node TEXT="renin-angiotensin-aldosterone system" FOLDED="true" ID="ID_751474194" CREATED="1457342509862" MODIFIED="1457342532478">
+<node TEXT="renin formation" FOLDED="true" ID="ID_852788775" CREATED="1457345867759" MODIFIED="1457346122229"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -11788,7 +11788,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="functions of angiotensin II" ID="ID_1750822627" CREATED="1457346425915" MODIFIED="1457346517044"><richcontent TYPE="DETAILS">
+<node TEXT="functions of angiotensin II" FOLDED="true" ID="ID_1750822627" CREATED="1457346425915" MODIFIED="1457346517044"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -11895,7 +11895,7 @@
 <node TEXT="stimulates cardiac and vascular hypertrophy" ID="ID_743679336" CREATED="1457346697123" MODIFIED="1457346707072"/>
 </node>
 </node>
-<node TEXT="atrial natriuretic peptide (ANP)" ID="ID_1704245636" CREATED="1457342533814" MODIFIED="1457348571459">
+<node TEXT="atrial natriuretic peptide (ANP)" FOLDED="true" ID="ID_1704245636" CREATED="1457342533814" MODIFIED="1457348571459">
 <node TEXT="formation" ID="ID_104827428" CREATED="1457347725544" MODIFIED="1457347832362"><richcontent TYPE="DETAILS">
 
 <html>
@@ -12008,7 +12008,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="antidiuretic hormone (vasopressin)" ID="ID_235637930" CREATED="1457342547310" MODIFIED="1457348896118"><richcontent TYPE="DETAILS">
+<node TEXT="antidiuretic hormone (vasopressin)" FOLDED="true" ID="ID_235637930" CREATED="1457342547310" MODIFIED="1457348896118"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12048,7 +12048,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="function" ID="ID_1292957581" CREATED="1457348914400" MODIFIED="1457348918280">
+<node TEXT="function" FOLDED="true" ID="ID_1292957581" CREATED="1457348914400" MODIFIED="1457348918280">
 <node TEXT="kidney" ID="ID_1150962164" CREATED="1457348919248" MODIFIED="1457349176328"><richcontent TYPE="DETAILS">
 
 <html>
@@ -12170,7 +12170,7 @@
 </node>
 <node TEXT="organ blood flow" FOLDED="true" POSITION="right" ID="ID_927948011" CREATED="1457357303509" MODIFIED="1457357550325">
 <edge COLOR="#0000ff"/>
-<node TEXT="local regulation of blood flow" ID="ID_1020474871" CREATED="1457357553243" MODIFIED="1457438952842"><richcontent TYPE="DETAILS">
+<node TEXT="local regulation of blood flow" FOLDED="true" ID="ID_1020474871" CREATED="1457357553243" MODIFIED="1457438952842"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12511,7 +12511,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="hyperemia" ID="ID_603089473" CREATED="1457365374884" MODIFIED="1457365377581">
+<node TEXT="hyperemia" FOLDED="true" ID="ID_603089473" CREATED="1457365374884" MODIFIED="1457365377581">
 <node TEXT="reactive" ID="ID_242096669" CREATED="1457365385692" MODIFIED="1457365422377"><richcontent TYPE="DETAILS">
 
 <html>
@@ -12549,8 +12549,8 @@
 </node>
 <node TEXT="microcirculation" FOLDED="true" POSITION="left" ID="ID_150786984" CREATED="1457443057390" MODIFIED="1457443063288">
 <edge COLOR="#00ff00"/>
-<node TEXT="mechanisms" ID="ID_1616870023" CREATED="1457443100037" MODIFIED="1457443102647">
-<node TEXT="diffusion" ID="ID_194784635" CREATED="1457443103645" MODIFIED="1457443292939"><richcontent TYPE="DETAILS">
+<node TEXT="mechanisms" FOLDED="true" ID="ID_1616870023" CREATED="1457443100037" MODIFIED="1457443102647">
+<node TEXT="diffusion" FOLDED="true" ID="ID_194784635" CREATED="1457443103645" MODIFIED="1457443292939"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12569,7 +12569,7 @@
 </html>
 
 </richcontent>
-<node TEXT="Fick&apos;s first law of diffusion" ID="ID_869217210" CREATED="1457443295204" MODIFIED="1457443386327">
+<node TEXT="Fick&apos;s first law of diffusion" FOLDED="true" ID="ID_869217210" CREATED="1457443295204" MODIFIED="1457443386327">
 <hook EQUATION="J_s = DA \frac{\Delta C}{\Delta X}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="diffusion constant" ID="ID_1764429307" CREATED="1457443388419" MODIFIED="1457443408968">
 <hook EQUATION="D" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -12577,7 +12577,7 @@
 <node TEXT="sufrace area" ID="ID_982894725" CREATED="1457443410802" MODIFIED="1457443424408">
 <hook EQUATION="A" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="concentration gradient" ID="ID_731160238" CREATED="1457443426403" MODIFIED="1457443461666">
+<node TEXT="concentration gradient" FOLDED="true" ID="ID_731160238" CREATED="1457443426403" MODIFIED="1457443461666">
 <hook EQUATION="\frac{\Delta C}{\Delta X}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="concentration difference across barrier" ID="ID_120430037" CREATED="1457443462850" MODIFIED="1457443502421">
 <hook EQUATION="\Delta C" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -12590,7 +12590,7 @@
 <hook EQUATION="J_s \; \left[\frac{moles}{s}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="alternate form of Fick&apos;s first law" ID="ID_1142569380" CREATED="1457443799313" MODIFIED="1457443850594">
+<node TEXT="alternate form of Fick&apos;s first law" FOLDED="true" ID="ID_1142569380" CREATED="1457443799313" MODIFIED="1457443850594">
 <hook EQUATION="J_s = P\cdot S \cdot \Delta C" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="permeability coefficient" ID="ID_1565577805" CREATED="1457443853136" MODIFIED="1457443923781">
 <hook EQUATION="P = \frac{D}{\Delta X}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -12620,7 +12620,7 @@
 </node>
 </node>
 </node>
-<node TEXT="bulk flow" ID="ID_1260577450" CREATED="1457443108525" MODIFIED="1457444427788"><richcontent TYPE="DETAILS">
+<node TEXT="bulk flow" FOLDED="true" ID="ID_1260577450" CREATED="1457443108525" MODIFIED="1457444427788"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12748,7 +12748,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="O2" ID="ID_235414421" CREATED="1457445935521" MODIFIED="1457446141494"><richcontent TYPE="DETAILS">
+<node TEXT="O2" FOLDED="true" ID="ID_235414421" CREATED="1457445935521" MODIFIED="1457446141494"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12773,7 +12773,7 @@
 </html>
 
 </richcontent>
-<node TEXT="delivery" ID="ID_4043222" CREATED="1457446142920" MODIFIED="1457446424581">
+<node TEXT="delivery" FOLDED="true" ID="ID_4043222" CREATED="1457446142920" MODIFIED="1457446424581">
 <hook EQUATION="DO_2 = F \cdot CaO_2" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="oxygen delivery" ID="ID_1915265918" CREATED="1457446428118" MODIFIED="1457446675179">
 <hook EQUATION="DO_2 \; \left[\frac{\text{ml } O_2}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -12785,7 +12785,7 @@
 <hook EQUATION="CaO_2 \; \left[\frac{\text{ml } O_2}{\text{100 ml blood}}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="extraction" ID="ID_839525291" CREATED="1457446151447" MODIFIED="1457446858130">
+<node TEXT="extraction" FOLDED="true" ID="ID_839525291" CREATED="1457446151447" MODIFIED="1457446858130">
 <hook EQUATION="CaO_2 - CvO_2 = \frac{\dot{V}O_2}{F}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="oxygen content of arterial blood" ID="ID_1660951654" CREATED="1457446449701" MODIFIED="1457446742295">
 <hook EQUATION="CaO_2 \; \left[\frac{\text{ml } O_2}{\text{100 ml blood}}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -12821,8 +12821,8 @@
 
 </richcontent>
 </node>
-<node TEXT="fluid" ID="ID_1394913752" CREATED="1457447281312" MODIFIED="1457447283377">
-<node TEXT="mechanisms" ID="ID_1715095503" CREATED="1457447821924" MODIFIED="1457447824053">
+<node TEXT="fluid" FOLDED="true" ID="ID_1394913752" CREATED="1457447281312" MODIFIED="1457447283377">
+<node TEXT="mechanisms" FOLDED="true" ID="ID_1715095503" CREATED="1457447821924" MODIFIED="1457447824053">
 <node TEXT="filtration" ID="ID_75962993" CREATED="1457447737765" MODIFIED="1457448520779"><richcontent TYPE="DETAILS">
 
 <html>
@@ -12867,7 +12867,7 @@
 
 </richcontent>
 </node>
-<node TEXT="lymph flow" ID="ID_1702377652" CREATED="1457447814627" MODIFIED="1457448503499"><richcontent TYPE="DETAILS">
+<node TEXT="lymph flow" FOLDED="true" ID="ID_1702377652" CREATED="1457447814627" MODIFIED="1457448503499"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12886,7 +12886,7 @@
 </html>
 
 </richcontent>
-<node TEXT="lymphatic vessels" ID="ID_971645811" CREATED="1457448328080" MODIFIED="1457448372219"><richcontent TYPE="DETAILS">
+<node TEXT="lymphatic vessels" FOLDED="true" ID="ID_971645811" CREATED="1457448328080" MODIFIED="1457448372219"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -12956,12 +12956,12 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="fluid flux" ID="ID_1027058329" CREATED="1457448807397" MODIFIED="1457448829503">
+<node TEXT="fluid flux" FOLDED="true" ID="ID_1027058329" CREATED="1457448807397" MODIFIED="1457448829503">
 <hook EQUATION="J = Lp \cdot NDF" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="fluid flux" ID="ID_663117884" CREATED="1457448832213" MODIFIED="1457448952215">
 <hook EQUATION="J \; \left[\frac{ml}{min}\right]" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="capillary hydraulic conductivity" ID="ID_664131291" CREATED="1457448839364" MODIFIED="1457449074703">
+<node TEXT="capillary hydraulic conductivity" FOLDED="true" ID="ID_664131291" CREATED="1457448839364" MODIFIED="1457449074703">
 <hook EQUATION="Lp = K_F \cdot A" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="filtration constant" ID="ID_384122101" CREATED="1457449076523" MODIFIED="1457449196105">
 <hook EQUATION="K_F" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -12974,7 +12974,7 @@
 <hook NAME="SummaryNode"/>
 </node>
 </node>
-<node TEXT="net driving force" ID="ID_665565905" CREATED="1457448842748" MODIFIED="1457449372392">
+<node TEXT="net driving force" FOLDED="true" ID="ID_665565905" CREATED="1457448842748" MODIFIED="1457449372392">
 <hook EQUATION="NDF = (P_c - P_i) - \sigma (\pi_c - \pi_i)" NAME="plugins/latex/LatexNodeHook.properties"/>
 <richcontent TYPE="DETAILS">
 
@@ -12992,7 +12992,7 @@
 </html>
 
 </richcontent>
-<node TEXT="capillary hydrostatic pressure" ID="ID_1417318299" CREATED="1457449376225" MODIFIED="1457449455783">
+<node TEXT="capillary hydrostatic pressure" FOLDED="true" ID="ID_1417318299" CREATED="1457449376225" MODIFIED="1457449455783">
 <hook EQUATION="P_c" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="more influenced by venous pressure than by arterial pressure" ID="ID_323214843" CREATED="1457450802967" MODIFIED="1457450815505"/>
 </node>
