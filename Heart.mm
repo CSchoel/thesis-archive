@@ -9849,7 +9849,7 @@
 </node>
 </node>
 </node>
-<node TEXT="neurohumoral control" FOLDED="true" POSITION="right" ID="ID_1061200333" CREATED="1457012845265" MODIFIED="1457357283088" HGAP="64" VSHIFT="55">
+<node TEXT="neurohumoral control" POSITION="right" ID="ID_1061200333" CREATED="1457012845265" MODIFIED="1457357283088" HGAP="64" VSHIFT="55">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS">
 
@@ -9975,13 +9975,13 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="types of sensors" FOLDED="true" ID="ID_1669408592" CREATED="1457013068144" MODIFIED="1457013072776">
+<node TEXT="types of sensors" ID="ID_1669408592" CREATED="1457013068144" MODIFIED="1457013072776">
 <node TEXT="baroreceptors (blood pressure)" ID="ID_1131210975" CREATED="1457013073807" MODIFIED="1457013082594"/>
 <node TEXT="volume receptors (blood volume)" ID="ID_1748283390" CREATED="1457013084183" MODIFIED="1457013098184"/>
 <node TEXT="chemoreceptors (blood chemistry)" ID="ID_1472417907" CREATED="1457013099383" MODIFIED="1457013108496"/>
 <node TEXT="osmoreceptors (plasma osmolarity)" ID="ID_272853966" CREATED="1457013118607" MODIFIED="1457013136113"/>
 </node>
-<node TEXT="autonomic neural control" FOLDED="true" ID="ID_233356719" CREATED="1457016112378" MODIFIED="1457016120307">
+<node TEXT="autonomic neural control" ID="ID_233356719" CREATED="1457016112378" MODIFIED="1457016120307">
 <node TEXT="brain regions" FOLDED="true" ID="ID_344980848" CREATED="1457016455727" MODIFIED="1457017150645">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/Brain_bulbar_region.svg" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="medulla oblongata" FOLDED="true" ID="ID_1635911688" CREATED="1457017168538" MODIFIED="1457017313770"><richcontent TYPE="DETAILS">
@@ -10722,8 +10722,8 @@
 </node>
 </node>
 </node>
-<node TEXT="baroreceptor feedback" FOLDED="true" ID="ID_116705258" CREATED="1457092087779" MODIFIED="1457092093826">
-<node TEXT="arterial baroreceptors" FOLDED="true" ID="ID_1838606522" CREATED="1457093763143" MODIFIED="1457097217687">
+<node TEXT="baroreceptor feedback" ID="ID_116705258" CREATED="1457092087779" MODIFIED="1457092093826">
+<node TEXT="arterial baroreceptors" ID="ID_1838606522" CREATED="1457093763143" MODIFIED="1457097217687">
 <attribute_layout NAME_WIDTH="123" VALUE_WIDTH="123"/>
 <richcontent TYPE="DETAILS">
 
@@ -10743,8 +10743,27 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="location" ID="ID_196830677" CREATED="1457093771854" MODIFIED="1457096572898">
+<node TEXT="location" ID="ID_196830677" CREATED="1457093771854" MODIFIED="1457610688749">
 <hook URI="project://1527A2B3E80A53JZDFS4EGC1POI7LFQEDAON/images/bp012%20baroreceptor%20anat.gif" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        mostly aortic arc and carotid sinus
+      </li>
+      <li>
+        but also other large cervical and thoracic arteries
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 </node>
 <node TEXT="stimulation" ID="ID_519484221" CREATED="1457094049892" MODIFIED="1457096627857"><richcontent TYPE="DETAILS">
 
