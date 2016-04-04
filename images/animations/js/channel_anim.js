@@ -210,8 +210,9 @@ periods = function(start, end, n) {
 \*/
 addOff = function(basePer, perOff) {
 	var mod = [];
+	var pOff = perOff[0][0];
 	for (var i = 0; i < basePer.length; i++) {
-		mod[i] = [basePer[i][0] + perOff[i][0], basePer[i][1] + perOff[i][1]];
+		mod[i] = [basePer[i][0] + pOff, basePer[i][1] + pOff];
 	}
 	return mod;
 }
