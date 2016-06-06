@@ -457,8 +457,7 @@
 
 			var start_ca = 25;
 			var end_ca = 50;
-			var pca = 1.0 * (t - start_ca) / (end_ca - start_ca)
-			pca = clip01(pca);
+			var pca = pact;
 			setOnPath(pca, getById(im, "caap_ca"), animPaths["caap_ca"]);
 		}
 
