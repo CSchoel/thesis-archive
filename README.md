@@ -19,6 +19,8 @@ Klabunde, R.E. (2012). Cardiovascular physiology concepts (Philadelphia, Pennsyl
 
 I took notes in the form of a large mindmap which was generated with [Docear](https://docear.org/) and contains vector graphic images which I created myself and published in the [svgap](https://github.com/CSchoel/svgap) project.
 
-* ``
+* `notes/cpc/Heart.mm` - Main mindmap file
+* `notes/cpc/images` - Image files referenced in Mindmap
+* `notes/cpc/images/origins.md` - Lists origin of images that I did not create myself
 
 ## Slides
