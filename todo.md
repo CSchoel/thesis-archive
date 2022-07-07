@@ -1,49 +1,5 @@
 # Projects to save
 
-## Mindmap of heart info
-
-Notizen/Heart/Heart{.mm, .html, .odt}
-Notizen/Heart/images
-
-* ion_
-* heart_
-* ans_
-* action_
-
-## SVG animation
-
-Notizen/Heart/images/animations
-
-## Power of frequency bands (Jupyter)
-
-Notizen/PSD of frequency bands.ipynb
-
-## ODS-Files
-
-* Notizen/Normal_values.ods
-
-    References for which value ranges of HRV measures are to be considered "normal" for a healthy population
-
-* Notizen/Parameters.ods
-
-    Parameter names and values in SHM
-
-    -> Maybe put into MoSHMo repo?
-
-* Notizen/Performance_Matlab_JSim_Modelica.ods
-
-    Performance comparison between Matlab, JSim and Modelica
-
-## Other code projects
-
-### Projects by students
-
-* code/2016-ilgen-biomodels
-* code/2016-oertel-koch-biomodels
-* reference code/2019-kupferschmitt-inada2009
-
--> Verweise auf Magrathea in der Diss bzw. im Repo
-
 ### Own projects
 
 * code/biomodels-analyse
