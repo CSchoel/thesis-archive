@@ -24,6 +24,9 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 
     Performance comparison between Matlab, JSim and Modelica
 
+* TODO: Notizen/InadaCompareEquationsAndParameters.ods
+
+
 ### Other data
 
 TODO: Papers/eigenes/*.f?ods
@@ -192,6 +195,14 @@ I took notes in the form of a large mindmap which was generated with [Docear](ht
 * `notes/cpc/images/origins.md` - Lists origin of images that I did not create myself
 * `notes/cpc/images/animations` - Contains SVG animations of the ion channel states during an action potential, also published separately as [svgap](https://github.com/CSchoel/svgap).
 
+### Early studies of the Kotani models and the SHM
+
+TODO: kotani-for-dummies, project paper, shm-formulas
+
 ## Slides
 
 TODO: Vorträge und Veröffentlichungen
+
+### Conference slides
+
+Conference slides and raw LaTeX versions of all papers can be found on Magrathea, the internal Redmine instance used by the working group of Prof. Dr. Andreas Dominik. under the project name [2014-schoelzel-paper](https://magrathea.mni.thm.de/projects/schoelzel-modelica-sysbio/repository/2014-schoelzel-paper).
