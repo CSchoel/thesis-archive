@@ -40,6 +40,133 @@ If you are interested in this work, please either contact Prof. Dominik or me vi
 * [MATLAB and Modelica implementations of Inada (2009) model by Elias Kupferschmitt](https://magrathea.mni.thm.de/projects/kupferschmitt-inada2009/repository/2019-kupferschmitt-inada2009/revisions/master/show)
 * [Automatic conversion between Modelica code and JSim/CellML with Scala by Rodney Tabernero](https://magrathea.mni.thm.de/projects/2019-tabernero-jsim2modelica)
 
+
+#### BioModels analysis
+
+TODO: code/biomodels-analyse
+
+Note: Without data, but with Readme explaining how data was obtained
+
+### HackVolterra
+
+TODO: code/eclipse-old/HackADay/HackVolterra
+
+Small Lotka-Volterra example to explain Modelica to students
+
+### ISA presentation
+
+TODO: code/eclipse-old/ISA-Vortrag
+
+Lotka-Volterra-example and example problems
+
+### LotkaVolterra2
+
+TODO: code/eclipse-old/LotkaVolterra2
+
+Lotka-Volterra example for my own tests
+
+### MAPK
+
+TODO: code/eclipse-old/MAPK
+
+First version of map kinase casade example
+
+TODO: code/eclipse-old/MAPKExp
+
+second version of MAPK (find out what changed)
+
+### MapleModel
+
+TODO: code/eclipse-old/MapleModel
+
+experiments with MapleSoft
+
+### SawToothTest
+
+TODO: code/eclipse-old/SawToothTest
+
+early experiments with Modelica
+
+### SHM1
+
+TODO: code/eclipse-old/shm1-vali
+
+Work from me and valeria on Java implementation of Kotani
+
+### First steps
+
+TODO: code/first steps
+
+First steps with Modelica using a Notebook
+
+### Guidelines
+
+TODO: code/guidelines
+
+Unfinished set of examples that should serve as examples of what (not) to do when implementing a model in Modelica
+
+### OMEdit-Docker
+
+TODO: code/omedit-docker
+
+Experiments with Docker to quickly run different OMEdit version
+
+### Import analysis
+
+TODO: code/pmr-import-analyse
+
+Data analysis of PMR models using Python script
+
+### Broadening
+
+TODO: code/scripts/broadening
+
+Python script to plot broadening function
+
+### Metascholar
+
+TODO code/scripts/metascholar
+
+Ruby script to find journals that a list of author typically publishes in through GoogleScholar
+
+### Phase effectiveness
+
+TODO code/scripts/phase_effectivenis
+
+Processing script to understand the phase effectiveness curve in the SHM
+
+### Kotani Plotting
+
+TODO: code/scripts/plotting
+
+Plots to understand functions of the Kotani model
+
+### Svg2Modelica
+
+TODO: code/scripts/svg2modelica
+
+Early work on what would become MoNK prior to MoVE
+
+### Tissue
+
+TODO: code/scripts/tissue
+
+Small python plot to generate image for presentation (probably?)
+
+### Seidel-orig
+
+TODO: code/seidel-orig
+
+Original C-code by Seidel with some changes by me to run tests
+
+-> only publish internally
+
+### TSRR-Paper
+
+TODO: code/TSRR-Paper
+
+Helper plots for discussion about TSRR-Paper
+
 ## Notes
 
 ### Study of *Cardiovascular physiology concepts*
