@@ -24,6 +24,16 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 
     Performance comparison between Matlab, JSim and Modelica
 
+### Other data
+
+TODO: Papers/eigenes/*.f?ods
+
+## Plots
+
+### Result plots saved for laboratory notebook
+
+TODO: results
+
 ## Code
 
 ### Jupyter notebook: Power of frequency bands
@@ -183,3 +193,5 @@ I took notes in the form of a large mindmap which was generated with [Docear](ht
 * `notes/cpc/images/animations` - Contains SVG animations of the ion channel states during an action potential, also published separately as [svgap](https://github.com/CSchoel/svgap).
 
 ## Slides
+
+TODO: Vorträge und Veröffentlichungen
