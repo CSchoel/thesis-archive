@@ -24,8 +24,13 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 * `data/Inada_compare_equations_and_parameters.fods`: Detailed list of all parameters and equations of the Inada2009 model, comparing the C++, CellML, and Modelica implementations.
   * Reference name in lab notebook: `Notizen/InadaCompareEquationsAndParameters.ods`
 
+### Small research studies performed for Papers
 
-### Other data
+#### InaMo
+
+* `data/inamo/reproducibility_suggestions_literature.fods`: Overview of suggestions for increasing reproducibility given by researchers in the literature
+  * Reference name in lab notebook: `2020-InaMo/Reproducibility.ods`
+* 
 
 TODO: Papers/eigenes/*.f?ods
 
