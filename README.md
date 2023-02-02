@@ -12,12 +12,9 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 ### Parameters and Variables of the SHM
 
 * `data/Healthy_range_for_HRV_measures.fods`: References for which value ranges of HRV measures are to be considered "normal" for a healthy population.
-* `data/`
-* TODO: Notizen/Parameters.ods
-
-    Parameter names and values in SHM
-
-    -> Maybe put into SHM repo?
+  * Reference name in lab notebook: `Notizen/Normal_Values.ods`
+* `data/SHM_parameters.fods`: Parameter names and values in SHM across various different papers and implementations.
+  * Reference name in lab notebook: `Notizen/Parameters.ods`
 
 * TODO: Notizen/Performance_Matlab_JSim_Modelica.ods
 
