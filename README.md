@@ -9,7 +9,7 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 
 ## Data
 
-### Parameters and Variables of the SHM
+### Model Parameters and variables
 
 * `data/Healthy_range_for_HRV_measures.fods`: References for which value ranges of HRV measures are to be considered "normal" for a healthy population.
   * Reference name in lab notebook: `Notizen/Normal_Values.ods`
@@ -21,9 +21,8 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
   * JSim implementation: `code/reference_models/hodgkin_huxley/jsim` (J. B. Bassingthwaighte)
   * CellML implementation (OpenCOR): [Physiome Repository](https://models.physiomeproject.org/workspace/hodgkin_huxley_1952) (Catherine Lloyd, changeset a49243bad279)
   * MATLAB and Octave implementations: `git@magrathea.mni.thm.de:2016-ilgen-biomodels.git` (Denis Ilgen, not publicly available)
-
-
-* TODO: Notizen/InadaCompareEquationsAndParameters.ods
+* `data/Inada_compare_equations_and_parameters.fods`: Detailed list of all parameters and equations of the Inada2009 model, comparing the C++, CellML, and Modelica implementations.
+  * Reference name in lab notebook: `Notizen/InadaCompareEquationsAndParameters.ods`
 
 
 ### Other data
