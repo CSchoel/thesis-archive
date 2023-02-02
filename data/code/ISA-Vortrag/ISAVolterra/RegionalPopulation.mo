@@ -1,0 +1,11 @@
+within ISAVolterra;
+
+model RegionalPopulation
+  parameter Real initial_population = 10 "Startpopulation";
+  ISAVolterra.Population p annotation(Placement(visible = true, transformation(origin = {-15.6028, 66.66670000000001}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {-2.95647, 99.92189999999999}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+initial equation
+  p.pop = initial_population;
+equation
+  der(p.pop) = p.rate;
+  annotation(Placement(transformation(extent = {{-10, 90}, {10, 110}})), Placement(transformation(extent = {{-10, 90}, {10, 110}})), Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {2, 2}), graphics = {Rectangle(fillColor = {0, 170, 0}, fillPattern = FillPattern.Solid, extent = {{-100, -100}, {100.179, 99.8211}}), Ellipse(origin = {-7.69231, 47.585}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Forward, extent = {{-13.059, 12.1646}, {9.48122, -10.3757}}, endAngle = 360), Ellipse(origin = {57.0304, 35.7424}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Backward, extent = {{-13.059, 12.1646}, {9.48122, -10.3757}}, endAngle = 360), Ellipse(origin = {-42.1109, -51.5921}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Forward, extent = {{-13.059, 12.1646}, {9.48122, -10.3757}}, endAngle = 360), Ellipse(origin = {50.5188, -31.5921}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Backward, extent = {{-13.059, 12.1646}, {9.48122, -10.3757}}, endAngle = 360), Ellipse(origin = {-59.2487, 18.2111}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Backward, extent = {{-13.059, 12.1646}, {9.48122, -10.3757}}, endAngle = 360), Ellipse(origin = {-7.08408, -9.767440000000001}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Forward, extent = {{-13.059, 12.1646}, {9.48122, -10.3757}}, endAngle = 360), Text(origin = {1.07335, -81.0376}, extent = {{-92.66549999999999, 34.1682}, {93.7389, -13.0591}}, textString = "%name")}));
+end RegionalPopulation;

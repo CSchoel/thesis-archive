@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"valid",
+				"valid_sudoku"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "broad.py",
+			"settings":
+			{
+				"buffer_size": 1919,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Dokumente/Promotion/code/scripts/tissue/tissue.py",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/cygwin64/home/CSchoel/seidel-orig/src/funcs.c",
+			"settings":
+			{
+				"buffer_size": 5717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/cygwin64/home/CSchoel/seidel-orig/src/gammln.c",
+			"settings":
+			{
+				"buffer_size": 476,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"selected_items":
+		[
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/cygwin64/home/CSchoel/seidel-orig/src/heart2_1000.par",
+		"/D/Dokumente/Promotion/code/modelica-deploy/SHM/SeidelThesis/Components/Contraction.mo",
+		"/D/cygwin64/home/CSchoel/kobis-server/www/events/2015-03-KoBIS.json",
+		"/D/Dokumente/projekte/tresor/imageception/bits.txt",
+		"/D/Software/OneModelica/workspace/SHM/output/SHM_full_1000.c",
+		"/D/Dokumente/Promotion/modelica/seidel-thesis/heart/heart11/runheart",
+		"/E/aft4.tsv",
+		"/D/Dokumente/Paper/systems biology/2013-Voit-AFirstCourseInSysBio.txt",
+		"/D/Dokumente/Paper/systems biology/2012-Klipp-SysBioTextbook.txt",
+		"/D/Dokumente/Paper/systems biology/2012-Kremling-KompendiumSystembiologie.txt"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Dokumente\\Promotion\\code\\modelica-deploy",
+			"D:\\Dokumente\\Promotion\\modelica-deploy",
+			"D:\\Dokumente\\projekte\\beamer-templates",
+			"D:\\Dokumente\\projekte\\beamer-template",
+			"D:\\Dokumente\\projekte\\beamer-template\\**,*.sty",
+			"D:\\Dokumente\\projekte\\beamer-template,*.sty",
+			"D:\\Dokumente,*.tex",
+			"D:\\Dokumente",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"T_avc",
+			"eta",
+			"M_LN2",
+			"gammln",
+			"green",
+			"footline",
+			"\\boxbox{",
+			"fermat",
+			"fermatsch",
+			"b_sz",
+			"line",
+			"delay.h",
+			"delayImpl(DATA",
+			"delayImpl",
+			"modelica_real delayImpl",
+			"delayImpl",
+			"delay(",
+			"history"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "broad.py",
+					"settings":
+					{
+						"buffer_size": 1919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1895,
+								1895
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Dokumente/Promotion/code/scripts/tissue/tissue.py",
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/cygwin64/home/CSchoel/seidel-orig/src/funcs.c",
+					"settings":
+					{
+						"buffer_size": 5717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 193.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/cygwin64/home/CSchoel/seidel-orig/src/gammln.c",
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true
+}

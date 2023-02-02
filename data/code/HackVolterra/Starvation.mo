@@ -1,0 +1,9 @@
+within HackVolterra;
+
+model Starvation
+  parameter Real sr;
+  HackVolterra.Population p annotation(Placement(visible = true, transformation(origin = {0, 97.4239}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {-0.468384, 99.2974}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+equation
+  p.rate = sr * p.pop;
+  annotation(Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {2, 2}), graphics = {Text(extent = {{-100, -120}, {100, -120}}, textString = "%name"), Rectangle(lineThickness = 1, extent = {{-100, -100}, {100, 100}}), Ellipse(origin = {-2.32558, -1.61002}, fillColor = {255, 255, 0}, fillPattern = FillPattern.Solid, lineThickness = 1, extent = {{-67.4419, 65.65300000000001}, {67.4419, -65.65300000000001}}, endAngle = 360), Ellipse(origin = {-35.7782, 24.1503}, lineThickness = 1, extent = {{-16.8157, 16.2791}, {16.8157, -16.2791}}, endAngle = 360), Ellipse(origin = {28.229, 24.4723}, lineThickness = 1, extent = {{-16.8157, 16.2791}, {16.8157, -16.2791}}, endAngle = 360), Line(origin = {-5.18818, -31.8242}, points = {{-39.5345, -0.0183411}, {-31.3056, 7.85286}, {-22.0032, -6.81619}, {-8.40752, 3.55948}, {-0.178543, -8.96288}, {12.3438, 3.91726}, {22.0039, -7.17398}, {29.8751, 8.9262}, {39.5352, -0.0183411}}, thickness = 2), Line(origin = {-35.7782, 24.6869}, points = {{-10.3757, 13.5957}, {10.3757, -13.5957}}, thickness = 2), Line(origin = {-35.5993, 23.6136}, points = {{-13.059, -11.449}, {13.059, 11.449}}, thickness = 2), Line(origin = {29.1234, 23.5778}, points = {{-13.059, -11.449}, {13.059, 11.449}}, thickness = 2), Line(origin = {28.9445, 25.3667}, points = {{-10.3757, 13.5957}, {10.3757, -13.5957}}, thickness = 2)}));
+end Starvation;

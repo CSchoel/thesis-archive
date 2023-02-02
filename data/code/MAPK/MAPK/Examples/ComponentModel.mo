@@ -1,0 +1,43 @@
+within MAPK.Examples;
+model ComponentModel
+  MAPK.Components.Substance MAP4K(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {-88.1541,-85.4377}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP3K(initial_amount = 10000) annotation(Placement(visible = true, transformation(origin = {-67.1064,-46.3187}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.ReactionATPplus1to1BiAct reactionatpplus1to1biact1(p = 0.00001) annotation(Placement(visible = true, transformation(origin = {-37.9576,-46.6281}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP3KP(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {-6.08487,-45.4841}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP3KPP(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {49.9733,-45.6238}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.ReactionATPplus1to1BiAct reactionatpplus1to1biact2(p = 0.00001) annotation(Placement(visible = true, transformation(origin = {21.7726,-46.6281}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP2KP(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {7.11902,2.22469}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP2K(initial_amount = 10000) annotation(Placement(visible = true, transformation(origin = {-55.1724,2.8921}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP1K(initial_amount = 10000) annotation(Placement(visible = true, transformation(origin = {-43.8265,45.1613}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAPKP(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {24.9166,45.1613}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAPKPP(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {86.3181,43.604}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.ReactionATPplus1to1BiAct reactionatpplus1to1biact4 annotation(Placement(visible = true, transformation(origin = {36.9299,1.33482}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance MAP2KPP(initial_amount = 0) annotation(Placement(visible = true, transformation(origin = {68.9655,2.00222}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.ReactionATPplus1to1BiAct reactionatpplus1to1biact6(k = 0.1) annotation(Placement(visible = true, transformation(origin = {55.8398,43.604}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.ReactionATPplus1to1BiAct reactionatpplus1to1biact5(k = 0.1) annotation(Placement(visible = true, transformation(origin = {-12.2358,44.2714}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.ReactionATPplus1to1BiAct reactionatpplus1to1biact3 annotation(Placement(visible = true, transformation(origin = {-25.584,1.77976}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.Substance CONSTANT(initial_amount = 1000) annotation(Placement(visible = true, transformation(origin = {22.0245,-79.644}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+  MAPK.Components.JumpSignal jumpsignal1 annotation(Placement(visible = true, transformation(origin = {-88.9878,-34.4828}, extent = {{-10,-10},{10,10}}, rotation = 0)));
+equation
+  connect(jumpsignal1.subst,MAP4K.subst) annotation(Line(points = {{-78.9828,-29.8493},{-79.1991,-29.8493},{-79.1991,-65.1835},{-87.6529,-65.1835},{-87.6529,-82.3137},{-87.6529,-82.3137}}));
+  connect(CONSTANT.subst,reactionatpplus1to1biact2.activator) annotation(Line(points = {{22.0245,-79.644},{22.4694,-79.644},{22.4694,-56.5072},{22.4694,-56.5072}}));
+  connect(reactionatpplus1to1biact6.product,MAPKPP.subst) annotation(Line(points = {{65.8398,44.2013},{83.426,44.2013},{83.426,43.604},{83.426,43.604}}));
+  connect(reactionatpplus1to1biact6.reactant,MAPKP.subst) annotation(Line(points = {{45.8398,44.0741},{29.5884,44.0741},{29.5884,44.0489},{29.5884,44.0489}}));
+  connect(reactionatpplus1to1biact5.product,MAPKP.subst) annotation(Line(points = {{-2.23582,44.8687},{19.1324,44.8687},{19.1324,45.3838},{19.1324,45.3838}}));
+  connect(MAP1K.subst,reactionatpplus1to1biact5.reactant) annotation(Line(points = {{-43.8265,45.1613},{-22.4694,45.1613},{-22.4694,44.4939},{-22.4694,44.4939}}));
+  connect(MAP2KPP.subst,reactionatpplus1to1biact5.activator) annotation(Line(points = {{68.9655,2.00222},{-12.0239,34.2907}}));
+  connect(MAP2KPP.subst,reactionatpplus1to1biact6.activator) annotation(Line(points = {{68.9655,2.00222},{56.0518,33.6233}}));
+  connect(reactionatpplus1to1biact4.product,MAP2KPP.subst) annotation(Line(points = {{46.9299,1.93212},{66.2959,1.93212},{66.2959,1.33482},{66.2959,1.33482}}));
+  connect(reactionatpplus1to1biact4.reactant,MAP2KP.subst) annotation(Line(points = {{26.9299,1.80495},{12.9032,1.80495},{12.9032,2.00222},{12.9032,2.00222}}));
+  connect(reactionatpplus1to1biact3.product,MAP2KP.subst) annotation(Line(points = {{-15.584,2.37706},{2.44716,2.37706},{2.44716,2.22469},{2.44716,2.22469}}));
+  connect(reactionatpplus1to1biact3.reactant,MAP2K.subst) annotation(Line(points = {{-35.584,2.24989},{-54.7275,2.24989},{-54.7275,3.11457},{-54.7275,3.11457}}));
+  connect(MAP3KP.subst,reactionatpplus1to1biact4.activator) annotation(Line(points = {{-6.08487,-45.4841},{37.1419,-8.64591}}));
+  connect(MAP3KP.subst,reactionatpplus1to1biact3.activator) annotation(Line(points = {{-6.08487,-45.4841},{-25.372,-8.20097}}));
+  connect(reactionatpplus1to1biact2.product,MAP3KPP.subst) annotation(Line(points = {{31.7726,-46.0308},{48.0534,-46.0308},{48.0534,-46.2736},{48.0534,-46.2736}}));
+  connect(MAP3KP.subst,reactionatpplus1to1biact2.reactant) annotation(Line(points = {{-6.08487,-45.4841},{11.7909,-45.4841},{11.7909,-47.1635},{11.7909,-47.1635}}));
+  connect(reactionatpplus1to1biact1.product,MAP3KP.subst) annotation(Line(points = {{-27.9576,-46.0308},{-9.34372,-46.0308},{-9.34372,-46.4961},{-9.34372,-46.4961}}));
+  connect(MAP3K.subst,reactionatpplus1to1biact1.reactant) annotation(Line(points = {{-67.1064,-46.3187},{-47.386,-46.3187},{-47.386,-46.2736},{-47.386,-46.2736}}));
+  connect(MAP4K.subst,reactionatpplus1to1biact1.activator) annotation(Line(points = {{-88.1541,-85.4377},{-37.5973,-85.4377},{-37.5973,-56.0623},{-37.5973,-56.0623}}));
+  annotation(Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {2,2})), Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {2,2})));
+end ComponentModel;
+

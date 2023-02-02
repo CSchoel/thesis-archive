@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modelicaresources:ModelicaModelResources xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modelicaresources="http://iwes.fraunhofer.de/languages/modelicaresources/1.0" name="guidelines" workspaceURI="/guidelines/.modelicaresources">
+  <referencedModelResources xsi:type="modelicaresources:ModelicaLibrary" href="archive:platform:/plugin/on.product.onemodelica.ui/libs/MSL.zip!/.modelicaresources#/"/>
+  <packageIndex href="http://on/metadata/guidelines.pidx#/"/>
+  <linkingIndex href="http://on/metadata/guidelines.lidx#/"/>
+  <sourceFolders xsi:type="modelicaresources:ModelicaPackageFolder" created="2015-02-23T10:31:21.658+0100" modified="2015-02-23T10:31:21.658+0100" name="src" workspaceURI="/guidelines/src"/>
+</modelicaresources:ModelicaModelResources>
