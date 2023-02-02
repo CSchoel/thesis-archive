@@ -17,6 +17,10 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
   * Reference name in lab notebook: `Notizen/Parameters.ods`
 * `data/HodgkinHuxley_Performance_Matlab_JSim_Modelica.fods`: Performance comparison between Matlab, JSim and Modelica using freely available and or own implementations of the Hodgkin-Huxley model.
   * Reference name in lab notebook: `Notizen/Performance_Matlab_JSim_Modelica.ods`
+  * Modelica implementation: [HHMono (C. Schölzel)](https://github.com/CSchoel/hh-modelica/blob/e84713a4a15bfcc5736755940e6af38bb6272521/HHmodelica/CompleteModels/HHmono.mo)
+  * JSim implementation: `code/reference_models/hodgkin_huxley/jsim` (J. B. Bassingthwaighte)
+  * CellML implementation (OpenCOR): [Physiome Repository](https://models.physiomeproject.org/workspace/hodgkin_huxley_1952) (Catherine Lloyd, changeset a49243bad279)
+  * MATLAB and Octave implementations: `git@magrathea.mni.thm.de:2016-ilgen-biomodels.git` (Denis Ilgen, not publicly available)
 
 
 * TODO: Notizen/InadaCompareEquationsAndParameters.ods
