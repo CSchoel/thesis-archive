@@ -11,9 +11,8 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 
 ### Parameters and Variables of the SHM
 
-* TODO: Notizen/Normal_values.ods
-
-    References for which value ranges of HRV measures are to be considered "normal" for a healthy population
+* `data/Healthy_range_for_HRV_measures.fods`: References for which value ranges of HRV measures are to be considered "normal" for a healthy population.
+* `data/`
 * TODO: Notizen/Parameters.ods
 
     Parameter names and values in SHM
