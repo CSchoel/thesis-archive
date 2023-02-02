@@ -24,15 +24,22 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 * `data/Inada_compare_equations_and_parameters.fods`: Detailed list of all parameters and equations of the Inada2009 model, comparing the C++, CellML, and Modelica implementations.
   * Reference name in lab notebook: `Notizen/InadaCompareEquationsAndParameters.ods`
 
-### Small research studies performed for Papers
+### Small research studies performed for papers
 
 #### InaMo
 
 * `data/inamo/reproducibility_suggestions_literature.fods`: Overview of suggestions for increasing reproducibility given by researchers in the literature
   * Reference name in lab notebook: `2020-InaMo/Reproducibility.ods`
-* 
+* `data/inamo/inada_citations.fods`: Literature research to count number of research groups that reused Inada2009 model for simulations.
+* `data/inamo/inada_work_items.fods`: Estimation of time required for implementing InaMo split into different phases.
 
-TODO: Papers/eigenes/*.f?ods
+### Dissertation
+
+* `data/diss/dde_sde_support.fods`: Overview of support for Stochastic Differential Equations (SDE) and Delay Differential Equations (DDE) in different modeling languages.
+* `data/diss/language_popularity.fods`: Estimation of modeling language popularity in systems biology by counting papers that match keywords.
+* `data/diss/modelica_association.fods`: Statistics about members of the Modelica Association (research vs industry).
+* `data/diss/modelica_community_size.fods`: Numbers to estimate the size of the developer communities of Modelica and SBML/CellML.
+* `data/diss/SBML_comp_support.fods`: Numbers about support of the SBML-comp package.
 
 ## Plots
 
