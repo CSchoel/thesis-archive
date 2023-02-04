@@ -12,24 +12,19 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
 ### Model Parameters and variables
 
 * `data/Healthy_range_for_HRV_measures.fods`: References for which value ranges of HRV measures are to be considered "normal" for a healthy population.
-  * Reference name in lab notebook: `Notizen/Normal_Values.ods`
 * `data/SHM_parameters.fods`: Parameter names and values in SHM across various different papers and implementations.
-  * Reference name in lab notebook: `Notizen/Parameters.ods`
 * `data/HodgkinHuxley_Performance_Matlab_JSim_Modelica.fods`: Performance comparison between Matlab, JSim and Modelica using freely available and or own implementations of the Hodgkin-Huxley model.
-  * Reference name in lab notebook: `Notizen/Performance_Matlab_JSim_Modelica.ods`
   * Modelica implementation: [HHMono (C. Schölzel)](https://github.com/CSchoel/hh-modelica/blob/e84713a4a15bfcc5736755940e6af38bb6272521/HHmodelica/CompleteModels/HHmono.mo)
   * JSim implementation: `code/reference_models/hodgkin_huxley/jsim` (J. B. Bassingthwaighte)
   * CellML implementation (OpenCOR): [Physiome Repository](https://models.physiomeproject.org/workspace/hodgkin_huxley_1952) (Catherine Lloyd, changeset a49243bad279)
   * MATLAB and Octave implementations: `git@magrathea.mni.thm.de:2016-ilgen-biomodels.git` (Denis Ilgen, [see below](#preliminary-studies-performed-by students))
 * `data/Inada_compare_equations_and_parameters.fods`: Detailed list of all parameters and equations of the Inada2009 model, comparing the C++, CellML, and Modelica implementations.
-  * Reference name in lab notebook: `Notizen/InadaCompareEquationsAndParameters.ods`
 
 ### Small research studies performed for papers
 
 #### InaMo
 
 * `data/inamo/reproducibility_suggestions_literature.fods`: Overview of suggestions for increasing reproducibility given by researchers in the literature
-  * Reference name in lab notebook: `2020-InaMo/Reproducibility.ods`
 * `data/inamo/inada_citations.fods`: Literature research to count number of research groups that reused Inada2009 model for simulations.
 * `data/inamo/inada_work_items.fods`: Estimation of time required for implementing InaMo split into different phases.
 
@@ -70,28 +65,19 @@ If you are interested in this work, please either contact Prof. Dominik or me vi
 * Plotting code can be found in `code/compare_kotani_modelica/rscripts`.
 * Data for the Modelica version is in `code/compare_kotani_modelica/kotani_full_res.csv`.
 * Data for the Java version is in `code/compate_kotani_modelica/silicon000.phi`.
-* Reference name in lab notebook: `code/eclipse-old/shm1-vali`
 
 ### Early Modelica models
 
 The folder `code/early_models` contains early experiments with Modelica:
 
 * `first_steps`: First steps with Modelica using a Notebook and the Lotka-Volterra model.
-  * Reference name in lab notebook: `first steps`.
 * `HackVolterra`: Small Lotka-Volterra example to explain Modelica to students at the THM-MNI Hack.a.day conference.
-  * Reference name in lab notebook: `code/eclipse-old/HackADay/HackVolterra`
 * `ISA`: Lotka-Volterra-example and example problems for a presentation at the institute for software architecture (ISA) at the THM.
-  * Reference name in lab notebook: `code/eclipse-old/ISA-Vortrag`
 * `LotkaVolterra2`: Early Lotka-Volterra example that I used to test Modelica functionality.
-  * Reference name in lab notebook: `code/eclipse-old/LotkaVolterra2`
 * `MAPK`: First version of a mitogen-activated protein kinase (MAPK) model example that I used to understand modular modeling with Modelica at a larger scale than Lotka-Volterra.
-  * Reference name in lab notebook: `code/eclipse-old/MAPK`
 * `MAPKExp`: Second version of the second version of the MAPK model with a reduced number of connectors and better code reuse.
-  * Reference name in lab notebook: `code/eclipse-old/MAPKExp`
 * `MapleMopdel`: Experiments with MapleSoft using basic electrical circuits.
-  * Reference name in lab notebook: `code/eclipse-old/MapleModel`
 * `SawToothTest`: Early experiments with Modelica for creating a saw tooth signal.
-  * Reference name in lab notebook: `code/eclipse-old/SawToothTest`
 * TODO: Add LV model from PhD thesis
 
 #### BioModels analysis
@@ -122,7 +108,6 @@ Data analysis of PMR models using Python script
 ### Broadening
 
 * `code/plots/broadening`: Python script to plot broadening function of SHM.
-  * Reference name in lab notebook: `code/scripts/broadening`
 * first_steps
 
 ### Metascholar

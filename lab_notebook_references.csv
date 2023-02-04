@@ -1,0 +1,15 @@
+data/Healthy_range_for_HRV_measures.fods; Notizen/Normal_Values.ods
+data/SHM_parameters.fods; Notizen/Parameters.ods
+data/HodgkinHuxley_Performance_Matlab_JSim_Modelica.fods; Notizen/Performance_Matlab_JSim_Modelica.ods
+data/Inada_compare_equations_and_parameters.fods; Notizen/InadaCompareEquationsAndParameters.ods
+data/inamo/reproducibility_suggestions_literature.fo; 2020-InaMo/Reproducibility.ods
+code/compare_kotani_modelica; code/eclipse-old/shm1-vali
+code/early_models/first_steps; first steps
+code/early_models/HackVolterra; code/eclipse-old/HackADay/HackVolterra
+code/early_models/ISA; code/eclipse-old/ISA-Vortrag
+code/early_models/LotkaVolterra2; code/eclipse-old/LotkaVolterra2
+code/early_models/MAPK; code/eclipse-old/MAPK
+code/early_models/MAPKExp; code/eclipse-old/MAPKExp
+code/early_models/MapleMopdel; code/eclipse-old/MapleModel
+code/early_models/SawToothTest; code/eclipse-old/SawToothTest
+code/plots/broadening; code/scripts/broadening
