@@ -20,7 +20,7 @@ Some parts are still marked as TODO, which means that the files are not yet uplo
   * Modelica implementation: [HHMono (C. Schölzel)](https://github.com/CSchoel/hh-modelica/blob/e84713a4a15bfcc5736755940e6af38bb6272521/HHmodelica/CompleteModels/HHmono.mo)
   * JSim implementation: `code/reference_models/hodgkin_huxley/jsim` (J. B. Bassingthwaighte)
   * CellML implementation (OpenCOR): [Physiome Repository](https://models.physiomeproject.org/workspace/hodgkin_huxley_1952) (Catherine Lloyd, changeset a49243bad279)
-  * MATLAB and Octave implementations: `git@magrathea.mni.thm.de:2016-ilgen-biomodels.git` (Denis Ilgen, not publicly available)
+  * MATLAB and Octave implementations: `git@magrathea.mni.thm.de:2016-ilgen-biomodels.git` (Denis Ilgen, [see below](#preliminary-studies-performed-by students))
 * `data/Inada_compare_equations_and_parameters.fods`: Detailed list of all parameters and equations of the Inada2009 model, comparing the C++, CellML, and Modelica implementations.
   * Reference name in lab notebook: `Notizen/InadaCompareEquationsAndParameters.ods`
 
@@ -62,7 +62,37 @@ If you are interested in this work, please either contact Prof. Dominik or me vi
 * [Modelica implementation of Noble (1962) model by Peter Koch](https://magrathea.mni.thm.de/projects/oertel-koch-modelica-biomodels/repository/2016-oertel-koch-biomodels/revisions/master/show)
 * [MATLAB and Modelica implementations of Inada (2009) model by Elias Kupferschmitt](https://magrathea.mni.thm.de/projects/kupferschmitt-inada2009/repository/2019-kupferschmitt-inada2009/revisions/master/show)
 * [Automatic conversion between Modelica code and JSim/CellML with Scala by Rodney Tabernero](https://magrathea.mni.thm.de/projects/2019-tabernero-jsim2modelica)
+* Java version of the Kotani variant of the Seidel-Herzel model by Daniel Otto with updates by me and Valeria Blesisus (git clone `git@magrathea.mni.thm.de:2014-kotani-CS-VE.git`)
 
+
+### Comparison between output of Java and Modelica versions of the Kotani variant of the SHM
+
+* Plotting code can be found in `code/compare_kotani_modelica/rscripts`.
+* Data for the Modelica version is in `code/compare_kotani_modelica/kotani_full_res.csv`.
+* Data for the Java version is in `code/compate_kotani_modelica/silicon000.phi`.
+* Reference name in lab notebook: `code/eclipse-old/shm1-vali`
+
+### Early Modelica models
+
+The folder `code/early_models` contains early experiments with Modelica:
+
+* `first_steps`: First steps with Modelica using a Notebook and the Lotka-Volterra model.
+  * Reference name in lab notebook: `first steps`.
+* `HackVolterra`: Small Lotka-Volterra example to explain Modelica to students at the THM-MNI Hack.a.day conference.
+  * Reference name in lab notebook: `code/eclipse-old/HackADay/HackVolterra`
+* `ISA`: Lotka-Volterra-example and example problems for a presentation at the institute for software architecture (ISA) at the THM.
+  * Reference name in lab notebook: `code/eclipse-old/ISA-Vortrag`
+* `LotkaVolterra2`: Early Lotka-Volterra example that I used to test Modelica functionality.
+  * Reference name in lab notebook: `code/eclipse-old/LotkaVolterra2`
+* `MAPK`: First version of a mitogen-activated protein kinase (MAPK) model example that I used to understand modular modeling with Modelica at a larger scale than Lotka-Volterra.
+  * Reference name in lab notebook: `code/eclipse-old/MAPK`
+* `MAPKExp`: Second version of the second version of the MAPK model with a reduced number of connectors and better code reuse.
+  * Reference name in lab notebook: `code/eclipse-old/MAPKExp`
+* `MapleMopdel`: Experiments with MapleSoft using basic electrical circuits.
+  * Reference name in lab notebook: `code/eclipse-old/MapleModel`
+* `SawToothTest`: Early experiments with Modelica for creating a saw tooth signal.
+  * Reference name in lab notebook: `code/eclipse-old/SawToothTest`
+* TODO: Add LV model from PhD thesis
 
 #### BioModels analysis
 
@@ -70,57 +100,6 @@ TODO: code/biomodels-analyse
 
 Note: Without data, but with Readme explaining how data was obtained
 
-### HackVolterra
-
-TODO: code/eclipse-old/HackADay/HackVolterra
-
-Small Lotka-Volterra example to explain Modelica to students
-
-### ISA presentation
-
-TODO: code/eclipse-old/ISA-Vortrag
-
-Lotka-Volterra-example and example problems
-
-### LotkaVolterra2
-
-TODO: code/eclipse-old/LotkaVolterra2
-
-Lotka-Volterra example for my own tests
-
-### MAPK
-
-TODO: code/eclipse-old/MAPK
-
-First version of map kinase casade example
-
-TODO: code/eclipse-old/MAPKExp
-
-second version of MAPK (find out what changed)
-
-### MapleModel
-
-TODO: code/eclipse-old/MapleModel
-
-experiments with MapleSoft
-
-### SawToothTest
-
-TODO: code/eclipse-old/SawToothTest
-
-early experiments with Modelica
-
-### SHM1
-
-TODO: code/eclipse-old/shm1-vali
-
-Work from me and valeria on Java implementation of Kotani
-
-### First steps
-
-TODO: code/first steps
-
-First steps with Modelica using a Notebook
 
 ### Guidelines
 
@@ -142,9 +121,9 @@ Data analysis of PMR models using Python script
 
 ### Broadening
 
-TODO: code/scripts/broadening
-
-Python script to plot broadening function
+* `code/plots/broadening`: Python script to plot broadening function of SHM.
+  * Reference name in lab notebook: `code/scripts/broadening`
+* first_steps
 
 ### Metascholar
 
@@ -194,7 +173,7 @@ Helper plots for discussion about TSRR-Paper
 
 ### Study of *Cardiovascular physiology concepts*
 
-As part of my preparation for the PhD thesis, I read the following book:
+As part of my preparation for the PhD thesis, I worked through the following text book from start to finish:
 
 Klabunde, R.E. (2012). Cardiovascular physiology concepts (Philadelphia, Pennsylvania: Lippincott Williams & Wilkins).
 
