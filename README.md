@@ -46,7 +46,7 @@ TODO: results
 
 ### Jupyter notebook: Power of frequency bands
 
-TODO: Notizen/PSD of frequency bands.ipynb
+The notebook in `code/notebooks/PSD of frequency bands.ipynb` contains my learning notes about what the power spectral density (PSD) of a HRV signal is and how it can be computed and interpreted.
 
 ### Preliminary studies performed by students
 
