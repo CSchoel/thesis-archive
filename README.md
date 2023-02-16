@@ -78,7 +78,7 @@ The folder `code/early_models` contains early experiments with Modelica:
 * `MAPKExp`: Second version of the second version of the MAPK model with a reduced number of connectors and better code reuse.
 * `MapleMopdel`: Experiments with MapleSoft using basic electrical circuits.
 * `SawToothTest`: Early experiments with Modelica for creating a saw tooth signal.
-* TODO: Add LV model from PhD thesis
+* `LotkaVolterra-thesis`: Lotka-Volterra model that is used in my PhD thesis to illustrate the syntax of Modelica.
 
 #### BioModels analysis
 
