@@ -82,10 +82,7 @@ The folder `code/early_models` contains early experiments with Modelica:
 
 #### BioModels analysis
 
-TODO: code/biomodels-analyse
-
-Note: Without data, but with Readme explaining how data was obtained
-
+In `code/other/biomodels-analysis` you can find the code and instructions to replicate the search for models that use the SBML level 3 package `comp` on [BioModels](https://www.ebi.ac.uk/biomodels).
 
 ### Guidelines
 
