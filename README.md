@@ -92,15 +92,16 @@ Unfinished set of examples that should serve as examples of what (not) to do whe
 
 ### OMEdit-Docker
 
-TODO: code/omedit-docker
-
-Experiments with Docker to quickly run different OMEdit version
+Sometimes, I needed to test my code with different OpenModelica versions.
+An easy way to do so seemed to build a Docker container.
+The code I used for that workflow can be found in `code/other/omedit-docker`.
+The experiments were performed under Manjaro with the Wayland display server protocol and the Gnome window manager.
+If you have a different setup, you might need to adjust the installation to make it work for you.
 
 ### Import analysis
 
-TODO: code/pmr-import-analyse
-
-Data analysis of PMR models using Python script
+The folder `other/pmr-inmport-analysis` contains code and intermediary data to analyze the frequency of `<import>` declarations in published CellML models.
+The script `download_pmr` downloads all models from the Physiome Model Repository and `find_import.sh` finds the files with `<import>` in them.
 
 ### Broadening
 
