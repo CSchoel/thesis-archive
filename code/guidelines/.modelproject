@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<modelproject:ModelProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modelproject="http://iwes.fraunhofer.de/languages/modelproject/1.0" name="guidelines" workspaceURI="/guidelines">
-  <modelResources href=".modelicaresources#/"/>
-  <modelFolders name="models" workspaceURI="/guidelines/models"/>
-  <experimentFolders name="experiments" workspaceURI="/guidelines/experiments"/>
-</modelproject:ModelProject>

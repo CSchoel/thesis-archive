@@ -86,9 +86,22 @@ In `code/other/biomodels-analysis` you can find the code and instructions to rep
 
 ### Guidelines
 
-TODO: code/guidelines
+When I started working with Modelica, I came up with a plan to provide other users who switch to Modelica from a biological setting with a set of guidelines and a list of pitfalls to avoid.
+Unfortunately, I was never able to finish this project, but I did collect a few example models, which can be found in `code/guidelines`.
+In particular, this folder contains the following experiments:
 
-Unfinished set of examples that should serve as examples of what (not) to do when implementing a model in Modelica
+* `src/MoGuide/DiscreteEquations`: An investigation about an error that OpenModelica is unable to solve "discrete equation systems", which I had with early versions of the SHM.
+* `src/MoGuide/Mixin`: An experiment to use the [Mixin](https://en.wikipedia.org/wiki/Mixin) pattern in Modelica.
+* `src/MoGuide/FiringNerve`: Working with boolean signals as input and output for nerve activity.
+* `src/MoGuide/ArrayFunctions`: Debugs/documents the error that you should not leave array dimensions undefined at runtime.
+* `src/MoGuide/algos`: Contrasts the use of `when` in `equations` and in `algorithm` sections.
+* `src/MoGuide/EquationSwitchTest.mo` and `DynamicExample.mo`: Shows an example of how to switch between two formulations of an equation.
+* `src/MoGuide/IntegrateAndFireExample.mo`: Gives a minimal example of an integrate-and-fire model.
+* `src/MoGuide/TestContraction.mo`: Copy of the early contraction model for the SHM for debugging.
+* `src/MoGuide/UnsteadyTestBad.mo` and `TestGood.mo`: Test for dealing with discontinuities in signals whose derivative needs to be computed.
+* `src/MoGuide/DiscreteSignalExample.mo` and `DiscreteTests.mo`: Tests for working with discrete signals.
+
+The `text` folder contains notes and first guideline texts.
 
 ### OMEdit-Docker
 

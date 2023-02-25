@@ -1,0 +1,11 @@
+Man kann in einer Variablendefinition auch Gleichungen einbetten. Beispiel:
+  SHM.SeidelThesis.Components.Broaden broad(
+  	x = sat_signal,
+  	xbroad = broad_signal,
+  	len=broad_len,
+  	resolution=broad_res,
+  	eta=broad_eta,
+  	sigma=broad_sigma
+  ) if broadened "broadening function";
+
+in OpenModelica wird ein when initial() mit einer Print-Anweisung nicht ausgewertet, wenn schon initial equations existieren

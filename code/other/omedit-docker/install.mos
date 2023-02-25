@@ -1,0 +1,2 @@
+installPackage(Modelica, "3.2.3");
+installPackage(ModelicaReference, "3.2.3");
