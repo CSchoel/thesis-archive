@@ -133,17 +133,14 @@ I used it to find ideas for which journals I could target for my own papers.
 
 ### Svg2Modelica
 
-TODO: code/scripts/svg2modelica
+An early Ruby implementation of the Modelica Inkscape extension can be found in `code/svg2modelica`.
+This code was written prior to [MoVE](https://github.com/THM-MoTE/MoVE) and was eventually superseded by [MoNK](https://github.com/THM-MoTE/MoNK).
 
-Early work on what would become MoNK prior to MoVE
+### Original version of SHM
 
-### Seidel-orig
-
-TODO: code/seidel-orig
-
-Original C-code by Seidel with some changes by me to run tests
-
--> only publish internally
+The original implementation of the SHM by H. Seidel can be obtained by contacting him.
+Additionally, the small modifications that I added to the code can be found on [Magrathea](https://magrathea.mni.thm.de/), the internal Redmine instance used by the working group of Prof. Dr. Andreas Dominik, as `git@magrathea.mni.thm.de:2020-schoelzel-seidel-orig.git`.
+If you are interested in this code, please either contact Prof. Dominik or me via mail.
 
 ## Notes
 
