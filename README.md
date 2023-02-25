@@ -57,7 +57,7 @@ If you are interested in this work, please either contact Prof. Dominik or me vi
 * [Modelica implementation of Noble (1962) model by Peter Koch](https://magrathea.mni.thm.de/projects/oertel-koch-modelica-biomodels/repository/2016-oertel-koch-biomodels/revisions/master/show)
 * [MATLAB and Modelica implementations of Inada (2009) model by Elias Kupferschmitt](https://magrathea.mni.thm.de/projects/kupferschmitt-inada2009/repository/2019-kupferschmitt-inada2009/revisions/master/show)
 * [Automatic conversion between Modelica code and JSim/CellML with Scala by Rodney Tabernero](https://magrathea.mni.thm.de/projects/2019-tabernero-jsim2modelica)
-* Java version of the Kotani variant of the Seidel-Herzel model by Daniel Otto with updates by me and Valeria Blesisus (git clone `git@magrathea.mni.thm.de:2014-kotani-CS-VE.git`)
+* Java version of the Kotani variant of the Seidel-Herzel model by Daniel Otto with updates by me and Valeria Blesius (git clone `git@magrathea.mni.thm.de:2014-kotani-CS-VE.git`)
 
 
 ### Comparison between output of Java and Modelica versions of the Kotani variant of the SHM
@@ -90,16 +90,16 @@ When I started working with Modelica, I came up with a plan to provide other use
 Unfortunately, I was never able to finish this project, but I did collect a few example models, which can be found in `code/guidelines`.
 In particular, this folder contains the following experiments:
 
-* `src/MoGuide/DiscreteEquations`: An investigation about an error that OpenModelica is unable to solve "discrete equation systems", which I had with early versions of the SHM.
-* `src/MoGuide/Mixin`: An experiment to use the [Mixin](https://en.wikipedia.org/wiki/Mixin) pattern in Modelica.
-* `src/MoGuide/FiringNerve`: Working with boolean signals as input and output for nerve activity.
-* `src/MoGuide/ArrayFunctions`: Debugs/documents the error that you should not leave array dimensions undefined at runtime.
-* `src/MoGuide/algos`: Contrasts the use of `when` in `equations` and in `algorithm` sections.
-* `src/MoGuide/EquationSwitchTest.mo` and `DynamicExample.mo`: Shows an example of how to switch between two formulations of an equation.
-* `src/MoGuide/IntegrateAndFireExample.mo`: Gives a minimal example of an integrate-and-fire model.
-* `src/MoGuide/TestContraction.mo`: Copy of the early contraction model for the SHM for debugging.
-* `src/MoGuide/UnsteadyTestBad.mo` and `TestGood.mo`: Test for dealing with discontinuities in signals whose derivative needs to be computed.
-* `src/MoGuide/DiscreteSignalExample.mo` and `DiscreteTests.mo`: Tests for working with discrete signals.
+* `MoGuide/DiscreteEquations`: An investigation about an error that OpenModelica is unable to solve "discrete equation systems", which I had with early versions of the SHM.
+* `MoGuide/Mixin`: An experiment to use the [Mixin](https://en.wikipedia.org/wiki/Mixin) pattern in Modelica.
+* `MoGuide/FiringNerve`: Working with boolean signals as input and output for nerve activity.
+* `MoGuide/ArrayFunctions`: Debugs/documents the error that you should not leave array dimensions undefined at runtime.
+* `MoGuide/algos`: Contrasts the use of `when` in `equations` and in `algorithm` sections.
+* `MoGuide/EquationSwitchTest.mo` and `DynamicExample.mo`: Shows an example of how to switch between two formulations of an equation.
+* `MoGuide/IntegrateAndFireExample.mo`: Gives a minimal example of an integrate-and-fire model.
+* `MoGuide/TestContraction.mo`: Copy of the early contraction model for the SHM for debugging.
+* `MoGuide/UnsteadyTestBad.mo` and `TestGood.mo`: Test for dealing with discontinuities in signals whose derivative needs to be computed.
+* `MoGuide/DiscreteSignalExample.mo` and `DiscreteTests.mo`: Tests for working with discrete signals.
 
 The `text` folder contains notes and first guideline texts.
 
@@ -116,40 +116,26 @@ If you have a different setup, you might need to adjust the installation to make
 The folder `other/pmr-inmport-analysis` contains code and intermediary data to analyze the frequency of `<import>` declarations in published CellML models.
 The script `download_pmr` downloads all models from the Physiome Model Repository and `find_import.sh` finds the files with `<import>` in them.
 
-### Broadening
+### Code for plots
 
-* `code/plots/broadening`: Python script to plot broadening function of SHM.
-* first_steps
+The code in `code/plots` constitutes code for plots that were used in papers and presentations related to my PhD.
+
+* `broadening`: Illustrates the broadening function used in the SHM.
+* `kotani`: Illustrates the saturation functions in the Kotani variant of the SHM.
+* `phase_effectiveness`: Illustrates the phase effectiveness function in the Kotani variant of the SHM.
+* `tissue`: Minimal example of how a tissue model might look like.
+* `TSTRR-paper`: Helper plot to analyze data in one of the HRT-related papers of my colleague.
 
 ### Metascholar
 
-TODO code/scripts/metascholar
-
-Ruby script to find journals that a list of author typically publishes in through GoogleScholar
-
-### Phase effectiveness
-
-TODO code/scripts/phase_effectivenis
-
-Processing script to understand the phase effectiveness curve in the SHM
-
-### Kotani Plotting
-
-TODO: code/scripts/plotting
-
-Plots to understand functions of the Kotani model
+The folder `code/other/metascholar` contains a small script that can take a list of authors (e.g. from a conference) and scrape GoogleScholar to get a list of journals ranked on how often these authors published papers in that journal.
+I used it to find ideas for which journals I could target for my own papers.
 
 ### Svg2Modelica
 
 TODO: code/scripts/svg2modelica
 
 Early work on what would become MoNK prior to MoVE
-
-### Tissue
-
-TODO: code/scripts/tissue
-
-Small python plot to generate image for presentation (probably?)
 
 ### Seidel-orig
 
@@ -158,12 +144,6 @@ TODO: code/seidel-orig
 Original C-code by Seidel with some changes by me to run tests
 
 -> only publish internally
-
-### TSRR-Paper
-
-TODO: code/TSRR-Paper
-
-Helper plots for discussion about TSRR-Paper
 
 ## Notes
 
