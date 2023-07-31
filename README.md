@@ -144,6 +144,10 @@ If you are interested in this code, please either contact Prof. Dominik or me vi
 
 ## Notes
 
+### Lab notebook
+
+A scan of my lab notebook can be found under `notes/lab_notebook.pdf`.
+
 ### Study of *Cardiovascular physiology concepts*
 
 As part of my preparation for the PhD thesis, I worked through the following text book from start to finish:
